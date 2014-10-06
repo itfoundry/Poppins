@@ -1,0 +1,3 @@
+#!opentype
+
+include (../../family.fea);

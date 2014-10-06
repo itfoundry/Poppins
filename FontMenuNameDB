@@ -1,0 +1,42 @@
+#!opentype
+
+# Entries `l` and `m` are required if this is not a typical
+#   style-linked Regular/Bold/Italic/BoldItalic family.
+
+# [PostScriptName]
+#   f=  Preferred Family Name
+#   s=  Subfamily Name (Style Name)
+#   l=  Compatible Family Menu Name
+#   m=1,Macintosh Compatible Full Name
+
+[XDevanagari-Light]
+  f=  X Devanagari
+  s=  Light
+  l=  X Devanagari Light
+  m=1,X Devanagari Light
+
+[XDevanagari-Regular]
+  f=  X Devanagari
+  s=  Regular
+  l=  X Devanagari
+  m=1,X Devanagari
+
+[XDevanagari-Medium]
+  f=  X Devanagari
+  s=  Medium
+  l=  X Devanagari Medium
+  m=1,X Devanagari Medium
+
+[XDevanagari-SemiBold]
+  f=  X Devanagari
+  s=  SemiBold
+  l=  X Devanagari SemiBold
+  m=1,X Devanagari SemiBold
+
+[XDevanagari-Bold]
+  f=  X Devanagari
+  s=  Bold
+  l=  X Devanagari
+  m=1,X Devanagari Bold
+# Style-linked because of `l` (the same as Regular's)
+#   and `styles/Bold/fontinfo` (`IsBoldStyle true`).
