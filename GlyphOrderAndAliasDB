@@ -1,9 +1,11 @@
 #!opentype
 
 .notdef .notdef
-NULL NULL
-CR CR
-space space
+NULL NULL uni0000
+CR CR uni000D
+space space uni0020
+
+# Vowel letters
 
 dvA dvA uni0905
 dvAA dvAA uni0906
@@ -23,6 +25,8 @@ dvEcandra dvEcandra uni090D
 dvAcandra dvAcandra uni0972
 dvOcandra dvOcandra uni0911
 
+# Matras
+
 dvmAA dvmAA uni093E
 dvmI dvmI uni093F
 dvmII dvmII uni0940
@@ -38,6 +42,8 @@ dvmO dvmO uni094B
 dvmAU dvmAU uni094C
 dvmEcandra dvmEcandra uni0945
 dvmOcandra dvmOcandra uni0949
+
+# Consonant letters: basic
 
 dvKA dvKA uni0915
 dvKHA dvKHA uni0916
@@ -74,6 +80,11 @@ dvSA dvSA uni0938
 dvHA dvHA uni0939
 dvLLA dvLLA uni0933
 
+dvK_SSA dvK_SSA
+dvJ_NYA dvJ_NYA
+
+# Consonant letters: nukta
+
 dvKxA dvKxA uni0958
 dvKHxA dvKHxA uni0959
 dvGxA dvGxA uni095A
@@ -82,6 +93,8 @@ dvDDxA dvDDxA uni095C
 dvDDHxA dvDDHxA uni095D
 dvPHxA dvPHxA uni095E
 dvRxA dvRxA uni0931
+
+# Consonant letters: half
 
 dvK dvK
 dvKH dvKH
@@ -118,24 +131,18 @@ dvS dvS
 dvH dvH
 dvLL dvLL
 
+dvK_SS dvK_SS
+dvJ_NY dvJ_NY
+
+# Consonant letters: half nukta
+
 dvKx dvKx
 dvKHx dvKHx
 dvGx dvGx
 dvJx dvJx
 dvPHx dvPHx
 
-dvK_SSA dvK_SSA
-dvJ_NYA dvJ_NYA
-dvK_SS dvK_SS
-dvJ_NY dvJ_NY
-
-ZWSP ZWSP uni200B
-ZWNJ ZWNJ uni200C
-ZWJ ZWJ uni200D
-dottedcircle dottedcircle uni25CC
-
-rupee rupee uni20A8
-indianrupee indianrupee uni20B9
+# Phonological marks
 
 dvAnusvara dvAnusvara uni0902
 dvCandrabindu dvCandrabindu uni0901
@@ -143,10 +150,9 @@ dvVisarga dvVisarga uni0903
 dvAvagraha dvAvagraha uni093D
 dvVirama dvVirama uni094D
 dvNukta dvNukta uni093C
-dvOm dvOm uni0950
-dvAbbreviationSign dvAbbreviationSign uni0970
-danda danda uni0964
-doubledanda doubledanda uni0965
+
+# Digits
+
 dvZero dvZero uni0966
 dvOne dvOne uni0967
 dvTwo dvTwo uni0968
@@ -158,11 +164,37 @@ dvSeven dvSeven uni096D
 dvEight dvEight uni096E
 dvNine dvNine uni096F
 
+# Additional signs
+
+dvOm dvOm uni0950
+dvAbbreviationsign dvAbbreviationsign uni0970
+danda danda uni0964
+doubledanda doubledanda uni0965
+
+# Miscellaneous
+
+rupee rupee uni20A8
+indianrupee indianrupee uni20B9
+apostrophemod apostrophemod uni02BC
+
+zerowidthspace zerowidthspace uni200B
+zerowidthnonjoiner zerowidthnonjoiner uni200C
+zerowidthjoiner zerowidthjoiner uni200D
+dottedcircle dottedcircle uni25CC
+
+# ---
+
 itfLogo itfLogo
+
+# ---
+
+# RA variants
 
 dvReph dvReph
 dvEyelash dvEyelash
-dvRashtraSign dvRashtraSign
+dvRashtrasign dvRashtrasign
+
+# Consonant letters: vattu
 
 dvK_RA dvK_RA
 dvKH_RA dvKH_RA
@@ -190,6 +222,7 @@ dvB_RA dvB_RA
 dvBH_RA dvBH_RA
 dvM_RA dvM_RA
 dvY_RA dvY_RA
+# Reph
 dvL_RA dvL_RA
 dvV_RA dvV_RA
 dvSS_RA dvSS_RA
@@ -198,11 +231,15 @@ dvS_RA dvS_RA
 dvH_RA dvH_RA
 dvLL_RA dvLL_RA
 
+# Consonant letters: vattu nukta
+
 dvKx_RA dvKx_RA
 dvKHx_RA dvKHx_RA
 dvGx_RA dvGx_RA
 dvJx_RA dvJx_RA
 dvPHx_RA dvPHx_RA
+
+# Consonant letters: half vattu
 
 dvK_R dvK_R
 dvKH_R dvKH_R
@@ -230,6 +267,7 @@ dvB_R dvB_R
 dvBH_R dvBH_R
 dvM_R dvM_R
 dvY_R dvY_R
+# Reph
 dvL_R dvL_R
 dvV_R dvV_R
 dvSH_R dvSH_R
@@ -238,94 +276,156 @@ dvS_R dvS_R
 dvH_R dvH_R
 dvLL_R dvLL_R
 
+# Consonant letters: half vattu nukta
+
 dvKx_R dvKx_R
 dvKHx_R dvKHx_R
 dvGx_R dvGx_R
 dvJx_R dvJx_R
 dvPHx_R dvPHx_R
 
+# Consonant conjuncts
+
 dvK_KA dvK_KA
+dvKx_KxA dvKx_KxA
 dvK_KHA dvK_KHA
 dvK_CA dvK_CA
 dvK_JA dvK_JA
 dvK_TTA dvK_TTA
 dvK_NNA dvK_NNA
 dvK_TA dvK_TA
+dvKx_TA dvKx_TA
+dvK_T_YA dvK_T_YA
+dvK_T_RA dvK_T_RA
+dvK_T_VA dvK_T_VA
 dvK_THA dvK_THA
 dvK_DA dvK_DA
 dvK_NA dvK_NA
+dvKx_NA dvKx_NA
 dvK_PA dvK_PA
+dvK_P_RA dvK_P_RA
 dvK_PHA dvK_PHA
-dvK_BA dvK_BA
+dvKx_PHA dvKx_PHA
+dvKx_PHxA dvKx_PHxA
+dvKx_BA dvKx_BA
 dvK_MA dvK_MA
+dvKx_MA dvKx_MA
 dvK_YA dvK_YA
 dvK_LA dvK_LA
 dvK_VA dvK_VA
+dvK_V_YA dvK_V_YA
 dvK_SHA dvK_SHA
+dvKx_SHA dvKx_SHA
+dvK_SS_MA dvK_SS_MA
+dvK_SS_YA dvK_SS_YA
+dvK_SS_VA dvK_SS_VA
 dvK_SA dvK_SA
+dvK_S_TTA dvK_S_TTA
+dvK_S_DDA dvK_S_DDA
+dvK_S_TA dvK_S_TA
+dvK_S_P_RA dvK_S_P_RA
+dvK_S_P_LA dvK_S_P_LA
+
 dvKH_KHA dvKH_KHA
 dvKH_TA dvKH_TA
+dvKHx_TA dvKHx_TA
 dvKH_NA dvKH_NA
+dvKHx_NA dvKHx_NA
 dvKH_MA dvKH_MA
+dvKHx_MA dvKHx_MA
 dvKH_YA dvKH_YA
+dvKHx_YA dvKHx_YA
 dvKH_VA dvKH_VA
+dvKHx_VA dvKHx_VA
 dvKH_SHA dvKH_SHA
+dvKHx_SHA dvKHx_SHA
+dvKHx_SA dvKHx_SA
+
 dvG_GA dvG_GA
 dvG_GHA dvG_GHA
 dvG_JA dvG_JA
 dvG_NNA dvG_NNA
 dvG_DA dvG_DA
 dvG_DHA dvG_DHA
+dvG_DH_YA dvG_DH_YA
+dvG_DH_VA dvG_DH_VA
 dvG_NA dvG_NA
+dvGx_NA dvGx_NA
+dvG_N_YA dvG_N_YA
 dvG_BA dvG_BA
 dvG_BHA dvG_BHA
+dvG_BH_YA dvG_BH_YA
 dvG_MA dvG_MA
 dvG_YA dvG_YA
+dvG_R_YA dvG_R_YA
 dvG_LA dvG_LA
 dvG_VA dvG_VA
 dvG_SA dvG_SA
+
 dvGH_NA dvGH_NA
 dvGH_MA dvGH_MA
 dvGH_YA dvGH_YA
+
 dvC_CA dvC_CA
 dvC_CHA dvC_CHA
+dvC_CH_VA dvC_CH_VA
 dvC_NA dvC_NA
 dvC_MA dvC_MA
 dvC_YA dvC_YA
+
 dvCH_NA dvCH_NA
 dvCH_YA dvCH_YA
+dvCH_R_YA dvCH_R_YA
 dvCH_VA dvCH_VA
+
 dvJ_KA dvJ_KA
 dvJ_JA dvJ_JA
+dvJx_JxA dvJx_JxA
+dvJ_J_NYA dvJ_J_NYA
+dvJ_J_YA dvJ_J_YA
+dvJ_J_VA dvJ_J_VA
 dvJ_JHA dvJ_JHA
+dvJ_NY_YA dvJ_NY_YA
 dvJ_TTA dvJ_TTA
 dvJ_DDA dvJ_DDA
 dvJ_TA dvJ_TA
 dvJ_DA dvJ_DA
 dvJ_NA dvJ_NA
+dvJx_NA dvJx_NA
 dvJ_BA dvJ_BA
 dvJ_MA dvJ_MA
 dvJ_YA dvJ_YA
+dvJx_YA dvJx_YA
 dvJ_VA dvJ_VA
+
 dvJH_NA dvJH_NA
 dvJH_MA dvJH_MA
 dvJH_YA dvJH_YA
+
+dvNY_CA dvNY_CA
 dvNY_CHA dvNY_CHA
 dvNY_JA dvNY_JA
 dvNY_SHA dvNY_SHA
+
 dvTT_TTA dvTT_TTA
 dvTT_TTHA dvTT_TTHA
 dvTT_NA dvTT_NA
 dvTT_YA dvTT_YA
 dvTT_VA dvTT_VA
+
+dvTTH_TTHA dvTTH_TTHA
 dvTTH_NA dvTTH_NA
 dvTTH_YA dvTTH_YA
+
 dvDD_DDA dvDD_DDA
 dvDD_DDHA dvDD_DDHA
 dvDD_NA dvDD_NA
 dvDD_YA dvDD_YA
 dvDD_VA dvDD_VA
+
+dvDDH_DDHA dvDDH_DDHA
 dvDDH_YA dvDDH_YA
+
 dvNN_TTA dvNN_TTA
 dvNN_TTHA dvNN_TTHA
 dvNN_DDA dvNN_DDA
@@ -334,57 +434,102 @@ dvNN_NNA dvNN_NNA
 dvNN_MA dvNN_MA
 dvNN_YA dvNN_YA
 dvNN_VA dvNN_VA
+
 dvT_KA dvT_KA
+dvT_K_YA dvT_K_YA
+dvT_K_RA dvT_K_RA
+dvT_K_VA dvT_K_VA
+dvT_K_SSA dvT_K_SSA
 dvT_KHA dvT_KHA
+dvT_KH_RA dvT_KH_RA
 dvT_TA dvT_TA
+dvT_T_YA dvT_T_YA
+dvT_T_VA dvT_T_VA
 dvT_THA dvT_THA
 dvT_NA dvT_NA
+dvT_N_YA dvT_N_YA
 dvT_PA dvT_PA
+dvT_P_RA dvT_P_RA
+dvT_P_LA dvT_P_LA
 dvT_PHA dvT_PHA
 dvT_MA dvT_MA
+dvT_M_YA dvT_M_YA
 dvT_YA dvT_YA
+dvT_R_YA dvT_R_YA
 dvT_LA dvT_LA
 dvT_VA dvT_VA
 dvT_SA dvT_SA
+dvT_S_YA dvT_S_YA
+dvT_S_VA dvT_S_VA
+
 dvTH_NA dvTH_NA
 dvTH_YA dvTH_YA
 dvTH_VA dvTH_VA
+
 dvD_GA dvD_GA
+dvD_G_RA dvD_G_RA
 dvD_GHA dvD_GHA
 dvD_DA dvD_DA
 dvD_DHA dvD_DHA
 dvD_NA dvD_NA
 dvD_BA dvD_BA
+dvD_B_RA dvD_B_RA
 dvD_BHA dvD_BHA
 dvD_MA dvD_MA
 dvD_YA dvD_YA
+dvD_Y_BHA dvD_Y_BHA
+dvD_Y_RA dvD_Y_RA
 dvD_VA dvD_VA
+
 dvDH_NA dvDH_NA
+dvDH_N_YA dvDH_N_YA
 dvDH_MA dvDH_MA
 dvDH_YA dvDH_YA
 dvDH_VA dvDH_VA
+
 dvN_KA dvN_KA
+dvN_K_SA dvN_K_SA
 dvN_CA dvN_CA
 dvN_CHA dvN_CHA
 dvN_TTA dvN_TTA
 dvN_DDA dvN_DDA
 dvN_TA dvN_TA
+dvN_T_YA dvN_T_YA
+dvN_T_RA dvN_T_RA
+dvN_T_SA dvN_T_SA
 dvN_THA dvN_THA
+dvN_TH_YA dvN_TH_YA
+dvN_TH_VA dvN_TH_VA
 dvN_DA dvN_DA
+dvN_D_RA dvN_D_RA
+dvN_D_VA dvN_D_VA
 dvN_DHA dvN_DHA
+dvN_DH_YA dvN_DH_YA
+dvN_DH_RA dvN_DH_RA
+dvN_DH_VA dvN_DH_VA
 dvN_NA dvN_NA
+dvN_N_YA dvN_N_YA
 dvN_PA dvN_PA
+dvN_P_RA dvN_P_RA
 dvN_PHA dvN_PHA
+dvN_PH_RA dvN_PH_RA
 dvN_BHA dvN_BHA
+dvN_BH_YA dvN_BH_YA
+dvN_BH_VA dvN_BH_VA
 dvN_MA dvN_MA
+dvN_M_YA dvN_M_YA
 dvN_YA dvN_YA
 dvN_VA dvN_VA
 dvN_SA dvN_SA
+dvN_S_TTA dvN_S_TTA
+dvN_S_M_YA dvN_S_M_YA
+dvN_S_YA dvN_S_YA
 dvN_HA dvN_HA
-dvP_CA dvP_CA
+
 dvP_TTA dvP_TTA
 dvP_TTHA dvP_TTHA
 dvP_TA dvP_TA
+dvP_T_YA dvP_T_YA
 dvP_NA dvP_NA
 dvP_PA dvP_PA
 dvP_PHA dvP_PHA
@@ -392,40 +537,60 @@ dvP_MA dvP_MA
 dvP_YA dvP_YA
 dvP_LA dvP_LA
 dvP_VA dvP_VA
-dvP_SHA dvP_SHA
 dvP_SA dvP_SA
+
 dvPH_JA dvPH_JA
+dvPHx_JxA dvPHx_JxA
 dvPH_TTA dvPH_TTA
 dvPH_TA dvPH_TA
+dvPHx_TA dvPHx_TA
 dvPH_NA dvPH_NA
+dvPHx_NA dvPHx_NA
 dvPH_PA dvPH_PA
 dvPH_PHA dvPH_PHA
+dvPHx_PHxA dvPHx_PHxA
 dvPH_YA dvPH_YA
 dvPH_LA dvPH_LA
 dvPH_SHA dvPH_SHA
+dvPHx_SA dvPHx_SA
+
 dvB_JA dvB_JA
+dvB_JxA dvB_JxA
+dvB_J_YA dvB_J_YA
 dvB_JHA dvB_JHA
 dvB_TA dvB_TA
 dvB_DA dvB_DA
 dvB_DHA dvB_DHA
+dvB_DH_VA dvB_DH_VA
 dvB_NA dvB_NA
 dvB_BA dvB_BA
 dvB_BHA dvB_BHA
+dvB_BH_RA dvB_BH_RA
 dvB_YA dvB_YA
 dvB_LA dvB_LA
+dvB_L_YA dvB_L_YA
 dvB_VA dvB_VA
 dvB_SHA dvB_SHA
 dvB_SA dvB_SA
+
 dvBH_NA dvBH_NA
 dvBH_YA dvBH_YA
+dvBH_R_YA dvBH_R_YA
 dvBH_LA dvBH_LA
 dvBH_VA dvBH_VA
+
 dvM_TA dvM_TA
 dvM_DA dvM_DA
 dvM_NA dvM_NA
 dvM_PA dvM_PA
+dvM_P_RA dvM_P_RA
 dvM_BA dvM_BA
+dvM_B_YA dvM_B_YA
+dvM_B_RA dvM_B_RA
 dvM_BHA dvM_BHA
+dvM_BH_YA dvM_BH_YA
+dvM_BH_RA dvM_BH_RA
+dvM_BH_VA dvM_BH_VA
 dvM_MA dvM_MA
 dvM_YA dvM_YA
 dvM_LA dvM_LA
@@ -433,23 +598,28 @@ dvM_VA dvM_VA
 dvM_SHA dvM_SHA
 dvM_SA dvM_SA
 dvM_HA dvM_HA
+
 dvY_NA dvY_NA
 dvY_YA dvY_YA
+
 dvEyelash_YA dvEyelash_YA
 dvEyelash_HA dvEyelash_HA
+
 dvL_KA dvL_KA
+dvL_K_YA dvL_K_YA
 dvL_KHA dvL_KHA
 dvL_GA dvL_GA
-dvL_CA dvL_CA
 dvL_JA dvL_JA
+dvL_JxA dvL_JxA
 dvL_TTA dvL_TTA
 dvL_TTHA dvL_TTHA
 dvL_DDA dvL_DDA
 dvL_DDHA dvL_DDHA
 dvL_TA dvL_TA
 dvL_THA dvL_THA
+dvL_TH_YA dvL_TH_YA
 dvL_DA dvL_DA
-dvL_NA dvL_NA
+dvL_D_RA dvL_D_RA
 dvL_PA dvL_PA
 dvL_PHA dvL_PHA
 dvL_BA dvL_BA
@@ -457,15 +627,20 @@ dvL_BHA dvL_BHA
 dvL_MA dvL_MA
 dvL_YA dvL_YA
 dvL_LA dvL_LA
+dvL_L_YA dvL_L_YA
 dvL_VA dvL_VA
+dvL_V_DDA dvL_V_DDA
 dvL_SA dvL_SA
 dvL_HA dvL_HA
+
 dvV_NA dvV_NA
 dvV_YA dvV_YA
 dvV_LA dvV_LA
 dvV_VA dvV_VA
 dvV_HA dvV_HA
+
 dvSH_KA dvSH_KA
+dvSH_KxA dvSH_KxA
 dvSH_CA dvSH_CA
 dvSH_CHA dvSH_CHA
 dvSH_TTA dvSH_TTA
@@ -476,179 +651,110 @@ dvSH_YA dvSH_YA
 dvSH_LA dvSH_LA
 dvSH_VA dvSH_VA
 dvSH_SHA dvSH_SHA
+
 dvSS_KA dvSS_KA
+dvSS_K_RA dvSS_K_RA
 dvSS_TTA dvSS_TTA
+dvSS_TT_YA dvSS_TT_YA
+dvSS_TT_RA dvSS_TT_RA
+dvSS_TT_VA dvSS_TT_VA
 dvSS_TTHA dvSS_TTHA
+dvSS_TTH_YA dvSS_TTH_YA
+dvSS_TTH_RA dvSS_TTH_RA
 dvSS_NNA dvSS_NNA
-dvSS_NA dvSS_NA
+dvSS_NN_YA dvSS_NN_YA
 dvSS_PA dvSS_PA
+dvSS_P_RA dvSS_P_RA
 dvSS_PHA dvSS_PHA
 dvSS_MA dvSS_MA
+dvSS_M_YA dvSS_M_YA
 dvSS_YA dvSS_YA
 dvSS_VA dvSS_VA
 dvSS_SSA dvSS_SSA
+
 dvS_KA dvS_KA
+dvS_K_RA dvS_K_RA
+dvS_K_VA dvS_K_VA
 dvS_KHA dvS_KHA
 dvS_JA dvS_JA
 dvS_TTA dvS_TTA
 dvS_TA dvS_TA
+dvS_T_YA dvS_T_YA
+dvS_T_RA dvS_T_RA
+dvS_T_VA dvS_T_VA
 dvS_THA dvS_THA
+dvS_TH_YA dvS_TH_YA
 dvS_DA dvS_DA
 dvS_NA dvS_NA
 dvS_PA dvS_PA
+dvS_P_RA dvS_P_RA
 dvS_PHA dvS_PHA
 dvS_BA dvS_BA
 dvS_MA dvS_MA
+dvS_M_YA dvS_M_YA
 dvS_YA dvS_YA
 dvS_LA dvS_LA
 dvS_VA dvS_VA
 dvS_SA dvS_SA
+
 dvH_NNA dvH_NNA
 dvH_NA dvH_NA
 dvH_MA dvH_MA
 dvH_YA dvH_YA
 dvH_LA dvH_LA
 dvH_VA dvH_VA
+
 dvLL_YA dvLL_YA
 
-dvK_TT_RA dvK_TT_RA
-dvK_T_YA dvK_T_YA
-dvK_T_RA dvK_T_RA
-dvK_T_VA dvK_T_VA
-dvK_P_RA dvK_P_RA
-dvK_V_YA dvK_V_YA
-dvK_S_TTA dvK_S_TTA
-dvK_S_DDA dvK_S_DDA
-dvK_S_TA dvK_S_TA
-dvK_S_P_RA dvK_S_P_RA
-dvK_S_P_LA dvK_S_P_LA
-dvG_DH_YA dvG_DH_YA
-dvG_DH_VA dvG_DH_VA
-dvG_N_YA dvG_N_YA
-dvG_BH_YA dvG_BH_YA
-dvG_R_YA dvG_R_YA
-dvC_CH_VA dvC_CH_VA
-dvCH_R_YA dvCH_R_YA
-dvJ_J_NYA dvJ_J_NYA
-dvJ_J_YA dvJ_J_YA
-dvJ_J_VA dvJ_J_VA
-dvT_K_YA dvT_K_YA
-dvT_K_RA dvT_K_RA
-dvT_K_VA dvT_K_VA
-dvT_K_SSA dvT_K_SSA
-dvT_KH_RA dvT_KH_RA
-dvT_T_YA dvT_T_YA
-dvT_T_VA dvT_T_VA
-dvT_N_YA dvT_N_YA
-dvT_P_RA dvT_P_RA
-dvT_P_LA dvT_P_LA
-dvT_M_YA dvT_M_YA
-dvT_R_YA dvT_R_YA
-dvT_S_YA dvT_S_YA
-dvT_S_VA dvT_S_VA
-dvD_G_RA dvD_G_RA
-dvD_B_RA dvD_B_RA
-dvD_Y_BHA dvD_Y_BHA
-dvD_Y_RA dvD_Y_RA
-dvDH_N_YA dvDH_N_YA
-dvN_K_SA dvN_K_SA
-dvN_T_YA dvN_T_YA
-dvN_T_RA dvN_T_RA
-dvN_T_SA dvN_T_SA
-dvN_TH_YA dvN_TH_YA
-dvN_TH_VA dvN_TH_VA
-dvN_D_RA dvN_D_RA
-dvN_D_VA dvN_D_VA
-dvN_DH_YA dvN_DH_YA
-dvN_DH_RA dvN_DH_RA
-dvN_DH_VA dvN_DH_VA
-dvN_N_YA dvN_N_YA
-dvN_P_RA dvN_P_RA
-dvN_PH_RA dvN_PH_RA
-dvN_BH_YA dvN_BH_YA
-dvN_BH_VA dvN_BH_VA
-dvN_M_YA dvN_M_YA
-dvN_S_TTA dvN_S_TTA
-dvN_S_M_YA dvN_S_M_YA
-dvN_S_YA dvN_S_YA
-dvP_T_YA dvP_T_YA
-dvB_J_YA dvB_J_YA
-dvB_DH_VA dvB_DH_VA
-dvB_BH_RA dvB_BH_RA
-dvB_L_YA dvB_L_YA
-dvBH_R_YA dvBH_R_YA
-dvM_P_RA dvM_P_RA
-dvM_B_YA dvM_B_YA
-dvM_B_RA dvM_B_RA
-dvM_BH_YA dvM_BH_YA
-dvM_BH_RA dvM_BH_RA
-dvM_BH_VA dvM_BH_VA
-dvL_K_YA dvL_K_YA
-dvL_TH_YA dvL_TH_YA
-dvL_D_RA dvL_D_RA
-dvL_L_YA dvL_L_YA
-dvL_V_DDA dvL_V_DDA
-dvSS_K_RA dvSS_K_RA
-dvSS_TT_YA dvSS_TT_YA
-dvSS_TT_RA dvSS_TT_RA
-dvSS_TT_VA dvSS_TT_VA
-dvSS_TTH_YA dvSS_TTH_YA
-dvSS_TTH_RA dvSS_TTH_RA
-dvSS_NN_YA dvSS_NN_YA
-dvSS_P_RA dvSS_P_RA
-dvSS_M_YA dvSS_M_YA
-dvS_K_RA dvS_K_RA
-dvS_K_VA dvS_K_VA
-dvS_T_YA dvS_T_YA
-dvS_T_RA dvS_T_RA
-dvS_T_VA dvS_T_VA
-dvS_TH_YA dvS_TH_YA
-dvS_P_RA dvS_P_RA
-dvS_M_YA dvS_M_YA
-
-dvKx_KxA dvKx_KxA
-dvKx_TA dvKx_TA
-dvKx_NA dvKx_NA
-dvKx_PHA dvKx_PHA
-dvKx_PHxA dvKx_PHxA
-dvKx_BA dvKx_BA
-dvKx_MA dvKx_MA
-dvKx_SHA dvKx_SHA
-dvKHx_TA dvKHx_TA
-dvKHx_NA dvKHx_NA
-dvKHx_MA dvKHx_MA
-dvKHx_YA dvKHx_YA
-dvKHx_VA dvKHx_VA
-dvKHx_SHA dvKHx_SHA
-dvKHx_SA dvKHx_SA
-dvGx_NA dvGx_NA
-dvJx_JxA dvJx_JxA
-dvJx_NA dvJx_NA
-dvJx_YA dvJx_YA
-dvPHx_JxA dvPHx_JxA
-dvPHx_TA dvPHx_TA
-dvPHx_NA dvPHx_NA
-dvPHx_PHxA dvPHx_PHxA
-dvPHx_SA dvPHx_SA
-dvB_JxA dvB_JxA
-dvL_JxA dvL_JxA
-dvSH_KxA dvSH_KxA
-
-dvT_T dvT_T
-dvN_BH dvN_BH
-dvN_S dvN_S
-dvM_BH dvM_BH
-dvL_BH dvL_BH
-dvS_T_R dvS_T_R
-
-dvK_SS_MA dvK_SS_MA
-dvK_SS_M dvK_SS_M
-dvK_SS_M_YA dvK_SS_M_YA
-dvK_SS_YA dvK_SS_YA
-dvK_SS_VA dvK_SS_VA
-dvJ_NY_YA dvJ_NY_YA
+# ---
 
 itfStar itfStar
+
+# ---
+
+# Mark ligatures and variants
+
+dvII_Anusvara dvII_Anusvara
+
+dvmII.aLong dvmII.aLong
+
+dvReph_Anusvara dvReph_Anusvara
+
+dvAnusvara.amI dvAnusvara.amI
+dvReph.amI dvReph.amI
+dvReph_Anusvara.amI dvReph_Anusvara.amI
+
+dvmII_Anusvara dvmII_Anusvara
+dvmII_Reph dvmII_Reph
+dvmII_Reph_Anusvara dvmII_Reph_Anusvara
+
+dvmII_Anusvara.aLong dvmII_Anusvara.aLong
+dvmII_Reph.aLong dvmII_Reph.aLong
+dvmII_Reph_Anusvara.aLong dvmII_Reph_Anusvara.aLong
+
+dvmE_Anusvara dvmE_Anusvara
+dvmE_Reph dvmE_Reph
+dvmE_Reph_Anusvara dvmE_Reph_Anusvara
+
+dvmAI_Anusvara dvmAI_Anusvara
+dvmAI_Reph dvmAI_Reph
+dvmAI_Reph_Anusvara dvmAI_Reph_Anusvara
+
+dvmO_Anusvara dvmO_Anusvara
+dvmO_Reph dvmO_Reph
+dvmO_Reph_Anusvara dvmO_Reph_Anusvara
+
+dvmAU_Anusvara dvmAU_Anusvara
+dvmAU_Reph dvmAU_Reph
+dvmAU_Reph_Anusvara dvmAU_Reph_Anusvara
+
+dvRA_mU dvRA_mU
+dvRA_mUU dvRA_mUU
+dvHA_mU dvHA_mU
+dvHA_mUU dvHA_mUU
+dvDA_mvR dvDA_mvR
+dvSHA_mvR dvSHA_mvR
+dvHA_mvR dvHA_mvR
 
 dvmI.a01 dvmI.a01
 dvmI.a02 dvmI.a02
@@ -701,47 +807,7 @@ dvmI.a48 dvmI.a48
 dvmI.a49 dvmI.a49
 dvmI.a50 dvmI.a50
 
-dvII_Anusvara dvII_Anusvara
-dvmII.aLong dvmII.aLong
-
-dvReph_Anusvara dvReph_Anusvara
-
-dvAnusvara.amI dvAnusvara.amI
-dvReph.amI dvReph.amI
-dvReph_Anusvara.amI dvReph_Anusvara.amI
-
-dvmII_Anusvara dvmII_Anusvara
-dvmII_Reph dvmII_Reph
-dvmII_Reph_Anusvara dvmII_Reph_Anusvara
-
-dvmII_Anusvara.aLong dvmII_Anusvara.aLong
-dvmII_Reph.aLong dvmII_Reph.aLong
-dvmII_Reph_Anusvara.aLong dvmII_Reph_Anusvara.aLong
-
-dvmE_Anusvara dvmE_Anusvara
-dvmE_Reph dvmE_Reph
-dvmE_Reph_Anusvara dvmE_Reph_Anusvara
-
-dvmAI_Anusvara dvmAI_Anusvara
-dvmAI_Reph dvmAI_Reph
-dvmAI_Reph_Anusvara dvmAI_Reph_Anusvara
-
-dvmO_Anusvara dvmO_Anusvara
-dvmO_Reph dvmO_Reph
-dvmO_Reph_Anusvara dvmO_Reph_Anusvara
-
-dvmAU_Anusvara dvmAU_Anusvara
-dvmAU_Reph dvmAU_Reph
-dvmAU_Reph_Anusvara dvmAU_Reph_Anusvara
-
-dvRA_mU dvRA_mU
-dvRA_mUU dvRA_mUU
-dvHA_mU dvHA_mU
-dvHA_mUU dvHA_mUU
-dvDA_mvR dvDA_mvR
-dvHA_mvR dvHA_mvR
-
-dvSHA.amvR dvSHA.amvR
+# ---
 
 # Adobe Latin 3
 
@@ -840,7 +906,7 @@ braceleft braceleft uni007B # LEFT CURLY BRACKET
 bar bar uni007C # VERTICAL LINE
 braceright braceright uni007D # RIGHT CURLY BRACKET
 asciitilde asciitilde uni007E # TILDE
-uni00A0 uni00A0 uni00A0 # NO-BREAK SPACE
+uni00A0 nonbreakingspace uni00A0 # NO-BREAK SPACE
 exclamdown exclamdown uni00A1 # INVERTED EXCLAMATION MARK
 cent cent uni00A2 # CENT SIGN
 sterling sterling uni00A3 # POUND SIGN
@@ -853,7 +919,7 @@ copyright copyright uni00A9 # COPYRIGHT SIGN
 ordfeminine ordfeminine uni00AA # FEMININE ORDINAL INDICATOR
 guillemotleft guillemotleft uni00AB # LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
 logicalnot logicalnot uni00AC # NOT SIGN
-uni00AD uni00AD uni00AD # SOFT HYPHEN
+uni00AD softhyphen uni00AD # SOFT HYPHEN
 registered registered uni00AE # REGISTERED SIGN
 macron macron uni00AF # MACRON
 degree degree uni00B0 # DEGREE SIGN
@@ -861,7 +927,7 @@ plusminus plusminus uni00B1 # PLUS-MINUS SIGN
 twosuperior twosuperior uni00B2 # SUPERSCRIPT TWO
 threesuperior threesuperior uni00B3 # SUPERSCRIPT THREE
 acute acute uni00B4 # ACUTE ACCENT
-uni00B5 uni00B5 uni00B5 # MICRO SIGN
+uni00B5 mu uni00B5 # MICRO SIGN
 paragraph paragraph uni00B6 # PILCROW SIGN
 periodcentered periodcentered uni00B7 # MIDDLE DOT
 cedilla cedilla uni00B8 # CEDILLA
@@ -960,28 +1026,28 @@ Ecaron Ecaron uni011A # LATIN CAPITAL LETTER E WITH CARON
 ecaron ecaron uni011B # LATIN SMALL LETTER E WITH CARON
 Gbreve Gbreve uni011E # LATIN CAPITAL LETTER G WITH BREVE
 gbreve gbreve uni011F # LATIN SMALL LETTER G WITH BREVE
-uni0122 uni0122 uni0122 # LATIN CAPITAL LETTER G WITH CEDILLA
-uni0123 uni0123 uni0123 # LATIN SMALL LETTER G WITH CEDILLA
+uni0122 Gcedilla uni0122 # LATIN CAPITAL LETTER G WITH CEDILLA
+uni0123 gcedilla uni0123 # LATIN SMALL LETTER G WITH CEDILLA
 Imacron Imacron uni012A # LATIN CAPITAL LETTER I WITH MACRON
 imacron imacron uni012B # LATIN SMALL LETTER I WITH MACRON
 Iogonek Iogonek uni012E # LATIN CAPITAL LETTER I WITH OGONEK
 iogonek iogonek uni012F # LATIN SMALL LETTER I WITH OGONEK
 Idotaccent Idotaccent uni0130 # LATIN CAPITAL LETTER I WITH DOT ABOVE
 dotlessi dotlessi uni0131 # LATIN SMALL LETTER DOTLESS I
-uni0136 uni0136 uni0136 # LATIN CAPITAL LETTER K WITH CEDILLA
-uni0137 uni0137 uni0137 # LATIN SMALL LETTER K WITH CEDILLA
+uni0136 Kcedilla uni0136 # LATIN CAPITAL LETTER K WITH CEDILLA
+uni0137 kcedilla uni0137 # LATIN SMALL LETTER K WITH CEDILLA
 Lacute Lacute uni0139 # LATIN CAPITAL LETTER L WITH ACUTE
 lacute lacute uni013A # LATIN SMALL LETTER L WITH ACUTE
-uni013B uni013B uni013B # LATIN CAPITAL LETTER L WITH CEDILLA
-uni013C uni013C uni013C # LATIN SMALL LETTER L WITH CEDILLA
+uni013B Lcedilla uni013B # LATIN CAPITAL LETTER L WITH CEDILLA
+uni013C lcedilla uni013C # LATIN SMALL LETTER L WITH CEDILLA
 Lcaron Lcaron uni013D # LATIN CAPITAL LETTER L WITH CARON
 lcaron lcaron uni013E # LATIN SMALL LETTER L WITH CARON
 Lslash Lslash uni0141 # LATIN CAPITAL LETTER L WITH STROKE
 lslash lslash uni0142 # LATIN SMALL LETTER L WITH STROKE
 Nacute Nacute uni0143 # LATIN CAPITAL LETTER N WITH ACUTE
 nacute nacute uni0144 # LATIN SMALL LETTER N WITH ACUTE
-uni0145 uni0145 uni0145 # LATIN CAPITAL LETTER N WITH CEDILLA
-uni0146 uni0146 uni0146 # LATIN SMALL LETTER N WITH CEDILLA
+uni0145 Ncedilla uni0145 # LATIN CAPITAL LETTER N WITH CEDILLA
+uni0146 ncedilla uni0146 # LATIN SMALL LETTER N WITH CEDILLA
 Ncaron Ncaron uni0147 # LATIN CAPITAL LETTER N WITH CARON
 ncaron ncaron uni0148 # LATIN SMALL LETTER N WITH CARON
 Omacron Omacron uni014C # LATIN CAPITAL LETTER O WITH MACRON
@@ -992,18 +1058,18 @@ OE OE uni0152 # LATIN CAPITAL LIGATURE OE
 oe oe uni0153 # LATIN SMALL LIGATURE OE
 Racute Racute uni0154 # LATIN CAPITAL LETTER R WITH ACUTE
 racute racute uni0155 # LATIN SMALL LETTER R WITH ACUTE
-uni0156 uni0156 uni0156 # LATIN CAPITAL LETTER R WITH CEDILLA
-uni0157 uni0157 uni0157 # LATIN SMALL LETTER R WITH CEDILLA
+uni0156 Rcedilla uni0156 # LATIN CAPITAL LETTER R WITH CEDILLA
+uni0157 rcedilla uni0157 # LATIN SMALL LETTER R WITH CEDILLA
 Rcaron Rcaron uni0158 # LATIN CAPITAL LETTER R WITH CARON
 rcaron rcaron uni0159 # LATIN SMALL LETTER R WITH CARON
 Sacute Sacute uni015A # LATIN CAPITAL LETTER S WITH ACUTE
 sacute sacute uni015B # LATIN SMALL LETTER S WITH ACUTE
-uni015E uni015E uni015E # LATIN CAPITAL LETTER S WITH CEDILLA
-uni015F uni015F uni015F # LATIN SMALL LETTER S WITH CEDILLA
+uni015E Scedilla uni015E # LATIN CAPITAL LETTER S WITH CEDILLA
+uni015F scedilla uni015F # LATIN SMALL LETTER S WITH CEDILLA
 Scaron Scaron uni0160 # LATIN CAPITAL LETTER S WITH CARON
 scaron scaron uni0161 # LATIN SMALL LETTER S WITH CARON
-uni0162 uni0162 uni0162 # LATIN CAPITAL LETTER T WITH CEDILLA
-uni0163 uni0163 uni0163 # LATIN SMALL LETTER T WITH CEDILLA
+uni0162 Tcedilla uni0162 # LATIN CAPITAL LETTER T WITH CEDILLA
+uni0163 tcedilla uni0163 # LATIN SMALL LETTER T WITH CEDILLA
 Tcaron Tcaron uni0164 # LATIN CAPITAL LETTER T WITH CARON
 tcaron tcaron uni0165 # LATIN SMALL LETTER T WITH CARON
 Umacron Umacron uni016A # LATIN CAPITAL LETTER U WITH MACRON
@@ -1022,13 +1088,13 @@ zdotaccent zdotaccent uni017C # LATIN SMALL LETTER Z WITH DOT ABOVE
 Zcaron Zcaron uni017D # LATIN CAPITAL LETTER Z WITH CARON
 zcaron zcaron uni017E # LATIN SMALL LETTER Z WITH CARON
 florin florin uni0192 # LATIN SMALL LETTER F WITH HOOK
-uni0218 uni0218 uni0218 # LATIN CAPITAL LETTER S WITH COMMA BELOW
-uni0219 uni0219 uni0219 # LATIN SMALL LETTER S WITH COMMA BELOW
-uni021A uni021A uni021A # LATIN CAPITAL LETTER T WITH COMMA BELOW
-uni021B uni021B uni021B # LATIN SMALL LETTER T WITH COMMA BELOW
+uni0218 Scommaaccent uni0218 # LATIN CAPITAL LETTER S WITH COMMA BELOW
+uni0219 scommaaccent uni0219 # LATIN SMALL LETTER S WITH COMMA BELOW
+uni021A Tcommaaccent uni021A # LATIN CAPITAL LETTER T WITH COMMA BELOW
+uni021B tcommaaccent uni021B # LATIN SMALL LETTER T WITH COMMA BELOW
 circumflex circumflex uni02C6 # MODIFIER LETTER CIRCUMFLEX ACCENT
 caron caron uni02C7 # CARON
-uni02C9 uni02C9 uni02C9 # MODIFIER LETTER MACRON
+uni02C9 macronmod uni02C9 # MODIFIER LETTER MACRON
 breve breve uni02D8 # BREVE
 dotaccent dotaccent uni02D9 # DOT ABOVE
 ring ring uni02DA # RING ABOVE
@@ -1053,19 +1119,19 @@ guilsinglleft guilsinglleft uni2039 # SINGLE LEFT-POINTING ANGLE QUOTATION MARK
 guilsinglright guilsinglright uni203A # SINGLE RIGHT-POINTING ANGLE QUOTATION MARK
 fraction fraction uni2044 # FRACTION SLASH
 Euro Euro uni20AC # EURO SIGN
-uni20BA uni20BA uni20BA # TURKISH LIRA SIGN
-uni20BD uni20BD uni20BD # RUBLE SIGN
-uni2113 uni2113 uni2113 # SCRIPT SMALL L
+uni20BA turkishlira uni20BA # TURKISH LIRA SIGN
+uni20BD ruble uni20BD # RUBLE SIGN
+uni2113 litre uni2113 # SCRIPT SMALL L
 trademark trademark uni2122 # TRADE MARK SIGN
-uni2126 uni2126 uni2126 # OHM SIGN
+uni2126 Ohm uni2126 # OHM SIGN
 estimated estimated uni212E # ESTIMATED SYMBOL
 partialdiff partialdiff uni2202 # PARTIAL DIFFERENTIAL
-uni2206 uni2206 uni2206 # INCREMENT
+uni2206 increment uni2206 # INCREMENT
 product product uni220F # N-ARY PRODUCT
 summation summation uni2211 # N-ARY SUMMATION
 minus minus uni2212 # MINUS SIGN
-uni2215 uni2215 uni2215 # DIVISION SLASH
-uni2219 uni2219 uni2219 # BULLET OPERATOR
+uni2215 divisionslash uni2215 # DIVISION SLASH
+uni2219 bulletoperator uni2219 # BULLET OPERATOR
 radical radical uni221A # SQUARE ROOT
 infinity infinity uni221E # INFINITY
 integral integral uni222B # INTEGRAL
