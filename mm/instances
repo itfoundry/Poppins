@@ -1,0 +1,12 @@
+#!opentype
+
+# `FontMenuNameDB` must be synced to this file.
+# Key `IsBold` has nothing to do with style-linking.
+
+#KEYS:FamilyName	FontName	FullName	Weight	Coords	IsBold
+
+X Devanagari	XDevanagari-Light	X Devanagari Light	Light	(0)	0
+X Devanagari	XDevanagari-Regular	X Devanagari	Regular	(210)	0
+X Devanagari	XDevanagari-Medium	X Devanagari Medium	Medium	(440)	0
+X Devanagari	XDevanagari-SemiBold	X Devanagari SemiBold	SemiBold	(700)	0
+X Devanagari	XDevanagari-Bold	X Devanagari Bold	Bold	(1000)	0

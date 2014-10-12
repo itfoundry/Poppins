@@ -1,8 +1,11 @@
 #!/usr/bin/python
 
 from subprocess import call
-from os.path    import exists
+import os.path
+import itf_gfd
 
+
+is_multiple_master = True
 
 family_name = 'XDevanagari'
 
@@ -29,7 +32,7 @@ def main():
 
     call(['rm', '-f', style_dir + '/current.fpr'])
 
-    if exists(otf_path):
+    if os.path.exists(otf_path):
       call(['cp', '-f', otf_path, '/Library/Application Support/Adobe/Fonts'])
 
 

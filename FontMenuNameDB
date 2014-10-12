@@ -1,5 +1,6 @@
 #!opentype
 
+# This file must be synced to `MM/instances`.
 # Entries `l` and `m` are required if this is not a typical
 #   style-linked Regular/Bold/Italic/BoldItalic family.
 
