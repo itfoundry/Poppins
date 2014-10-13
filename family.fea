@@ -8,7 +8,9 @@ table head {
   FontRevision 1.000;
 } head;
 
+include (../../family_classes.fea);
 include (../../family_tables.fea);
+include (../../family_extension.fea);
 
 
 # --------------
@@ -393,374 +395,346 @@ feature pres {
   sub dvEyelash zerowidthjoiner dvYA by dvEyelash_YA;
   sub dvEyelash zerowidthjoiner dvHA by dvEyelash_HA;
 
-  # AKHAND
-
-  sub dvK_SS dvMA     by dvK_SS_MA;
-  sub dvK_SS dvM      by dvK_SS_M;
-  sub dvK_SS dvM dvYA by dvK_SS_M_YA;
-  sub dvK_SS dvYA     by dvK_SS_YA;
-  sub dvK_SS dvVA     by dvK_SS_VA;
-  sub dvJ_NY dvYA     by dvJ_NY_YA;
-  sub dvT dvK_SSA     by dvT_K_SSA;
-  sub dvJ dvJ_NYA     by dvJ_J_NYA;
-
-  # CCCA, CC
-
-  sub dvK dvS dvP_RA   by dvK_S_P_RA;
-  sub dvK dvS dvP dvLA by dvK_S_P_LA;
-  sub dvK dvT dvYA     by dvK_T_YA;
-  sub dvK dvT_RA       by dvK_T_RA;
-  sub dvK dvT dvVA     by dvK_T_VA;
-  sub dvK dvP_RA       by dvK_P_RA;
-  sub dvK dvV dvYA     by dvK_V_YA;
-  sub dvK dvS dvTTA    by dvK_S_TTA;
-  sub dvK dvS dvDDA    by dvK_S_DDA;
-  sub dvK dvS dvTA     by dvK_S_TA;
-  sub dvK dvTT_RA      by dvK_TT_RA;
-
-  sub dvG dvDH dvYA by dvG_DH_YA;
-  sub dvG dvDH dvVA by dvG_DH_VA;
-  sub dvG dvN dvYA  by dvG_N_YA;
-  sub dvG dvBH dvYA by dvG_BH_YA;
-  sub dvG_R dvYA    by dvG_R_YA;
-
-  sub dvC dvCH dvVA by dvC_CH_VA;
-
-  sub dvCH_R dvYA by dvCH_R_YA;
-
-  sub dvJ dvJ dvYA by dvJ_J_YA;
-  sub dvJ dvJ dvVA by dvJ_J_VA;
-
-  sub dvT dvT      by dvT_T;
-  sub dvT dvK dvYA by dvT_K_YA;
-  sub dvT dvK_RA   by dvT_K_RA;
-  sub dvT dvK dvVA by dvT_K_VA;
-  sub dvT dvKH_RA  by dvT_KH_RA;
-  sub dvT dvT dvYA by dvT_T_YA;
-  sub dvT dvT dvVA by dvT_T_VA;
-  sub dvT dvN dvYA by dvT_N_YA;
-  sub dvT dvP_RA   by dvT_P_RA;
-  sub dvT dvP dvLA by dvT_P_LA;
-  sub dvT dvM dvYA by dvT_M_YA;
-  sub dvT_R dvYA   by dvT_R_YA;
-  sub dvT dvS dvYA by dvT_S_YA;
-  sub dvT dvS dvVA by dvT_S_VA;
-
-  sub dvD dvG_RA    by dvD_G_RA;
-  sub dvD dvB_RA    by dvD_B_RA;
-  sub dvD dvY dvBHA by dvD_Y_BHA;
-  sub dvD dvY_RA    by dvD_Y_RA;
-
-  sub dvDH dvN dvYA by dvDH_N_YA;
-
-  sub dvN dvN dvYA     by dvN_N_YA;
-  sub dvN dvS dvM dvYA by dvN_S_M_YA;
-  sub dvN dvK dvSA     by dvN_K_SA;
-  sub dvN dvT dvYA     by dvN_T_YA;
-  sub dvN dvT_RA       by dvN_T_RA;
-  sub dvN dvT dvSA     by dvN_T_SA;
-  sub dvN dvTH dvYA    by dvN_TH_YA;
-  sub dvN dvTH dvVA    by dvN_TH_VA;
-  sub dvN dvD_RA       by dvN_D_RA;
-  sub dvN dvD dvVA     by dvN_D_VA;
-  sub dvN dvDH dvYA    by dvN_DH_YA;
-  sub dvN dvDH_RA      by dvN_DH_RA;
-  sub dvN dvDH dvVA    by dvN_DH_VA;
-  sub dvN dvP_RA       by dvN_P_RA;
-  sub dvN dvBH dvYA    by dvN_BH_YA;
-  sub dvN dvBH dvVA    by dvN_BH_VA;
-  sub dvN dvM dvYA     by dvN_M_YA;
-  sub dvN dvS dvTTA    by dvN_S_TTA;
-  sub dvN dvS dvYA     by dvN_S_YA;
-  sub dvN dvPH_RA      by dvN_PH_RA;
-  sub dvN dvBH         by dvN_BH;
-  sub dvN dvS          by dvN_S;
-
-  sub dvP dvT dvYA by dvP_T_YA;
-
-  sub dvB dvJ dvYA  by dvB_J_YA;
-  sub dvB dvDH dvVA by dvB_DH_VA;
-  sub dvB dvBH_RA   by dvB_BH_RA;
-  sub dvB dvL dvYA  by dvB_L_YA;
-
-  sub dvBH_R dvYA by dvBH_R_YA;
-
-  sub dvM dvP_RA    by dvM_P_RA;
-  sub dvM dvB dvYA  by dvM_B_YA;
-  sub dvM dvB_RA    by dvM_B_RA;
-  sub dvM dvBH      by dvM_BH;
-  sub dvM dvBH dvYA by dvM_BH_YA;
-  sub dvM dvBH_RA   by dvM_BH_RA;
-  sub dvM dvBH dvVA by dvM_BH_VA;
-
-  sub dvL dvK dvYA  by dvL_K_YA;
-  sub dvL dvTH dvYA by dvL_TH_YA;
-  sub dvL dvD_RA    by dvL_D_RA;
-  sub dvL dvL dvYA  by dvL_L_YA;
-  sub dvL dvV dvDDA by dvL_V_DDA;
-  sub dvL dvBH      by dvL_BH;
-
-  sub dvSS dvTT_RA    by dvSS_TT_RA;
-  sub dvSS dvTTH_RA   by dvSS_TTH_RA;
-  sub dvSS dvTT dvVA  by dvSS_TT_VA;
-  sub dvSS dvTT dvYA  by dvSS_TT_YA;
-  sub dvSS dvTTH dvYA by dvSS_TTH_YA;
-  sub dvSS dvK_RA     by dvSS_K_RA;
-  sub dvSS dvNN dvYA  by dvSS_NN_YA;
-  sub dvSS dvP_RA     by dvSS_P_RA;
-  sub dvSS dvM dvYA   by dvSS_M_YA;
-
-  sub dvS dvT_RA    by dvS_T_RA;
-  sub dvS dvT_R     by dvS_T_R;
-  sub dvS dvK_RA    by dvS_K_RA;
-  sub dvS dvK dvVA  by dvS_K_VA;
-  sub dvS dvT dvYA  by dvS_T_YA;
-  sub dvS dvT dvVA  by dvS_T_VA;
-  sub dvS dvTH dvYA by dvS_TH_YA;
-  sub dvS dvP_RA    by dvS_P_RA;
-  sub dvS dvM dvYA  by dvS_M_YA;
-
   # CCA
 
-  sub dvK dvKA  by dvK_KA;
+  sub dvK dvKA by dvK_KA;
+  sub dvKx dvKxA by dvKx_KxA;
   sub dvK dvKHA by dvK_KHA;
-  sub dvK dvCA  by dvK_CA;
-  sub dvK dvJA  by dvK_JA;
+  sub dvK dvCA by dvK_CA;
+  sub dvK dvJA by dvK_JA;
   sub dvK dvTTA by dvK_TTA;
   sub dvK dvNNA by dvK_NNA;
-  sub dvK dvTA  by dvK_TA;
+  sub dvK dvTA by dvK_TA;
+  sub dvKx dvTA by dvKx_TA;
+  sub dvK dvT dvYA by dvK_T_YA;
+  sub dvK dvT_RA by dvK_T_RA;
+  sub dvK dvT dvVA by dvK_T_VA;
   sub dvK dvTHA by dvK_THA;
-  sub dvK dvDA  by dvK_DA;
-  sub dvK dvNA  by dvK_NA;
-  sub dvK dvPA  by dvK_PA;
+  sub dvK dvDA by dvK_DA;
+  sub dvK dvNA by dvK_NA;
+  sub dvK dvPA by dvK_PA;
+  sub dvK dvP_RA by dvK_P_RA;
   sub dvK dvPHA by dvK_PHA;
-  sub dvK dvBA  by dvK_BA;
-  sub dvK dvMA  by dvK_MA;
-  sub dvK dvYA  by dvK_YA;
-  sub dvK dvLA  by dvK_LA;
-  sub dvK dvVA  by dvK_VA;
+  sub dvKx dvPHA by dvKx_PHA;
+  sub dvKx dvPHxA by dvKx_PHxA;
+  sub dvKx dvBA by dvKx_BA;
+  sub dvK dvMA by dvK_MA;
+  sub dvKx dvMA by dvKx_MA;
+  sub dvK dvYA by dvK_YA;
+  sub dvK dvLA by dvK_LA;
+  sub dvK dvVA by dvK_VA;
+  sub dvK dvV dvYA by dvK_V_YA;
   sub dvK dvSHA by dvK_SHA;
-  sub dvK dvSA  by dvK_SA;
+  sub dvK_SS dvMA by dvK_SS_MA;
+  sub dvK_SS dvM dvYA by dvK_SS_M_YA;
+  sub dvK_SS dvYA by dvK_SS_YA;
+  sub dvK_SS dvVA by dvK_SS_VA;
+  sub dvK dvSA by dvK_SA;
+  sub dvK dvS dvTTA by dvK_S_TTA;
+  sub dvK dvS dvDDA by dvK_S_DDA;
+  sub dvK dvS dvTA by dvK_S_TA;
+  sub dvK dvS dvP_RA by dvK_S_P_RA;
+  sub dvK dvS dvP dvLA by dvK_S_P_LA;
 
   sub dvKH dvKHA by dvKH_KHA;
-  sub dvKH dvTA  by dvKH_TA;
-  sub dvKH dvNA  by dvKH_NA;
-  sub dvKH dvMA  by dvKH_MA;
-  sub dvKH dvYA  by dvKH_YA;
-  sub dvKH dvVA  by dvKH_VA;
+  sub dvKH dvTA by dvKH_TA;
+  sub dvKHx dvTA by dvKHx_TA;
+  sub dvKH dvNA by dvKH_NA;
+  sub dvKH dvMA by dvKH_MA;
+  sub dvKHx dvMA by dvKHx_MA;
+  sub dvKH dvYA by dvKH_YA;
+  sub dvKHx dvYA by dvKHx_YA;
+  sub dvKH dvVA by dvKH_VA;
+  sub dvKHx dvVA by dvKHx_VA;
   sub dvKH dvSHA by dvKH_SHA;
+  sub dvKHx dvSHA by dvKHx_SHA;
+  sub dvKHx dvSA by dvKHx_SA;
 
-  sub dvG dvGA  by dvG_GA;
+  sub dvG dvGA by dvG_GA;
   sub dvG dvGHA by dvG_GHA;
-  sub dvG dvJA  by dvG_JA;
+  sub dvG dvJA by dvG_JA;
   sub dvG dvNNA by dvG_NNA;
-  sub dvG dvDA  by dvG_DA;
+  sub dvG dvDA by dvG_DA;
   sub dvG dvDHA by dvG_DHA;
-  sub dvG dvNA  by dvG_NA;
-  sub dvG dvBA  by dvG_BA;
+  sub dvG dvDH dvYA by dvG_DH_YA;
+  sub dvG dvDH dvVA by dvG_DH_VA;
+  sub dvG dvNA by dvG_NA;
+  sub dvG dvN dvYA by dvG_N_YA;
+  sub dvG dvBA by dvG_BA;
   sub dvG dvBHA by dvG_BHA;
-  sub dvG dvMA  by dvG_MA;
-  sub dvG dvYA  by dvG_YA;
-  sub dvG dvLA  by dvG_LA;
-  sub dvG dvVA  by dvG_VA;
-  sub dvG dvSA  by dvG_SA;
+  sub dvG dvBH dvYA by dvG_BH_YA;
+  sub dvG dvMA by dvG_MA;
+  sub dvG dvYA by dvG_YA;
+  sub dvG_R dvYA by dvG_R_YA;
+  sub dvG dvLA by dvG_LA;
+  sub dvG dvVA by dvG_VA;
+  sub dvG dvSA by dvG_SA;
 
   sub dvGH dvNA by dvGH_NA;
   sub dvGH dvMA by dvGH_MA;
   sub dvGH dvYA by dvGH_YA;
 
-  sub dvC dvCA  by dvC_CA;
+  sub dvC dvCA by dvC_CA;
   sub dvC dvCHA by dvC_CHA;
-  sub dvC dvNA  by dvC_NA;
-  sub dvC dvMA  by dvC_MA;
-  sub dvC dvYA  by dvC_YA;
+  sub dvC dvCH dvVA by dvC_CH_VA;
+  sub dvC dvNA by dvC_NA;
+  sub dvC dvMA by dvC_MA;
+  sub dvC dvYA by dvC_YA;
 
   sub dvCH dvNA by dvCH_NA;
   sub dvCH dvYA by dvCH_YA;
+  sub dvCH_R dvYA by dvCH_R_YA;
   sub dvCH dvVA by dvCH_VA;
 
-  sub dvJ dvKA  by dvJ_KA;
-  sub dvJ dvJA  by dvJ_JA;
+  sub dvJ dvKA by dvJ_KA;
+  sub dvJ dvJA by dvJ_JA;
+  sub dvJx dvJxA by dvJx_JxA;
+  sub dvJ dvJ_NYA by dvJ_J_NYA;
+  sub dvJ dvJ dvYA by dvJ_J_YA;
+  sub dvJ dvJ dvVA by dvJ_J_VA;
   sub dvJ dvJHA by dvJ_JHA;
+  sub dvJ_NY dvYA by dvJ_NY_YA;
   sub dvJ dvTTA by dvJ_TTA;
   sub dvJ dvDDA by dvJ_DDA;
-  sub dvJ dvTA  by dvJ_TA;
-  sub dvJ dvDA  by dvJ_DA;
-  sub dvJ dvNA  by dvJ_NA;
-  sub dvJ dvBA  by dvJ_BA;
-  sub dvJ dvMA  by dvJ_MA;
-  sub dvJ dvYA  by dvJ_YA;
-  sub dvJ dvVA  by dvJ_VA;
+  sub dvJ dvTA by dvJ_TA;
+  sub dvJ dvDA by dvJ_DA;
+  sub dvJ dvNA by dvJ_NA;
+  sub dvJ dvBA by dvJ_BA;
+  sub dvJ dvMA by dvJ_MA;
+  sub dvJ dvYA by dvJ_YA;
+  sub dvJx dvYA by dvJx_YA;
+  sub dvJ dvVA by dvJ_VA;
 
   sub dvJH dvNA by dvJH_NA;
   sub dvJH dvMA by dvJH_MA;
   sub dvJH dvYA by dvJH_YA;
 
+  sub dvNY dvCA by dvNY_CA;
   sub dvNY dvCHA by dvNY_CHA;
-  sub dvNY dvJA  by dvNY_JA;
+  sub dvNY dvJA by dvNY_JA;
   sub dvNY dvSHA by dvNY_SHA;
 
-  sub dvTT dvTTA  by dvTT_TTA;
+  sub dvTT dvTTA by dvTT_TTA;
   sub dvTT dvTTHA by dvTT_TTHA;
-  sub dvTT dvNA   by dvTT_NA;
-  sub dvTT dvYA   by dvTT_YA;
-  sub dvTT dvVA   by dvTT_VA;
+  sub dvTT dvNA by dvTT_NA;
+  sub dvTT dvYA by dvTT_YA;
+  sub dvTT dvVA by dvTT_VA;
 
+  sub dvTTH dvTTHA by dvTTH_TTHA;
   sub dvTTH dvNA by dvTTH_NA;
   sub dvTTH dvYA by dvTTH_YA;
 
-  sub dvDD dvDDA  by dvDD_DDA;
+  sub dvDD dvDDA by dvDD_DDA;
   sub dvDD dvDDHA by dvDD_DDHA;
-  sub dvDD dvNA   by dvDD_NA;
-  sub dvDD dvYA   by dvDD_YA;
-  sub dvDD dvVA   by dvDD_VA;
+  sub dvDD dvNA by dvDD_NA;
+  sub dvDD dvYA by dvDD_YA;
+  sub dvDD dvVA by dvDD_VA;
 
+  sub dvDDH dvDDHA by dvDDH_DDHA;
   sub dvDDH dvYA by dvDDH_YA;
 
-  sub dvNN dvTTA  by dvNN_TTA;
+  sub dvNN dvTTA by dvNN_TTA;
   sub dvNN dvTTHA by dvNN_TTHA;
-  sub dvNN dvDDA  by dvNN_DDA;
+  sub dvNN dvDDA by dvNN_DDA;
   sub dvNN dvDDHA by dvNN_DDHA;
-  sub dvNN dvNNA  by dvNN_NNA;
-  sub dvNN dvMA   by dvNN_MA;
-  sub dvNN dvYA   by dvNN_YA;
-  sub dvNN dvVA   by dvNN_VA;
+  sub dvNN dvNNA by dvNN_NNA;
+  sub dvNN dvMA by dvNN_MA;
+  sub dvNN dvYA by dvNN_YA;
+  sub dvNN dvVA by dvNN_VA;
 
-  sub dvT dvKA  by dvT_KA;
+  sub dvT dvKA by dvT_KA;
+  sub dvT dvK dvYA by dvT_K_YA;
+  sub dvT dvK_RA by dvT_K_RA;
+  sub dvT dvK dvVA by dvT_K_VA;
+  sub dvT dvK_SSA by dvT_K_SSA;
   sub dvT dvKHA by dvT_KHA;
-  sub dvT dvTA  by dvT_TA;
+  sub dvT dvKH_RA by dvT_KH_RA;
+  sub dvT dvTA by dvT_TA;
+  sub dvT dvT dvYA by dvT_T_YA;
+  sub dvT dvT dvVA by dvT_T_VA;
   sub dvT dvTHA by dvT_THA;
-  sub dvT dvNA  by dvT_NA;
-  sub dvT dvPA  by dvT_PA;
+  sub dvT dvNA by dvT_NA;
+  sub dvT dvN dvYA by dvT_N_YA;
+  sub dvT dvPA by dvT_PA;
+  sub dvT dvP_RA by dvT_P_RA;
+  sub dvT dvP dvLA by dvT_P_LA;
   sub dvT dvPHA by dvT_PHA;
-  sub dvT dvMA  by dvT_MA;
-  sub dvT dvYA  by dvT_YA;
-  sub dvT dvLA  by dvT_LA;
-  sub dvT dvVA  by dvT_VA;
-  sub dvT dvSA  by dvT_SA;
+  sub dvT dvMA by dvT_MA;
+  sub dvT dvM dvYA by dvT_M_YA;
+  sub dvT dvYA by dvT_YA;
+  sub dvT_R dvYA by dvT_R_YA;
+  sub dvT dvLA by dvT_LA;
+  sub dvT dvVA by dvT_VA;
+  sub dvT dvSA by dvT_SA;
+  sub dvT dvS dvYA by dvT_S_YA;
+  sub dvT dvS dvVA by dvT_S_VA;
 
   sub dvTH dvNA by dvTH_NA;
   sub dvTH dvYA by dvTH_YA;
   sub dvTH dvVA by dvTH_VA;
 
-  sub dvD dvGA  by dvD_GA;
+  sub dvD dvGA by dvD_GA;
+  sub dvD dvG_RA by dvD_G_RA;
   sub dvD dvGHA by dvD_GHA;
-  sub dvD dvDA  by dvD_DA;
+  sub dvD dvDA by dvD_DA;
   sub dvD dvDHA by dvD_DHA;
-  sub dvD dvNA  by dvD_NA;
-  sub dvD dvBA  by dvD_BA;
+  sub dvD dvNA by dvD_NA;
+  sub dvD dvBA by dvD_BA;
+  sub dvD dvB_RA by dvD_B_RA;
   sub dvD dvBHA by dvD_BHA;
-  sub dvD dvMA  by dvD_MA;
-  sub dvD dvYA  by dvD_YA;
-  sub dvD dvVA  by dvD_VA;
+  sub dvD dvMA by dvD_MA;
+  sub dvD dvYA by dvD_YA;
+  sub dvD dvY dvBHA by dvD_Y_BHA;
+  sub dvD dvY_RA by dvD_Y_RA;
+  sub dvD dvVA by dvD_VA;
 
   sub dvDH dvNA by dvDH_NA;
+  sub dvDH dvN dvYA by dvDH_N_YA;
   sub dvDH dvMA by dvDH_MA;
   sub dvDH dvYA by dvDH_YA;
   sub dvDH dvVA by dvDH_VA;
 
-  sub dvN dvKA  by dvN_KA;
-  sub dvN dvCA  by dvN_CA;
+  sub dvN dvKA by dvN_KA;
+  sub dvN dvK dvSA by dvN_K_SA;
+  sub dvN dvCA by dvN_CA;
   sub dvN dvCHA by dvN_CHA;
   sub dvN dvTTA by dvN_TTA;
   sub dvN dvDDA by dvN_DDA;
-  sub dvN dvTA  by dvN_TA;
+  sub dvN dvTA by dvN_TA;
+  sub dvN dvT dvYA by dvN_T_YA;
+  sub dvN dvT_RA by dvN_T_RA;
+  sub dvN dvT dvSA by dvN_T_SA;
   sub dvN dvTHA by dvN_THA;
-  sub dvN dvDA  by dvN_DA;
+  sub dvN dvTH dvYA by dvN_TH_YA;
+  sub dvN dvTH dvVA by dvN_TH_VA;
+  sub dvN dvDA by dvN_DA;
+  sub dvN dvD_RA by dvN_D_RA;
+  sub dvN dvD dvVA by dvN_D_VA;
   sub dvN dvDHA by dvN_DHA;
-  sub dvN dvNA  by dvN_NA;
-  sub dvN dvPA  by dvN_PA;
+  sub dvN dvDH dvYA by dvN_DH_YA;
+  sub dvN dvDH_RA by dvN_DH_RA;
+  sub dvN dvDH dvVA by dvN_DH_VA;
+  sub dvN dvNA by dvN_NA;
+  sub dvN dvN dvYA by dvN_N_YA;
+  sub dvN dvPA by dvN_PA;
+  sub dvN dvP_RA by dvN_P_RA;
   sub dvN dvPHA by dvN_PHA;
+  sub dvN dvPH_RA by dvN_PH_RA;
   sub dvN dvBHA by dvN_BHA;
-  sub dvN dvMA  by dvN_MA;
-  sub dvN dvYA  by dvN_YA;
-  sub dvN dvVA  by dvN_VA;
-  sub dvN dvSA  by dvN_SA;
-  sub dvN dvHA  by dvN_HA;
+  sub dvN dvBH dvYA by dvN_BH_YA;
+  sub dvN dvBH dvVA by dvN_BH_VA;
+  sub dvN dvMA by dvN_MA;
+  sub dvN dvM dvYA by dvN_M_YA;
+  sub dvN dvYA by dvN_YA;
+  sub dvN dvVA by dvN_VA;
+  sub dvN dvSA by dvN_SA;
+  sub dvN dvS dvTTA by dvN_S_TTA;
+  sub dvN dvS dvM dvYA by dvN_S_M_YA;
+  sub dvN dvS dvYA by dvN_S_YA;
+  sub dvN dvHA by dvN_HA;
 
-  sub dvP dvCA   by dvP_CA;
-  sub dvP dvTTA  by dvP_TTA;
+  sub dvP dvTTA by dvP_TTA;
   sub dvP dvTTHA by dvP_TTHA;
-  sub dvP dvTA   by dvP_TA;
-  sub dvP dvNA   by dvP_NA;
-  sub dvP dvPA   by dvP_PA;
-  sub dvP dvPHA  by dvP_PHA;
-  sub dvP dvMA   by dvP_MA;
-  sub dvP dvYA   by dvP_YA;
-  sub dvP dvLA   by dvP_LA;
-  sub dvP dvVA   by dvP_VA;
-  sub dvP dvSHA  by dvP_SHA;
-  sub dvP dvSA   by dvP_SA;
+  sub dvP dvTA by dvP_TA;
+  sub dvP dvT dvYA by dvP_T_YA;
+  sub dvP dvNA by dvP_NA;
+  sub dvP dvPA by dvP_PA;
+  sub dvP dvPHA by dvP_PHA;
+  sub dvP dvMA by dvP_MA;
+  sub dvP dvYA by dvP_YA;
+  sub dvP dvLA by dvP_LA;
+  sub dvP dvVA by dvP_VA;
+  sub dvP dvSA by dvP_SA;
 
-  sub dvPH dvJA  by dvPH_JA;
+  sub dvPH dvJA by dvPH_JA;
+  sub dvPHx dvJxA by dvPHx_JxA;
   sub dvPH dvTTA by dvPH_TTA;
-  sub dvPH dvTA  by dvPH_TA;
-  sub dvPH dvNA  by dvPH_NA;
-  sub dvPH dvPA  by dvPH_PA;
+  sub dvPH dvTA by dvPH_TA;
+  sub dvPHx dvTA by dvPHx_TA;
+  sub dvPH dvNA by dvPH_NA;
+  sub dvPH dvPA by dvPH_PA;
   sub dvPH dvPHA by dvPH_PHA;
-  sub dvPH dvYA  by dvPH_YA;
-  sub dvPH dvLA  by dvPH_LA;
+  sub dvPHx dvPHxA by dvPHx_PHxA;
+  sub dvPH dvYA by dvPH_YA;
+  sub dvPH dvLA by dvPH_LA;
   sub dvPH dvSHA by dvPH_SHA;
+  sub dvPHx dvSA by dvPHx_SA;
 
-  sub dvB dvJA  by dvB_JA;
+  sub dvB dvJA by dvB_JA;
+  sub dvB dvJxA by dvB_JxA;
+  sub dvB dvJ dvYA by dvB_J_YA;
   sub dvB dvJHA by dvB_JHA;
-  sub dvB dvTA  by dvB_TA;
-  sub dvB dvDA  by dvB_DA;
+  sub dvB dvTA by dvB_TA;
+  sub dvB dvDA by dvB_DA;
   sub dvB dvDHA by dvB_DHA;
-  sub dvB dvNA  by dvB_NA;
-  sub dvB dvBA  by dvB_BA;
+  sub dvB dvDH dvVA by dvB_DH_VA;
+  sub dvB dvNA by dvB_NA;
+  sub dvB dvBA by dvB_BA;
   sub dvB dvBHA by dvB_BHA;
-  sub dvB dvYA  by dvB_YA;
-  sub dvB dvLA  by dvB_LA;
-  sub dvB dvVA  by dvB_VA;
+  sub dvB dvBH_RA by dvB_BH_RA;
+  sub dvB dvYA by dvB_YA;
+  sub dvB dvLA by dvB_LA;
+  sub dvB dvL dvYA by dvB_L_YA;
+  sub dvB dvVA by dvB_VA;
   sub dvB dvSHA by dvB_SHA;
-  sub dvB dvSA  by dvB_SA;
+  sub dvB dvSA by dvB_SA;
 
   sub dvBH dvNA by dvBH_NA;
   sub dvBH dvYA by dvBH_YA;
+  sub dvBH_R dvYA by dvBH_R_YA;
   sub dvBH dvLA by dvBH_LA;
   sub dvBH dvVA by dvBH_VA;
 
-  sub dvM dvTA  by dvM_TA;
-  sub dvM dvDA  by dvM_DA;
-  sub dvM dvNA  by dvM_NA;
-  sub dvM dvPA  by dvM_PA;
-  sub dvM dvBA  by dvM_BA;
+  sub dvM dvTA by dvM_TA;
+  sub dvM dvDA by dvM_DA;
+  sub dvM dvNA by dvM_NA;
+  sub dvM dvPA by dvM_PA;
+  sub dvM dvP_RA by dvM_P_RA;
+  sub dvM dvBA by dvM_BA;
+  sub dvM dvB dvYA by dvM_B_YA;
+  sub dvM dvB_RA by dvM_B_RA;
   sub dvM dvBHA by dvM_BHA;
-  sub dvM dvMA  by dvM_MA;
-  sub dvM dvYA  by dvM_YA;
-  sub dvM dvLA  by dvM_LA;
-  sub dvM dvVA  by dvM_VA;
+  sub dvM dvBH dvYA by dvM_BH_YA;
+  sub dvM dvBH_RA by dvM_BH_RA;
+  sub dvM dvBH dvVA by dvM_BH_VA;
+  sub dvM dvMA by dvM_MA;
+  sub dvM dvYA by dvM_YA;
+  sub dvM dvLA by dvM_LA;
+  sub dvM dvVA by dvM_VA;
   sub dvM dvSHA by dvM_SHA;
-  sub dvM dvSA  by dvM_SA;
-  sub dvM dvHA  by dvM_HA;
+  sub dvM dvSA by dvM_SA;
+  sub dvM dvHA by dvM_HA;
 
   sub dvY dvNA by dvY_NA;
   sub dvY dvYA by dvY_YA;
 
-  sub dvL dvKA   by dvL_KA;
-  sub dvL dvKHA  by dvL_KHA;
-  sub dvL dvGA   by dvL_GA;
-  sub dvL dvCA   by dvL_CA;
-  sub dvL dvJA   by dvL_JA;
-  sub dvL dvTTA  by dvL_TTA;
+  sub dvL dvKA by dvL_KA;
+  sub dvL dvK dvYA by dvL_K_YA;
+  sub dvL dvKHA by dvL_KHA;
+  sub dvL dvGA by dvL_GA;
+  sub dvL dvJA by dvL_JA;
+  sub dvL dvJxA by dvL_JxA;
+  sub dvL dvTTA by dvL_TTA;
   sub dvL dvTTHA by dvL_TTHA;
-  sub dvL dvDDA  by dvL_DDA;
+  sub dvL dvDDA by dvL_DDA;
   sub dvL dvDDHA by dvL_DDHA;
-  sub dvL dvTA   by dvL_TA;
-  sub dvL dvTHA  by dvL_THA;
-  sub dvL dvDA   by dvL_DA;
-  sub dvL dvNA   by dvL_NA;
-  sub dvL dvPA   by dvL_PA;
-  sub dvL dvPHA  by dvL_PHA;
-  sub dvL dvBA   by dvL_BA;
-  sub dvL dvBHA  by dvL_BHA;
-  sub dvL dvMA   by dvL_MA;
-  sub dvL dvYA   by dvL_YA;
-  sub dvL dvLA   by dvL_LA;
-  sub dvL dvVA   by dvL_VA;
-  sub dvL dvSA   by dvL_SA;
-  sub dvL dvHA   by dvL_HA;
+  sub dvL dvTA by dvL_TA;
+  sub dvL dvTHA by dvL_THA;
+  sub dvL dvTH dvYA by dvL_TH_YA;
+  sub dvL dvDA by dvL_DA;
+  sub dvL dvD_RA by dvL_D_RA;
+  sub dvL dvPA by dvL_PA;
+  sub dvL dvPHA by dvL_PHA;
+  sub dvL dvBA by dvL_BA;
+  sub dvL dvBHA by dvL_BHA;
+  sub dvL dvMA by dvL_MA;
+  sub dvL dvYA by dvL_YA;
+  sub dvL dvLA by dvL_LA;
+  sub dvL dvL dvYA by dvL_L_YA;
+  sub dvL dvVA by dvL_VA;
+  sub dvL dvV dvDDA by dvL_V_DDA;
+  sub dvL dvSA by dvL_SA;
+  sub dvL dvHA by dvL_HA;
 
   sub dvV dvNA by dvV_NA;
   sub dvV dvYA by dvV_YA;
@@ -768,91 +742,72 @@ feature pres {
   sub dvV dvVA by dvV_VA;
   sub dvV dvHA by dvV_HA;
 
-  sub dvSH dvKA  by dvSH_KA;
-  sub dvSH dvCA  by dvSH_CA;
+  sub dvSH dvKA by dvSH_KA;
+  sub dvSH dvKxA by dvSH_KxA;
+  sub dvSH dvCA by dvSH_CA;
   sub dvSH dvCHA by dvSH_CHA;
   sub dvSH dvTTA by dvSH_TTA;
-  sub dvSH dvTA  by dvSH_TA;
-  sub dvSH dvNA  by dvSH_NA;
-  sub dvSH dvMA  by dvSH_MA;
-  sub dvSH dvYA  by dvSH_YA;
-  sub dvSH dvLA  by dvSH_LA;
-  sub dvSH dvVA  by dvSH_VA;
+  sub dvSH dvTA by dvSH_TA;
+  sub dvSH dvNA by dvSH_NA;
+  sub dvSH dvMA by dvSH_MA;
+  sub dvSH dvYA by dvSH_YA;
+  sub dvSH dvLA by dvSH_LA;
+  sub dvSH dvVA by dvSH_VA;
   sub dvSH dvSHA by dvSH_SHA;
 
-  sub dvSS dvKA   by dvSS_KA;
-  sub dvSS dvTTA  by dvSS_TTA;
+  sub dvSS dvKA by dvSS_KA;
+  sub dvSS dvK_RA by dvSS_K_RA;
+  sub dvSS dvTTA by dvSS_TTA;
+  sub dvSS dvTT dvYA by dvSS_TT_YA;
+  sub dvSS dvTT_RA by dvSS_TT_RA;
+  sub dvSS dvTT dvVA by dvSS_TT_VA;
   sub dvSS dvTTHA by dvSS_TTHA;
-  sub dvSS dvNNA  by dvSS_NNA;
-  sub dvSS dvNA   by dvSS_NA;
-  sub dvSS dvPA   by dvSS_PA;
-  sub dvSS dvPHA  by dvSS_PHA;
-  sub dvSS dvMA   by dvSS_MA;
-  sub dvSS dvYA   by dvSS_YA;
-  sub dvSS dvVA   by dvSS_VA;
-  sub dvSS dvSSA  by dvSS_SSA;
+  sub dvSS dvTTH dvYA by dvSS_TTH_YA;
+  sub dvSS dvTTH_RA by dvSS_TTH_RA;
+  sub dvSS dvNNA by dvSS_NNA;
+  sub dvSS dvNN dvYA by dvSS_NN_YA;
+  sub dvSS dvPA by dvSS_PA;
+  sub dvSS dvP_RA by dvSS_P_RA;
+  sub dvSS dvPHA by dvSS_PHA;
+  sub dvSS dvMA by dvSS_MA;
+  sub dvSS dvM dvYA by dvSS_M_YA;
+  sub dvSS dvYA by dvSS_YA;
+  sub dvSS dvVA by dvSS_VA;
+  sub dvSS dvSSA by dvSS_SSA;
 
-  sub dvS dvKA  by dvS_KA;
+  sub dvS dvKA by dvS_KA;
+  sub dvS dvK_RA by dvS_K_RA;
+  sub dvS dvK dvVA by dvS_K_VA;
   sub dvS dvKHA by dvS_KHA;
-  sub dvS dvJA  by dvS_JA;
+  sub dvS dvJA by dvS_JA;
   sub dvS dvTTA by dvS_TTA;
-  sub dvS dvTA  by dvS_TA;
+  sub dvS dvTA by dvS_TA;
+  sub dvS dvT dvYA by dvS_T_YA;
+  sub dvS dvT_RA by dvS_T_RA;
+  sub dvS dvT dvVA by dvS_T_VA;
   sub dvS dvTHA by dvS_THA;
-  sub dvS dvDA  by dvS_DA;
-  sub dvS dvNA  by dvS_NA;
-  sub dvS dvPA  by dvS_PA;
+  sub dvS dvTH dvYA by dvS_TH_YA;
+  sub dvS dvDA by dvS_DA;
+  sub dvS dvNA by dvS_NA;
+  sub dvS dvPA by dvS_PA;
+  sub dvS dvP_RA by dvS_P_RA;
   sub dvS dvPHA by dvS_PHA;
-  sub dvS dvBA  by dvS_BA;
-  sub dvS dvMA  by dvS_MA;
-  sub dvS dvYA  by dvS_YA;
-  sub dvS dvLA  by dvS_LA;
-  sub dvS dvVA  by dvS_VA;
-  sub dvS dvSA  by dvS_SA;
+  sub dvS dvBA by dvS_BA;
+  sub dvS dvMA by dvS_MA;
+  sub dvS dvM dvYA by dvS_M_YA;
+  sub dvS dvYA by dvS_YA;
+  sub dvS dvLA by dvS_LA;
+  sub dvS dvVA by dvS_VA;
+  sub dvS dvSA by dvS_SA;
 
   sub dvH dvNNA by dvH_NNA;
-  sub dvH dvNA  by dvH_NA;
-  sub dvH dvMA  by dvH_MA;
-  sub dvH dvYA  by dvH_YA;
-  sub dvH dvLA  by dvH_LA;
-  sub dvH dvVA  by dvH_VA;
+  sub dvH dvNA by dvH_NA;
+  sub dvH dvMA by dvH_MA;
+  sub dvH dvYA by dvH_YA;
+  sub dvH dvLA by dvH_LA;
+  sub dvH dvVA by dvH_VA;
 
   sub dvLL dvYA by dvLL_YA;
-
-  # NUKTA
-
-  sub dvKx dvTA  by dvKx_TA;
-  sub dvKx dvNA  by dvKx_NA;
-  sub dvKx dvPHA by dvKx_PHA;
-  sub dvKx dvBA  by dvKx_BA;
-  sub dvKx dvMA  by dvKx_MA;
-  sub dvKx dvSHA by dvKx_SHA;
-  sub dvKx dvKxA by dvKx_KxA;
-
-  sub dvKHx dvTA  by dvKHx_TA;
-  sub dvKHx dvNA  by dvKHx_NA;
-  sub dvKHx dvMA  by dvKHx_MA;
-  sub dvKHx dvYA  by dvKHx_YA;
-  sub dvKHx dvVA  by dvKHx_VA;
-  sub dvKHx dvSHA by dvKHx_SHA;
-  sub dvKHx dvSA  by dvKHx_SA;
-
-  sub dvGx dvNA by dvGx_NA;
-
-  sub dvJx dvNA  by dvJx_NA;
-  sub dvJx dvYA  by dvJx_YA;
-  sub dvJx dvJxA by dvJx_JxA;
-
-  sub dvPHx dvTA   by dvPHx_TA;
-  sub dvPHx dvNA   by dvPHx_NA;
-  sub dvPHx dvSA   by dvPHx_SA;
-  sub dvPHx dvJxA  by dvPHx_JxA;
-  sub dvPHx dvPHxA by dvPHx_PHxA;
-
-  sub dvB dvJxA by dvB_JxA;
-
-  sub dvL dvJxA by dvL_JxA;
-
-  sub dvSH dvKxA by dvSH_KxA;
 
 } pres;
 
@@ -862,6 +817,16 @@ feature pres {
 # -----------------------
 
 feature abvs {
+
+  # MATRA VOCALIC LIQUIDS (VOCALIC R/RR/L/LL)
+
+  lookup blws_RA_mvLiquid {
+    sub
+      dvRA'
+      lookup RA_to_vLiquid
+      @mvLiquids'
+      lookup mvLiquid_to_Reph;
+  } blws_RA_mvLiquid;
 
   # INDEPENDENT VOWEL
 
@@ -925,31 +890,14 @@ feature abvs {
 
 feature blws {
 
-  # MATRA U/UU
-
   sub dvRA dvmU  by dvRA_mU;
   sub dvRA dvmUU by dvRA_mUU;
   sub dvHA dvmU  by dvHA_mU;
   sub dvHA dvmUU by dvHA_mUU;
-
-  # MATRA VOCALIC LIQUIDS (VOCALIC R/RR/L/LL)
-
-  # lookup blws_RA_mvLiquid {
-  #   sub
-  #     dvRA'
-  #     lookup RA_to_vLiquid
-  #     @mvLiquids'
-  #     lookup mvLiquid_to_Reph;
-  # } blws_RA_mvLiquid;
-  #
-  # lookup blws_Reph_SM {
-  #   sub @vLiquids dvReph' dvAnusvara' by dvReph_Anusvara;
-  # } blws_Reph_SM;
-
-  sub dvSHA' [dvmvR dvmvRR] by dvSHA.amvR;
-
   sub dvDA dvmvR by dvDA_mvR;
   sub dvHA dvmvR by dvHA_mvR;
+
+  sub dvSHA' [dvmvR dvmvRR] by dvSHA.amvR;
 
 } blws;
 
@@ -993,6 +941,7 @@ feature haln {
   sub dvDDA  dvVirama by dvDD;
   sub dvDDHA dvVirama by dvDDH;
   sub dvDA   dvVirama by dvD;
+  sub dvHA   dvVirama by dvH;
 
   sub dvRA  dvVirama by dvR;
   sub dvRxA dvVirama by dvRx;
