@@ -303,7 +303,6 @@ dvK_T_VA
 dvK_THA
 dvK_DA
 dvK_NA
-dvKx_NA
 dvK_PA
 dvK_P_RA
 dvK_PHA
@@ -317,8 +316,8 @@ dvK_LA
 dvK_VA
 dvK_V_YA
 dvK_SHA
-dvKx_SHA
 dvK_SS_MA
+dvK_SS_M_YA
 dvK_SS_YA
 dvK_SS_VA
 dvK_SA
@@ -332,7 +331,6 @@ dvKH_KHA
 dvKH_TA
 dvKHx_TA
 dvKH_NA
-dvKHx_NA
 dvKH_MA
 dvKHx_MA
 dvKH_YA
@@ -352,7 +350,6 @@ dvG_DHA
 dvG_DH_YA
 dvG_DH_VA
 dvG_NA
-dvGx_NA
 dvG_N_YA
 dvG_BA
 dvG_BHA
@@ -393,7 +390,6 @@ dvJ_DDA
 dvJ_TA
 dvJ_DA
 dvJ_NA
-dvJx_NA
 dvJ_BA
 dvJ_MA
 dvJ_YA
@@ -547,7 +543,6 @@ dvPH_TTA
 dvPH_TA
 dvPHx_TA
 dvPH_NA
-dvPHx_NA
 dvPH_PA
 dvPH_PHA
 dvPHx_PHxA
@@ -750,13 +745,17 @@ dvmAU_Anusvara
 dvmAU_Reph
 dvmAU_Reph_Anusvara
 
+dvmEcandra_Anusvara
+dvmOcandra_Anusvara
+
 dvRA_mU
 dvRA_mUU
 dvHA_mU
 dvHA_mUU
 dvDA_mvR
-dvSHA_mvR
 dvHA_mvR
+
+dvSHA.amvR
 
 dvmI.a01
 dvmI.a02

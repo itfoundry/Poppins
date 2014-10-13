@@ -49,7 +49,7 @@ feature akhn {
     } akhn_shared;
 
     lookup akhn_dev2 {
-      sub dvRA' dvVirama' ZWJ by dvEyelash;
+      sub dvRA' dvVirama' zerowidthjoiner by dvEyelash;
     } akhn_dev2;
 
   script dev2;
@@ -140,7 +140,7 @@ feature blwf {
 
   script DFLT;
     lookup blwf_dev2 {
-      sub dvVirama dvRA by dvRashtraSign;
+      sub dvVirama dvRA by dvRashtrasign;
     } blwf_dev2;
 
   script dev2;
@@ -148,7 +148,7 @@ feature blwf {
 
   script deva;
     lookup blwf_deva {
-      sub dvRA dvVirama by dvRashtraSign;
+      sub dvRA dvVirama by dvRashtrasign;
     } blwf_deva;
 
 } blwf;
@@ -276,93 +276,93 @@ feature half {
 feature vatu {
   script deva;
 
-  # sub dvK_SSA dvRashtraSign by dvK_SS_RA;
-  # sub dvJ_NYA dvRashtraSign by dvJ_NY_RA;
+  # sub dvK_SSA dvRashtrasign by dvK_SS_RA;
+  # sub dvJ_NYA dvRashtrasign by dvJ_NY_RA;
 
-    sub dvKA   dvRashtraSign by   dvK_RA;
-    sub dvKHA  dvRashtraSign by  dvKH_RA;
-    sub dvGA   dvRashtraSign by   dvG_RA;
-    sub dvGHA  dvRashtraSign by  dvGH_RA;
-    sub dvNGA  dvRashtraSign by  dvNG_RA;
-    sub dvCA   dvRashtraSign by   dvC_RA;
-    sub dvCHA  dvRashtraSign by  dvCH_RA;
-    sub dvJA   dvRashtraSign by   dvJ_RA;
-    sub dvJHA  dvRashtraSign by  dvJH_RA;
-    sub dvNYA  dvRashtraSign by  dvNY_RA;
-    sub dvTTA  dvRashtraSign by  dvTT_RA;
-    sub dvTTHA dvRashtraSign by dvTTH_RA;
-    sub dvDDA  dvRashtraSign by  dvDD_RA;
-    sub dvDDHA dvRashtraSign by dvDDH_RA;
-    sub dvNNA  dvRashtraSign by  dvNN_RA;
-    sub dvTA   dvRashtraSign by   dvT_RA;
-    sub dvTHA  dvRashtraSign by  dvTH_RA;
-    sub dvDA   dvRashtraSign by   dvD_RA;
-    sub dvDHA  dvRashtraSign by  dvDH_RA;
-    sub dvNA   dvRashtraSign by   dvN_RA;
-    sub dvPA   dvRashtraSign by   dvP_RA;
-    sub dvPHA  dvRashtraSign by  dvPH_RA;
-    sub dvBA   dvRashtraSign by   dvB_RA;
-    sub dvBHA  dvRashtraSign by  dvBH_RA;
-    sub dvMA   dvRashtraSign by   dvM_RA;
-    sub dvYA   dvRashtraSign by   dvY_RA;
-  # sub dvRA   dvRashtraSign by   dvR_RA; # Reph
-    sub dvLA   dvRashtraSign by   dvL_RA;
-    sub dvVA   dvRashtraSign by   dvV_RA;
-    sub dvSHA  dvRashtraSign by  dvSH_RA;
-    sub dvSSA  dvRashtraSign by  dvSS_RA;
-    sub dvSA   dvRashtraSign by   dvS_RA;
-    sub dvHA   dvRashtraSign by   dvH_RA;
-    sub dvLLA  dvRashtraSign by  dvLL_RA;
+    sub dvKA   dvRashtrasign by   dvK_RA;
+    sub dvKHA  dvRashtrasign by  dvKH_RA;
+    sub dvGA   dvRashtrasign by   dvG_RA;
+    sub dvGHA  dvRashtrasign by  dvGH_RA;
+    sub dvNGA  dvRashtrasign by  dvNG_RA;
+    sub dvCA   dvRashtrasign by   dvC_RA;
+    sub dvCHA  dvRashtrasign by  dvCH_RA;
+    sub dvJA   dvRashtrasign by   dvJ_RA;
+    sub dvJHA  dvRashtrasign by  dvJH_RA;
+    sub dvNYA  dvRashtrasign by  dvNY_RA;
+    sub dvTTA  dvRashtrasign by  dvTT_RA;
+    sub dvTTHA dvRashtrasign by dvTTH_RA;
+    sub dvDDA  dvRashtrasign by  dvDD_RA;
+    sub dvDDHA dvRashtrasign by dvDDH_RA;
+    sub dvNNA  dvRashtrasign by  dvNN_RA;
+    sub dvTA   dvRashtrasign by   dvT_RA;
+    sub dvTHA  dvRashtrasign by  dvTH_RA;
+    sub dvDA   dvRashtrasign by   dvD_RA;
+    sub dvDHA  dvRashtrasign by  dvDH_RA;
+    sub dvNA   dvRashtrasign by   dvN_RA;
+    sub dvPA   dvRashtrasign by   dvP_RA;
+    sub dvPHA  dvRashtrasign by  dvPH_RA;
+    sub dvBA   dvRashtrasign by   dvB_RA;
+    sub dvBHA  dvRashtrasign by  dvBH_RA;
+    sub dvMA   dvRashtrasign by   dvM_RA;
+    sub dvYA   dvRashtrasign by   dvY_RA;
+  # sub dvRA   dvRashtrasign by   dvR_RA; # Reph
+    sub dvLA   dvRashtrasign by   dvL_RA;
+    sub dvVA   dvRashtrasign by   dvV_RA;
+    sub dvSHA  dvRashtrasign by  dvSH_RA;
+    sub dvSSA  dvRashtrasign by  dvSS_RA;
+    sub dvSA   dvRashtrasign by   dvS_RA;
+    sub dvHA   dvRashtrasign by   dvH_RA;
+    sub dvLLA  dvRashtrasign by  dvLL_RA;
 
-    sub dvKxA  dvRashtraSign by  dvKx_RA;
-    sub dvKHxA dvRashtraSign by dvKHx_RA;
-    sub dvGxA  dvRashtraSign by  dvGx_RA;
-    sub dvJxA  dvRashtraSign by  dvJx_RA;
-    sub dvPHxA dvRashtraSign by dvPHx_RA;
+    sub dvKxA  dvRashtrasign by  dvKx_RA;
+    sub dvKHxA dvRashtrasign by dvKHx_RA;
+    sub dvGxA  dvRashtrasign by  dvGx_RA;
+    sub dvJxA  dvRashtrasign by  dvJx_RA;
+    sub dvPHxA dvRashtrasign by dvPHx_RA;
 
-  # sub dvK_SS dvRashtraSign by dvK_SS_R;
-  # sub dvJ_NY dvRashtraSign by dvJ_NY_R;
+  # sub dvK_SS dvRashtrasign by dvK_SS_R;
+  # sub dvJ_NY dvRashtrasign by dvJ_NY_R;
 
-    sub dvK   dvRashtraSign by   dvK_R;
-    sub dvKH  dvRashtraSign by  dvKH_R;
-    sub dvG   dvRashtraSign by   dvG_R;
-    sub dvGH  dvRashtraSign by  dvGH_R;
-    sub dvNG  dvRashtraSign by  dvNG_R;
-    sub dvC   dvRashtraSign by   dvC_R;
-    sub dvCH  dvRashtraSign by  dvCH_R;
-    sub dvJ   dvRashtraSign by   dvJ_R;
-    sub dvJH  dvRashtraSign by  dvJH_R;
-    sub dvNY  dvRashtraSign by  dvNY_R;
-    sub dvTT  dvRashtraSign by  dvTT_R;
-    sub dvTTH dvRashtraSign by dvTTH_R;
-    sub dvDD  dvRashtraSign by  dvDD_R;
-    sub dvDDH dvRashtraSign by dvDDH_R;
-    sub dvNN  dvRashtraSign by  dvNN_R;
-    sub dvT   dvRashtraSign by   dvT_R;
-    sub dvTH  dvRashtraSign by  dvTH_R;
-    sub dvD   dvRashtraSign by   dvD_R;
-    sub dvDH  dvRashtraSign by  dvDH_R;
-    sub dvN   dvRashtraSign by   dvN_R;
-    sub dvP   dvRashtraSign by   dvP_R;
-    sub dvPH  dvRashtraSign by  dvPH_R;
-    sub dvB   dvRashtraSign by   dvB_R;
-    sub dvBH  dvRashtraSign by  dvBH_R;
-    sub dvM   dvRashtraSign by   dvM_R;
-    sub dvY   dvRashtraSign by   dvY_R;
-  # sub dvR   dvRashtraSign by   dvR_R; # Reph
-    sub dvL   dvRashtraSign by   dvL_R;
-    sub dvV   dvRashtraSign by   dvV_R;
-    sub dvSH  dvRashtraSign by  dvSH_R;
-    sub dvSS  dvRashtraSign by  dvSS_R;
-    sub dvS   dvRashtraSign by   dvS_R;
-    sub dvH   dvRashtraSign by   dvH_R;
-    sub dvLL  dvRashtraSign by  dvLL_R;
+    sub dvK   dvRashtrasign by   dvK_R;
+    sub dvKH  dvRashtrasign by  dvKH_R;
+    sub dvG   dvRashtrasign by   dvG_R;
+    sub dvGH  dvRashtrasign by  dvGH_R;
+    sub dvNG  dvRashtrasign by  dvNG_R;
+    sub dvC   dvRashtrasign by   dvC_R;
+    sub dvCH  dvRashtrasign by  dvCH_R;
+    sub dvJ   dvRashtrasign by   dvJ_R;
+    sub dvJH  dvRashtrasign by  dvJH_R;
+    sub dvNY  dvRashtrasign by  dvNY_R;
+    sub dvTT  dvRashtrasign by  dvTT_R;
+    sub dvTTH dvRashtrasign by dvTTH_R;
+    sub dvDD  dvRashtrasign by  dvDD_R;
+    sub dvDDH dvRashtrasign by dvDDH_R;
+    sub dvNN  dvRashtrasign by  dvNN_R;
+    sub dvT   dvRashtrasign by   dvT_R;
+    sub dvTH  dvRashtrasign by  dvTH_R;
+    sub dvD   dvRashtrasign by   dvD_R;
+    sub dvDH  dvRashtrasign by  dvDH_R;
+    sub dvN   dvRashtrasign by   dvN_R;
+    sub dvP   dvRashtrasign by   dvP_R;
+    sub dvPH  dvRashtrasign by  dvPH_R;
+    sub dvB   dvRashtrasign by   dvB_R;
+    sub dvBH  dvRashtrasign by  dvBH_R;
+    sub dvM   dvRashtrasign by   dvM_R;
+    sub dvY   dvRashtrasign by   dvY_R;
+  # sub dvR   dvRashtrasign by   dvR_R; # Reph
+    sub dvL   dvRashtrasign by   dvL_R;
+    sub dvV   dvRashtrasign by   dvV_R;
+    sub dvSH  dvRashtrasign by  dvSH_R;
+    sub dvSS  dvRashtrasign by  dvSS_R;
+    sub dvS   dvRashtrasign by   dvS_R;
+    sub dvH   dvRashtrasign by   dvH_R;
+    sub dvLL  dvRashtrasign by  dvLL_R;
 
-    sub dvKx  dvRashtraSign by  dvKx_R;
-    sub dvKHx dvRashtraSign by dvKHx_R;
-    sub dvGx  dvRashtraSign by  dvGx_R;
-    sub dvJx  dvRashtraSign by  dvJx_R;
-    sub dvPHx dvRashtraSign by dvPHx_R;
+    sub dvKx  dvRashtrasign by  dvKx_R;
+    sub dvKHx dvRashtrasign by dvKHx_R;
+    sub dvGx  dvRashtrasign by  dvGx_R;
+    sub dvJx  dvRashtrasign by  dvJx_R;
+    sub dvPHx dvRashtrasign by dvPHx_R;
 
 } vatu;
 
@@ -390,8 +390,8 @@ feature pres {
   sub dvEyelash dvHA by dvEyelash_HA;
 
   # Else:
-  sub dvEyelash ZWJ dvYA by dvEyelash_YA;
-  sub dvEyelash ZWJ dvHA by dvEyelash_HA;
+  sub dvEyelash zerowidthjoiner dvYA by dvEyelash_YA;
+  sub dvEyelash zerowidthjoiner dvHA by dvEyelash_HA;
 
   # AKHAND
 
