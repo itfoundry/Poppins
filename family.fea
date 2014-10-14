@@ -383,8 +383,6 @@ feature vatu {
 
 feature pres {
 
-  include (pres_mI.fea);
-
   # EYELASH
 
   # If ZWJ has been filtered out (Core Text):
@@ -809,6 +807,10 @@ feature pres {
 
   sub dvLL dvYA by dvLL_YA;
 
+  # MATRA I
+
+  include (pres_mI.fea);
+
 } pres;
 
 
@@ -897,7 +899,14 @@ feature blws {
   sub dvDA dvmvR by dvDA_mvR;
   sub dvHA dvmvR by dvHA_mvR;
 
-  sub dvSHA' [dvmvR dvmvRR] by dvSHA.amvR;
+  sub
+    dvSHA'
+    [
+      dvmvR
+      dvmvRR
+    ]
+  by
+    dvSHA.amvR;
 
 } blws;
 
@@ -944,7 +953,6 @@ feature haln {
   sub dvHA   dvVirama by dvH;
 
   sub dvRA  dvVirama by dvR;
-  sub dvRxA dvVirama by dvRx;
 
   sub  dvNG_RA dvVirama by dvNG_R;
   sub  dvTT_RA dvVirama by dvTT_R;
