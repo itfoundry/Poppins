@@ -1,180 +1,210 @@
 #!/usr/bin/python
 
-import subprocess, re
+import os, subprocess, collections, re
 import robofab.world
 
-styles_dir = 'styles/'
 
-stem_anchor_name = 'abvm_Ekaar'
+def call_makeotf(FAMILY_NAME, STYLE_NAMES, MAKEOTF_ARGS):
 
-template_features = '''\
-#!opentype
-include (../../family.fea);
-'''
+  subprocess.call(['rm', '-fr', 'build'])
+  subprocess.call(['mkdir', 'build'])
 
-template_fontinfo = '''\
-#!opentype
+  for style_name in STYLE_NAMES:
 
-IsBoldStyle   false
-IsItalicStyle false
+    otf_path = 'build/%s-%s.otf' % (FAMILY_NAME, style_name)
+    style_dir = 'styles/' + style_name
 
-PreferOS/2TypoMetrics      true
-IsOS/2WidthWeigthSlopeOnly true
-IsOS/2OBLIQUE              false
-'''
+    subprocess.call(
+      [
+        'makeotf',
+        '-f', style_dir + '/font.ufo',
+        '-o', otf_path,
+        '-mf', 'FontMenuNameDB',
+        '-gf', 'GlyphOrderAndAliasDB',
+      ] + MAKEOTF_ARGS
+    )
 
-template_fontinfo_Bold = '''\
-#!opentype
+    subprocess.call(['rm', '-f', style_dir + '/current.fpr'])
 
-IsBoldStyle   true
-IsItalicStyle false
-
-PreferOS/2TypoMetrics      true
-IsOS/2WidthWeigthSlopeOnly true
-IsOS/2OBLIQUE              false
-'''
+    if os.path.exists(otf_path):
+      subprocess.call(['cp', '-f', otf_path, '/Library/Application Support/Adobe/Fonts'])
 
 
-def reset_style_dir(style_name):
+def get_font(dir, suffix = ''):
 
-  style_dir = styles_dir + style_name
-
-  subprocess.call(['mkdir', style_dir])
-
-  file = open(style_dir + '/features' , 'w')
-  file.write(template_features)
-  file.close()
-
-  file = open(style_dir + '/fontinfo' , 'w')
-  if style_name == 'Bold':
-    file.write(template_fontinfo_Bold)
-  else:
-    file.write(template_fontinfo)
-  file.close()
-
-
-def get_stem_position(font, glyph_name, stem_right_margin):
-
-  glyph = font[glyph_name]
-
-  has_stem_anchor = False
-  for anchor in glyph.anchors:
-    if anchor.name == stem_anchor_name:
-      has_stem_anchor = True
-      anchor_index = anchor.index
+  for file_name in os.listdir(dir):
+    if file_name.endswith(suffix + ".ufo"):
+      font_file_name = file_name
       break
 
-  if has_stem_anchor:
-    stem_position = glyph.anchors[anchor_index].x
+  font = robofab.world.OpenFont(dir + '/' + font_file_name)
+
+  return font
+
+
+def sort_glyphs(glyphs):
+
+  sorted_glyphs = \
+    [i for i in GLYPH_ORDER if i in glyphs] +\
+    [i for i in glyphs if i not in GLYPH_ORDER]
+
+  return sorted_glyphs
+
+
+def generate_class_def_lines(class_name, glyph_names):
+
+  if glyph_names:
+    class_def_lines = ['@%s = [' % class_name] + \
+                      ['  %s' % glyph_name for glyph_name in glyph_names] + \
+                      ['];', '']
+  else:
+    class_def_lines = ['# @%s = [];' % class_name, '']
+
+  return class_def_lines
+
+
+def generate_classes(font):
+
+  print "\n#ITF: Generating OpenType classes..."
+
+  generated_classes = {
+    'COMBINING_MARKS': [],
+    'mII_BASES':       [],
+    'mI_ALTS':         [],
+    'mI_BASES':        [],
+  }
+
+  for glyph in font:
+
+    glyph_name = glyph.name
+
+    if re.search(r'^dvmI\.a\d\d$', glyph_name):
+      generated_classes['mI_ALTS'].append(glyph_name)
+      continue
+
+    for anchor in glyph.anchors:
+      if anchor.name.startswith('_'):
+        generated_classes['COMBINING_MARKS'].append(glyph_name)
+        break
+    else:
+      if glyph_name in ALL_mII_BASES:
+        generated_classes['mII_BASES'].append(glyph_name)
+      if glyph_name in ALL_mI_BASES:
+        generated_classes['mI_BASES'].append(glyph_name)
+
+  temp_groups = font.groups
+  generated_classes = {
+    k: sort_glyphs(v) for k, v in generated_classes.items()
+  }
+
+  temp_groups.update(generated_classes)
+
+  font.groups = temp_groups
+  font.save()
+
+  toc_lines = ['# CONTENTS:']
+  def_lines = []
+
+  for class_name, glyph_names in sorted(font.groups.items()):
+    toc_lines.append('# @%s' % class_name)
+    def_lines.extend(
+      generate_class_def_lines(class_name, glyph_names)
+    )
+
+  file = open('family_classes.fea', 'w')
+  file.write(
+    '\n'.join(['#!opentype', ''] + toc_lines + [''] + def_lines)
+  )
+  file.close()
+
+  print "#ITF: Done."
+
+
+def reset_style_dir(STYLE_NAMES):
+
+  print '\n#ITF: Resetting style directories...'
+
+  subprocess.call(['rm', '-fr', 'styles'])
+  subprocess.call(['mkdir', 'styles'])
+
+  for style_name in STYLE_NAMES:
+
+    print '\tResetting %s...' % style_name
+
+    style_dir = STYLES_DIR + style_name
+
+    subprocess.call(['mkdir', style_dir])
+
+    file = open(style_dir + '/features' , 'w')
+    file.write(TEMPLATE_FEATURES)
+    file.close()
+
+    file = open(style_dir + '/fontinfo' , 'w')
+    if style_name == 'Bold':
+      file.write(TEMPLATE_FONTINFO_BOLD)
+    else:
+      file.write(TEMPLATE_FONTINFO)
+    file.close()
+
+  print '#ITF: Done.\n'
+
+
+def get_stem_position(glyph, stem_right_margin):
+
+  stem_anchor = None
+  for anchor in glyph.anchors:
+    if anchor.name == STEM_ANCHOR_NAME:
+      stem_anchor = anchor
+      break
+
+  if stem_anchor:
+    stem_position = stem_anchor.x
   else:
     stem_position = glyph.width - stem_right_margin
 
   return stem_position
 
 
-def generate_class_def_line_list(class_name, glyph_name_list):
-
-  if glyph_name_list:
-    class_def_line_list = ['@%s = [' % class_name] + \
-                          ['  %s' % glyph_name for glyph_name in glyph_name_list] + \
-                          ['];', '']
-  else:
-    class_def_line_list = ['@%s = [.notdef];' % class_name, '']
-
-  return class_def_line_list
-
-
-def match_mI(style_name, stem_position_offset):
-
-  style_dir = styles_dir + style_name
-
-  font = robofab.world.OpenFont(style_dir + '/font.ufo')
-
-  mI_list   = sorted(font.groups['mI_ALTS'])
-  base_list =    set(font.groups['mI_BASES'])
-
-  mI_dict, mI_stretch_dict, mI_matching_dict = {}, {}, {}
-
-  for index, glyph in enumerate(mI_list):
-    mI_dict[index]          = glyph
-    mI_stretch_dict[index]  = abs(font[glyph].rightMargin)
-    mI_matching_dict[index] = []
-
-  last_index = len(mI_list) - 1
-
-  for anchor in font['dvmE'].anchors:
-    if anchor.name == '_' + stem_anchor_name:
-      stem_right_margin = abs(anchor.x)
-      break
-  else:
-    print "Error: Can't find anchor `_%s`!" % stem_anchor_name
-
-  tolerance_of_mI_stretch_shortage = (font['dvVA'].width - stem_right_margin) / 2
-
-  invalid_base_list, long_base_list = [], []
-
-  for base in base_list:
-
-    if (not base.startswith('dv')) or (font[base].width <= 0):
-      invalid_base_list.append(base)
-
-    else:
-      stem_position = get_stem_position(font, base, stem_right_margin) + stem_position_offset
-
-      if stem_position < mI_stretch_dict[0]:
-        mI_matching_dict[0].append(base)
-      elif stem_position >= mI_stretch_dict[last_index]:
-        if stem_position < mI_stretch_dict[last_index] + tolerance_of_mI_stretch_shortage:
-          mI_matching_dict[last_index].append(base)
-        else:
-          long_base_list.append(base)
-      else:
-        for i in range(len(mI_list)):
-          if stem_position < mI_stretch_dict[i]:
-            if mI_stretch_dict[i] - stem_position < abs(mI_stretch_dict[i - 1] - stem_position):
-              mI_matching_dict[i].append(base)
-            else:
-              mI_matching_dict[i - 1].append(base)
-            break
-
-  class_def_line_list = []
-  substitute_rule_line_list = []
-
-  class_def_line_list.extend(
-    generate_class_def_line_list("mI_BASES_INVALID", invalid_base_list)
-  )
-  class_def_line_list.extend(
-    generate_class_def_line_list("mI_BASES_TOO_LONG", long_base_list)
-  )
-
-  abvm_file = open(style_dir + '/abvm.fea', 'r')
-  original_abvm_content = abvm_file.read()
-  abvm_file.close()
+def restore_abvm_content(abvm_content):
 
   if re.search(
-    r'(?m)^# lookup MARK_BASE_abvm_Reph_alt \{',
-    original_abvm_content
+    r'# lookup MARK_BASE_abvm_Reph_alt \{',
+    abvm_content
   ):
 
-    original_abvm_content = re.sub(
-      r'(?m)\n\n\n^lookup MARK_BASE_abvm_Reph_alt \{\n(.+\n)+^\} MARK_BASE_abvm_Reph_alt;',
+    abvm_content = re.sub(
+      r'(?m)\n\n\n^lookup MARK_BASE_abvm_Reph_alt \{\n(^.+\n)+^\} MARK_BASE_abvm_Reph_alt;',
       r'',
-      original_abvm_content
+      abvm_content
     )
 
     commented_abvm_lookup = re.search(
-      r'(?m)^# lookup MARK_BASE_abvm_Reph_alt \{\n(.+\n)+^# \} MARK_BASE_abvm_Reph_alt;',
-      original_abvm_content
+      r'(?m)^# lookup MARK_BASE_abvm_Reph_alt \{\n(^# .+\n)+^# \} MARK_BASE_abvm_Reph_alt;',
+      abvm_content
     ).group()
 
     uncommented_abvm_lookup = '\n'.join([
       line[2:] for line in commented_abvm_lookup.splitlines()
     ])
 
-    original_abvm_content = original_abvm_content.replace(
+    original_abvm_content = abvm_content.replace(
       commented_abvm_lookup,
       uncommented_abvm_lookup
     )
+
+  else:
+    original_abvm_content = abvm_content
+
+  return original_abvm_content
+
+
+def write_mI_matches_to_files(style_dir, mI_table, long_base_names):
+
+  abvm_file = open(style_dir + '/abvm.fea', 'r')
+  abvm_content = abvm_file.read()
+  abvm_file.close()
+
+  original_abvm_content = restore_abvm_content(abvm_content)
 
   original_abvm_lookup = re.search(
     r'(?m)^lookup MARK_BASE_abvm_Reph_alt {\n(.+\n)+^} MARK_BASE_abvm_Reph_alt;',
@@ -182,73 +212,1713 @@ def match_mI(style_name, stem_position_offset):
   ).group()
 
   modified_abvm_lookup = original_abvm_lookup.replace(
-    '\tpos base dvmI.a',
-    '  pos base @mI_BASES_'
+    'pos base dvmI.a',
+    'pos base @mI_BASES_'
   )
 
-  Reph_positioning_offset = font[mI_list[0]].width
+  Reph_positioning_offset = mI_table[0].glyph.width
 
-  for index, glyph in enumerate(mI_list):
+  class_def_lines = []
+  class_def_lines.extend(
+    generate_class_def_lines('mI_BASES_TOO_LONG', long_base_names)
+  )
 
-    tag = mI_dict[index][-2:]
-    substitute_rule_prefix = '  '
+  substitute_rule_lines = []
 
-    class_def_line_list.extend(
-      generate_class_def_line_list(
-        'mI_BASES_' + tag,
-        mI_matching_dict[index]
-      )
-    )
+  for mI in mI_table:
 
-    if len(mI_matching_dict[index]) == 0:
-      substitute_rule_prefix = '# '
+    mI_number = mI.glyph.name[-2:]
+    to_comment_substitute_rule = False
+
+    if not mI.matches:
+      print '\t    `%s` is not used.' % mI.glyph.name
+      to_comment_substitute_rule = True
+
       modified_abvm_lookup = modified_abvm_lookup.replace(
-        '  pos base @mI_BASES_' + tag,
-        '# pos base @mI_BASES_' + tag
+        '\tpos base @mI_BASES_' + mI_number,
+        '#\tpos base @mI_BASES_' + mI_number
       )
 
-    locator = '@mI_BASES_' + tag + ' <anchor'
+    locator = '@mI_BASES_%s <anchor ' % mI_number
+
     search_result = re.search(
-      locator + ' ' + r'\-?\d+',
+      locator + r'\-?\d+',
       modified_abvm_lookup
     )
 
     if search_result:
-
       x = search_result.group().split(' ')[-1]
       modified_x = str(int(x) - Reph_positioning_offset)
-
       modified_abvm_lookup = modified_abvm_lookup.replace(
-        locator + ' ' + x,
-        locator + ' ' + modified_x,
+        locator + x,
+        locator + modified_x,
       )
 
-    substitute_rule_line_list.append(
-      "{}sub dvmI' @mI_BASES_{} by {};".format(
-        substitute_rule_prefix,
-        tag,
-        mI_dict[index]
+    else:
+      print "\t[!] `%s` doesn't have the anchor for Reph." % mI.glyph.name
+
+    class_def_lines.extend(
+      generate_class_def_lines(
+        'mI_BASES_' + mI_number,
+        mI.matches
       )
     )
 
-  commented_original_abvm_lookup = '\n'.join([
-    '# ' + line
-    for line in original_abvm_lookup.splitlines()
-  ])
+    substitute_rule_lines.append(
+      "{}sub dvmI' @mI_BASES_{} by {};".format(
+        '# ' if to_comment_substitute_rule else '  ',
+        mI_number,
+        mI.glyph.name
+      )
+    )
+
+  commented_original_abvm_lookup = '# ' + original_abvm_lookup.replace('\n', '\n# ')
 
   modified_abvm_content = original_abvm_content.replace(
     original_abvm_lookup,
     commented_original_abvm_lookup + '\n\n\n' + modified_abvm_lookup
   )
+
   abvm_file = open(style_dir + '/abvm.fea', 'w')
   abvm_file.write(modified_abvm_content)
   abvm_file.close()
 
   result_file = open(style_dir + '/pres_mI.fea', 'w')
   result_file.write('#!opentype\n\n')
-  result_line_list = ['# CLASSES', ''] + \
-                     class_def_line_list + \
-                     ['# RULES', ''] + \
-                     substitute_rule_line_list
-  result_file.write("\n".join(result_line_list) + '\n')
+  result_lines = ['# CLASSES', ''] + \
+                 class_def_lines + \
+                 ['# RULES', ''] + \
+                 substitute_rule_lines
+  result_file.write('\n'.join(result_lines) + '\n')
   result_file.close()
+
+
+def match_mI(STYLE_NAMES, MATCH_mI_OFFSETS_DICT):
+
+  print '\n#ITF: Matching mI...\n'
+
+  for style_name in STYLE_NAMES:
+
+    print '\t%s...' % style_name
+    style_dir = STYLES_DIR + style_name
+    stem_position_offset = MATCH_mI_OFFSETS_DICT[style_name]
+
+    font = robofab.world.OpenFont(style_dir + '/font.ufo')
+
+    mI_list   = [font[glyph_name] for glyph_name in sorted(font.groups['mI_ALTS'])]
+    base_list = [font[glyph_name] for glyph_name in font.groups['mI_BASES']]
+
+    MatchRow = collections.namedtuple('MatchRow', 'glyph, stretch, matches')
+
+    mI_table = [
+      MatchRow(
+        glyph   = mI,
+        stretch = abs(mI.rightMargin),
+        matches = []
+      ) for mI in mI_list
+    ]
+
+    for anchor in font['dvmE'].anchors:
+      if anchor.name == '_' + STEM_ANCHOR_NAME:
+        stem_right_margin = abs(anchor.x)
+        break
+    else:
+      print "Error: Can't find anchor `_%s` in glyph `dvmE`!" % STEM_ANCHOR_NAME
+
+    tolerance_of_mI_stretch_shormI_numbere = (font['dvVA'].width - stem_right_margin) / 2
+    long_base_names = []
+
+    for base in base_list:
+
+      base_name = base.name
+      stem_position = get_stem_position(base, stem_right_margin) + stem_position_offset
+
+      if stem_position < mI_table[0].stretch:
+        mI_table[0].matches.append(base_name)
+
+      elif stem_position >= mI_table[-1].stretch:
+        if stem_position < mI_table[-1].stretch + tolerance_of_mI_stretch_shormI_numbere:
+          mI_table[-1].matches.append(base_name)
+        else:
+          long_base_names.append(base_name)
+
+      else:
+        for index, mI in enumerate(mI_table):
+          if stem_position < mI.stretch:
+            if mI.stretch - stem_position < abs(mI_table[index - 1].stretch - stem_position):
+              mI.matches.append(base_name)
+            else:
+              mI_table[index - 1].matches.append(base_name)
+            break
+
+    write_mI_matches_to_files(style_dir, mI_table, long_base_names)
+
+    print '\t%s done.\n' % style_name
+
+  print '#ITF: Done.\n'
+
+
+
+
+
+
+STYLES_DIR = 'styles/'
+
+STEM_ANCHOR_NAME = 'abvm_Ekaar'
+
+TEMPLATE_FEATURES = '''\
+#!opentype
+include (../../family.fea);
+'''
+
+TEMPLATE_FONTINFO = '''\
+#!opentype
+
+IsBoldStyle   false
+IsItalicStyle false
+
+PreferOS/2TypoMetrics      true
+IsOS/2WidthWeightSlopeOnly true
+IsOS/2OBLIQUE              false
+'''
+
+TEMPLATE_FONTINFO_BOLD = '''\
+#!opentype
+
+IsBoldStyle   true
+IsItalicStyle false
+
+PreferOS/2TypoMetrics      true
+IsOS/2WidthWeightSlopeOnly true
+IsOS/2OBLIQUE              false
+'''
+
+ALL_mII_BASES = [
+  'dvKA',
+  'dvPHA',
+  'dvKxA',
+  'dvPHxA',
+  'dvK_RA',
+  'dvPH_RA',
+  'dvKx_RA',
+  'dvPHx_RA',
+  'dvK_KA',
+  'dvKx_KxA',
+  'dvK_PHA',
+  'dvKx_PHA',
+  'dvKx_PHxA',
+  'dvJ_KA',
+  'dvT_KA',
+  'dvT_K_RA',
+  'dvT_PHA',
+  'dvN_KA',
+  'dvN_PHA',
+  'dvN_PH_RA',
+  'dvP_PHA',
+  'dvPH_PHA',
+  'dvPHx_PHxA',
+  'dvL_KA',
+  'dvL_PHA',
+  'dvSH_KA',
+  'dvSH_KxA',
+  'dvSS_KA',
+  'dvSS_K_RA',
+  'dvSS_PHA',
+  'dvS_KA',
+  'dvS_K_RA',
+  'dvS_PHA',
+]
+
+ALL_mI_BASES = [
+  'dvKA',
+  'dvKHA',
+  'dvGA',
+  'dvGHA',
+  'dvNGA',
+  'dvCA',
+  'dvCHA',
+  'dvJA',
+  'dvJHA',
+  'dvNYA',
+  'dvTTA',
+  'dvTTHA',
+  'dvDDA',
+  'dvDDHA',
+  'dvNNA',
+  'dvTA',
+  'dvTHA',
+  'dvDA',
+  'dvDHA',
+  'dvNA',
+  'dvPA',
+  'dvPHA',
+  'dvBA',
+  'dvBHA',
+  'dvMA',
+  'dvYA',
+  'dvRA',
+  'dvLA',
+  'dvVA',
+  'dvSHA',
+  'dvSSA',
+  'dvSA',
+  'dvHA',
+  'dvLLA',
+  'dvK_SSA',
+  'dvJ_NYA',
+  'dvKxA',
+  'dvKHxA',
+  'dvGxA',
+  'dvJxA',
+  'dvDDxA',
+  'dvDDHxA',
+  'dvPHxA',
+  'dvRxA',
+  'dvK_RA',
+  'dvKH_RA',
+  'dvG_RA',
+  'dvGH_RA',
+  'dvNG_RA',
+  'dvC_RA',
+  'dvCH_RA',
+  'dvJ_RA',
+  'dvJH_RA',
+  'dvNY_RA',
+  'dvTT_RA',
+  'dvTTH_RA',
+  'dvDD_RA',
+  'dvDDH_RA',
+  'dvNN_RA',
+  'dvT_RA',
+  'dvTH_RA',
+  'dvD_RA',
+  'dvDH_RA',
+  'dvN_RA',
+  'dvP_RA',
+  'dvPH_RA',
+  'dvB_RA',
+  'dvBH_RA',
+  'dvM_RA',
+  'dvY_RA',
+  'dvL_RA',
+  'dvV_RA',
+  'dvSS_RA',
+  'dvSH_RA',
+  'dvS_RA',
+  'dvH_RA',
+  'dvLL_RA',
+  'dvKx_RA',
+  'dvKHx_RA',
+  'dvGx_RA',
+  'dvJx_RA',
+  'dvPHx_RA',
+  'dvK_KA',
+  'dvKx_KxA',
+  'dvK_KHA',
+  'dvK_CA',
+  'dvK_JA',
+  'dvK_TTA',
+  'dvK_NNA',
+  'dvK_TA',
+  'dvKx_TA',
+  'dvK_T_YA',
+  'dvK_T_RA',
+  'dvK_T_VA',
+  'dvK_THA',
+  'dvK_DA',
+  'dvK_NA',
+  'dvK_PA',
+  'dvK_P_RA',
+  'dvK_PHA',
+  'dvKx_PHA',
+  'dvKx_PHxA',
+  'dvKx_BA',
+  'dvK_MA',
+  'dvKx_MA',
+  'dvK_YA',
+  'dvK_LA',
+  'dvK_VA',
+  'dvK_V_YA',
+  'dvK_SHA',
+  'dvK_SS_MA',
+  'dvK_SS_M_YA',
+  'dvK_SS_YA',
+  'dvK_SS_VA',
+  'dvK_SA',
+  'dvK_S_TTA',
+  'dvK_S_DDA',
+  'dvK_S_TA',
+  'dvK_S_P_RA',
+  'dvK_S_P_LA',
+  'dvKH_KHA',
+  'dvKH_TA',
+  'dvKHx_TA',
+  'dvKH_NA',
+  'dvKH_MA',
+  'dvKHx_MA',
+  'dvKH_YA',
+  'dvKHx_YA',
+  'dvKH_VA',
+  'dvKHx_VA',
+  'dvKH_SHA',
+  'dvKHx_SHA',
+  'dvKHx_SA',
+  'dvG_GA',
+  'dvG_GHA',
+  'dvG_JA',
+  'dvG_NNA',
+  'dvG_DA',
+  'dvG_DHA',
+  'dvG_DH_YA',
+  'dvG_DH_VA',
+  'dvG_NA',
+  'dvG_N_YA',
+  'dvG_BA',
+  'dvG_BHA',
+  'dvG_BH_YA',
+  'dvG_MA',
+  'dvG_YA',
+  'dvG_R_YA',
+  'dvG_LA',
+  'dvG_VA',
+  'dvG_SA',
+  'dvGH_NA',
+  'dvGH_MA',
+  'dvGH_YA',
+  'dvC_CA',
+  'dvC_CHA',
+  'dvC_CH_VA',
+  'dvC_NA',
+  'dvC_MA',
+  'dvC_YA',
+  'dvCH_NA',
+  'dvCH_YA',
+  'dvCH_R_YA',
+  'dvCH_VA',
+  'dvJ_KA',
+  'dvJ_JA',
+  'dvJx_JxA',
+  'dvJ_J_NYA',
+  'dvJ_J_YA',
+  'dvJ_J_VA',
+  'dvJ_JHA',
+  'dvJ_NY_YA',
+  'dvJ_TTA',
+  'dvJ_DDA',
+  'dvJ_TA',
+  'dvJ_DA',
+  'dvJ_NA',
+  'dvJ_BA',
+  'dvJ_MA',
+  'dvJ_YA',
+  'dvJx_YA',
+  'dvJ_VA',
+  'dvJH_NA',
+  'dvJH_MA',
+  'dvJH_YA',
+  'dvNY_CA',
+  'dvNY_CHA',
+  'dvNY_JA',
+  'dvNY_SHA',
+  'dvTT_TTA',
+  'dvTT_TTHA',
+  'dvTT_NA',
+  'dvTT_YA',
+  'dvTT_VA',
+  'dvTTH_TTHA',
+  'dvTTH_NA',
+  'dvTTH_YA',
+  'dvDD_DDA',
+  'dvDD_DDHA',
+  'dvDD_NA',
+  'dvDD_YA',
+  'dvDD_VA',
+  'dvDDH_DDHA',
+  'dvDDH_YA',
+  'dvNN_TTA',
+  'dvNN_TTHA',
+  'dvNN_DDA',
+  'dvNN_DDHA',
+  'dvNN_NNA',
+  'dvNN_MA',
+  'dvNN_YA',
+  'dvNN_VA',
+  'dvT_KA',
+  'dvT_K_YA',
+  'dvT_K_RA',
+  'dvT_K_VA',
+  'dvT_K_SSA',
+  'dvT_KHA',
+  'dvT_KH_RA',
+  'dvT_TA',
+  'dvT_T_YA',
+  'dvT_T_VA',
+  'dvT_THA',
+  'dvT_NA',
+  'dvT_N_YA',
+  'dvT_PA',
+  'dvT_P_RA',
+  'dvT_P_LA',
+  'dvT_PHA',
+  'dvT_MA',
+  'dvT_M_YA',
+  'dvT_YA',
+  'dvT_R_YA',
+  'dvT_LA',
+  'dvT_VA',
+  'dvT_SA',
+  'dvT_S_YA',
+  'dvT_S_VA',
+  'dvTH_NA',
+  'dvTH_YA',
+  'dvTH_VA',
+  'dvD_GA',
+  'dvD_G_RA',
+  'dvD_GHA',
+  'dvD_DA',
+  'dvD_DHA',
+  'dvD_NA',
+  'dvD_BA',
+  'dvD_B_RA',
+  'dvD_BHA',
+  'dvD_MA',
+  'dvD_YA',
+  'dvD_Y_BHA',
+  'dvD_Y_RA',
+  'dvD_VA',
+  'dvDH_NA',
+  'dvDH_N_YA',
+  'dvDH_MA',
+  'dvDH_YA',
+  'dvDH_VA',
+  'dvN_KA',
+  'dvN_K_SA',
+  'dvN_CA',
+  'dvN_CHA',
+  'dvN_TTA',
+  'dvN_DDA',
+  'dvN_TA',
+  'dvN_T_YA',
+  'dvN_T_RA',
+  'dvN_T_SA',
+  'dvN_THA',
+  'dvN_TH_YA',
+  'dvN_TH_VA',
+  'dvN_DA',
+  'dvN_D_RA',
+  'dvN_D_VA',
+  'dvN_DHA',
+  'dvN_DH_YA',
+  'dvN_DH_RA',
+  'dvN_DH_VA',
+  'dvN_NA',
+  'dvN_N_YA',
+  'dvN_PA',
+  'dvN_P_RA',
+  'dvN_PHA',
+  'dvN_PH_RA',
+  'dvN_BHA',
+  'dvN_BH_YA',
+  'dvN_BH_VA',
+  'dvN_MA',
+  'dvN_M_YA',
+  'dvN_YA',
+  'dvN_VA',
+  'dvN_SA',
+  'dvN_S_TTA',
+  'dvN_S_M_YA',
+  'dvN_S_YA',
+  'dvN_HA',
+  'dvP_TTA',
+  'dvP_TTHA',
+  'dvP_TA',
+  'dvP_T_YA',
+  'dvP_NA',
+  'dvP_PA',
+  'dvP_PHA',
+  'dvP_MA',
+  'dvP_YA',
+  'dvP_LA',
+  'dvP_VA',
+  'dvP_SA',
+  'dvPH_JA',
+  'dvPHx_JxA',
+  'dvPH_TTA',
+  'dvPH_TA',
+  'dvPHx_TA',
+  'dvPH_NA',
+  'dvPH_PA',
+  'dvPH_PHA',
+  'dvPHx_PHxA',
+  'dvPH_YA',
+  'dvPH_LA',
+  'dvPH_SHA',
+  'dvPHx_SA',
+  'dvB_JA',
+  'dvB_JxA',
+  'dvB_J_YA',
+  'dvB_JHA',
+  'dvB_TA',
+  'dvB_DA',
+  'dvB_DHA',
+  'dvB_DH_VA',
+  'dvB_NA',
+  'dvB_BA',
+  'dvB_BHA',
+  'dvB_BH_RA',
+  'dvB_YA',
+  'dvB_LA',
+  'dvB_L_YA',
+  'dvB_VA',
+  'dvB_SHA',
+  'dvB_SA',
+  'dvBH_NA',
+  'dvBH_YA',
+  'dvBH_R_YA',
+  'dvBH_LA',
+  'dvBH_VA',
+  'dvM_TA',
+  'dvM_DA',
+  'dvM_NA',
+  'dvM_PA',
+  'dvM_P_RA',
+  'dvM_BA',
+  'dvM_B_YA',
+  'dvM_B_RA',
+  'dvM_BHA',
+  'dvM_BH_YA',
+  'dvM_BH_RA',
+  'dvM_BH_VA',
+  'dvM_MA',
+  'dvM_YA',
+  'dvM_LA',
+  'dvM_VA',
+  'dvM_SHA',
+  'dvM_SA',
+  'dvM_HA',
+  'dvY_NA',
+  'dvY_YA',
+  'dvEyelash_YA',
+  'dvEyelash_HA',
+  'dvL_KA',
+  'dvL_K_YA',
+  'dvL_KHA',
+  'dvL_GA',
+  'dvL_JA',
+  'dvL_JxA',
+  'dvL_TTA',
+  'dvL_TTHA',
+  'dvL_DDA',
+  'dvL_DDHA',
+  'dvL_TA',
+  'dvL_THA',
+  'dvL_TH_YA',
+  'dvL_DA',
+  'dvL_D_RA',
+  'dvL_PA',
+  'dvL_PHA',
+  'dvL_BA',
+  'dvL_BHA',
+  'dvL_MA',
+  'dvL_YA',
+  'dvL_LA',
+  'dvL_L_YA',
+  'dvL_VA',
+  'dvL_V_DDA',
+  'dvL_SA',
+  'dvL_HA',
+  'dvV_NA',
+  'dvV_YA',
+  'dvV_LA',
+  'dvV_VA',
+  'dvV_HA',
+  'dvSH_KA',
+  'dvSH_KxA',
+  'dvSH_CA',
+  'dvSH_CHA',
+  'dvSH_TTA',
+  'dvSH_TA',
+  'dvSH_NA',
+  'dvSH_MA',
+  'dvSH_YA',
+  'dvSH_LA',
+  'dvSH_VA',
+  'dvSH_SHA',
+  'dvSS_KA',
+  'dvSS_K_RA',
+  'dvSS_TTA',
+  'dvSS_TT_YA',
+  'dvSS_TT_RA',
+  'dvSS_TT_VA',
+  'dvSS_TTHA',
+  'dvSS_TTH_YA',
+  'dvSS_TTH_RA',
+  'dvSS_NNA',
+  'dvSS_NN_YA',
+  'dvSS_PA',
+  'dvSS_P_RA',
+  'dvSS_PHA',
+  'dvSS_MA',
+  'dvSS_M_YA',
+  'dvSS_YA',
+  'dvSS_VA',
+  'dvSS_SSA',
+  'dvS_KA',
+  'dvS_K_RA',
+  'dvS_K_VA',
+  'dvS_KHA',
+  'dvS_JA',
+  'dvS_TTA',
+  'dvS_TA',
+  'dvS_T_YA',
+  'dvS_T_RA',
+  'dvS_T_VA',
+  'dvS_THA',
+  'dvS_TH_YA',
+  'dvS_DA',
+  'dvS_NA',
+  'dvS_PA',
+  'dvS_P_RA',
+  'dvS_PHA',
+  'dvS_BA',
+  'dvS_MA',
+  'dvS_M_YA',
+  'dvS_YA',
+  'dvS_LA',
+  'dvS_VA',
+  'dvS_SA',
+  'dvH_NNA',
+  'dvH_NA',
+  'dvH_MA',
+  'dvH_YA',
+  'dvH_LA',
+  'dvH_VA',
+  'dvLL_YA',
+]
+
+GLYPH_ORDER = [
+  '.notdef',
+  'NULL',
+  'CR',
+  'space',
+  'dvA',
+  'dvAA',
+  'dvI',
+  'dvII',
+  'dvU',
+  'dvUU',
+  'dvvR',
+  'dvvRR',
+  'dvvL',
+  'dvvLL',
+  'dvE',
+  'dvAI',
+  'dvO',
+  'dvAU',
+  'dvEcandra',
+  'dvAcandra',
+  'dvOcandra',
+  'dvmAA',
+  'dvmI',
+  'dvmII',
+  'dvmU',
+  'dvmUU',
+  'dvmvR',
+  'dvmvRR',
+  'dvmvL',
+  'dvmvLL',
+  'dvmE',
+  'dvmAI',
+  'dvmO',
+  'dvmAU',
+  'dvmEcandra',
+  'dvmOcandra',
+  'dvKA',
+  'dvKHA',
+  'dvGA',
+  'dvGHA',
+  'dvNGA',
+  'dvCA',
+  'dvCHA',
+  'dvJA',
+  'dvJHA',
+  'dvNYA',
+  'dvTTA',
+  'dvTTHA',
+  'dvDDA',
+  'dvDDHA',
+  'dvNNA',
+  'dvTA',
+  'dvTHA',
+  'dvDA',
+  'dvDHA',
+  'dvNA',
+  'dvPA',
+  'dvPHA',
+  'dvBA',
+  'dvBHA',
+  'dvMA',
+  'dvYA',
+  'dvRA',
+  'dvLA',
+  'dvVA',
+  'dvSHA',
+  'dvSSA',
+  'dvSA',
+  'dvHA',
+  'dvLLA',
+  'dvK_SSA',
+  'dvJ_NYA',
+  'dvKxA',
+  'dvKHxA',
+  'dvGxA',
+  'dvJxA',
+  'dvDDxA',
+  'dvDDHxA',
+  'dvPHxA',
+  'dvRxA',
+  'dvK',
+  'dvKH',
+  'dvG',
+  'dvGH',
+  'dvNG',
+  'dvC',
+  'dvCH',
+  'dvJ',
+  'dvJH',
+  'dvNY',
+  'dvTT',
+  'dvTTH',
+  'dvDD',
+  'dvDDH',
+  'dvNN',
+  'dvT',
+  'dvTH',
+  'dvD',
+  'dvDH',
+  'dvN',
+  'dvP',
+  'dvPH',
+  'dvB',
+  'dvBH',
+  'dvM',
+  'dvY',
+  'dvR',
+  'dvL',
+  'dvV',
+  'dvSH',
+  'dvSS',
+  'dvS',
+  'dvH',
+  'dvLL',
+  'dvK_SS',
+  'dvJ_NY',
+  'dvKx',
+  'dvKHx',
+  'dvGx',
+  'dvJx',
+  'dvPHx',
+  'dvAnusvara',
+  'dvCandrabindu',
+  'dvVisarga',
+  'dvAvagraha',
+  'dvVirama',
+  'dvNukta',
+  'dvZero',
+  'dvOne',
+  'dvTwo',
+  'dvThree',
+  'dvFour',
+  'dvFive',
+  'dvSix',
+  'dvSeven',
+  'dvEight',
+  'dvNine',
+  'dvOm',
+  'dvAbbreviationsign',
+  'danda',
+  'doubledanda',
+  'rupee',
+  'indianrupee',
+  'apostrophemod',
+  'zerowidthspace',
+  'zerowidthnonjoiner',
+  'zerowidthjoiner',
+  'dottedcircle',
+  'itfLogo',
+  'dvReph',
+  'dvEyelash',
+  'dvRashtrasign',
+  'dvK_RA',
+  'dvKH_RA',
+  'dvG_RA',
+  'dvGH_RA',
+  'dvNG_RA',
+  'dvC_RA',
+  'dvCH_RA',
+  'dvJ_RA',
+  'dvJH_RA',
+  'dvNY_RA',
+  'dvTT_RA',
+  'dvTTH_RA',
+  'dvDD_RA',
+  'dvDDH_RA',
+  'dvNN_RA',
+  'dvT_RA',
+  'dvTH_RA',
+  'dvD_RA',
+  'dvDH_RA',
+  'dvN_RA',
+  'dvP_RA',
+  'dvPH_RA',
+  'dvB_RA',
+  'dvBH_RA',
+  'dvM_RA',
+  'dvY_RA',
+  'dvL_RA',
+  'dvV_RA',
+  'dvSS_RA',
+  'dvSH_RA',
+  'dvS_RA',
+  'dvH_RA',
+  'dvLL_RA',
+  'dvKx_RA',
+  'dvKHx_RA',
+  'dvGx_RA',
+  'dvJx_RA',
+  'dvPHx_RA',
+  'dvK_R',
+  'dvKH_R',
+  'dvG_R',
+  'dvGH_R',
+  'dvNG_R',
+  'dvC_R',
+  'dvCH_R',
+  'dvJ_R',
+  'dvJH_R',
+  'dvNY_R',
+  'dvTT_R',
+  'dvTTH_R',
+  'dvDD_R',
+  'dvDDH_R',
+  'dvNN_R',
+  'dvT_R',
+  'dvTH_R',
+  'dvD_R',
+  'dvDH_R',
+  'dvN_R',
+  'dvP_R',
+  'dvPH_R',
+  'dvB_R',
+  'dvBH_R',
+  'dvM_R',
+  'dvY_R',
+  'dvL_R',
+  'dvV_R',
+  'dvSH_R',
+  'dvSS_R',
+  'dvS_R',
+  'dvH_R',
+  'dvLL_R',
+  'dvKx_R',
+  'dvKHx_R',
+  'dvGx_R',
+  'dvJx_R',
+  'dvPHx_R',
+  'dvK_KA',
+  'dvKx_KxA',
+  'dvK_KHA',
+  'dvK_CA',
+  'dvK_JA',
+  'dvK_TTA',
+  'dvK_NNA',
+  'dvK_TA',
+  'dvKx_TA',
+  'dvK_T_YA',
+  'dvK_T_RA',
+  'dvK_T_VA',
+  'dvK_THA',
+  'dvK_DA',
+  'dvK_NA',
+  'dvK_PA',
+  'dvK_P_RA',
+  'dvK_PHA',
+  'dvKx_PHA',
+  'dvKx_PHxA',
+  'dvKx_BA',
+  'dvK_MA',
+  'dvKx_MA',
+  'dvK_YA',
+  'dvK_LA',
+  'dvK_VA',
+  'dvK_V_YA',
+  'dvK_SHA',
+  'dvK_SS_MA',
+  'dvK_SS_M_YA',
+  'dvK_SS_YA',
+  'dvK_SS_VA',
+  'dvK_SA',
+  'dvK_S_TTA',
+  'dvK_S_DDA',
+  'dvK_S_TA',
+  'dvK_S_P_RA',
+  'dvK_S_P_LA',
+  'dvKH_KHA',
+  'dvKH_TA',
+  'dvKHx_TA',
+  'dvKH_NA',
+  'dvKH_MA',
+  'dvKHx_MA',
+  'dvKH_YA',
+  'dvKHx_YA',
+  'dvKH_VA',
+  'dvKHx_VA',
+  'dvKH_SHA',
+  'dvKHx_SHA',
+  'dvKHx_SA',
+  'dvG_GA',
+  'dvG_GHA',
+  'dvG_JA',
+  'dvG_NNA',
+  'dvG_DA',
+  'dvG_DHA',
+  'dvG_DH_YA',
+  'dvG_DH_VA',
+  'dvG_NA',
+  'dvG_N_YA',
+  'dvG_BA',
+  'dvG_BHA',
+  'dvG_BH_YA',
+  'dvG_MA',
+  'dvG_YA',
+  'dvG_R_YA',
+  'dvG_LA',
+  'dvG_VA',
+  'dvG_SA',
+  'dvGH_NA',
+  'dvGH_MA',
+  'dvGH_YA',
+  'dvC_CA',
+  'dvC_CHA',
+  'dvC_CH_VA',
+  'dvC_NA',
+  'dvC_MA',
+  'dvC_YA',
+  'dvCH_NA',
+  'dvCH_YA',
+  'dvCH_R_YA',
+  'dvCH_VA',
+  'dvJ_KA',
+  'dvJ_JA',
+  'dvJx_JxA',
+  'dvJ_J_NYA',
+  'dvJ_J_YA',
+  'dvJ_J_VA',
+  'dvJ_JHA',
+  'dvJ_NY_YA',
+  'dvJ_TTA',
+  'dvJ_DDA',
+  'dvJ_TA',
+  'dvJ_DA',
+  'dvJ_NA',
+  'dvJ_BA',
+  'dvJ_MA',
+  'dvJ_YA',
+  'dvJx_YA',
+  'dvJ_VA',
+  'dvJH_NA',
+  'dvJH_MA',
+  'dvJH_YA',
+  'dvNY_CA',
+  'dvNY_CHA',
+  'dvNY_JA',
+  'dvNY_SHA',
+  'dvTT_TTA',
+  'dvTT_TTHA',
+  'dvTT_NA',
+  'dvTT_YA',
+  'dvTT_VA',
+  'dvTTH_TTHA',
+  'dvTTH_NA',
+  'dvTTH_YA',
+  'dvDD_DDA',
+  'dvDD_DDHA',
+  'dvDD_NA',
+  'dvDD_YA',
+  'dvDD_VA',
+  'dvDDH_DDHA',
+  'dvDDH_YA',
+  'dvNN_TTA',
+  'dvNN_TTHA',
+  'dvNN_DDA',
+  'dvNN_DDHA',
+  'dvNN_NNA',
+  'dvNN_MA',
+  'dvNN_YA',
+  'dvNN_VA',
+  'dvT_KA',
+  'dvT_K_YA',
+  'dvT_K_RA',
+  'dvT_K_VA',
+  'dvT_K_SSA',
+  'dvT_KHA',
+  'dvT_KH_RA',
+  'dvT_TA',
+  'dvT_T_YA',
+  'dvT_T_VA',
+  'dvT_THA',
+  'dvT_NA',
+  'dvT_N_YA',
+  'dvT_PA',
+  'dvT_P_RA',
+  'dvT_P_LA',
+  'dvT_PHA',
+  'dvT_MA',
+  'dvT_M_YA',
+  'dvT_YA',
+  'dvT_R_YA',
+  'dvT_LA',
+  'dvT_VA',
+  'dvT_SA',
+  'dvT_S_YA',
+  'dvT_S_VA',
+  'dvTH_NA',
+  'dvTH_YA',
+  'dvTH_VA',
+  'dvD_GA',
+  'dvD_G_RA',
+  'dvD_GHA',
+  'dvD_DA',
+  'dvD_DHA',
+  'dvD_NA',
+  'dvD_BA',
+  'dvD_B_RA',
+  'dvD_BHA',
+  'dvD_MA',
+  'dvD_YA',
+  'dvD_Y_BHA',
+  'dvD_Y_RA',
+  'dvD_VA',
+  'dvDH_NA',
+  'dvDH_N_YA',
+  'dvDH_MA',
+  'dvDH_YA',
+  'dvDH_VA',
+  'dvN_KA',
+  'dvN_K_SA',
+  'dvN_CA',
+  'dvN_CHA',
+  'dvN_TTA',
+  'dvN_DDA',
+  'dvN_TA',
+  'dvN_T_YA',
+  'dvN_T_RA',
+  'dvN_T_SA',
+  'dvN_THA',
+  'dvN_TH_YA',
+  'dvN_TH_VA',
+  'dvN_DA',
+  'dvN_D_RA',
+  'dvN_D_VA',
+  'dvN_DHA',
+  'dvN_DH_YA',
+  'dvN_DH_RA',
+  'dvN_DH_VA',
+  'dvN_NA',
+  'dvN_N_YA',
+  'dvN_PA',
+  'dvN_P_RA',
+  'dvN_PHA',
+  'dvN_PH_RA',
+  'dvN_BHA',
+  'dvN_BH_YA',
+  'dvN_BH_VA',
+  'dvN_MA',
+  'dvN_M_YA',
+  'dvN_YA',
+  'dvN_VA',
+  'dvN_SA',
+  'dvN_S_TTA',
+  'dvN_S_M_YA',
+  'dvN_S_YA',
+  'dvN_HA',
+  'dvP_TTA',
+  'dvP_TTHA',
+  'dvP_TA',
+  'dvP_T_YA',
+  'dvP_NA',
+  'dvP_PA',
+  'dvP_PHA',
+  'dvP_MA',
+  'dvP_YA',
+  'dvP_LA',
+  'dvP_VA',
+  'dvP_SA',
+  'dvPH_JA',
+  'dvPHx_JxA',
+  'dvPH_TTA',
+  'dvPH_TA',
+  'dvPHx_TA',
+  'dvPH_NA',
+  'dvPH_PA',
+  'dvPH_PHA',
+  'dvPHx_PHxA',
+  'dvPH_YA',
+  'dvPH_LA',
+  'dvPH_SHA',
+  'dvPHx_SA',
+  'dvB_JA',
+  'dvB_JxA',
+  'dvB_J_YA',
+  'dvB_JHA',
+  'dvB_TA',
+  'dvB_DA',
+  'dvB_DHA',
+  'dvB_DH_VA',
+  'dvB_NA',
+  'dvB_BA',
+  'dvB_BHA',
+  'dvB_BH_RA',
+  'dvB_YA',
+  'dvB_LA',
+  'dvB_L_YA',
+  'dvB_VA',
+  'dvB_SHA',
+  'dvB_SA',
+  'dvBH_NA',
+  'dvBH_YA',
+  'dvBH_R_YA',
+  'dvBH_LA',
+  'dvBH_VA',
+  'dvM_TA',
+  'dvM_DA',
+  'dvM_NA',
+  'dvM_PA',
+  'dvM_P_RA',
+  'dvM_BA',
+  'dvM_B_YA',
+  'dvM_B_RA',
+  'dvM_BHA',
+  'dvM_BH_YA',
+  'dvM_BH_RA',
+  'dvM_BH_VA',
+  'dvM_MA',
+  'dvM_YA',
+  'dvM_LA',
+  'dvM_VA',
+  'dvM_SHA',
+  'dvM_SA',
+  'dvM_HA',
+  'dvY_NA',
+  'dvY_YA',
+  'dvEyelash_YA',
+  'dvEyelash_HA',
+  'dvL_KA',
+  'dvL_K_YA',
+  'dvL_KHA',
+  'dvL_GA',
+  'dvL_JA',
+  'dvL_JxA',
+  'dvL_TTA',
+  'dvL_TTHA',
+  'dvL_DDA',
+  'dvL_DDHA',
+  'dvL_TA',
+  'dvL_THA',
+  'dvL_TH_YA',
+  'dvL_DA',
+  'dvL_D_RA',
+  'dvL_PA',
+  'dvL_PHA',
+  'dvL_BA',
+  'dvL_BHA',
+  'dvL_MA',
+  'dvL_YA',
+  'dvL_LA',
+  'dvL_L_YA',
+  'dvL_VA',
+  'dvL_V_DDA',
+  'dvL_SA',
+  'dvL_HA',
+  'dvV_NA',
+  'dvV_YA',
+  'dvV_LA',
+  'dvV_VA',
+  'dvV_HA',
+  'dvSH_KA',
+  'dvSH_KxA',
+  'dvSH_CA',
+  'dvSH_CHA',
+  'dvSH_TTA',
+  'dvSH_TA',
+  'dvSH_NA',
+  'dvSH_MA',
+  'dvSH_YA',
+  'dvSH_LA',
+  'dvSH_VA',
+  'dvSH_SHA',
+  'dvSS_KA',
+  'dvSS_K_RA',
+  'dvSS_TTA',
+  'dvSS_TT_YA',
+  'dvSS_TT_RA',
+  'dvSS_TT_VA',
+  'dvSS_TTHA',
+  'dvSS_TTH_YA',
+  'dvSS_TTH_RA',
+  'dvSS_NNA',
+  'dvSS_NN_YA',
+  'dvSS_PA',
+  'dvSS_P_RA',
+  'dvSS_PHA',
+  'dvSS_MA',
+  'dvSS_M_YA',
+  'dvSS_YA',
+  'dvSS_VA',
+  'dvSS_SSA',
+  'dvS_KA',
+  'dvS_K_RA',
+  'dvS_K_VA',
+  'dvS_KHA',
+  'dvS_JA',
+  'dvS_TTA',
+  'dvS_TA',
+  'dvS_T_YA',
+  'dvS_T_RA',
+  'dvS_T_VA',
+  'dvS_THA',
+  'dvS_TH_YA',
+  'dvS_DA',
+  'dvS_NA',
+  'dvS_PA',
+  'dvS_P_RA',
+  'dvS_PHA',
+  'dvS_BA',
+  'dvS_MA',
+  'dvS_M_YA',
+  'dvS_YA',
+  'dvS_LA',
+  'dvS_VA',
+  'dvS_SA',
+  'dvH_NNA',
+  'dvH_NA',
+  'dvH_MA',
+  'dvH_YA',
+  'dvH_LA',
+  'dvH_VA',
+  'dvLL_YA',
+  'itfStar',
+  'dvII_Anusvara',
+  'dvmII.aLong',
+  'dvReph_Anusvara',
+  'dvAnusvara.amI',
+  'dvReph.amI',
+  'dvReph_Anusvara.amI',
+  'dvmII_Anusvara',
+  'dvmII_Reph',
+  'dvmII_Reph_Anusvara',
+  'dvmII_Anusvara.aLong',
+  'dvmII_Reph.aLong',
+  'dvmII_Reph_Anusvara.aLong',
+  'dvmE_Anusvara',
+  'dvmE_Reph',
+  'dvmE_Reph_Anusvara',
+  'dvmAI_Anusvara',
+  'dvmAI_Reph',
+  'dvmAI_Reph_Anusvara',
+  'dvmO_Anusvara',
+  'dvmO_Reph',
+  'dvmO_Reph_Anusvara',
+  'dvmAU_Anusvara',
+  'dvmAU_Reph',
+  'dvmAU_Reph_Anusvara',
+  'dvmEcandra_Anusvara',
+  'dvmOcandra_Anusvara',
+  'dvRA_mU',
+  'dvRA_mUU',
+  'dvHA_mU',
+  'dvHA_mUU',
+  'dvDA_mvR',
+  'dvHA_mvR',
+  'dvSHA.amvR',
+  'dvmI.a01',
+  'dvmI.a02',
+  'dvmI.a03',
+  'dvmI.a04',
+  'dvmI.a05',
+  'dvmI.a06',
+  'dvmI.a07',
+  'dvmI.a08',
+  'dvmI.a09',
+  'dvmI.a10',
+  'dvmI.a11',
+  'dvmI.a12',
+  'dvmI.a13',
+  'dvmI.a14',
+  'dvmI.a15',
+  'dvmI.a16',
+  'dvmI.a17',
+  'dvmI.a18',
+  'dvmI.a19',
+  'dvmI.a20',
+  'dvmI.a21',
+  'dvmI.a22',
+  'dvmI.a23',
+  'dvmI.a24',
+  'dvmI.a25',
+  'dvmI.a26',
+  'dvmI.a27',
+  'dvmI.a28',
+  'dvmI.a29',
+  'dvmI.a30',
+  'dvmI.a31',
+  'dvmI.a32',
+  'dvmI.a33',
+  'dvmI.a34',
+  'dvmI.a35',
+  'dvmI.a36',
+  'dvmI.a37',
+  'dvmI.a38',
+  'dvmI.a39',
+  'dvmI.a40',
+  'dvmI.a41',
+  'dvmI.a42',
+  'dvmI.a43',
+  'dvmI.a44',
+  'dvmI.a45',
+  'dvmI.a46',
+  'dvmI.a47',
+  'dvmI.a48',
+  'dvmI.a49',
+  'dvmI.a50',
+  'exclam',
+  'quotedbl',
+  'numbersign',
+  'dollar',
+  'percent',
+  'ampersand',
+  'quotesingle',
+  'parenleft',
+  'parenright',
+  'asterisk',
+  'plus',
+  'comma',
+  'hyphen',
+  'period',
+  'slash',
+  'zero',
+  'one',
+  'two',
+  'three',
+  'four',
+  'five',
+  'six',
+  'seven',
+  'eight',
+  'nine',
+  'colon',
+  'semicolon',
+  'less',
+  'equal',
+  'greater',
+  'question',
+  'at',
+  'A',
+  'B',
+  'C',
+  'D',
+  'E',
+  'F',
+  'G',
+  'H',
+  'I',
+  'J',
+  'K',
+  'L',
+  'M',
+  'N',
+  'O',
+  'P',
+  'Q',
+  'R',
+  'S',
+  'T',
+  'U',
+  'V',
+  'W',
+  'X',
+  'Y',
+  'Z',
+  'bracketleft',
+  'backslash',
+  'bracketright',
+  'asciicircum',
+  'underscore',
+  'grave',
+  'a',
+  'b',
+  'c',
+  'd',
+  'e',
+  'f',
+  'g',
+  'h',
+  'i',
+  'j',
+  'k',
+  'l',
+  'm',
+  'n',
+  'o',
+  'p',
+  'q',
+  'r',
+  's',
+  't',
+  'u',
+  'v',
+  'w',
+  'x',
+  'y',
+  'z',
+  'braceleft',
+  'bar',
+  'braceright',
+  'asciitilde',
+  'nonbreakingspace',
+  'exclamdown',
+  'cent',
+  'sterling',
+  'currency',
+  'yen',
+  'brokenbar',
+  'section',
+  'dieresis',
+  'copyright',
+  'ordfeminine',
+  'guillemotleft',
+  'logicalnot',
+  'softhyphen',
+  'registered',
+  'macron',
+  'degree',
+  'plusminus',
+  'twosuperior',
+  'threesuperior',
+  'acute',
+  'mu',
+  'paragraph',
+  'periodcentered',
+  'cedilla',
+  'onesuperior',
+  'ordmasculine',
+  'guillemotright',
+  'onequarter',
+  'onehalf',
+  'threequarters',
+  'questiondown',
+  'Agrave',
+  'Aacute',
+  'Acircumflex',
+  'Atilde',
+  'Adieresis',
+  'Aring',
+  'AE',
+  'Ccedilla',
+  'Egrave',
+  'Eacute',
+  'Ecircumflex',
+  'Edieresis',
+  'Igrave',
+  'Iacute',
+  'Icircumflex',
+  'Idieresis',
+  'Eth',
+  'Ntilde',
+  'Ograve',
+  'Oacute',
+  'Ocircumflex',
+  'Otilde',
+  'Odieresis',
+  'multiply',
+  'Oslash',
+  'Ugrave',
+  'Uacute',
+  'Ucircumflex',
+  'Udieresis',
+  'Yacute',
+  'Thorn',
+  'germandbls',
+  'agrave',
+  'aacute',
+  'acircumflex',
+  'atilde',
+  'adieresis',
+  'aring',
+  'ae',
+  'ccedilla',
+  'egrave',
+  'eacute',
+  'ecircumflex',
+  'edieresis',
+  'igrave',
+  'iacute',
+  'icircumflex',
+  'idieresis',
+  'eth',
+  'ntilde',
+  'ograve',
+  'oacute',
+  'ocircumflex',
+  'otilde',
+  'odieresis',
+  'divide',
+  'oslash',
+  'ugrave',
+  'uacute',
+  'ucircumflex',
+  'udieresis',
+  'yacute',
+  'thorn',
+  'ydieresis',
+  'Amacron',
+  'amacron',
+  'Abreve',
+  'abreve',
+  'Aogonek',
+  'aogonek',
+  'Cacute',
+  'cacute',
+  'Ccaron',
+  'ccaron',
+  'Dcaron',
+  'dcaron',
+  'Dcroat',
+  'dcroat',
+  'Emacron',
+  'emacron',
+  'Edotaccent',
+  'edotaccent',
+  'Eogonek',
+  'eogonek',
+  'Ecaron',
+  'ecaron',
+  'Gbreve',
+  'gbreve',
+  'Gcedilla',
+  'gcedilla',
+  'Imacron',
+  'imacron',
+  'Iogonek',
+  'iogonek',
+  'Idotaccent',
+  'dotlessi',
+  'Kcedilla',
+  'kcedilla',
+  'Lacute',
+  'lacute',
+  'Lcedilla',
+  'lcedilla',
+  'Lcaron',
+  'lcaron',
+  'Lslash',
+  'lslash',
+  'Nacute',
+  'nacute',
+  'Ncedilla',
+  'ncedilla',
+  'Ncaron',
+  'ncaron',
+  'Omacron',
+  'omacron',
+  'Ohungarumlaut',
+  'ohungarumlaut',
+  'OE',
+  'oe',
+  'Racute',
+  'racute',
+  'Rcedilla',
+  'rcedilla',
+  'Rcaron',
+  'rcaron',
+  'Sacute',
+  'sacute',
+  'Scedilla',
+  'scedilla',
+  'Scaron',
+  'scaron',
+  'Tcedilla',
+  'tcedilla',
+  'Tcaron',
+  'tcaron',
+  'Umacron',
+  'umacron',
+  'Uring',
+  'uring',
+  'Uhungarumlaut',
+  'uhungarumlaut',
+  'Uogonek',
+  'uogonek',
+  'Ydieresis',
+  'Zacute',
+  'zacute',
+  'Zdotaccent',
+  'zdotaccent',
+  'Zcaron',
+  'zcaron',
+  'florin',
+  'Scommaaccent',
+  'scommaaccent',
+  'Tcommaaccent',
+  'tcommaaccent',
+  'circumflex',
+  'caron',
+  'macronmod',
+  'breve',
+  'dotaccent',
+  'ring',
+  'ogonek',
+  'tilde',
+  'hungarumlaut',
+  'pi',
+  'endash',
+  'emdash',
+  'quoteleft',
+  'quoteright',
+  'quotesinglbase',
+  'quotedblleft',
+  'quotedblright',
+  'quotedblbase',
+  'dagger',
+  'daggerdbl',
+  'bullet',
+  'ellipsis',
+  'perthousand',
+  'guilsinglleft',
+  'guilsinglright',
+  'fraction',
+  'Euro',
+  'turkishlira',
+  'ruble',
+  'litre',
+  'trademark',
+  'Ohm',
+  'estimated',
+  'partialdiff',
+  'increment',
+  'product',
+  'summation',
+  'minus',
+  'divisionslash',
+  'bulletoperator',
+  'radical',
+  'infinity',
+  'integral',
+  'approxequal',
+  'notequal',
+  'lessequal',
+  'greaterequal',
+  'lozenge',
+  'fi',
+  'fl',
+]

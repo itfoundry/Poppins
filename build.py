@@ -1,15 +1,11 @@
 #!/usr/bin/python
 
-from subprocess import call
-import os.path
-import itf_gfd
+import subprocess
+import itfgfd
 
+FAMILY_NAME = 'XDevanagari'
 
-is_multiple_master = True
-
-family_name = 'XDevanagari'
-
-style_name_list = [
+STYLE_NAMES = [
   'Light',
   'Regular',
   'Medium',
@@ -17,34 +13,40 @@ style_name_list = [
   'Bold',
 ]
 
+UFOIG_ARGS = [
+  # '-kern',
+  '-mark',
+  # '-hint',
+  '-flat',
+  '-mkmk',
+  '-clas',
+  '-indi',
+]
 
-def main():
-
-  call(['rm', '-fr', 'build'])
-  call(['mkdir', 'build'])
-
-  for style_name in style_name_list:
-
-    otf_path = 'build/%s-%s.otf' % (family_name, style_name)
-    style_dir = 'styles/' + style_name
-
-    call(['makeotf'] + makeotf_arg_list)
-
-    call(['rm', '-f', style_dir + '/current.fpr'])
-
-    if os.path.exists(otf_path):
-      call(['cp', '-f', otf_path, '/Library/Application Support/Adobe/Fonts'])
-
-
-makeotf_arg_list = [
-  '-f', style_dir + '/font.ufo',
-  '-o', otf_path,
-  '-mf', 'FontMenuNameDB',
-  '-gf', 'GlyphOrderAndAliasDB',
+MAKEOTF_ARGS = [
   '-r',
   '-shw',
 ]
 
+MATCH_mI_OFFSETS_DICT = {
+  'Light':    0,
+  'Regular':  0,
+  'Medium':   0,
+  'SemiBold': 0,
+  'Bold':     0,
+}
 
-if __name__ == '__main__':
-  main()
+# Generate OpenType classes:
+itfgfd.generate_classes(itfgfd.get_font('mm', suffix = '_0'))
+
+# Reset style directories:
+itfgfd.reset_style_dir(STYLE_NAMES)
+
+# Interpolate instances:
+subprocess.call(['UFOInstanceGenerator.py', 'mm', '-o', 'styles'] + UFOIG_ARGS)
+
+# Match mI (matra i) variants to base glyphs:
+itfgfd.match_mI(STYLE_NAMES, MATCH_mI_OFFSETS_DICT)
+
+# Compile OTFs:
+itfgfd.call_makeotf(FAMILY_NAME, STYLE_NAMES, MAKEOTF_ARGS)
