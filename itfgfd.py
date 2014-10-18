@@ -151,13 +151,14 @@ def reset_style_dir(STYLE_NAMES):
 
 def get_stem_position(glyph, stem_right_margin):
 
-  stem_anchor = None
+  has_stem_anchor = False
   for anchor in glyph.anchors:
     if anchor.name == STEM_ANCHOR_NAME:
+      has_stem_anchor = True
       stem_anchor = anchor
       break
 
-  if stem_anchor:
+  if has_stem_anchor:
     stem_position = stem_anchor.x
   else:
     stem_position = glyph.width - stem_right_margin
