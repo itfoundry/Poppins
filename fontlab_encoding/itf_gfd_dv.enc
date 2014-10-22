@@ -711,8 +711,6 @@ itfStar
 
 % Mark ligatures and variants
 
-dvII_Anusvara
-
 dvmII.aLong
 
 dvReph_Anusvara
@@ -720,6 +718,8 @@ dvReph_Anusvara
 dvAnusvara.amI
 dvReph.amI
 dvReph_Anusvara.amI
+
+dvII_Anusvara
 
 dvmII_Anusvara
 dvmII_Reph
