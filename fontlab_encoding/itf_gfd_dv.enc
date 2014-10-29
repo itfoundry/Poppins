@@ -372,10 +372,8 @@ dvC_NA
 dvC_MA
 dvC_YA
 
-dvCH_NA
 dvCH_YA
 dvCH_R_YA
-dvCH_VA
 
 dvJ_KA
 dvJ_JA
@@ -407,22 +405,21 @@ dvNY_SHA
 
 dvTT_TTA
 dvTT_TTHA
-dvTT_NA
 dvTT_YA
 dvTT_VA
 
 dvTTH_TTHA
-dvTTH_NA
 dvTTH_YA
+dvTTH_VA
 
 dvDD_DDA
 dvDD_DDHA
-dvDD_NA
 dvDD_YA
 dvDD_VA
 
 dvDDH_DDHA
 dvDDH_YA
+dvDDH_VA
 
 dvNN_TTA
 dvNN_TTHA
@@ -457,6 +454,7 @@ dvT_R_YA
 dvT_LA
 dvT_VA
 dvT_SA
+dvT_S_NA
 dvT_S_YA
 dvT_S_VA
 
@@ -703,12 +701,6 @@ dvH_VA
 
 dvLL_YA
 
-% ---
-
-itfStar
-
-% ---
-
 % Mark ligatures and variants
 
 dvmII.aLong
@@ -753,9 +745,8 @@ dvRA_mUU
 dvHA_mU
 dvHA_mUU
 dvDA_mvR
+dvSHA_mvR
 dvHA_mvR
-
-dvSHA.amvR
 
 dvmI.a01
 dvmI.a02
@@ -928,7 +919,7 @@ plusminus
 twosuperior
 threesuperior
 acute
-mu
+mu.math
 paragraph
 periodcentered
 cedilla
@@ -1027,28 +1018,28 @@ Ecaron
 ecaron
 Gbreve
 gbreve
-Gcedilla
-gcedilla
+Gcommaaccent
+gcommaaccent
 Imacron
 imacron
 Iogonek
 iogonek
 Idotaccent
 dotlessi
-Kcedilla
-kcedilla
+Kcommaaccent
+kcommaaccent
 Lacute
 lacute
-Lcedilla
-lcedilla
+Lcommaaccent
+lcommaaccent
 Lcaron
 lcaron
 Lslash
 lslash
 Nacute
 nacute
-Ncedilla
-ncedilla
+Ncommaaccent
+ncommaaccent
 Ncaron
 ncaron
 Omacron
@@ -1059,8 +1050,8 @@ OE
 oe
 Racute
 racute
-Rcedilla
-rcedilla
+Rcommaaccent
+rcommaaccent
 Rcaron
 rcaron
 Sacute
@@ -1124,10 +1115,10 @@ turkishlira
 ruble
 litre
 trademark
-Ohm
+Omega.math
 estimated
 partialdiff
-increment
+Delta.math
 product
 summation
 minus

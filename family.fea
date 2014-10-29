@@ -822,13 +822,13 @@ feature abvs {
 
   # MATRA VOCALIC LIQUIDS (VOCALIC R/RR/L/LL)
 
-  lookup blws_RA_mvLiquid {
+  lookup abvs_RA_mvLiquid {
     sub
       dvRA'
       lookup RA_to_vLiquid
       @mvLiquids'
       lookup mvLiquid_to_Reph;
-  } blws_RA_mvLiquid;
+  } abvs_RA_mvLiquid;
 
   # INDEPENDENT VOWEL
 

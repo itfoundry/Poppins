@@ -1,5 +1,7 @@
 #!opentype
 
+# This GOADB file is synced to `itf_gfd_dv.enc`.
+
 .notdef .notdef
 NULL NULL uni0000
 CR CR uni000D
@@ -370,10 +372,8 @@ dvC_NA dvC_NA
 dvC_MA dvC_MA
 dvC_YA dvC_YA
 
-dvCH_NA dvCH_NA
 dvCH_YA dvCH_YA
 dvCH_R_YA dvCH_R_YA
-dvCH_VA dvCH_VA
 
 dvJ_KA dvJ_KA
 dvJ_JA dvJ_JA
@@ -405,22 +405,21 @@ dvNY_SHA dvNY_SHA
 
 dvTT_TTA dvTT_TTA
 dvTT_TTHA dvTT_TTHA
-dvTT_NA dvTT_NA
 dvTT_YA dvTT_YA
 dvTT_VA dvTT_VA
 
 dvTTH_TTHA dvTTH_TTHA
-dvTTH_NA dvTTH_NA
 dvTTH_YA dvTTH_YA
+dvTTH_VA dvTTH_VA
 
 dvDD_DDA dvDD_DDA
 dvDD_DDHA dvDD_DDHA
-dvDD_NA dvDD_NA
 dvDD_YA dvDD_YA
 dvDD_VA dvDD_VA
 
 dvDDH_DDHA dvDDH_DDHA
 dvDDH_YA dvDDH_YA
+dvDDH_VA dvDDH_VA
 
 dvNN_TTA dvNN_TTA
 dvNN_TTHA dvNN_TTHA
@@ -455,6 +454,7 @@ dvT_R_YA dvT_R_YA
 dvT_LA dvT_LA
 dvT_VA dvT_VA
 dvT_SA dvT_SA
+dvT_S_NA dvT_S_NA
 dvT_S_YA dvT_S_YA
 dvT_S_VA dvT_S_VA
 
@@ -701,15 +701,7 @@ dvH_VA dvH_VA
 
 dvLL_YA dvLL_YA
 
-# ---
-
-itfStar itfStar
-
-# ---
-
 # Mark ligatures and variants
-
-dvII_Anusvara dvII_Anusvara
 
 dvmII.aLong dvmII.aLong
 
@@ -718,6 +710,8 @@ dvReph_Anusvara dvReph_Anusvara
 dvAnusvara.amI dvAnusvara.amI
 dvReph.amI dvReph.amI
 dvReph_Anusvara.amI dvReph_Anusvara.amI
+
+dvII_Anusvara dvII_Anusvara
 
 dvmII_Anusvara dvmII_Anusvara
 dvmII_Reph dvmII_Reph
@@ -751,9 +745,8 @@ dvRA_mUU dvRA_mUU
 dvHA_mU dvHA_mU
 dvHA_mUU dvHA_mUU
 dvDA_mvR dvDA_mvR
+dvSHA_mvR dvSHA_mvR
 dvHA_mvR dvHA_mvR
-
-dvSHA.amvR dvSHA.amvR
 
 dvmI.a01 dvmI.a01
 dvmI.a02 dvmI.a02
@@ -926,7 +919,7 @@ plusminus plusminus uni00B1 # PLUS-MINUS SIGN
 twosuperior twosuperior uni00B2 # SUPERSCRIPT TWO
 threesuperior threesuperior uni00B3 # SUPERSCRIPT THREE
 acute acute uni00B4 # ACUTE ACCENT
-uni00B5 mu uni00B5 # MICRO SIGN
+uni00B5 mu.math uni00B5 # MICRO SIGN
 paragraph paragraph uni00B6 # PILCROW SIGN
 periodcentered periodcentered uni00B7 # MIDDLE DOT
 cedilla cedilla uni00B8 # CEDILLA
@@ -1025,28 +1018,28 @@ Ecaron Ecaron uni011A # LATIN CAPITAL LETTER E WITH CARON
 ecaron ecaron uni011B # LATIN SMALL LETTER E WITH CARON
 Gbreve Gbreve uni011E # LATIN CAPITAL LETTER G WITH BREVE
 gbreve gbreve uni011F # LATIN SMALL LETTER G WITH BREVE
-uni0122 Gcedilla uni0122 # LATIN CAPITAL LETTER G WITH CEDILLA
-uni0123 gcedilla uni0123 # LATIN SMALL LETTER G WITH CEDILLA
+uni0122 Gcommaaccent uni0122 # LATIN CAPITAL LETTER G WITH CEDILLA
+uni0123 gcommaaccent uni0123 # LATIN SMALL LETTER G WITH CEDILLA
 Imacron Imacron uni012A # LATIN CAPITAL LETTER I WITH MACRON
 imacron imacron uni012B # LATIN SMALL LETTER I WITH MACRON
 Iogonek Iogonek uni012E # LATIN CAPITAL LETTER I WITH OGONEK
 iogonek iogonek uni012F # LATIN SMALL LETTER I WITH OGONEK
 Idotaccent Idotaccent uni0130 # LATIN CAPITAL LETTER I WITH DOT ABOVE
 dotlessi dotlessi uni0131 # LATIN SMALL LETTER DOTLESS I
-uni0136 Kcedilla uni0136 # LATIN CAPITAL LETTER K WITH CEDILLA
-uni0137 kcedilla uni0137 # LATIN SMALL LETTER K WITH CEDILLA
+uni0136 Kcommaaccent uni0136 # LATIN CAPITAL LETTER K WITH CEDILLA
+uni0137 kcommaaccent uni0137 # LATIN SMALL LETTER K WITH CEDILLA
 Lacute Lacute uni0139 # LATIN CAPITAL LETTER L WITH ACUTE
 lacute lacute uni013A # LATIN SMALL LETTER L WITH ACUTE
-uni013B Lcedilla uni013B # LATIN CAPITAL LETTER L WITH CEDILLA
-uni013C lcedilla uni013C # LATIN SMALL LETTER L WITH CEDILLA
+uni013B Lcommaaccent uni013B # LATIN CAPITAL LETTER L WITH CEDILLA
+uni013C lcommaaccent uni013C # LATIN SMALL LETTER L WITH CEDILLA
 Lcaron Lcaron uni013D # LATIN CAPITAL LETTER L WITH CARON
 lcaron lcaron uni013E # LATIN SMALL LETTER L WITH CARON
 Lslash Lslash uni0141 # LATIN CAPITAL LETTER L WITH STROKE
 lslash lslash uni0142 # LATIN SMALL LETTER L WITH STROKE
 Nacute Nacute uni0143 # LATIN CAPITAL LETTER N WITH ACUTE
 nacute nacute uni0144 # LATIN SMALL LETTER N WITH ACUTE
-uni0145 Ncedilla uni0145 # LATIN CAPITAL LETTER N WITH CEDILLA
-uni0146 ncedilla uni0146 # LATIN SMALL LETTER N WITH CEDILLA
+uni0145 Ncommaaccent uni0145 # LATIN CAPITAL LETTER N WITH CEDILLA
+uni0146 ncommaaccent uni0146 # LATIN SMALL LETTER N WITH CEDILLA
 Ncaron Ncaron uni0147 # LATIN CAPITAL LETTER N WITH CARON
 ncaron ncaron uni0148 # LATIN SMALL LETTER N WITH CARON
 Omacron Omacron uni014C # LATIN CAPITAL LETTER O WITH MACRON
@@ -1057,8 +1050,8 @@ OE OE uni0152 # LATIN CAPITAL LIGATURE OE
 oe oe uni0153 # LATIN SMALL LIGATURE OE
 Racute Racute uni0154 # LATIN CAPITAL LETTER R WITH ACUTE
 racute racute uni0155 # LATIN SMALL LETTER R WITH ACUTE
-uni0156 Rcedilla uni0156 # LATIN CAPITAL LETTER R WITH CEDILLA
-uni0157 rcedilla uni0157 # LATIN SMALL LETTER R WITH CEDILLA
+uni0156 Rcommaaccent uni0156 # LATIN CAPITAL LETTER R WITH CEDILLA
+uni0157 rcommaaccent uni0157 # LATIN SMALL LETTER R WITH CEDILLA
 Rcaron Rcaron uni0158 # LATIN CAPITAL LETTER R WITH CARON
 rcaron rcaron uni0159 # LATIN SMALL LETTER R WITH CARON
 Sacute Sacute uni015A # LATIN CAPITAL LETTER S WITH ACUTE
@@ -1122,10 +1115,10 @@ uni20BA turkishlira uni20BA # TURKISH LIRA SIGN
 uni20BD ruble uni20BD # RUBLE SIGN
 uni2113 litre uni2113 # SCRIPT SMALL L
 trademark trademark uni2122 # TRADE MARK SIGN
-uni2126 Ohm uni2126 # OHM SIGN
+uni2126 Omega.math uni2126 # OHM SIGN
 estimated estimated uni212E # ESTIMATED SYMBOL
 partialdiff partialdiff uni2202 # PARTIAL DIFFERENTIAL
-uni2206 increment uni2206 # INCREMENT
+uni2206 Delta.math uni2206 # INCREMENT
 product product uni220F # N-ARY PRODUCT
 summation summation uni2211 # N-ARY SUMMATION
 minus minus uni2212 # MINUS SIGN
