@@ -118,7 +118,13 @@ def generate_classes(directory, suffix):
     toc_lines = ['# CONTENTS:']
     def_lines = []
 
-    for class_name, glyph_names in sorted(font.groups.items()):
+    classes_to_be_written = {
+        class_name: glyph_names
+        for class_name, glyph_names in font.groups.items()
+        if not class_name.startswith('@')
+    }
+
+    for class_name, glyph_names in sorted(classes_to_be_written.items()):
         toc_lines.append('# @%s' % class_name)
         def_lines.extend(
             generate_class_def_lines(class_name, glyph_names)
