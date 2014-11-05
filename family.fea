@@ -582,7 +582,6 @@ feature pres {
   sub dvD dvBHA by dvD_BHA;
   sub dvD dvMA by dvD_MA;
   sub dvD dvYA by dvD_YA;
-  sub dvD dvY dvBHA by dvD_Y_BHA;
   sub dvD dvY_RA by dvD_Y_RA;
   sub dvD dvVA by dvD_VA;
 
