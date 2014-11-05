@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ttFont ttLibVersion="2.4">
+
+  <GDEF>
+    <Version value="1.0"/>
+    <GlyphClassDef>
+      <ClassDef glyph="acute" class="3"/>
+      <ClassDef glyph="breve" class="3"/>
+      <ClassDef glyph="caron" class="3"/>
+      <ClassDef glyph="cedilla" class="3"/>
+      <ClassDef glyph="circumflex" class="3"/>
+      <ClassDef glyph="commaaccent" class="3"/>
+      <ClassDef glyph="commaaccent.alt" class="3"/>
+      <ClassDef glyph="dieresis" class="3"/>
+      <ClassDef glyph="dotaccent" class="3"/>
+      <ClassDef glyph="dvAnusvara" class="3"/>
+      <ClassDef glyph="dvAnusvara.amI" class="3"/>
+      <ClassDef glyph="dvCandrabindu" class="3"/>
+      <ClassDef glyph="dvReph" class="3"/>
+      <ClassDef glyph="dvReph.amI" class="3"/>
+      <ClassDef glyph="dvReph_Anusvara" class="3"/>
+      <ClassDef glyph="dvReph_Anusvara.amI" class="3"/>
+      <ClassDef glyph="dvVirama" class="3"/>
+      <ClassDef glyph="dvmAI" class="3"/>
+      <ClassDef glyph="dvmAI_Anusvara" class="3"/>
+      <ClassDef glyph="dvmAI_Reph" class="3"/>
+      <ClassDef glyph="dvmAI_Reph_Anusvara" class="3"/>
+      <ClassDef glyph="dvmE" class="3"/>
+      <ClassDef glyph="dvmE_Anusvara" class="3"/>
+      <ClassDef glyph="dvmE_Reph" class="3"/>
+      <ClassDef glyph="dvmE_Reph_Anusvara" class="3"/>
+      <ClassDef glyph="dvmEcandra" class="3"/>
+      <ClassDef glyph="dvmU" class="3"/>
+      <ClassDef glyph="dvmUU" class="3"/>
+      <ClassDef glyph="dvmvL" class="3"/>
+      <ClassDef glyph="dvmvLL" class="3"/>
+      <ClassDef glyph="dvmvR" class="3"/>
+      <ClassDef glyph="grave" class="3"/>
+      <ClassDef glyph="hungarumlaut" class="3"/>
+      <ClassDef glyph="macron" class="3"/>
+      <ClassDef glyph="ogonek" class="3"/>
+      <ClassDef glyph="ring" class="3"/>
+      <ClassDef glyph="tilde" class="3"/>
+    </GlyphClassDef>
+  </GDEF>
+
+</ttFont>

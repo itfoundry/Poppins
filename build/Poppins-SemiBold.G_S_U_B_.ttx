@@ -1,0 +1,3385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ttFont ttLibVersion="2.4">
+
+  <GSUB>
+    <Version value="1.0"/>
+    <ScriptList>
+      <!-- ScriptCount=3 -->
+      <ScriptRecord index="0">
+        <ScriptTag value="DFLT"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=12 -->
+            <FeatureIndex index="0" value="0"/>
+            <FeatureIndex index="1" value="3"/>
+            <FeatureIndex index="2" value="6"/>
+            <FeatureIndex index="3" value="9"/>
+            <FeatureIndex index="4" value="12"/>
+            <FeatureIndex index="5" value="15"/>
+            <FeatureIndex index="6" value="18"/>
+            <FeatureIndex index="7" value="21"/>
+            <FeatureIndex index="8" value="24"/>
+            <FeatureIndex index="9" value="27"/>
+            <FeatureIndex index="10" value="30"/>
+            <FeatureIndex index="11" value="32"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+      <ScriptRecord index="1">
+        <ScriptTag value="dev2"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=12 -->
+            <FeatureIndex index="0" value="1"/>
+            <FeatureIndex index="1" value="4"/>
+            <FeatureIndex index="2" value="7"/>
+            <FeatureIndex index="3" value="10"/>
+            <FeatureIndex index="4" value="13"/>
+            <FeatureIndex index="5" value="16"/>
+            <FeatureIndex index="6" value="19"/>
+            <FeatureIndex index="7" value="22"/>
+            <FeatureIndex index="8" value="25"/>
+            <FeatureIndex index="9" value="28"/>
+            <FeatureIndex index="10" value="31"/>
+            <FeatureIndex index="11" value="33"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+      <ScriptRecord index="2">
+        <ScriptTag value="deva"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=12 -->
+            <FeatureIndex index="0" value="2"/>
+            <FeatureIndex index="1" value="5"/>
+            <FeatureIndex index="2" value="8"/>
+            <FeatureIndex index="3" value="11"/>
+            <FeatureIndex index="4" value="14"/>
+            <FeatureIndex index="5" value="17"/>
+            <FeatureIndex index="6" value="20"/>
+            <FeatureIndex index="7" value="23"/>
+            <FeatureIndex index="8" value="26"/>
+            <FeatureIndex index="9" value="29"/>
+            <FeatureIndex index="10" value="34"/>
+            <FeatureIndex index="11" value="35"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+    </ScriptList>
+    <FeatureList>
+      <!-- FeatureCount=36 -->
+      <FeatureRecord index="0">
+        <FeatureTag value="abvs"/>
+        <Feature>
+          <!-- LookupCount=3 -->
+          <LookupListIndex index="0" value="14"/>
+          <LookupListIndex index="1" value="15"/>
+          <LookupListIndex index="2" value="16"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="1">
+        <FeatureTag value="abvs"/>
+        <Feature>
+          <!-- LookupCount=3 -->
+          <LookupListIndex index="0" value="14"/>
+          <LookupListIndex index="1" value="15"/>
+          <LookupListIndex index="2" value="16"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="2">
+        <FeatureTag value="abvs"/>
+        <Feature>
+          <!-- LookupCount=3 -->
+          <LookupListIndex index="0" value="14"/>
+          <LookupListIndex index="1" value="15"/>
+          <LookupListIndex index="2" value="16"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="3">
+        <FeatureTag value="akhn"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="3"/>
+          <LookupListIndex index="1" value="4"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="4">
+        <FeatureTag value="akhn"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="3"/>
+          <LookupListIndex index="1" value="4"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="5">
+        <FeatureTag value="akhn"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="3"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="6">
+        <FeatureTag value="blwf"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="7"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="7">
+        <FeatureTag value="blwf"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="7"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="8">
+        <FeatureTag value="blwf"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="8"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="9">
+        <FeatureTag value="blws"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="17"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="10">
+        <FeatureTag value="blws"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="17"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="11">
+        <FeatureTag value="blws"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="17"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="12">
+        <FeatureTag value="half"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="9"/>
+          <LookupListIndex index="1" value="10"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="13">
+        <FeatureTag value="half"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="9"/>
+          <LookupListIndex index="1" value="10"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="14">
+        <FeatureTag value="half"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="9"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="15">
+        <FeatureTag value="haln"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="19"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="16">
+        <FeatureTag value="haln"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="19"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="17">
+        <FeatureTag value="haln"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="19"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="18">
+        <FeatureTag value="liga"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="20"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="19">
+        <FeatureTag value="liga"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="20"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="20">
+        <FeatureTag value="liga"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="20"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="21">
+        <FeatureTag value="nukt"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="2"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="22">
+        <FeatureTag value="nukt"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="2"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="23">
+        <FeatureTag value="nukt"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="2"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="24">
+        <FeatureTag value="pres"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="12"/>
+          <LookupListIndex index="1" value="13"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="25">
+        <FeatureTag value="pres"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="12"/>
+          <LookupListIndex index="1" value="13"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="26">
+        <FeatureTag value="pres"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="12"/>
+          <LookupListIndex index="1" value="13"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="27">
+        <FeatureTag value="psts"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="18"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="28">
+        <FeatureTag value="psts"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="18"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="29">
+        <FeatureTag value="psts"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="18"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="30">
+        <FeatureTag value="rkrf"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="6"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="31">
+        <FeatureTag value="rkrf"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="6"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="32">
+        <FeatureTag value="rphf"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="5"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="33">
+        <FeatureTag value="rphf"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="5"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="34">
+        <FeatureTag value="rphf"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="5"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="35">
+        <FeatureTag value="vatu"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="11"/>
+        </Feature>
+      </FeatureRecord>
+    </FeatureList>
+    <LookupList>
+      <!-- LookupCount=50 -->
+      <Lookup index="0">
+        <!-- LookupType=6 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=4 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="dvRA"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="dvmvR"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="21"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="1" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="dvRA"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="dvmvRR"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="22"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="2" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="dvRA"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="dvmvL"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="23"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="3" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="dvRA"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="dvmvLL"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="24"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="1">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="dvmvL" out="dvReph"/>
+          <Substitution in="dvmvLL" out="dvReph"/>
+          <Substitution in="dvmvR" out="dvReph"/>
+          <Substitution in="dvmvRR" out="dvReph"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="2">
+        <!-- LookupType=4 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0">
+          <LigatureSet glyph="dvDDA">
+            <Ligature components="dvNukta" glyph="dvDDxA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvDDHA">
+            <Ligature components="dvNukta" glyph="dvDDHxA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvGA">
+            <Ligature components="dvNukta" glyph="dvGxA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvJA">
+            <Ligature components="dvNukta" glyph="dvJxA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvKA">
+            <Ligature components="dvNukta" glyph="dvKxA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvKHA">
+            <Ligature components="dvNukta" glyph="dvKHxA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvPHA">
+            <Ligature components="dvNukta" glyph="dvPHxA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvRA">
+            <Ligature components="dvNukta" glyph="dvRxA"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="3">
+        <!-- LookupType=4 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0">
+          <LigatureSet glyph="dvJA">
+            <Ligature components="dvVirama,dvNYA" glyph="dvJ_NYA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvKA">
+            <Ligature components="dvVirama,dvSSA" glyph="dvK_SSA"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="4">
+        <!-- LookupType=6 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=2 -->
+          <InputCoverage index="0">
+            <Glyph value="dvRA"/>
+          </InputCoverage>
+          <InputCoverage index="1">
+            <Glyph value="dvVirama"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="zerowidthjoiner"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="25"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="5">
+        <!-- LookupType=4 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0">
+          <LigatureSet glyph="dvRA">
+            <Ligature components="dvVirama" glyph="dvReph"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="6">
+        <!-- LookupType=4 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0">
+          <LigatureSet glyph="dvBA">
+            <Ligature components="dvVirama,dvRA" glyph="dvB_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvBHA">
+            <Ligature components="dvVirama,dvRA" glyph="dvBH_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvCA">
+            <Ligature components="dvVirama,dvRA" glyph="dvC_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvCHA">
+            <Ligature components="dvVirama,dvRA" glyph="dvCH_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvDA">
+            <Ligature components="dvVirama,dvRA" glyph="dvD_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvDDA">
+            <Ligature components="dvVirama,dvRA" glyph="dvDD_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvDDHA">
+            <Ligature components="dvVirama,dvRA" glyph="dvDDH_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvDHA">
+            <Ligature components="dvVirama,dvRA" glyph="dvDH_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvGA">
+            <Ligature components="dvVirama,dvRA" glyph="dvG_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvGHA">
+            <Ligature components="dvVirama,dvRA" glyph="dvGH_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvGxA">
+            <Ligature components="dvVirama,dvRA" glyph="dvGx_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvHA">
+            <Ligature components="dvVirama,dvRA" glyph="dvH_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvJA">
+            <Ligature components="dvVirama,dvRA" glyph="dvJ_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvJHA">
+            <Ligature components="dvVirama,dvRA" glyph="dvJH_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvJxA">
+            <Ligature components="dvVirama,dvRA" glyph="dvJx_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvKA">
+            <Ligature components="dvVirama,dvRA" glyph="dvK_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvKHA">
+            <Ligature components="dvVirama,dvRA" glyph="dvKH_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvKHxA">
+            <Ligature components="dvVirama,dvRA" glyph="dvKHx_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvKxA">
+            <Ligature components="dvVirama,dvRA" glyph="dvKx_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvLA">
+            <Ligature components="dvVirama,dvRA" glyph="dvL_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvLLA">
+            <Ligature components="dvVirama,dvRA" glyph="dvLL_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvMA">
+            <Ligature components="dvVirama,dvRA" glyph="dvM_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvNA">
+            <Ligature components="dvVirama,dvRA" glyph="dvN_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvNGA">
+            <Ligature components="dvVirama,dvRA" glyph="dvNG_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvNNA">
+            <Ligature components="dvVirama,dvRA" glyph="dvNN_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvNYA">
+            <Ligature components="dvVirama,dvRA" glyph="dvNY_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvPA">
+            <Ligature components="dvVirama,dvRA" glyph="dvP_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvPHA">
+            <Ligature components="dvVirama,dvRA" glyph="dvPH_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvPHxA">
+            <Ligature components="dvVirama,dvRA" glyph="dvPHx_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvSA">
+            <Ligature components="dvVirama,dvRA" glyph="dvS_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvSHA">
+            <Ligature components="dvVirama,dvRA" glyph="dvSH_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvSSA">
+            <Ligature components="dvVirama,dvRA" glyph="dvSS_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvTA">
+            <Ligature components="dvVirama,dvRA" glyph="dvT_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvTHA">
+            <Ligature components="dvVirama,dvRA" glyph="dvTH_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvTTA">
+            <Ligature components="dvVirama,dvRA" glyph="dvTT_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvTTHA">
+            <Ligature components="dvVirama,dvRA" glyph="dvTTH_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvVA">
+            <Ligature components="dvVirama,dvRA" glyph="dvV_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvYA">
+            <Ligature components="dvVirama,dvRA" glyph="dvY_RA"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="7">
+        <!-- LookupType=4 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0">
+          <LigatureSet glyph="dvVirama">
+            <Ligature components="dvRA" glyph="dvRashtrasign"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="8">
+        <!-- LookupType=4 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0">
+          <LigatureSet glyph="dvRA">
+            <Ligature components="dvVirama" glyph="dvRashtrasign"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="9">
+        <!-- LookupType=4 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0">
+          <LigatureSet glyph="dvBA">
+            <Ligature components="dvVirama" glyph="dvB"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvBHA">
+            <Ligature components="dvVirama" glyph="dvBH"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvCA">
+            <Ligature components="dvVirama" glyph="dvC"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvCHA">
+            <Ligature components="dvVirama" glyph="dvCH"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvDA">
+            <Ligature components="dvVirama" glyph="dvD"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvDDA">
+            <Ligature components="dvVirama" glyph="dvDD"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvDDHA">
+            <Ligature components="dvVirama" glyph="dvDDH"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvDHA">
+            <Ligature components="dvVirama" glyph="dvDH"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvGA">
+            <Ligature components="dvVirama" glyph="dvG"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvGHA">
+            <Ligature components="dvVirama" glyph="dvGH"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvGxA">
+            <Ligature components="dvVirama" glyph="dvGx"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvHA">
+            <Ligature components="dvVirama" glyph="dvH"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvJA">
+            <Ligature components="dvVirama" glyph="dvJ"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvJHA">
+            <Ligature components="dvVirama" glyph="dvJH"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvJ_NYA">
+            <Ligature components="dvVirama" glyph="dvJ_NY"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvJxA">
+            <Ligature components="dvVirama" glyph="dvJx"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvKA">
+            <Ligature components="dvVirama" glyph="dvK"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvKHA">
+            <Ligature components="dvVirama" glyph="dvKH"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvKHxA">
+            <Ligature components="dvVirama" glyph="dvKHx"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvK_SSA">
+            <Ligature components="dvVirama" glyph="dvK_SS"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvKxA">
+            <Ligature components="dvVirama" glyph="dvKx"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvLA">
+            <Ligature components="dvVirama" glyph="dvL"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvLLA">
+            <Ligature components="dvVirama" glyph="dvLL"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvMA">
+            <Ligature components="dvVirama" glyph="dvM"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvNA">
+            <Ligature components="dvVirama" glyph="dvN"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvNGA">
+            <Ligature components="dvVirama" glyph="dvNG"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvNNA">
+            <Ligature components="dvVirama" glyph="dvNN"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvNYA">
+            <Ligature components="dvVirama" glyph="dvNY"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvPA">
+            <Ligature components="dvVirama" glyph="dvP"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvPHA">
+            <Ligature components="dvVirama" glyph="dvPH"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvPHxA">
+            <Ligature components="dvVirama" glyph="dvPHx"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvRA">
+            <Ligature components="dvVirama" glyph="dvEyelash"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvRxA">
+            <Ligature components="dvVirama" glyph="dvEyelash"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvSA">
+            <Ligature components="dvVirama" glyph="dvS"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvSHA">
+            <Ligature components="dvVirama" glyph="dvSH"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvSSA">
+            <Ligature components="dvVirama" glyph="dvSS"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvTA">
+            <Ligature components="dvVirama" glyph="dvT"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvTHA">
+            <Ligature components="dvVirama" glyph="dvTH"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvTTA">
+            <Ligature components="dvVirama" glyph="dvTT"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvTTHA">
+            <Ligature components="dvVirama" glyph="dvTTH"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvVA">
+            <Ligature components="dvVirama" glyph="dvV"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvYA">
+            <Ligature components="dvVirama" glyph="dvY"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="10">
+        <!-- LookupType=4 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0">
+          <LigatureSet glyph="dvBH_RA">
+            <Ligature components="dvVirama" glyph="dvBH_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvB_RA">
+            <Ligature components="dvVirama" glyph="dvB_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvCH_RA">
+            <Ligature components="dvVirama" glyph="dvCH_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvC_RA">
+            <Ligature components="dvVirama" glyph="dvC_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvDDH_RA">
+            <Ligature components="dvVirama" glyph="dvDDH_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvDD_RA">
+            <Ligature components="dvVirama" glyph="dvDD_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvDH_RA">
+            <Ligature components="dvVirama" glyph="dvDH_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvD_RA">
+            <Ligature components="dvVirama" glyph="dvD_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvGH_RA">
+            <Ligature components="dvVirama" glyph="dvGH_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvG_RA">
+            <Ligature components="dvVirama" glyph="dvG_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvGx_RA">
+            <Ligature components="dvVirama" glyph="dvGx_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvH_RA">
+            <Ligature components="dvVirama" glyph="dvH_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvJH_RA">
+            <Ligature components="dvVirama" glyph="dvJH_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvJ_RA">
+            <Ligature components="dvVirama" glyph="dvJ_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvJx_RA">
+            <Ligature components="dvVirama" glyph="dvJx_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvKH_RA">
+            <Ligature components="dvVirama" glyph="dvKH_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvKHx_RA">
+            <Ligature components="dvVirama" glyph="dvKHx_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvK_RA">
+            <Ligature components="dvVirama" glyph="dvK_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvKx_RA">
+            <Ligature components="dvVirama" glyph="dvKx_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvLL_RA">
+            <Ligature components="dvVirama" glyph="dvLL_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvL_RA">
+            <Ligature components="dvVirama" glyph="dvL_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvM_RA">
+            <Ligature components="dvVirama" glyph="dvM_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvNG_RA">
+            <Ligature components="dvVirama" glyph="dvNG_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvNN_RA">
+            <Ligature components="dvVirama" glyph="dvNN_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvNY_RA">
+            <Ligature components="dvVirama" glyph="dvNY_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvN_RA">
+            <Ligature components="dvVirama" glyph="dvN_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvPH_RA">
+            <Ligature components="dvVirama" glyph="dvPH_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvPHx_RA">
+            <Ligature components="dvVirama" glyph="dvPHx_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvP_RA">
+            <Ligature components="dvVirama" glyph="dvP_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvSH_RA">
+            <Ligature components="dvVirama" glyph="dvSH_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvSS_RA">
+            <Ligature components="dvVirama" glyph="dvSS_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvS_RA">
+            <Ligature components="dvVirama" glyph="dvS_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvTH_RA">
+            <Ligature components="dvVirama" glyph="dvTH_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvTTH_RA">
+            <Ligature components="dvVirama" glyph="dvTTH_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvTT_RA">
+            <Ligature components="dvVirama" glyph="dvTT_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvT_RA">
+            <Ligature components="dvVirama" glyph="dvT_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvV_RA">
+            <Ligature components="dvVirama" glyph="dvV_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvY_RA">
+            <Ligature components="dvVirama" glyph="dvY_R"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="11">
+        <!-- LookupType=4 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0">
+          <LigatureSet glyph="dvB">
+            <Ligature components="dvRashtrasign" glyph="dvB_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvBA">
+            <Ligature components="dvRashtrasign" glyph="dvB_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvBH">
+            <Ligature components="dvRashtrasign" glyph="dvBH_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvBHA">
+            <Ligature components="dvRashtrasign" glyph="dvBH_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvC">
+            <Ligature components="dvRashtrasign" glyph="dvC_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvCA">
+            <Ligature components="dvRashtrasign" glyph="dvC_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvCH">
+            <Ligature components="dvRashtrasign" glyph="dvCH_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvCHA">
+            <Ligature components="dvRashtrasign" glyph="dvCH_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvD">
+            <Ligature components="dvRashtrasign" glyph="dvD_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvDA">
+            <Ligature components="dvRashtrasign" glyph="dvD_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvDD">
+            <Ligature components="dvRashtrasign" glyph="dvDD_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvDDA">
+            <Ligature components="dvRashtrasign" glyph="dvDD_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvDDH">
+            <Ligature components="dvRashtrasign" glyph="dvDDH_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvDDHA">
+            <Ligature components="dvRashtrasign" glyph="dvDDH_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvDH">
+            <Ligature components="dvRashtrasign" glyph="dvDH_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvDHA">
+            <Ligature components="dvRashtrasign" glyph="dvDH_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvG">
+            <Ligature components="dvRashtrasign" glyph="dvG_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvGA">
+            <Ligature components="dvRashtrasign" glyph="dvG_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvGH">
+            <Ligature components="dvRashtrasign" glyph="dvGH_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvGHA">
+            <Ligature components="dvRashtrasign" glyph="dvGH_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvGx">
+            <Ligature components="dvRashtrasign" glyph="dvGx_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvGxA">
+            <Ligature components="dvRashtrasign" glyph="dvGx_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvH">
+            <Ligature components="dvRashtrasign" glyph="dvH_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvHA">
+            <Ligature components="dvRashtrasign" glyph="dvH_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvJ">
+            <Ligature components="dvRashtrasign" glyph="dvJ_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvJA">
+            <Ligature components="dvRashtrasign" glyph="dvJ_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvJH">
+            <Ligature components="dvRashtrasign" glyph="dvJH_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvJHA">
+            <Ligature components="dvRashtrasign" glyph="dvJH_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvJx">
+            <Ligature components="dvRashtrasign" glyph="dvJx_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvJxA">
+            <Ligature components="dvRashtrasign" glyph="dvJx_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvK">
+            <Ligature components="dvRashtrasign" glyph="dvK_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvKA">
+            <Ligature components="dvRashtrasign" glyph="dvK_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvKH">
+            <Ligature components="dvRashtrasign" glyph="dvKH_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvKHA">
+            <Ligature components="dvRashtrasign" glyph="dvKH_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvKHx">
+            <Ligature components="dvRashtrasign" glyph="dvKHx_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvKHxA">
+            <Ligature components="dvRashtrasign" glyph="dvKHx_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvKx">
+            <Ligature components="dvRashtrasign" glyph="dvKx_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvKxA">
+            <Ligature components="dvRashtrasign" glyph="dvKx_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvL">
+            <Ligature components="dvRashtrasign" glyph="dvL_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvLA">
+            <Ligature components="dvRashtrasign" glyph="dvL_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvLL">
+            <Ligature components="dvRashtrasign" glyph="dvLL_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvLLA">
+            <Ligature components="dvRashtrasign" glyph="dvLL_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvM">
+            <Ligature components="dvRashtrasign" glyph="dvM_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvMA">
+            <Ligature components="dvRashtrasign" glyph="dvM_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvN">
+            <Ligature components="dvRashtrasign" glyph="dvN_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvNA">
+            <Ligature components="dvRashtrasign" glyph="dvN_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvNG">
+            <Ligature components="dvRashtrasign" glyph="dvNG_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvNGA">
+            <Ligature components="dvRashtrasign" glyph="dvNG_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvNN">
+            <Ligature components="dvRashtrasign" glyph="dvNN_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvNNA">
+            <Ligature components="dvRashtrasign" glyph="dvNN_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvNY">
+            <Ligature components="dvRashtrasign" glyph="dvNY_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvNYA">
+            <Ligature components="dvRashtrasign" glyph="dvNY_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvP">
+            <Ligature components="dvRashtrasign" glyph="dvP_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvPA">
+            <Ligature components="dvRashtrasign" glyph="dvP_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvPH">
+            <Ligature components="dvRashtrasign" glyph="dvPH_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvPHA">
+            <Ligature components="dvRashtrasign" glyph="dvPH_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvPHx">
+            <Ligature components="dvRashtrasign" glyph="dvPHx_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvPHxA">
+            <Ligature components="dvRashtrasign" glyph="dvPHx_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvS">
+            <Ligature components="dvRashtrasign" glyph="dvS_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvSA">
+            <Ligature components="dvRashtrasign" glyph="dvS_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvSH">
+            <Ligature components="dvRashtrasign" glyph="dvSH_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvSHA">
+            <Ligature components="dvRashtrasign" glyph="dvSH_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvSS">
+            <Ligature components="dvRashtrasign" glyph="dvSS_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvSSA">
+            <Ligature components="dvRashtrasign" glyph="dvSS_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvT">
+            <Ligature components="dvRashtrasign" glyph="dvT_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvTA">
+            <Ligature components="dvRashtrasign" glyph="dvT_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvTH">
+            <Ligature components="dvRashtrasign" glyph="dvTH_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvTHA">
+            <Ligature components="dvRashtrasign" glyph="dvTH_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvTT">
+            <Ligature components="dvRashtrasign" glyph="dvTT_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvTTA">
+            <Ligature components="dvRashtrasign" glyph="dvTT_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvTTH">
+            <Ligature components="dvRashtrasign" glyph="dvTTH_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvTTHA">
+            <Ligature components="dvRashtrasign" glyph="dvTTH_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvV">
+            <Ligature components="dvRashtrasign" glyph="dvV_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvVA">
+            <Ligature components="dvRashtrasign" glyph="dvV_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvY">
+            <Ligature components="dvRashtrasign" glyph="dvY_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvYA">
+            <Ligature components="dvRashtrasign" glyph="dvY_RA"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="12">
+        <!-- LookupType=4 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0">
+          <LigatureSet glyph="dvB">
+            <Ligature components="dvJ,dvYA" glyph="dvB_J_YA"/>
+            <Ligature components="dvDH,dvVA" glyph="dvB_DH_VA"/>
+            <Ligature components="dvL,dvYA" glyph="dvB_L_YA"/>
+            <Ligature components="dvJA" glyph="dvB_JA"/>
+            <Ligature components="dvJHA" glyph="dvB_JHA"/>
+            <Ligature components="dvTA" glyph="dvB_TA"/>
+            <Ligature components="dvDA" glyph="dvB_DA"/>
+            <Ligature components="dvDHA" glyph="dvB_DHA"/>
+            <Ligature components="dvNA" glyph="dvB_NA"/>
+            <Ligature components="dvBA" glyph="dvB_BA"/>
+            <Ligature components="dvBHA" glyph="dvB_BHA"/>
+            <Ligature components="dvYA" glyph="dvB_YA"/>
+            <Ligature components="dvLA" glyph="dvB_LA"/>
+            <Ligature components="dvVA" glyph="dvB_VA"/>
+            <Ligature components="dvSHA" glyph="dvB_SHA"/>
+            <Ligature components="dvSA" glyph="dvB_SA"/>
+            <Ligature components="dvJxA" glyph="dvB_JxA"/>
+            <Ligature components="dvBH_RA" glyph="dvB_BH_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvBH">
+            <Ligature components="dvNA" glyph="dvBH_NA"/>
+            <Ligature components="dvYA" glyph="dvBH_YA"/>
+            <Ligature components="dvLA" glyph="dvBH_LA"/>
+            <Ligature components="dvVA" glyph="dvBH_VA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvBH_R">
+            <Ligature components="dvYA" glyph="dvBH_R_YA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvC">
+            <Ligature components="dvCH,dvVA" glyph="dvC_CH_VA"/>
+            <Ligature components="dvCA" glyph="dvC_CA"/>
+            <Ligature components="dvCHA" glyph="dvC_CHA"/>
+            <Ligature components="dvNA" glyph="dvC_NA"/>
+            <Ligature components="dvMA" glyph="dvC_MA"/>
+            <Ligature components="dvYA" glyph="dvC_YA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvCH">
+            <Ligature components="dvYA" glyph="dvCH_YA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvCH_R">
+            <Ligature components="dvYA" glyph="dvCH_R_YA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvD">
+            <Ligature components="dvGA" glyph="dvD_GA"/>
+            <Ligature components="dvGHA" glyph="dvD_GHA"/>
+            <Ligature components="dvDA" glyph="dvD_DA"/>
+            <Ligature components="dvDHA" glyph="dvD_DHA"/>
+            <Ligature components="dvNA" glyph="dvD_NA"/>
+            <Ligature components="dvBA" glyph="dvD_BA"/>
+            <Ligature components="dvBHA" glyph="dvD_BHA"/>
+            <Ligature components="dvMA" glyph="dvD_MA"/>
+            <Ligature components="dvYA" glyph="dvD_YA"/>
+            <Ligature components="dvVA" glyph="dvD_VA"/>
+            <Ligature components="dvG_RA" glyph="dvD_G_RA"/>
+            <Ligature components="dvB_RA" glyph="dvD_B_RA"/>
+            <Ligature components="dvY_RA" glyph="dvD_Y_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvDD">
+            <Ligature components="dvDDA" glyph="dvDD_DDA"/>
+            <Ligature components="dvDDHA" glyph="dvDD_DDHA"/>
+            <Ligature components="dvYA" glyph="dvDD_YA"/>
+            <Ligature components="dvVA" glyph="dvDD_VA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvDDH">
+            <Ligature components="dvDDHA" glyph="dvDDH_DDHA"/>
+            <Ligature components="dvYA" glyph="dvDDH_YA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvDH">
+            <Ligature components="dvN,dvYA" glyph="dvDH_N_YA"/>
+            <Ligature components="dvNA" glyph="dvDH_NA"/>
+            <Ligature components="dvMA" glyph="dvDH_MA"/>
+            <Ligature components="dvYA" glyph="dvDH_YA"/>
+            <Ligature components="dvVA" glyph="dvDH_VA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvEyelash">
+            <Ligature components="zerowidthjoiner,dvYA" glyph="dvEyelash_YA"/>
+            <Ligature components="zerowidthjoiner,dvHA" glyph="dvEyelash_HA"/>
+            <Ligature components="dvYA" glyph="dvEyelash_YA"/>
+            <Ligature components="dvHA" glyph="dvEyelash_HA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvG">
+            <Ligature components="dvDH,dvYA" glyph="dvG_DH_YA"/>
+            <Ligature components="dvDH,dvVA" glyph="dvG_DH_VA"/>
+            <Ligature components="dvN,dvYA" glyph="dvG_N_YA"/>
+            <Ligature components="dvBH,dvYA" glyph="dvG_BH_YA"/>
+            <Ligature components="dvGA" glyph="dvG_GA"/>
+            <Ligature components="dvGHA" glyph="dvG_GHA"/>
+            <Ligature components="dvJA" glyph="dvG_JA"/>
+            <Ligature components="dvNNA" glyph="dvG_NNA"/>
+            <Ligature components="dvDA" glyph="dvG_DA"/>
+            <Ligature components="dvDHA" glyph="dvG_DHA"/>
+            <Ligature components="dvNA" glyph="dvG_NA"/>
+            <Ligature components="dvBA" glyph="dvG_BA"/>
+            <Ligature components="dvBHA" glyph="dvG_BHA"/>
+            <Ligature components="dvMA" glyph="dvG_MA"/>
+            <Ligature components="dvYA" glyph="dvG_YA"/>
+            <Ligature components="dvLA" glyph="dvG_LA"/>
+            <Ligature components="dvVA" glyph="dvG_VA"/>
+            <Ligature components="dvSA" glyph="dvG_SA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvGH">
+            <Ligature components="dvNA" glyph="dvGH_NA"/>
+            <Ligature components="dvMA" glyph="dvGH_MA"/>
+            <Ligature components="dvYA" glyph="dvGH_YA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvG_R">
+            <Ligature components="dvYA" glyph="dvG_R_YA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvH">
+            <Ligature components="dvNNA" glyph="dvH_NNA"/>
+            <Ligature components="dvNA" glyph="dvH_NA"/>
+            <Ligature components="dvMA" glyph="dvH_MA"/>
+            <Ligature components="dvYA" glyph="dvH_YA"/>
+            <Ligature components="dvLA" glyph="dvH_LA"/>
+            <Ligature components="dvVA" glyph="dvH_VA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvJ">
+            <Ligature components="dvJ,dvYA" glyph="dvJ_J_YA"/>
+            <Ligature components="dvJ,dvVA" glyph="dvJ_J_VA"/>
+            <Ligature components="dvKA" glyph="dvJ_KA"/>
+            <Ligature components="dvJA" glyph="dvJ_JA"/>
+            <Ligature components="dvJHA" glyph="dvJ_JHA"/>
+            <Ligature components="dvTTA" glyph="dvJ_TTA"/>
+            <Ligature components="dvDDA" glyph="dvJ_DDA"/>
+            <Ligature components="dvTA" glyph="dvJ_TA"/>
+            <Ligature components="dvDA" glyph="dvJ_DA"/>
+            <Ligature components="dvNA" glyph="dvJ_NA"/>
+            <Ligature components="dvBA" glyph="dvJ_BA"/>
+            <Ligature components="dvMA" glyph="dvJ_MA"/>
+            <Ligature components="dvYA" glyph="dvJ_YA"/>
+            <Ligature components="dvVA" glyph="dvJ_VA"/>
+            <Ligature components="dvJ_NYA" glyph="dvJ_J_NYA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvJH">
+            <Ligature components="dvNA" glyph="dvJH_NA"/>
+            <Ligature components="dvMA" glyph="dvJH_MA"/>
+            <Ligature components="dvYA" glyph="dvJH_YA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvJ_NY">
+            <Ligature components="dvYA" glyph="dvJ_NY_YA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvJx">
+            <Ligature components="dvYA" glyph="dvJx_YA"/>
+            <Ligature components="dvJxA" glyph="dvJx_JxA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvK">
+            <Ligature components="dvS,dvP,dvLA" glyph="dvK_S_P_LA"/>
+            <Ligature components="dvT,dvYA" glyph="dvK_T_YA"/>
+            <Ligature components="dvT,dvVA" glyph="dvK_T_VA"/>
+            <Ligature components="dvV,dvYA" glyph="dvK_V_YA"/>
+            <Ligature components="dvS,dvTTA" glyph="dvK_S_TTA"/>
+            <Ligature components="dvS,dvDDA" glyph="dvK_S_DDA"/>
+            <Ligature components="dvS,dvTA" glyph="dvK_S_TA"/>
+            <Ligature components="dvS,dvP_RA" glyph="dvK_S_P_RA"/>
+            <Ligature components="dvKA" glyph="dvK_KA"/>
+            <Ligature components="dvKHA" glyph="dvK_KHA"/>
+            <Ligature components="dvCA" glyph="dvK_CA"/>
+            <Ligature components="dvJA" glyph="dvK_JA"/>
+            <Ligature components="dvTTA" glyph="dvK_TTA"/>
+            <Ligature components="dvNNA" glyph="dvK_NNA"/>
+            <Ligature components="dvTA" glyph="dvK_TA"/>
+            <Ligature components="dvTHA" glyph="dvK_THA"/>
+            <Ligature components="dvDA" glyph="dvK_DA"/>
+            <Ligature components="dvNA" glyph="dvK_NA"/>
+            <Ligature components="dvPA" glyph="dvK_PA"/>
+            <Ligature components="dvPHA" glyph="dvK_PHA"/>
+            <Ligature components="dvMA" glyph="dvK_MA"/>
+            <Ligature components="dvYA" glyph="dvK_YA"/>
+            <Ligature components="dvLA" glyph="dvK_LA"/>
+            <Ligature components="dvVA" glyph="dvK_VA"/>
+            <Ligature components="dvSHA" glyph="dvK_SHA"/>
+            <Ligature components="dvSA" glyph="dvK_SA"/>
+            <Ligature components="dvT_RA" glyph="dvK_T_RA"/>
+            <Ligature components="dvP_RA" glyph="dvK_P_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvKH">
+            <Ligature components="dvKHA" glyph="dvKH_KHA"/>
+            <Ligature components="dvTA" glyph="dvKH_TA"/>
+            <Ligature components="dvNA" glyph="dvKH_NA"/>
+            <Ligature components="dvMA" glyph="dvKH_MA"/>
+            <Ligature components="dvYA" glyph="dvKH_YA"/>
+            <Ligature components="dvVA" glyph="dvKH_VA"/>
+            <Ligature components="dvSHA" glyph="dvKH_SHA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvKHx">
+            <Ligature components="dvTA" glyph="dvKHx_TA"/>
+            <Ligature components="dvMA" glyph="dvKHx_MA"/>
+            <Ligature components="dvYA" glyph="dvKHx_YA"/>
+            <Ligature components="dvVA" glyph="dvKHx_VA"/>
+            <Ligature components="dvSHA" glyph="dvKHx_SHA"/>
+            <Ligature components="dvSA" glyph="dvKHx_SA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvK_SS">
+            <Ligature components="dvM,dvYA" glyph="dvK_SS_M_YA"/>
+            <Ligature components="dvMA" glyph="dvK_SS_MA"/>
+            <Ligature components="dvYA" glyph="dvK_SS_YA"/>
+            <Ligature components="dvVA" glyph="dvK_SS_VA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvKx">
+            <Ligature components="dvTA" glyph="dvKx_TA"/>
+            <Ligature components="dvPHA" glyph="dvKx_PHA"/>
+            <Ligature components="dvBA" glyph="dvKx_BA"/>
+            <Ligature components="dvMA" glyph="dvKx_MA"/>
+            <Ligature components="dvKxA" glyph="dvKx_KxA"/>
+            <Ligature components="dvPHxA" glyph="dvKx_PHxA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvL">
+            <Ligature components="dvK,dvYA" glyph="dvL_K_YA"/>
+            <Ligature components="dvTH,dvYA" glyph="dvL_TH_YA"/>
+            <Ligature components="dvL,dvYA" glyph="dvL_L_YA"/>
+            <Ligature components="dvV,dvDDA" glyph="dvL_V_DDA"/>
+            <Ligature components="dvKA" glyph="dvL_KA"/>
+            <Ligature components="dvKHA" glyph="dvL_KHA"/>
+            <Ligature components="dvGA" glyph="dvL_GA"/>
+            <Ligature components="dvJA" glyph="dvL_JA"/>
+            <Ligature components="dvTTA" glyph="dvL_TTA"/>
+            <Ligature components="dvTTHA" glyph="dvL_TTHA"/>
+            <Ligature components="dvDDA" glyph="dvL_DDA"/>
+            <Ligature components="dvDDHA" glyph="dvL_DDHA"/>
+            <Ligature components="dvTA" glyph="dvL_TA"/>
+            <Ligature components="dvTHA" glyph="dvL_THA"/>
+            <Ligature components="dvDA" glyph="dvL_DA"/>
+            <Ligature components="dvPA" glyph="dvL_PA"/>
+            <Ligature components="dvPHA" glyph="dvL_PHA"/>
+            <Ligature components="dvBA" glyph="dvL_BA"/>
+            <Ligature components="dvBHA" glyph="dvL_BHA"/>
+            <Ligature components="dvMA" glyph="dvL_MA"/>
+            <Ligature components="dvYA" glyph="dvL_YA"/>
+            <Ligature components="dvLA" glyph="dvL_LA"/>
+            <Ligature components="dvVA" glyph="dvL_VA"/>
+            <Ligature components="dvSA" glyph="dvL_SA"/>
+            <Ligature components="dvHA" glyph="dvL_HA"/>
+            <Ligature components="dvJxA" glyph="dvL_JxA"/>
+            <Ligature components="dvD_RA" glyph="dvL_D_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvLL">
+            <Ligature components="dvYA" glyph="dvLL_YA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvM">
+            <Ligature components="dvB,dvYA" glyph="dvM_B_YA"/>
+            <Ligature components="dvBH,dvYA" glyph="dvM_BH_YA"/>
+            <Ligature components="dvBH,dvVA" glyph="dvM_BH_VA"/>
+            <Ligature components="dvTA" glyph="dvM_TA"/>
+            <Ligature components="dvDA" glyph="dvM_DA"/>
+            <Ligature components="dvNA" glyph="dvM_NA"/>
+            <Ligature components="dvPA" glyph="dvM_PA"/>
+            <Ligature components="dvBA" glyph="dvM_BA"/>
+            <Ligature components="dvBHA" glyph="dvM_BHA"/>
+            <Ligature components="dvMA" glyph="dvM_MA"/>
+            <Ligature components="dvYA" glyph="dvM_YA"/>
+            <Ligature components="dvLA" glyph="dvM_LA"/>
+            <Ligature components="dvVA" glyph="dvM_VA"/>
+            <Ligature components="dvSHA" glyph="dvM_SHA"/>
+            <Ligature components="dvSA" glyph="dvM_SA"/>
+            <Ligature components="dvHA" glyph="dvM_HA"/>
+            <Ligature components="dvP_RA" glyph="dvM_P_RA"/>
+            <Ligature components="dvB_RA" glyph="dvM_B_RA"/>
+            <Ligature components="dvBH_RA" glyph="dvM_BH_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvN">
+            <Ligature components="dvS,dvM,dvYA" glyph="dvN_S_M_YA"/>
+            <Ligature components="dvK,dvSA" glyph="dvN_K_SA"/>
+            <Ligature components="dvT,dvYA" glyph="dvN_T_YA"/>
+            <Ligature components="dvT,dvSA" glyph="dvN_T_SA"/>
+            <Ligature components="dvTH,dvYA" glyph="dvN_TH_YA"/>
+            <Ligature components="dvTH,dvVA" glyph="dvN_TH_VA"/>
+            <Ligature components="dvD,dvVA" glyph="dvN_D_VA"/>
+            <Ligature components="dvDH,dvYA" glyph="dvN_DH_YA"/>
+            <Ligature components="dvDH,dvVA" glyph="dvN_DH_VA"/>
+            <Ligature components="dvN,dvYA" glyph="dvN_N_YA"/>
+            <Ligature components="dvBH,dvYA" glyph="dvN_BH_YA"/>
+            <Ligature components="dvBH,dvVA" glyph="dvN_BH_VA"/>
+            <Ligature components="dvM,dvYA" glyph="dvN_M_YA"/>
+            <Ligature components="dvS,dvTTA" glyph="dvN_S_TTA"/>
+            <Ligature components="dvS,dvYA" glyph="dvN_S_YA"/>
+            <Ligature components="dvKA" glyph="dvN_KA"/>
+            <Ligature components="dvCA" glyph="dvN_CA"/>
+            <Ligature components="dvCHA" glyph="dvN_CHA"/>
+            <Ligature components="dvTTA" glyph="dvN_TTA"/>
+            <Ligature components="dvDDA" glyph="dvN_DDA"/>
+            <Ligature components="dvTA" glyph="dvN_TA"/>
+            <Ligature components="dvTHA" glyph="dvN_THA"/>
+            <Ligature components="dvDA" glyph="dvN_DA"/>
+            <Ligature components="dvDHA" glyph="dvN_DHA"/>
+            <Ligature components="dvNA" glyph="dvN_NA"/>
+            <Ligature components="dvPA" glyph="dvN_PA"/>
+            <Ligature components="dvPHA" glyph="dvN_PHA"/>
+            <Ligature components="dvBHA" glyph="dvN_BHA"/>
+            <Ligature components="dvMA" glyph="dvN_MA"/>
+            <Ligature components="dvYA" glyph="dvN_YA"/>
+            <Ligature components="dvVA" glyph="dvN_VA"/>
+            <Ligature components="dvSA" glyph="dvN_SA"/>
+            <Ligature components="dvHA" glyph="dvN_HA"/>
+            <Ligature components="dvT_RA" glyph="dvN_T_RA"/>
+            <Ligature components="dvD_RA" glyph="dvN_D_RA"/>
+            <Ligature components="dvDH_RA" glyph="dvN_DH_RA"/>
+            <Ligature components="dvP_RA" glyph="dvN_P_RA"/>
+            <Ligature components="dvPH_RA" glyph="dvN_PH_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvNN">
+            <Ligature components="dvTTA" glyph="dvNN_TTA"/>
+            <Ligature components="dvTTHA" glyph="dvNN_TTHA"/>
+            <Ligature components="dvDDA" glyph="dvNN_DDA"/>
+            <Ligature components="dvDDHA" glyph="dvNN_DDHA"/>
+            <Ligature components="dvNNA" glyph="dvNN_NNA"/>
+            <Ligature components="dvMA" glyph="dvNN_MA"/>
+            <Ligature components="dvYA" glyph="dvNN_YA"/>
+            <Ligature components="dvVA" glyph="dvNN_VA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvNY">
+            <Ligature components="dvCA" glyph="dvNY_CA"/>
+            <Ligature components="dvCHA" glyph="dvNY_CHA"/>
+            <Ligature components="dvJA" glyph="dvNY_JA"/>
+            <Ligature components="dvSHA" glyph="dvNY_SHA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvP">
+            <Ligature components="dvT,dvYA" glyph="dvP_T_YA"/>
+            <Ligature components="dvTTA" glyph="dvP_TTA"/>
+            <Ligature components="dvTTHA" glyph="dvP_TTHA"/>
+            <Ligature components="dvTA" glyph="dvP_TA"/>
+            <Ligature components="dvNA" glyph="dvP_NA"/>
+            <Ligature components="dvPA" glyph="dvP_PA"/>
+            <Ligature components="dvPHA" glyph="dvP_PHA"/>
+            <Ligature components="dvMA" glyph="dvP_MA"/>
+            <Ligature components="dvYA" glyph="dvP_YA"/>
+            <Ligature components="dvLA" glyph="dvP_LA"/>
+            <Ligature components="dvVA" glyph="dvP_VA"/>
+            <Ligature components="dvSA" glyph="dvP_SA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvPH">
+            <Ligature components="dvJA" glyph="dvPH_JA"/>
+            <Ligature components="dvTTA" glyph="dvPH_TTA"/>
+            <Ligature components="dvTA" glyph="dvPH_TA"/>
+            <Ligature components="dvNA" glyph="dvPH_NA"/>
+            <Ligature components="dvPA" glyph="dvPH_PA"/>
+            <Ligature components="dvPHA" glyph="dvPH_PHA"/>
+            <Ligature components="dvYA" glyph="dvPH_YA"/>
+            <Ligature components="dvLA" glyph="dvPH_LA"/>
+            <Ligature components="dvSHA" glyph="dvPH_SHA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvPHx">
+            <Ligature components="dvTA" glyph="dvPHx_TA"/>
+            <Ligature components="dvSA" glyph="dvPHx_SA"/>
+            <Ligature components="dvJxA" glyph="dvPHx_JxA"/>
+            <Ligature components="dvPHxA" glyph="dvPHx_PHxA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvS">
+            <Ligature components="dvK,dvVA" glyph="dvS_K_VA"/>
+            <Ligature components="dvT,dvYA" glyph="dvS_T_YA"/>
+            <Ligature components="dvT,dvVA" glyph="dvS_T_VA"/>
+            <Ligature components="dvTH,dvYA" glyph="dvS_TH_YA"/>
+            <Ligature components="dvM,dvYA" glyph="dvS_M_YA"/>
+            <Ligature components="dvKA" glyph="dvS_KA"/>
+            <Ligature components="dvKHA" glyph="dvS_KHA"/>
+            <Ligature components="dvJA" glyph="dvS_JA"/>
+            <Ligature components="dvTTA" glyph="dvS_TTA"/>
+            <Ligature components="dvTA" glyph="dvS_TA"/>
+            <Ligature components="dvTHA" glyph="dvS_THA"/>
+            <Ligature components="dvDA" glyph="dvS_DA"/>
+            <Ligature components="dvNA" glyph="dvS_NA"/>
+            <Ligature components="dvPA" glyph="dvS_PA"/>
+            <Ligature components="dvPHA" glyph="dvS_PHA"/>
+            <Ligature components="dvBA" glyph="dvS_BA"/>
+            <Ligature components="dvMA" glyph="dvS_MA"/>
+            <Ligature components="dvYA" glyph="dvS_YA"/>
+            <Ligature components="dvLA" glyph="dvS_LA"/>
+            <Ligature components="dvVA" glyph="dvS_VA"/>
+            <Ligature components="dvSA" glyph="dvS_SA"/>
+            <Ligature components="dvK_RA" glyph="dvS_K_RA"/>
+            <Ligature components="dvT_RA" glyph="dvS_T_RA"/>
+            <Ligature components="dvP_RA" glyph="dvS_P_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvSH">
+            <Ligature components="dvKA" glyph="dvSH_KA"/>
+            <Ligature components="dvCA" glyph="dvSH_CA"/>
+            <Ligature components="dvCHA" glyph="dvSH_CHA"/>
+            <Ligature components="dvTTA" glyph="dvSH_TTA"/>
+            <Ligature components="dvTA" glyph="dvSH_TA"/>
+            <Ligature components="dvNA" glyph="dvSH_NA"/>
+            <Ligature components="dvMA" glyph="dvSH_MA"/>
+            <Ligature components="dvYA" glyph="dvSH_YA"/>
+            <Ligature components="dvLA" glyph="dvSH_LA"/>
+            <Ligature components="dvVA" glyph="dvSH_VA"/>
+            <Ligature components="dvSHA" glyph="dvSH_SHA"/>
+            <Ligature components="dvKxA" glyph="dvSH_KxA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvSS">
+            <Ligature components="dvTT,dvYA" glyph="dvSS_TT_YA"/>
+            <Ligature components="dvTT,dvVA" glyph="dvSS_TT_VA"/>
+            <Ligature components="dvTTH,dvYA" glyph="dvSS_TTH_YA"/>
+            <Ligature components="dvNN,dvYA" glyph="dvSS_NN_YA"/>
+            <Ligature components="dvM,dvYA" glyph="dvSS_M_YA"/>
+            <Ligature components="dvKA" glyph="dvSS_KA"/>
+            <Ligature components="dvTTA" glyph="dvSS_TTA"/>
+            <Ligature components="dvTTHA" glyph="dvSS_TTHA"/>
+            <Ligature components="dvNNA" glyph="dvSS_NNA"/>
+            <Ligature components="dvPA" glyph="dvSS_PA"/>
+            <Ligature components="dvPHA" glyph="dvSS_PHA"/>
+            <Ligature components="dvMA" glyph="dvSS_MA"/>
+            <Ligature components="dvYA" glyph="dvSS_YA"/>
+            <Ligature components="dvVA" glyph="dvSS_VA"/>
+            <Ligature components="dvSSA" glyph="dvSS_SSA"/>
+            <Ligature components="dvK_RA" glyph="dvSS_K_RA"/>
+            <Ligature components="dvTT_RA" glyph="dvSS_TT_RA"/>
+            <Ligature components="dvTTH_RA" glyph="dvSS_TTH_RA"/>
+            <Ligature components="dvP_RA" glyph="dvSS_P_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvT">
+            <Ligature components="dvK,dvYA" glyph="dvT_K_YA"/>
+            <Ligature components="dvK,dvVA" glyph="dvT_K_VA"/>
+            <Ligature components="dvT,dvYA" glyph="dvT_T_YA"/>
+            <Ligature components="dvT,dvVA" glyph="dvT_T_VA"/>
+            <Ligature components="dvN,dvYA" glyph="dvT_N_YA"/>
+            <Ligature components="dvP,dvLA" glyph="dvT_P_LA"/>
+            <Ligature components="dvM,dvYA" glyph="dvT_M_YA"/>
+            <Ligature components="dvS,dvNA" glyph="dvT_S_NA"/>
+            <Ligature components="dvS,dvYA" glyph="dvT_S_YA"/>
+            <Ligature components="dvS,dvVA" glyph="dvT_S_VA"/>
+            <Ligature components="dvKA" glyph="dvT_KA"/>
+            <Ligature components="dvKHA" glyph="dvT_KHA"/>
+            <Ligature components="dvTA" glyph="dvT_TA"/>
+            <Ligature components="dvTHA" glyph="dvT_THA"/>
+            <Ligature components="dvNA" glyph="dvT_NA"/>
+            <Ligature components="dvPA" glyph="dvT_PA"/>
+            <Ligature components="dvPHA" glyph="dvT_PHA"/>
+            <Ligature components="dvMA" glyph="dvT_MA"/>
+            <Ligature components="dvYA" glyph="dvT_YA"/>
+            <Ligature components="dvLA" glyph="dvT_LA"/>
+            <Ligature components="dvVA" glyph="dvT_VA"/>
+            <Ligature components="dvSA" glyph="dvT_SA"/>
+            <Ligature components="dvK_SSA" glyph="dvT_K_SSA"/>
+            <Ligature components="dvK_RA" glyph="dvT_K_RA"/>
+            <Ligature components="dvKH_RA" glyph="dvT_KH_RA"/>
+            <Ligature components="dvP_RA" glyph="dvT_P_RA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvTH">
+            <Ligature components="dvNA" glyph="dvTH_NA"/>
+            <Ligature components="dvYA" glyph="dvTH_YA"/>
+            <Ligature components="dvVA" glyph="dvTH_VA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvTT">
+            <Ligature components="dvTTA" glyph="dvTT_TTA"/>
+            <Ligature components="dvTTHA" glyph="dvTT_TTHA"/>
+            <Ligature components="dvYA" glyph="dvTT_YA"/>
+            <Ligature components="dvVA" glyph="dvTT_VA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvTTH">
+            <Ligature components="dvTTHA" glyph="dvTTH_TTHA"/>
+            <Ligature components="dvYA" glyph="dvTTH_YA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvT_R">
+            <Ligature components="dvYA" glyph="dvT_R_YA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvV">
+            <Ligature components="dvNA" glyph="dvV_NA"/>
+            <Ligature components="dvYA" glyph="dvV_YA"/>
+            <Ligature components="dvLA" glyph="dvV_LA"/>
+            <Ligature components="dvVA" glyph="dvV_VA"/>
+            <Ligature components="dvHA" glyph="dvV_HA"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvY">
+            <Ligature components="dvNA" glyph="dvY_NA"/>
+            <Ligature components="dvYA" glyph="dvY_YA"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="13">
+        <!-- LookupType=6 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=24 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="dvmI"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="dvNGA"/>
+            <Glyph value="dvTTA"/>
+            <Glyph value="dvTTHA"/>
+            <Glyph value="dvDDA"/>
+            <Glyph value="dvRA"/>
+            <Glyph value="dvDDxA"/>
+            <Glyph value="dvRxA"/>
+            <Glyph value="dvTT_RA"/>
+            <Glyph value="dvTTH_RA"/>
+            <Glyph value="dvDD_RA"/>
+            <Glyph value="dvTT_TTA"/>
+            <Glyph value="dvTT_TTHA"/>
+            <Glyph value="dvTT_VA"/>
+            <Glyph value="dvTTH_TTHA"/>
+            <Glyph value="dvDD_DDA"/>
+            <Glyph value="dvDD_DDHA"/>
+            <Glyph value="dvDDH_DDHA"/>
+            <Glyph value="dvD_DA"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="26"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="1" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="dvmI"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="dvDDHA"/>
+            <Glyph value="dvDA"/>
+            <Glyph value="dvHA"/>
+            <Glyph value="dvDDHxA"/>
+            <Glyph value="dvDDH_RA"/>
+            <Glyph value="dvD_RA"/>
+            <Glyph value="dvH_RA"/>
+            <Glyph value="dvDD_VA"/>
+            <Glyph value="dvD_GA"/>
+            <Glyph value="dvD_G_RA"/>
+            <Glyph value="dvD_BA"/>
+            <Glyph value="dvD_B_RA"/>
+            <Glyph value="dvD_VA"/>
+            <Glyph value="dvH_VA"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="27"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="2" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="dvmI"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="dvKA"/>
+            <Glyph value="dvPA"/>
+            <Glyph value="dvPHA"/>
+            <Glyph value="dvBA"/>
+            <Glyph value="dvVA"/>
+            <Glyph value="dvKxA"/>
+            <Glyph value="dvPHxA"/>
+            <Glyph value="dvK_RA"/>
+            <Glyph value="dvP_RA"/>
+            <Glyph value="dvPH_RA"/>
+            <Glyph value="dvB_RA"/>
+            <Glyph value="dvV_RA"/>
+            <Glyph value="dvH_LA"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="28"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="3" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="dvmI"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="dvGHA"/>
+            <Glyph value="dvTA"/>
+            <Glyph value="dvDHA"/>
+            <Glyph value="dvSSA"/>
+            <Glyph value="dvGH_RA"/>
+            <Glyph value="dvNG_RA"/>
+            <Glyph value="dvT_RA"/>
+            <Glyph value="dvDH_RA"/>
+            <Glyph value="dvSS_RA"/>
+            <Glyph value="dvD_YA"/>
+            <Glyph value="dvD_Y_RA"/>
+            <Glyph value="dvEyelash_HA"/>
+            <Glyph value="dvH_NNA"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="29"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="4" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="dvmI"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="dvGA"/>
+            <Glyph value="dvCA"/>
+            <Glyph value="dvCHA"/>
+            <Glyph value="dvTHA"/>
+            <Glyph value="dvYA"/>
+            <Glyph value="dvLA"/>
+            <Glyph value="dvGxA"/>
+            <Glyph value="dvG_RA"/>
+            <Glyph value="dvC_RA"/>
+            <Glyph value="dvCH_RA"/>
+            <Glyph value="dvTH_RA"/>
+            <Glyph value="dvY_RA"/>
+            <Glyph value="dvGx_RA"/>
+            <Glyph value="dvK_TA"/>
+            <Glyph value="dvT_TA"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="30"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="5" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="dvmI"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="dvJA"/>
+            <Glyph value="dvNYA"/>
+            <Glyph value="dvNA"/>
+            <Glyph value="dvBHA"/>
+            <Glyph value="dvMA"/>
+            <Glyph value="dvSHA"/>
+            <Glyph value="dvSA"/>
+            <Glyph value="dvLLA"/>
+            <Glyph value="dvK_SSA"/>
+            <Glyph value="dvJ_NYA"/>
+            <Glyph value="dvJxA"/>
+            <Glyph value="dvJ_RA"/>
+            <Glyph value="dvN_RA"/>
+            <Glyph value="dvM_RA"/>
+            <Glyph value="dvSH_RA"/>
+            <Glyph value="dvS_RA"/>
+            <Glyph value="dvJx_RA"/>
+            <Glyph value="dvD_GHA"/>
+            <Glyph value="dvD_DHA"/>
+            <Glyph value="dvP_TTHA"/>
+            <Glyph value="dvSH_CA"/>
+            <Glyph value="dvSH_VA"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="31"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="6" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="dvmI"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="dvJHA"/>
+            <Glyph value="dvNNA"/>
+            <Glyph value="dvJH_RA"/>
+            <Glyph value="dvNY_RA"/>
+            <Glyph value="dvNN_RA"/>
+            <Glyph value="dvBH_RA"/>
+            <Glyph value="dvD_MA"/>
+            <Glyph value="dvP_TTA"/>
+            <Glyph value="dvV_HA"/>
+            <Glyph value="dvSS_TTHA"/>
+            <Glyph value="dvSS_TTH_RA"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="32"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="7" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="dvmI"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="dvKHA"/>
+            <Glyph value="dvKHxA"/>
+            <Glyph value="dvKH_RA"/>
+            <Glyph value="dvL_RA"/>
+            <Glyph value="dvLL_RA"/>
+            <Glyph value="dvKHx_RA"/>
+            <Glyph value="dvEyelash_YA"/>
+            <Glyph value="dvSS_TTA"/>
+            <Glyph value="dvSS_TT_RA"/>
+            <Glyph value="dvSS_TT_VA"/>
+            <Glyph value="dvH_YA"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="33"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="8" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="dvmI"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="dvKx_RA"/>
+            <Glyph value="dvPHx_RA"/>
+            <Glyph value="dvT_KA"/>
+            <Glyph value="dvB_DA"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="34"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="9" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="dvmI"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="dvG_DA"/>
+            <Glyph value="dvT_PA"/>
+            <Glyph value="dvT_P_RA"/>
+            <Glyph value="dvT_VA"/>
+            <Glyph value="dvN_TTA"/>
+            <Glyph value="dvN_DDA"/>
+            <Glyph value="dvN_HA"/>
+            <Glyph value="dvP_TA"/>
+            <Glyph value="dvP_PA"/>
+            <Glyph value="dvP_PHA"/>
+            <Glyph value="dvP_VA"/>
+            <Glyph value="dvM_HA"/>
+            <Glyph value="dvV_VA"/>
+            <Glyph value="dvSS_KA"/>
+            <Glyph value="dvSS_K_RA"/>
+            <Glyph value="dvSS_PA"/>
+            <Glyph value="dvSS_P_RA"/>
+            <Glyph value="dvSS_PHA"/>
+            <Glyph value="dvSS_VA"/>
+            <Glyph value="dvSS_SSA"/>
+            <Glyph value="dvS_TTA"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="35"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="10" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="dvmI"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="dvG_VA"/>
+            <Glyph value="dvC_CA"/>
+            <Glyph value="dvJ_TTA"/>
+            <Glyph value="dvJ_DDA"/>
+            <Glyph value="dvNN_TTA"/>
+            <Glyph value="dvNN_DDA"/>
+            <Glyph value="dvNN_DDHA"/>
+            <Glyph value="dvT_T_VA"/>
+            <Glyph value="dvDH_VA"/>
+            <Glyph value="dvN_T_RA"/>
+            <Glyph value="dvN_DA"/>
+            <Glyph value="dvN_D_RA"/>
+            <Glyph value="dvN_D_VA"/>
+            <Glyph value="dvN_PHA"/>
+            <Glyph value="dvB_TA"/>
+            <Glyph value="dvB_DHA"/>
+            <Glyph value="dvB_BA"/>
+            <Glyph value="dvB_VA"/>
+            <Glyph value="dvM_DA"/>
+            <Glyph value="dvV_YA"/>
+            <Glyph value="dvSH_TTA"/>
+            <Glyph value="dvS_DA"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="36"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="11" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="dvmI"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="dvG_GHA"/>
+            <Glyph value="dvG_BA"/>
+            <Glyph value="dvGH_YA"/>
+            <Glyph value="dvC_CH_VA"/>
+            <Glyph value="dvJ_DA"/>
+            <Glyph value="dvT_THA"/>
+            <Glyph value="dvT_NA"/>
+            <Glyph value="dvT_YA"/>
+            <Glyph value="dvT_R_YA"/>
+            <Glyph value="dvTH_VA"/>
+            <Glyph value="dvN_KA"/>
+            <Glyph value="dvN_PA"/>
+            <Glyph value="dvN_P_RA"/>
+            <Glyph value="dvN_PH_RA"/>
+            <Glyph value="dvN_VA"/>
+            <Glyph value="dvP_NA"/>
+            <Glyph value="dvP_YA"/>
+            <Glyph value="dvP_LA"/>
+            <Glyph value="dvB_YA"/>
+            <Glyph value="dvL_TTHA"/>
+            <Glyph value="dvL_HA"/>
+            <Glyph value="dvV_LA"/>
+            <Glyph value="dvSH_KA"/>
+            <Glyph value="dvSS_YA"/>
+            <Glyph value="dvS_KA"/>
+            <Glyph value="dvS_K_RA"/>
+            <Glyph value="dvS_VA"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="37"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="12" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="dvmI"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="dvK_SS_VA"/>
+            <Glyph value="dvG_GA"/>
+            <Glyph value="dvG_DHA"/>
+            <Glyph value="dvG_YA"/>
+            <Glyph value="dvG_R_YA"/>
+            <Glyph value="dvG_LA"/>
+            <Glyph value="dvGH_NA"/>
+            <Glyph value="dvC_CHA"/>
+            <Glyph value="dvC_YA"/>
+            <Glyph value="dvJ_KA"/>
+            <Glyph value="dvJ_VA"/>
+            <Glyph value="dvDD_YA"/>
+            <Glyph value="dvNN_VA"/>
+            <Glyph value="dvT_K_SSA"/>
+            <Glyph value="dvT_T_YA"/>
+            <Glyph value="dvT_MA"/>
+            <Glyph value="dvT_SA"/>
+            <Glyph value="dvTH_YA"/>
+            <Glyph value="dvDH_YA"/>
+            <Glyph value="dvN_CA"/>
+            <Glyph value="dvN_TA"/>
+            <Glyph value="dvN_DHA"/>
+            <Glyph value="dvN_DH_RA"/>
+            <Glyph value="dvP_MA"/>
+            <Glyph value="dvP_SA"/>
+            <Glyph value="dvB_SA"/>
+            <Glyph value="dvBH_VA"/>
+            <Glyph value="dvM_TA"/>
+            <Glyph value="dvM_PA"/>
+            <Glyph value="dvM_BA"/>
+            <Glyph value="dvM_VA"/>
+            <Glyph value="dvY_YA"/>
+            <Glyph value="dvL_TTA"/>
+            <Glyph value="dvL_DDA"/>
+            <Glyph value="dvL_DDHA"/>
+            <Glyph value="dvV_NA"/>
+            <Glyph value="dvSH_KxA"/>
+            <Glyph value="dvSS_MA"/>
+            <Glyph value="dvS_TA"/>
+            <Glyph value="dvS_T_RA"/>
+            <Glyph value="dvS_PA"/>
+            <Glyph value="dvS_P_RA"/>
+            <Glyph value="dvS_PHA"/>
+            <Glyph value="dvS_BA"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="38"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="13" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="dvmI"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="dvK_SS_YA"/>
+            <Glyph value="dvG_NA"/>
+            <Glyph value="dvG_MA"/>
+            <Glyph value="dvG_SA"/>
+            <Glyph value="dvGH_MA"/>
+            <Glyph value="dvJ_TA"/>
+            <Glyph value="dvJ_BA"/>
+            <Glyph value="dvNY_CA"/>
+            <Glyph value="dvTT_YA"/>
+            <Glyph value="dvDDH_YA"/>
+            <Glyph value="dvDH_NA"/>
+            <Glyph value="dvDH_MA"/>
+            <Glyph value="dvN_CHA"/>
+            <Glyph value="dvN_THA"/>
+            <Glyph value="dvN_YA"/>
+            <Glyph value="dvB_JA"/>
+            <Glyph value="dvB_JxA"/>
+            <Glyph value="dvB_JHA"/>
+            <Glyph value="dvB_NA"/>
+            <Glyph value="dvB_BHA"/>
+            <Glyph value="dvB_BH_RA"/>
+            <Glyph value="dvB_SHA"/>
+            <Glyph value="dvBH_YA"/>
+            <Glyph value="dvBH_R_YA"/>
+            <Glyph value="dvM_P_RA"/>
+            <Glyph value="dvM_B_RA"/>
+            <Glyph value="dvM_YA"/>
+            <Glyph value="dvM_LA"/>
+            <Glyph value="dvY_NA"/>
+            <Glyph value="dvL_DA"/>
+            <Glyph value="dvL_D_RA"/>
+            <Glyph value="dvL_PHA"/>
+            <Glyph value="dvSH_TA"/>
+            <Glyph value="dvSH_YA"/>
+            <Glyph value="dvSS_NNA"/>
+            <Glyph value="dvS_YA"/>
+            <Glyph value="dvS_LA"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="39"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="14" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="dvmI"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="dvK_TTA"/>
+            <Glyph value="dvG_BHA"/>
+            <Glyph value="dvC_NA"/>
+            <Glyph value="dvC_MA"/>
+            <Glyph value="dvJ_YA"/>
+            <Glyph value="dvJx_YA"/>
+            <Glyph value="dvJH_YA"/>
+            <Glyph value="dvNY_CHA"/>
+            <Glyph value="dvTTH_YA"/>
+            <Glyph value="dvNN_TTHA"/>
+            <Glyph value="dvNN_YA"/>
+            <Glyph value="dvT_PHA"/>
+            <Glyph value="dvT_LA"/>
+            <Glyph value="dvTH_NA"/>
+            <Glyph value="dvN_NA"/>
+            <Glyph value="dvN_BHA"/>
+            <Glyph value="dvN_MA"/>
+            <Glyph value="dvN_SA"/>
+            <Glyph value="dvPH_TTA"/>
+            <Glyph value="dvB_LA"/>
+            <Glyph value="dvBH_LA"/>
+            <Glyph value="dvM_SA"/>
+            <Glyph value="dvL_KA"/>
+            <Glyph value="dvL_PA"/>
+            <Glyph value="dvL_VA"/>
+            <Glyph value="dvSH_CHA"/>
+            <Glyph value="dvSH_NA"/>
+            <Glyph value="dvSH_LA"/>
+            <Glyph value="dvS_THA"/>
+            <Glyph value="dvS_NA"/>
+            <Glyph value="dvS_SA"/>
+            <Glyph value="dvH_NA"/>
+            <Glyph value="dvH_MA"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="40"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="15" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="dvmI"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="dvK_CA"/>
+            <Glyph value="dvK_DA"/>
+            <Glyph value="dvK_PHA"/>
+            <Glyph value="dvKx_PHA"/>
+            <Glyph value="dvKx_PHxA"/>
+            <Glyph value="dvK_SS_MA"/>
+            <Glyph value="dvKH_TA"/>
+            <Glyph value="dvKHx_TA"/>
+            <Glyph value="dvKH_VA"/>
+            <Glyph value="dvKHx_VA"/>
+            <Glyph value="dvG_JA"/>
+            <Glyph value="dvG_NNA"/>
+            <Glyph value="dvCH_YA"/>
+            <Glyph value="dvCH_R_YA"/>
+            <Glyph value="dvJ_J_NYA"/>
+            <Glyph value="dvJ_NY_YA"/>
+            <Glyph value="dvJ_NA"/>
+            <Glyph value="dvJ_MA"/>
+            <Glyph value="dvJH_NA"/>
+            <Glyph value="dvNN_MA"/>
+            <Glyph value="dvT_K_RA"/>
+            <Glyph value="dvT_KHA"/>
+            <Glyph value="dvT_KH_RA"/>
+            <Glyph value="dvPH_PHA"/>
+            <Glyph value="dvPHx_PHxA"/>
+            <Glyph value="dvBH_NA"/>
+            <Glyph value="dvM_NA"/>
+            <Glyph value="dvM_BHA"/>
+            <Glyph value="dvM_BH_RA"/>
+            <Glyph value="dvM_MA"/>
+            <Glyph value="dvM_SHA"/>
+            <Glyph value="dvL_TA"/>
+            <Glyph value="dvL_BA"/>
+            <Glyph value="dvL_YA"/>
+            <Glyph value="dvSH_MA"/>
+            <Glyph value="dvSH_SHA"/>
+            <Glyph value="dvS_JA"/>
+            <Glyph value="dvS_MA"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="41"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="16" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="dvmI"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="dvK_KA"/>
+            <Glyph value="dvKx_KxA"/>
+            <Glyph value="dvKx_TA"/>
+            <Glyph value="dvK_T_RA"/>
+            <Glyph value="dvK_PA"/>
+            <Glyph value="dvK_P_RA"/>
+            <Glyph value="dvKx_BA"/>
+            <Glyph value="dvK_VA"/>
+            <Glyph value="dvKH_YA"/>
+            <Glyph value="dvKHx_YA"/>
+            <Glyph value="dvJ_JA"/>
+            <Glyph value="dvJx_JxA"/>
+            <Glyph value="dvJ_JHA"/>
+            <Glyph value="dvJH_MA"/>
+            <Glyph value="dvNY_JA"/>
+            <Glyph value="dvNY_SHA"/>
+            <Glyph value="dvD_NA"/>
+            <Glyph value="dvD_BHA"/>
+            <Glyph value="dvPH_TA"/>
+            <Glyph value="dvPH_PA"/>
+            <Glyph value="dvL_THA"/>
+            <Glyph value="dvL_LA"/>
+            <Glyph value="dvS_KHA"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="42"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="17" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="dvmI"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="dvK_YA"/>
+            <Glyph value="dvKHx_SA"/>
+            <Glyph value="dvNN_NNA"/>
+            <Glyph value="dvPHx_TA"/>
+            <Glyph value="dvPH_YA"/>
+            <Glyph value="dvL_GA"/>
+            <Glyph value="dvL_JA"/>
+            <Glyph value="dvL_JxA"/>
+            <Glyph value="dvL_BHA"/>
+            <Glyph value="dvL_MA"/>
+            <Glyph value="dvL_SA"/>
+            <Glyph value="dvLL_YA"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="43"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="18" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="dvmI"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="dvK_THA"/>
+            <Glyph value="dvK_MA"/>
+            <Glyph value="dvKx_MA"/>
+            <Glyph value="dvK_LA"/>
+            <Glyph value="dvK_SHA"/>
+            <Glyph value="dvK_SA"/>
+            <Glyph value="dvKH_NA"/>
+            <Glyph value="dvKH_MA"/>
+            <Glyph value="dvKHx_MA"/>
+            <Glyph value="dvKH_SHA"/>
+            <Glyph value="dvKHx_SHA"/>
+            <Glyph value="dvG_DH_VA"/>
+            <Glyph value="dvN_S_TTA"/>
+            <Glyph value="dvP_T_YA"/>
+            <Glyph value="dvPH_LA"/>
+            <Glyph value="dvPH_SHA"/>
+            <Glyph value="dvPHx_SA"/>
+            <Glyph value="dvB_DH_VA"/>
+            <Glyph value="dvS_T_VA"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="44"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="19" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="dvmI"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="dvK_JA"/>
+            <Glyph value="dvK_NNA"/>
+            <Glyph value="dvK_NA"/>
+            <Glyph value="dvKH_KHA"/>
+            <Glyph value="dvG_DH_YA"/>
+            <Glyph value="dvT_N_YA"/>
+            <Glyph value="dvT_P_LA"/>
+            <Glyph value="dvT_M_YA"/>
+            <Glyph value="dvT_S_VA"/>
+            <Glyph value="dvN_TH_VA"/>
+            <Glyph value="dvN_DH_VA"/>
+            <Glyph value="dvPH_JA"/>
+            <Glyph value="dvPHx_JxA"/>
+            <Glyph value="dvPH_NA"/>
+            <Glyph value="dvL_KHA"/>
+            <Glyph value="dvL_V_DDA"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="45"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="20" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="dvmI"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="dvK_KHA"/>
+            <Glyph value="dvG_BH_YA"/>
+            <Glyph value="dvT_S_YA"/>
+            <Glyph value="dvDH_N_YA"/>
+            <Glyph value="dvN_T_YA"/>
+            <Glyph value="dvN_DH_YA"/>
+            <Glyph value="dvSS_TT_YA"/>
+            <Glyph value="dvSS_TTH_YA"/>
+            <Glyph value="dvSS_NN_YA"/>
+            <Glyph value="dvSS_M_YA"/>
+            <Glyph value="dvS_T_YA"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="46"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="21" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="dvmI"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="dvG_N_YA"/>
+            <Glyph value="dvT_S_NA"/>
+            <Glyph value="dvN_TH_YA"/>
+            <Glyph value="dvN_N_YA"/>
+            <Glyph value="dvN_BH_VA"/>
+            <Glyph value="dvB_J_YA"/>
+            <Glyph value="dvM_B_YA"/>
+            <Glyph value="dvM_BH_VA"/>
+            <Glyph value="dvS_TH_YA"/>
+            <Glyph value="dvS_M_YA"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="47"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="22" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="dvmI"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="dvK_T_VA"/>
+            <Glyph value="dvK_SS_M_YA"/>
+            <Glyph value="dvK_S_TTA"/>
+            <Glyph value="dvJ_J_VA"/>
+            <Glyph value="dvT_K_VA"/>
+            <Glyph value="dvN_T_SA"/>
+            <Glyph value="dvN_BH_YA"/>
+            <Glyph value="dvN_M_YA"/>
+            <Glyph value="dvN_S_YA"/>
+            <Glyph value="dvB_L_YA"/>
+            <Glyph value="dvM_BH_YA"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="48"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="23" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="dvmI"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0">
+            <Glyph value="dvK_T_YA"/>
+            <Glyph value="dvK_V_YA"/>
+            <Glyph value="dvK_S_DDA"/>
+            <Glyph value="dvK_S_TA"/>
+            <Glyph value="dvK_S_P_RA"/>
+            <Glyph value="dvJ_J_YA"/>
+            <Glyph value="dvT_K_YA"/>
+            <Glyph value="dvN_K_SA"/>
+            <Glyph value="dvL_TH_YA"/>
+            <Glyph value="dvL_L_YA"/>
+            <Glyph value="dvS_K_VA"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="49"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="14">
+        <!-- LookupType=6 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=2 -->
+          <InputCoverage index="0">
+            <Glyph value="dvRA"/>
+          </InputCoverage>
+          <InputCoverage index="1">
+            <Glyph value="dvmvR"/>
+            <Glyph value="dvmvRR"/>
+            <Glyph value="dvmvL"/>
+            <Glyph value="dvmvLL"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=2 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="0"/>
+          </SubstLookupRecord>
+          <SubstLookupRecord index="1">
+            <SequenceIndex value="1"/>
+            <LookupListIndex value="1"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="15">
+        <!-- LookupType=4 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0">
+          <LigatureSet glyph="dvII">
+            <Ligature components="dvAnusvara" glyph="dvII_Anusvara"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvReph">
+            <Ligature components="dvAnusvara" glyph="dvReph_Anusvara"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvmAI">
+            <Ligature components="dvReph,dvAnusvara" glyph="dvmAI_Reph_Anusvara"/>
+            <Ligature components="dvAnusvara" glyph="dvmAI_Anusvara"/>
+            <Ligature components="dvReph" glyph="dvmAI_Reph"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvmAU">
+            <Ligature components="dvReph,dvAnusvara" glyph="dvmAU_Reph_Anusvara"/>
+            <Ligature components="dvAnusvara" glyph="dvmAU_Anusvara"/>
+            <Ligature components="dvReph" glyph="dvmAU_Reph"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvmE">
+            <Ligature components="dvReph,dvAnusvara" glyph="dvmE_Reph_Anusvara"/>
+            <Ligature components="dvAnusvara" glyph="dvmE_Anusvara"/>
+            <Ligature components="dvReph" glyph="dvmE_Reph"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvmII">
+            <Ligature components="dvReph,dvAnusvara" glyph="dvmII_Reph_Anusvara"/>
+            <Ligature components="dvAnusvara" glyph="dvmII_Anusvara"/>
+            <Ligature components="dvReph" glyph="dvmII_Reph"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvmO">
+            <Ligature components="dvReph,dvAnusvara" glyph="dvmO_Reph_Anusvara"/>
+            <Ligature components="dvAnusvara" glyph="dvmO_Anusvara"/>
+            <Ligature components="dvReph" glyph="dvmO_Reph"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="16">
+        <!-- LookupType=6 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=2 -->
+          <BacktrackCoverage index="0">
+            <Glyph value="dvKA"/>
+            <Glyph value="dvKHA"/>
+            <Glyph value="dvGA"/>
+            <Glyph value="dvGHA"/>
+            <Glyph value="dvNGA"/>
+            <Glyph value="dvCA"/>
+            <Glyph value="dvCHA"/>
+            <Glyph value="dvJA"/>
+            <Glyph value="dvJHA"/>
+            <Glyph value="dvNYA"/>
+            <Glyph value="dvTTA"/>
+            <Glyph value="dvTTHA"/>
+            <Glyph value="dvDDA"/>
+            <Glyph value="dvDDHA"/>
+            <Glyph value="dvNNA"/>
+            <Glyph value="dvTA"/>
+            <Glyph value="dvTHA"/>
+            <Glyph value="dvDA"/>
+            <Glyph value="dvDHA"/>
+            <Glyph value="dvNA"/>
+            <Glyph value="dvPA"/>
+            <Glyph value="dvPHA"/>
+            <Glyph value="dvBA"/>
+            <Glyph value="dvBHA"/>
+            <Glyph value="dvMA"/>
+            <Glyph value="dvYA"/>
+            <Glyph value="dvRA"/>
+            <Glyph value="dvLA"/>
+            <Glyph value="dvVA"/>
+            <Glyph value="dvSHA"/>
+            <Glyph value="dvSSA"/>
+            <Glyph value="dvSA"/>
+            <Glyph value="dvHA"/>
+            <Glyph value="dvLLA"/>
+            <Glyph value="dvK_SSA"/>
+            <Glyph value="dvJ_NYA"/>
+            <Glyph value="dvKxA"/>
+            <Glyph value="dvKHxA"/>
+            <Glyph value="dvGxA"/>
+            <Glyph value="dvJxA"/>
+            <Glyph value="dvDDxA"/>
+            <Glyph value="dvDDHxA"/>
+            <Glyph value="dvPHxA"/>
+            <Glyph value="dvRxA"/>
+            <Glyph value="dvK_RA"/>
+            <Glyph value="dvKH_RA"/>
+            <Glyph value="dvG_RA"/>
+            <Glyph value="dvGH_RA"/>
+            <Glyph value="dvNG_RA"/>
+            <Glyph value="dvC_RA"/>
+            <Glyph value="dvCH_RA"/>
+            <Glyph value="dvJ_RA"/>
+            <Glyph value="dvJH_RA"/>
+            <Glyph value="dvNY_RA"/>
+            <Glyph value="dvTT_RA"/>
+            <Glyph value="dvTTH_RA"/>
+            <Glyph value="dvDD_RA"/>
+            <Glyph value="dvDDH_RA"/>
+            <Glyph value="dvNN_RA"/>
+            <Glyph value="dvT_RA"/>
+            <Glyph value="dvTH_RA"/>
+            <Glyph value="dvD_RA"/>
+            <Glyph value="dvDH_RA"/>
+            <Glyph value="dvN_RA"/>
+            <Glyph value="dvP_RA"/>
+            <Glyph value="dvPH_RA"/>
+            <Glyph value="dvB_RA"/>
+            <Glyph value="dvBH_RA"/>
+            <Glyph value="dvM_RA"/>
+            <Glyph value="dvY_RA"/>
+            <Glyph value="dvL_RA"/>
+            <Glyph value="dvV_RA"/>
+            <Glyph value="dvSS_RA"/>
+            <Glyph value="dvSH_RA"/>
+            <Glyph value="dvS_RA"/>
+            <Glyph value="dvH_RA"/>
+            <Glyph value="dvLL_RA"/>
+            <Glyph value="dvKx_RA"/>
+            <Glyph value="dvKHx_RA"/>
+            <Glyph value="dvGx_RA"/>
+            <Glyph value="dvJx_RA"/>
+            <Glyph value="dvPHx_RA"/>
+            <Glyph value="dvK_KA"/>
+            <Glyph value="dvKx_KxA"/>
+            <Glyph value="dvK_KHA"/>
+            <Glyph value="dvK_CA"/>
+            <Glyph value="dvK_JA"/>
+            <Glyph value="dvK_TTA"/>
+            <Glyph value="dvK_NNA"/>
+            <Glyph value="dvK_TA"/>
+            <Glyph value="dvKx_TA"/>
+            <Glyph value="dvK_T_YA"/>
+            <Glyph value="dvK_T_RA"/>
+            <Glyph value="dvK_T_VA"/>
+            <Glyph value="dvK_THA"/>
+            <Glyph value="dvK_DA"/>
+            <Glyph value="dvK_NA"/>
+            <Glyph value="dvK_PA"/>
+            <Glyph value="dvK_P_RA"/>
+            <Glyph value="dvK_PHA"/>
+            <Glyph value="dvKx_PHA"/>
+            <Glyph value="dvKx_PHxA"/>
+            <Glyph value="dvKx_BA"/>
+            <Glyph value="dvK_MA"/>
+            <Glyph value="dvKx_MA"/>
+            <Glyph value="dvK_YA"/>
+            <Glyph value="dvK_LA"/>
+            <Glyph value="dvK_VA"/>
+            <Glyph value="dvK_V_YA"/>
+            <Glyph value="dvK_SHA"/>
+            <Glyph value="dvK_SS_MA"/>
+            <Glyph value="dvK_SS_M_YA"/>
+            <Glyph value="dvK_SS_YA"/>
+            <Glyph value="dvK_SS_VA"/>
+            <Glyph value="dvK_SA"/>
+            <Glyph value="dvK_S_TTA"/>
+            <Glyph value="dvK_S_DDA"/>
+            <Glyph value="dvK_S_TA"/>
+            <Glyph value="dvK_S_P_RA"/>
+            <Glyph value="dvK_S_P_LA"/>
+            <Glyph value="dvKH_KHA"/>
+            <Glyph value="dvKH_TA"/>
+            <Glyph value="dvKHx_TA"/>
+            <Glyph value="dvKH_NA"/>
+            <Glyph value="dvKH_MA"/>
+            <Glyph value="dvKHx_MA"/>
+            <Glyph value="dvKH_YA"/>
+            <Glyph value="dvKHx_YA"/>
+            <Glyph value="dvKH_VA"/>
+            <Glyph value="dvKHx_VA"/>
+            <Glyph value="dvKH_SHA"/>
+            <Glyph value="dvKHx_SHA"/>
+            <Glyph value="dvKHx_SA"/>
+            <Glyph value="dvG_GA"/>
+            <Glyph value="dvG_GHA"/>
+            <Glyph value="dvG_JA"/>
+            <Glyph value="dvG_NNA"/>
+            <Glyph value="dvG_DA"/>
+            <Glyph value="dvG_DHA"/>
+            <Glyph value="dvG_DH_YA"/>
+            <Glyph value="dvG_DH_VA"/>
+            <Glyph value="dvG_NA"/>
+            <Glyph value="dvG_N_YA"/>
+            <Glyph value="dvG_BA"/>
+            <Glyph value="dvG_BHA"/>
+            <Glyph value="dvG_BH_YA"/>
+            <Glyph value="dvG_MA"/>
+            <Glyph value="dvG_YA"/>
+            <Glyph value="dvG_R_YA"/>
+            <Glyph value="dvG_LA"/>
+            <Glyph value="dvG_VA"/>
+            <Glyph value="dvG_SA"/>
+            <Glyph value="dvGH_NA"/>
+            <Glyph value="dvGH_MA"/>
+            <Glyph value="dvGH_YA"/>
+            <Glyph value="dvC_CA"/>
+            <Glyph value="dvC_CHA"/>
+            <Glyph value="dvC_CH_VA"/>
+            <Glyph value="dvC_NA"/>
+            <Glyph value="dvC_MA"/>
+            <Glyph value="dvC_YA"/>
+            <Glyph value="dvCH_YA"/>
+            <Glyph value="dvCH_R_YA"/>
+            <Glyph value="dvJ_KA"/>
+            <Glyph value="dvJ_JA"/>
+            <Glyph value="dvJx_JxA"/>
+            <Glyph value="dvJ_J_NYA"/>
+            <Glyph value="dvJ_J_YA"/>
+            <Glyph value="dvJ_J_VA"/>
+            <Glyph value="dvJ_JHA"/>
+            <Glyph value="dvJ_NY_YA"/>
+            <Glyph value="dvJ_TTA"/>
+            <Glyph value="dvJ_DDA"/>
+            <Glyph value="dvJ_TA"/>
+            <Glyph value="dvJ_DA"/>
+            <Glyph value="dvJ_NA"/>
+            <Glyph value="dvJ_BA"/>
+            <Glyph value="dvJ_MA"/>
+            <Glyph value="dvJ_YA"/>
+            <Glyph value="dvJx_YA"/>
+            <Glyph value="dvJ_VA"/>
+            <Glyph value="dvJH_NA"/>
+            <Glyph value="dvJH_MA"/>
+            <Glyph value="dvJH_YA"/>
+            <Glyph value="dvNY_CA"/>
+            <Glyph value="dvNY_CHA"/>
+            <Glyph value="dvNY_JA"/>
+            <Glyph value="dvNY_SHA"/>
+            <Glyph value="dvTT_TTA"/>
+            <Glyph value="dvTT_TTHA"/>
+            <Glyph value="dvTT_YA"/>
+            <Glyph value="dvTT_VA"/>
+            <Glyph value="dvTTH_TTHA"/>
+            <Glyph value="dvTTH_YA"/>
+            <Glyph value="dvDD_DDA"/>
+            <Glyph value="dvDD_DDHA"/>
+            <Glyph value="dvDD_YA"/>
+            <Glyph value="dvDD_VA"/>
+            <Glyph value="dvDDH_DDHA"/>
+            <Glyph value="dvDDH_YA"/>
+            <Glyph value="dvNN_TTA"/>
+            <Glyph value="dvNN_TTHA"/>
+            <Glyph value="dvNN_DDA"/>
+            <Glyph value="dvNN_DDHA"/>
+            <Glyph value="dvNN_NNA"/>
+            <Glyph value="dvNN_MA"/>
+            <Glyph value="dvNN_YA"/>
+            <Glyph value="dvNN_VA"/>
+            <Glyph value="dvT_KA"/>
+            <Glyph value="dvT_K_YA"/>
+            <Glyph value="dvT_K_RA"/>
+            <Glyph value="dvT_K_VA"/>
+            <Glyph value="dvT_K_SSA"/>
+            <Glyph value="dvT_KHA"/>
+            <Glyph value="dvT_KH_RA"/>
+            <Glyph value="dvT_TA"/>
+            <Glyph value="dvT_T_YA"/>
+            <Glyph value="dvT_T_VA"/>
+            <Glyph value="dvT_THA"/>
+            <Glyph value="dvT_NA"/>
+            <Glyph value="dvT_N_YA"/>
+            <Glyph value="dvT_PA"/>
+            <Glyph value="dvT_P_RA"/>
+            <Glyph value="dvT_P_LA"/>
+            <Glyph value="dvT_PHA"/>
+            <Glyph value="dvT_MA"/>
+            <Glyph value="dvT_M_YA"/>
+            <Glyph value="dvT_YA"/>
+            <Glyph value="dvT_R_YA"/>
+            <Glyph value="dvT_LA"/>
+            <Glyph value="dvT_VA"/>
+            <Glyph value="dvT_SA"/>
+            <Glyph value="dvT_S_NA"/>
+            <Glyph value="dvT_S_YA"/>
+            <Glyph value="dvT_S_VA"/>
+            <Glyph value="dvTH_NA"/>
+            <Glyph value="dvTH_YA"/>
+            <Glyph value="dvTH_VA"/>
+            <Glyph value="dvD_GA"/>
+            <Glyph value="dvD_G_RA"/>
+            <Glyph value="dvD_GHA"/>
+            <Glyph value="dvD_DA"/>
+            <Glyph value="dvD_DHA"/>
+            <Glyph value="dvD_NA"/>
+            <Glyph value="dvD_BA"/>
+            <Glyph value="dvD_B_RA"/>
+            <Glyph value="dvD_BHA"/>
+            <Glyph value="dvD_MA"/>
+            <Glyph value="dvD_YA"/>
+            <Glyph value="dvD_Y_RA"/>
+            <Glyph value="dvD_VA"/>
+            <Glyph value="dvDH_NA"/>
+            <Glyph value="dvDH_N_YA"/>
+            <Glyph value="dvDH_MA"/>
+            <Glyph value="dvDH_YA"/>
+            <Glyph value="dvDH_VA"/>
+            <Glyph value="dvN_KA"/>
+            <Glyph value="dvN_K_SA"/>
+            <Glyph value="dvN_CA"/>
+            <Glyph value="dvN_CHA"/>
+            <Glyph value="dvN_TTA"/>
+            <Glyph value="dvN_DDA"/>
+            <Glyph value="dvN_TA"/>
+            <Glyph value="dvN_T_YA"/>
+            <Glyph value="dvN_T_RA"/>
+            <Glyph value="dvN_T_SA"/>
+            <Glyph value="dvN_THA"/>
+            <Glyph value="dvN_TH_YA"/>
+            <Glyph value="dvN_TH_VA"/>
+            <Glyph value="dvN_DA"/>
+            <Glyph value="dvN_D_RA"/>
+            <Glyph value="dvN_D_VA"/>
+            <Glyph value="dvN_DHA"/>
+            <Glyph value="dvN_DH_YA"/>
+            <Glyph value="dvN_DH_RA"/>
+            <Glyph value="dvN_DH_VA"/>
+            <Glyph value="dvN_NA"/>
+            <Glyph value="dvN_N_YA"/>
+            <Glyph value="dvN_PA"/>
+            <Glyph value="dvN_P_RA"/>
+            <Glyph value="dvN_PHA"/>
+            <Glyph value="dvN_PH_RA"/>
+            <Glyph value="dvN_BHA"/>
+            <Glyph value="dvN_BH_YA"/>
+            <Glyph value="dvN_BH_VA"/>
+            <Glyph value="dvN_MA"/>
+            <Glyph value="dvN_M_YA"/>
+            <Glyph value="dvN_YA"/>
+            <Glyph value="dvN_VA"/>
+            <Glyph value="dvN_SA"/>
+            <Glyph value="dvN_S_TTA"/>
+            <Glyph value="dvN_S_M_YA"/>
+            <Glyph value="dvN_S_YA"/>
+            <Glyph value="dvN_HA"/>
+            <Glyph value="dvP_TTA"/>
+            <Glyph value="dvP_TTHA"/>
+            <Glyph value="dvP_TA"/>
+            <Glyph value="dvP_T_YA"/>
+            <Glyph value="dvP_NA"/>
+            <Glyph value="dvP_PA"/>
+            <Glyph value="dvP_PHA"/>
+            <Glyph value="dvP_MA"/>
+            <Glyph value="dvP_YA"/>
+            <Glyph value="dvP_LA"/>
+            <Glyph value="dvP_VA"/>
+            <Glyph value="dvP_SA"/>
+            <Glyph value="dvPH_JA"/>
+            <Glyph value="dvPHx_JxA"/>
+            <Glyph value="dvPH_TTA"/>
+            <Glyph value="dvPH_TA"/>
+            <Glyph value="dvPHx_TA"/>
+            <Glyph value="dvPH_NA"/>
+            <Glyph value="dvPH_PA"/>
+            <Glyph value="dvPH_PHA"/>
+            <Glyph value="dvPHx_PHxA"/>
+            <Glyph value="dvPH_YA"/>
+            <Glyph value="dvPH_LA"/>
+            <Glyph value="dvPH_SHA"/>
+            <Glyph value="dvPHx_SA"/>
+            <Glyph value="dvB_JA"/>
+            <Glyph value="dvB_JxA"/>
+            <Glyph value="dvB_J_YA"/>
+            <Glyph value="dvB_JHA"/>
+            <Glyph value="dvB_TA"/>
+            <Glyph value="dvB_DA"/>
+            <Glyph value="dvB_DHA"/>
+            <Glyph value="dvB_DH_VA"/>
+            <Glyph value="dvB_NA"/>
+            <Glyph value="dvB_BA"/>
+            <Glyph value="dvB_BHA"/>
+            <Glyph value="dvB_BH_RA"/>
+            <Glyph value="dvB_YA"/>
+            <Glyph value="dvB_LA"/>
+            <Glyph value="dvB_L_YA"/>
+            <Glyph value="dvB_VA"/>
+            <Glyph value="dvB_SHA"/>
+            <Glyph value="dvB_SA"/>
+            <Glyph value="dvBH_NA"/>
+            <Glyph value="dvBH_YA"/>
+            <Glyph value="dvBH_R_YA"/>
+            <Glyph value="dvBH_LA"/>
+            <Glyph value="dvBH_VA"/>
+            <Glyph value="dvM_TA"/>
+            <Glyph value="dvM_DA"/>
+            <Glyph value="dvM_NA"/>
+            <Glyph value="dvM_PA"/>
+            <Glyph value="dvM_P_RA"/>
+            <Glyph value="dvM_BA"/>
+            <Glyph value="dvM_B_YA"/>
+            <Glyph value="dvM_B_RA"/>
+            <Glyph value="dvM_BHA"/>
+            <Glyph value="dvM_BH_YA"/>
+            <Glyph value="dvM_BH_RA"/>
+            <Glyph value="dvM_BH_VA"/>
+            <Glyph value="dvM_MA"/>
+            <Glyph value="dvM_YA"/>
+            <Glyph value="dvM_LA"/>
+            <Glyph value="dvM_VA"/>
+            <Glyph value="dvM_SHA"/>
+            <Glyph value="dvM_SA"/>
+            <Glyph value="dvM_HA"/>
+            <Glyph value="dvY_NA"/>
+            <Glyph value="dvY_YA"/>
+            <Glyph value="dvEyelash_YA"/>
+            <Glyph value="dvEyelash_HA"/>
+            <Glyph value="dvL_KA"/>
+            <Glyph value="dvL_K_YA"/>
+            <Glyph value="dvL_KHA"/>
+            <Glyph value="dvL_GA"/>
+            <Glyph value="dvL_JA"/>
+            <Glyph value="dvL_JxA"/>
+            <Glyph value="dvL_TTA"/>
+            <Glyph value="dvL_TTHA"/>
+            <Glyph value="dvL_DDA"/>
+            <Glyph value="dvL_DDHA"/>
+            <Glyph value="dvL_TA"/>
+            <Glyph value="dvL_THA"/>
+            <Glyph value="dvL_TH_YA"/>
+            <Glyph value="dvL_DA"/>
+            <Glyph value="dvL_D_RA"/>
+            <Glyph value="dvL_PA"/>
+            <Glyph value="dvL_PHA"/>
+            <Glyph value="dvL_BA"/>
+            <Glyph value="dvL_BHA"/>
+            <Glyph value="dvL_MA"/>
+            <Glyph value="dvL_YA"/>
+            <Glyph value="dvL_LA"/>
+            <Glyph value="dvL_L_YA"/>
+            <Glyph value="dvL_VA"/>
+            <Glyph value="dvL_V_DDA"/>
+            <Glyph value="dvL_SA"/>
+            <Glyph value="dvL_HA"/>
+            <Glyph value="dvV_NA"/>
+            <Glyph value="dvV_YA"/>
+            <Glyph value="dvV_LA"/>
+            <Glyph value="dvV_VA"/>
+            <Glyph value="dvV_HA"/>
+            <Glyph value="dvSH_KA"/>
+            <Glyph value="dvSH_KxA"/>
+            <Glyph value="dvSH_CA"/>
+            <Glyph value="dvSH_CHA"/>
+            <Glyph value="dvSH_TTA"/>
+            <Glyph value="dvSH_TA"/>
+            <Glyph value="dvSH_NA"/>
+            <Glyph value="dvSH_MA"/>
+            <Glyph value="dvSH_YA"/>
+            <Glyph value="dvSH_LA"/>
+            <Glyph value="dvSH_VA"/>
+            <Glyph value="dvSH_SHA"/>
+            <Glyph value="dvSS_KA"/>
+            <Glyph value="dvSS_K_RA"/>
+            <Glyph value="dvSS_TTA"/>
+            <Glyph value="dvSS_TT_YA"/>
+            <Glyph value="dvSS_TT_RA"/>
+            <Glyph value="dvSS_TT_VA"/>
+            <Glyph value="dvSS_TTHA"/>
+            <Glyph value="dvSS_TTH_YA"/>
+            <Glyph value="dvSS_TTH_RA"/>
+            <Glyph value="dvSS_NNA"/>
+            <Glyph value="dvSS_NN_YA"/>
+            <Glyph value="dvSS_PA"/>
+            <Glyph value="dvSS_P_RA"/>
+            <Glyph value="dvSS_PHA"/>
+            <Glyph value="dvSS_MA"/>
+            <Glyph value="dvSS_M_YA"/>
+            <Glyph value="dvSS_YA"/>
+            <Glyph value="dvSS_VA"/>
+            <Glyph value="dvSS_SSA"/>
+            <Glyph value="dvS_KA"/>
+            <Glyph value="dvS_K_RA"/>
+            <Glyph value="dvS_K_VA"/>
+            <Glyph value="dvS_KHA"/>
+            <Glyph value="dvS_JA"/>
+            <Glyph value="dvS_TTA"/>
+            <Glyph value="dvS_TA"/>
+            <Glyph value="dvS_T_YA"/>
+            <Glyph value="dvS_T_RA"/>
+            <Glyph value="dvS_T_VA"/>
+            <Glyph value="dvS_THA"/>
+            <Glyph value="dvS_TH_YA"/>
+            <Glyph value="dvS_DA"/>
+            <Glyph value="dvS_NA"/>
+            <Glyph value="dvS_PA"/>
+            <Glyph value="dvS_P_RA"/>
+            <Glyph value="dvS_PHA"/>
+            <Glyph value="dvS_BA"/>
+            <Glyph value="dvS_MA"/>
+            <Glyph value="dvS_M_YA"/>
+            <Glyph value="dvS_YA"/>
+            <Glyph value="dvS_LA"/>
+            <Glyph value="dvS_VA"/>
+            <Glyph value="dvS_SA"/>
+            <Glyph value="dvH_NNA"/>
+            <Glyph value="dvH_NA"/>
+            <Glyph value="dvH_MA"/>
+            <Glyph value="dvH_YA"/>
+            <Glyph value="dvH_LA"/>
+            <Glyph value="dvH_VA"/>
+            <Glyph value="dvLL_YA"/>
+          </BacktrackCoverage>
+          <BacktrackCoverage index="1">
+            <Glyph value="dvmI.a01"/>
+            <Glyph value="dvmI.a02"/>
+            <Glyph value="dvmI.a03"/>
+            <Glyph value="dvmI.a04"/>
+            <Glyph value="dvmI.a05"/>
+            <Glyph value="dvmI.a06"/>
+            <Glyph value="dvmI.a07"/>
+            <Glyph value="dvmI.a08"/>
+            <Glyph value="dvmI.a09"/>
+            <Glyph value="dvmI.a10"/>
+            <Glyph value="dvmI.a11"/>
+            <Glyph value="dvmI.a12"/>
+            <Glyph value="dvmI.a13"/>
+            <Glyph value="dvmI.a14"/>
+            <Glyph value="dvmI.a15"/>
+            <Glyph value="dvmI.a16"/>
+            <Glyph value="dvmI.a17"/>
+            <Glyph value="dvmI.a18"/>
+            <Glyph value="dvmI.a19"/>
+            <Glyph value="dvmI.a20"/>
+            <Glyph value="dvmI.a21"/>
+            <Glyph value="dvmI.a22"/>
+            <Glyph value="dvmI.a23"/>
+            <Glyph value="dvmI.a24"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="dvAnusvara"/>
+            <Glyph value="dvReph"/>
+            <Glyph value="dvReph_Anusvara"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="49"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="17">
+        <!-- LookupType=4 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0">
+          <LigatureSet glyph="dvDA">
+            <Ligature components="dvmvR" glyph="dvDA_mvR"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvHA">
+            <Ligature components="dvmU" glyph="dvHA_mU"/>
+            <Ligature components="dvmUU" glyph="dvHA_mUU"/>
+            <Ligature components="dvmvR" glyph="dvHA_mvR"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvRA">
+            <Ligature components="dvmU" glyph="dvRA_mU"/>
+            <Ligature components="dvmUU" glyph="dvRA_mUU"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvSHA">
+            <Ligature components="dvmvR" glyph="dvSHA_mvR"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="18">
+        <!-- LookupType=6 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=1 -->
+          <BacktrackCoverage index="0">
+            <Glyph value="dvKA"/>
+            <Glyph value="dvPHA"/>
+            <Glyph value="dvKxA"/>
+            <Glyph value="dvPHxA"/>
+            <Glyph value="dvK_RA"/>
+            <Glyph value="dvPH_RA"/>
+            <Glyph value="dvKx_RA"/>
+            <Glyph value="dvPHx_RA"/>
+            <Glyph value="dvK_KA"/>
+            <Glyph value="dvKx_KxA"/>
+            <Glyph value="dvK_TA"/>
+            <Glyph value="dvK_PHA"/>
+            <Glyph value="dvKx_PHA"/>
+            <Glyph value="dvKx_PHxA"/>
+            <Glyph value="dvJ_KA"/>
+            <Glyph value="dvT_KA"/>
+            <Glyph value="dvT_K_RA"/>
+            <Glyph value="dvT_PHA"/>
+            <Glyph value="dvN_KA"/>
+            <Glyph value="dvN_PHA"/>
+            <Glyph value="dvN_PH_RA"/>
+            <Glyph value="dvP_PHA"/>
+            <Glyph value="dvPH_PHA"/>
+            <Glyph value="dvPHx_PHxA"/>
+            <Glyph value="dvL_KA"/>
+            <Glyph value="dvL_PHA"/>
+            <Glyph value="dvSH_KA"/>
+            <Glyph value="dvSH_KxA"/>
+            <Glyph value="dvSS_KA"/>
+            <Glyph value="dvSS_K_RA"/>
+            <Glyph value="dvSS_PHA"/>
+            <Glyph value="dvS_KA"/>
+            <Glyph value="dvS_K_RA"/>
+            <Glyph value="dvS_PHA"/>
+          </BacktrackCoverage>
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0">
+            <Glyph value="dvmII"/>
+            <Glyph value="dvmII_Anusvara"/>
+            <Glyph value="dvmII_Reph"/>
+            <Glyph value="dvmII_Reph_Anusvara"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="49"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="19">
+        <!-- LookupType=4 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0">
+          <LigatureSet glyph="dvDA">
+            <Ligature components="dvVirama" glyph="dvD"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvDDA">
+            <Ligature components="dvVirama" glyph="dvDD"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvDDHA">
+            <Ligature components="dvVirama" glyph="dvDDH"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvDDH_RA">
+            <Ligature components="dvVirama" glyph="dvDDH_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvDD_RA">
+            <Ligature components="dvVirama" glyph="dvDD_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvD_RA">
+            <Ligature components="dvVirama" glyph="dvD_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvHA">
+            <Ligature components="dvVirama" glyph="dvH"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvH_RA">
+            <Ligature components="dvVirama" glyph="dvH_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvNGA">
+            <Ligature components="dvVirama" glyph="dvNG"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvNG_RA">
+            <Ligature components="dvVirama" glyph="dvNG_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvRA">
+            <Ligature components="dvVirama" glyph="dvR"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvTTA">
+            <Ligature components="dvVirama" glyph="dvTT"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvTTHA">
+            <Ligature components="dvVirama" glyph="dvTTH"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvTTH_RA">
+            <Ligature components="dvVirama" glyph="dvTTH_R"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvTT_RA">
+            <Ligature components="dvVirama" glyph="dvTT_R"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="20">
+        <!-- LookupType=4 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0">
+          <LigatureSet glyph="f">
+            <Ligature components="i" glyph="fi"/>
+            <Ligature components="l" glyph="fl"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="21">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="dvRA" out="dvvR"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="22">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="dvRA" out="dvvRR"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="23">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="dvRA" out="dvvL"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="24">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="dvRA" out="dvvLL"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="25">
+        <!-- LookupType=4 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0">
+          <LigatureSet glyph="dvRA">
+            <Ligature components="dvVirama" glyph="dvEyelash"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="26">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="dvmI" out="dvmI.a01"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="27">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="dvmI" out="dvmI.a02"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="28">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="dvmI" out="dvmI.a03"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="29">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="dvmI" out="dvmI.a04"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="30">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="dvmI" out="dvmI.a05"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="31">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="dvmI" out="dvmI.a06"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="32">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="dvmI" out="dvmI.a07"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="33">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="dvmI" out="dvmI.a08"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="34">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="dvmI" out="dvmI.a09"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="35">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="dvmI" out="dvmI.a10"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="36">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="dvmI" out="dvmI.a11"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="37">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="dvmI" out="dvmI.a12"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="38">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="dvmI" out="dvmI.a13"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="39">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="dvmI" out="dvmI.a14"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="40">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="dvmI" out="dvmI.a15"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="41">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="dvmI" out="dvmI.a16"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="42">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="dvmI" out="dvmI.a17"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="43">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="dvmI" out="dvmI.a18"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="44">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="dvmI" out="dvmI.a19"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="45">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="dvmI" out="dvmI.a20"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="46">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="dvmI" out="dvmI.a21"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="47">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="dvmI" out="dvmI.a22"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="48">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="dvmI" out="dvmI.a23"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="49">
+        <!-- LookupType=1 -->
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0">
+          <Substitution in="dvAnusvara" out="dvAnusvara.amI"/>
+          <Substitution in="dvReph" out="dvReph.amI"/>
+          <Substitution in="dvReph_Anusvara" out="dvReph_Anusvara.amI"/>
+          <Substitution in="dvmI" out="dvmI.a24"/>
+          <Substitution in="dvmII" out="dvmII.aLong"/>
+          <Substitution in="dvmII_Anusvara" out="dvmII_Anusvara.aLong"/>
+          <Substitution in="dvmII_Reph" out="dvmII_Reph.aLong"/>
+          <Substitution in="dvmII_Reph_Anusvara" out="dvmII_Reph_Anusvara.aLong"/>
+        </SingleSubst>
+      </Lookup>
+    </LookupList>
+  </GSUB>
+
+</ttFont>

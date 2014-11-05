@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ttFont sfntVersion="OTTO" ttLibVersion="2.4">
+  <GlyphOrder src="Poppins-Light.GlyphOrder.ttx"/>
+  <head src="Poppins-Light._h_e_a_d.ttx"/>
+  <hhea src="Poppins-Light._h_h_e_a.ttx"/>
+  <maxp src="Poppins-Light._m_a_x_p.ttx"/>
+  <OS_2 src="Poppins-Light.O_S_2f_2.ttx"/>
+  <name src="Poppins-Light._n_a_m_e.ttx"/>
+  <cmap src="Poppins-Light._c_m_a_p.ttx"/>
+  <post src="Poppins-Light._p_o_s_t.ttx"/>
+  <CFF src="Poppins-Light.C_F_F_.ttx"/>
+  <GDEF src="Poppins-Light.G_D_E_F_.ttx"/>
+  <GPOS src="Poppins-Light.G_P_O_S_.ttx"/>
+  <GSUB src="Poppins-Light.G_S_U_B_.ttx"/>
+  <hmtx src="Poppins-Light._h_m_t_x.ttx"/>
+</ttFont>
