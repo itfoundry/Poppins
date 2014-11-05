@@ -54,9 +54,10 @@ def get_font(directory, suffix = ''):
 
 def sort_glyphs(glyphs):
 
-    sorted_glyphs = \
-        [i for i in GLYPH_ORDER if i in glyphs] +\
+    sorted_glyphs = (
+        [i for i in GLYPH_ORDER if i in glyphs] +
         [i for i in glyphs if i not in GLYPH_ORDER]
+    )
 
     return sorted_glyphs
 
@@ -64,9 +65,11 @@ def sort_glyphs(glyphs):
 def generate_class_def_lines(class_name, glyph_names):
 
     if glyph_names:
-        class_def_lines = ['@%s = [' % class_name] + \
-                                            ['  %s' % glyph_name for glyph_name in glyph_names] + \
-                                            ['];', '']
+        class_def_lines = (
+            ['@%s = [' % class_name] +
+            ['  %s' % glyph_name for glyph_name in glyph_names] +
+            ['];', '']
+        )
     else:
         class_def_lines = ['# @%s = [];' % class_name, '']
 
@@ -123,11 +126,8 @@ def generate_classes(directory, suffix):
             generate_class_def_lines(class_name, glyph_names)
         )
 
-    file = open('family_classes.fea', 'w')
-    file.write(
-        '\n'.join(['#!opentype', ''] + toc_lines + [''] + def_lines)
-    )
-    file.close()
+    with open('family_classes.fea', 'w') as f:
+        f.write('\n'.join(['#!opentype', ''] + toc_lines + [''] + def_lines))
 
     print "#ITF: Done."
 
@@ -184,9 +184,8 @@ def restore_abvm_content(abvm_content):
 
 def write_mI_matches_to_files(style_dir, mI_table, long_base_names):
 
-    abvm_file = open(style_dir + '/abvm.fea', 'r')
-    abvm_content = abvm_file.read()
-    abvm_file.close()
+    with open(style_dir + '/abvm.fea', 'r') as f:
+        abvm_content = f.read()
 
     original_abvm_content = restore_abvm_content(abvm_content)
 
@@ -263,18 +262,16 @@ def write_mI_matches_to_files(style_dir, mI_table, long_base_names):
         commented_original_abvm_lookup + '\n\n\n' + modified_abvm_lookup
     )
 
-    abvm_file = open(style_dir + '/abvm.fea', 'w')
-    abvm_file.write(modified_abvm_content)
-    abvm_file.close()
+    with open(style_dir + '/abvm.fea', 'w') as f:
+        f.write(modified_abvm_content)
 
-    result_file = open(style_dir + '/pres_mI.fea', 'w')
-    result_file.write('#!opentype\n\n')
-    result_lines = ['# CLASSES', ''] + \
-                                 class_def_lines + \
-                                 ['# RULES', ''] + \
-                                 substitute_rule_lines
-    result_file.write('\n'.join(result_lines) + '\n')
-    result_file.close()
+    with open(style_dir + '/pres_mI.fea', 'w') as f:
+        f.write('#!opentype\n\n')
+        result_lines = (
+            ['# CLASSES', ''] + class_def_lines +
+            ['# RULES', ''] + substitute_rule_lines
+        )
+        f.write('\n'.join(result_lines) + '\n')
 
 
 def match_mI(style_name, stem_position_offset):
