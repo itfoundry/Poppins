@@ -5,8 +5,8 @@
 
 #KEYS:FamilyName	FontName	FullName	Weight	Coords	IsBold
 
-Some Devanagari	SomeDevanagari-Light	Some Devanagari Light	Light	(0)	0
-Some Devanagari	SomeDevanagari-Regular	Some Devanagari	Regular	(210)	0
-Some Devanagari	SomeDevanagari-Medium	Some Devanagari Medium	Medium	(440)	0
-Some Devanagari	SomeDevanagari-SemiBold	Some Devanagari SemiBold	SemiBold	(700)	0
-Some Devanagari	SomeDevanagari-Bold	Some Devanagari Bold	Bold	(1000)	0
+Poppins	Poppins-Light	Poppins Light	Light	(0)	0
+Poppins	Poppins-Regular	Poppins	Regular	(210)	0
+Poppins	Poppins-Medium	Poppins Medium	Medium	(440)	0
+Poppins	Poppins-SemiBold	Poppins SemiBold	SemiBold	(700)	0
+Poppins	Poppins-Bold	Poppins Bold	Bold	(1000)	0

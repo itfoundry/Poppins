@@ -10,34 +10,34 @@
 #   l=  Compatible Family Menu Name
 #   m=1,Macintosh Compatible Full Name
 
-[SomeDevanagari-Light]
-  f=  Some Devanagari
+[Poppins-Light]
+  f=  Poppins
   s=  Light
-  l=  Some Devanagari Light
-  m=1,Some Devanagari Light
+  l=  Poppins Light
+  m=1,Poppins Light
 
-[SomeDevanagari-Regular]
-  f=  Some Devanagari
+[Poppins-Regular]
+  f=  Poppins
   s=  Regular
-  l=  Some Devanagari
-  m=1,Some Devanagari
+  l=  Poppins
+  m=1,Poppins
 
-[SomeDevanagari-Medium]
-  f=  Some Devanagari
+[Poppins-Medium]
+  f=  Poppins
   s=  Medium
-  l=  Some Devanagari Medium
-  m=1,Some Devanagari Medium
+  l=  Poppins Medium
+  m=1,Poppins Medium
 
-[SomeDevanagari-SemiBold]
-  f=  Some Devanagari
+[Poppins-SemiBold]
+  f=  Poppins
   s=  SemiBold
-  l=  Some Devanagari SemiBold
-  m=1,Some Devanagari SemiBold
+  l=  Poppins SemiBold
+  m=1,Poppins SemiBold
 
-[SomeDevanagari-Bold]
-  f=  Some Devanagari
+[Poppins-Bold]
+  f=  Poppins
   s=  Bold
-  l=  Some Devanagari
-  m=1,Some Devanagari Bold
+  l=  Poppins
+  m=1,Poppins Bold
 # Style-linked because of `l` (the same as Regular's)
 #   and `styles/Bold/fontinfo` (`IsBoldStyle true`).
