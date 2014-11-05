@@ -8,7 +8,7 @@ The Poppins family includes five weights, from Light through Bold. Each font inc
 
 The Devanagari glyphs in Poppins were designed by Ninad Kale. The Latin is from Jonny Pinhorn. The Indian Type Foundry first published Poppins in 2014.
 
-# Code base
+## Code base
 
 This working directory is forked from the common code base, [ITF Base Devanagari (for Google Fonts)](https://github.com/itfoundry/base-devanagari-gf).
 
