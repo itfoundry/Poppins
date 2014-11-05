@@ -1,48 +1,59 @@
 #!/usr/bin/python
 
-from os.path import exists
-from argparse import ArgumentParser
-from subprocess import call
+import argparse, sys, subprocess, os.path
 
-from config import (FAMILY_NAME, STYLE_NAMES, UFOIG_ARGS,
-                    MATCH_mI_OFFSETS_DICT, MAKEOTF_ARGS, OUTPUT_DIR)
 import itf
+from config import (
+    FAMILY_NAME, STYLE_NAMES, UFOIG_ARGS,
+    MATCH_mI_OFFSETS_DICT, MAKEOTF_ARGS, OUTPUT_DIR
+)
 
 
-parser = ArgumentParser()
-parser.add_argument(
-    '-g', '--generateclasses', action='store_true',
-    help='Generate OpenType classes'
+parser = argparse.ArgumentParser()
+
+procedures = parser.add_argument_group(
+    title='build procedure triggers',
+    description='execute `python build.py -grimc` to run all the procedures.'
 )
-parser.add_argument(
-    '-r', '--resetdirectories', action='store_true',
-    help='Reset style/instance directories'
+
+procedures.add_argument(
+    '-g', '--generate', action='store_true',
+    help='generate OpenType classes'
 )
-parser.add_argument(
+procedures.add_argument(
+    '-r', '--reset', action='store_true',
+    help='reset style/instance directories'
+)
+procedures.add_argument(
     '-i', '--interpolate', action='store_true',
-    help='Interpolate instances'
+    help='interpolate instances'
 )
-parser.add_argument(
-    '-m', '--matchmi', action='store_true',
-    help='Match mI (i matra) variants to base glyphs'
+procedures.add_argument(
+    '-m', '--match', action='store_true',
+    help='match mI (i matra) variants to base glyphs'
 )
-parser.add_argument(
+procedures.add_argument(
     '-c', '--compile', action='store_true',
-    help='Compile OTFs'
+    help='compile OTFs'
 )
+
+if len(sys.argv) == 1:
+    parser.print_help()
+    sys.exit(2)
+
 args = parser.parse_args()
 
 
-if args.generateclasses:
+if args.generate:
     itf.generate_classes(directory = 'masters', suffix = '_0')
 
 
-if args.resetdirectories:
+if args.reset:
 
     print '\n#ITF: Resetting style/instance directories...'
 
-    call(['rm', '-fr', 'styles'])
-    call(['mkdir', 'styles'])
+    subprocess.call(['rm', '-fr', 'styles'])
+    subprocess.call(['mkdir', 'styles'])
 
     IsBoldStyle_value = 'false'
 
@@ -52,7 +63,7 @@ if args.resetdirectories:
 
         style_dir = itf.STYLES_DIR + style_name
 
-        call(['mkdir', style_dir])
+        subprocess.call(['mkdir', style_dir])
 
         with open(style_dir + '/features', 'w') as f:
             f.write(itf.TEMPLATE_FEATURES)
@@ -67,12 +78,12 @@ if args.resetdirectories:
 
 if args.interpolate:
 
-    call(
+    subprocess.call(
         ['UFOInstanceGenerator.py', 'masters', '-o', 'styles'] + UFOIG_ARGS
     )
 
 
-if args.matchmi:
+if args.match:
 
     print '\n#ITF: Matching mI...\n'
 
@@ -86,15 +97,15 @@ if args.matchmi:
 
 if args.compile:
 
-    call(['rm', '-fr', 'build'])
-    call(['mkdir', 'build'])
+    subprocess.call(['rm', '-fr', 'build'])
+    subprocess.call(['mkdir', 'build'])
 
     for style_name in STYLE_NAMES:
 
         style_dir = 'styles/' + style_name
         otf_path = 'build/%s-%s.otf' % (FAMILY_NAME, style_name)
 
-        call([
+        subprocess.call([
             'makeotf',
             '-f', style_dir + '/font.ufo',
             '-o', otf_path,
@@ -102,7 +113,7 @@ if args.compile:
             '-gf', 'GlyphOrderAndAliasDB',
         ] + MAKEOTF_ARGS)
 
-        call(['rm', '-f', style_dir + '/current.fpr'])
+        subprocess.call(['rm', '-f', style_dir + '/current.fpr'])
 
-        if exists(otf_path) and exists(OUTPUT_DIR):
-            call(['cp', '-f', otf_path, OUTPUT_DIR])
+        if os.path.exists(otf_path) and os.path.exists(OUTPUT_DIR):
+            subprocess.call(['cp', '-f', otf_path, OUTPUT_DIR])
