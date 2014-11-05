@@ -1,10 +1,8 @@
 #!/usr/bin/python
 
-from os import listdir
-from re import search, sub
-from collections import namedtuple
+import os, re, collections
 
-from robofab.world import OpenFont
+import robofab.world
 
 from reference import POSSIBLE_mII_BASES, POSSIBLE_mI_BASES
 
@@ -42,12 +40,12 @@ for line in goadb_content.splitlines():
 
 def get_font(directory, suffix = ''):
 
-    for file_name in listdir(directory):
+    for file_name in os.listdir(directory):
         if file_name.endswith(suffix + ".ufo"):
             font_file_name = file_name
             break
 
-    font = OpenFont(directory + '/' + font_file_name)
+    font = robofab.world.OpenFont(directory + '/' + font_file_name)
 
     return font
 
@@ -93,7 +91,7 @@ def generate_classes(directory, suffix):
 
         glyph_name = glyph.name
 
-        if search(r'^dvmI\.a\d\d$', glyph_name):
+        if re.search(r'^dvmI\.a\d\d$', glyph_name):
             generated_classes['mI_ALTS'].append(glyph_name)
             continue
 
@@ -120,7 +118,13 @@ def generate_classes(directory, suffix):
     toc_lines = ['# CONTENTS:']
     def_lines = []
 
-    for class_name, glyph_names in sorted(font.groups.items()):
+    classes_to_be_written = {
+        class_name: glyph_names
+        for class_name, glyph_names in font.groups.items()
+        if not class_name.startswith('@')
+    }
+
+    for class_name, glyph_names in sorted(classes_to_be_written.items()):
         toc_lines.append('# @%s' % class_name)
         def_lines.extend(
             generate_class_def_lines(class_name, glyph_names)
@@ -151,18 +155,18 @@ def get_stem_position(glyph, stem_right_margin):
 
 def restore_abvm_content(abvm_content):
 
-    if search(
+    if re.search(
         r'# lookup MARK_BASE_abvm.i \{',
         abvm_content
     ):
 
-        abvm_content = sub(
+        abvm_content = re.sub(
             r'(?m)\n\n\n^lookup MARK_BASE_abvm.i \{\n(^.+\n)+^\} MARK_BASE_abvm.i;',
             r'',
             abvm_content
         )
 
-        commented_abvm_lookup = search(
+        commented_abvm_lookup = re.search(
             r'(?m)^# lookup MARK_BASE_abvm.i \{\n(^# .+\n)+^# \} MARK_BASE_abvm.i;',
             abvm_content
         ).group()
@@ -189,7 +193,7 @@ def write_mI_matches_to_files(style_dir, mI_table, long_base_names):
 
     original_abvm_content = restore_abvm_content(abvm_content)
 
-    original_abvm_lookup = search(
+    original_abvm_lookup = re.search(
         r'(?m)^lookup MARK_BASE_abvm.i {\n(.+\n)+^} MARK_BASE_abvm.i;',
         original_abvm_content
     ).group()
@@ -224,7 +228,7 @@ def write_mI_matches_to_files(style_dir, mI_table, long_base_names):
 
         locator = '@mI_BASES_%s <anchor ' % mI_number
 
-        search_result = search(
+        search_result = re.search(
             locator + r'\-?\d+',
             modified_abvm_lookup
         )
@@ -278,12 +282,12 @@ def match_mI(style_name, stem_position_offset):
 
     style_dir = STYLES_DIR + style_name
 
-    font = OpenFont(style_dir + '/font.ufo')
+    font = robofab.world.OpenFont(style_dir + '/font.ufo')
 
     mI_list   = [font[glyph_name] for glyph_name in sorted(font.groups['mI_ALTS'])]
     base_list = [font[glyph_name] for glyph_name in font.groups['mI_BASES']]
 
-    MatchRow = namedtuple('MatchRow', 'glyph, stretch, matches')
+    MatchRow = collections.namedtuple('MatchRow', 'glyph, stretch, matches')
 
     mI_table = [
         MatchRow(
