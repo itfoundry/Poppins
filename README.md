@@ -10,7 +10,7 @@ The Devanagari glyphs in Poppins were designed by Ninad Kale. The Latin is from 
 
 # Code base
 
-This working directory is forked from the common code base, [ITF Base Devanagari (for Google Fonts)](https://github.com/itfoundry/itf-base-dv-googlefonts).
+This working directory is forked from the common code base, [ITF Base Devanagari (for Google Fonts)](https://github.com/itfoundry/base-devanagari-gf).
 
 ## Dependencies
 
