@@ -479,10 +479,8 @@ feature pres {
   sub dvC dvMA by dvC_MA;
   sub dvC dvYA by dvC_YA;
 
-  sub dvCH dvNA by dvCH_NA;
   sub dvCH dvYA by dvCH_YA;
   sub dvCH_R dvYA by dvCH_R_YA;
-  sub dvCH dvVA by dvCH_VA;
 
   sub dvJ dvKA by dvJ_KA;
   sub dvJ dvJA by dvJ_JA;
@@ -514,22 +512,21 @@ feature pres {
 
   sub dvTT dvTTA by dvTT_TTA;
   sub dvTT dvTTHA by dvTT_TTHA;
-  sub dvTT dvNA by dvTT_NA;
   sub dvTT dvYA by dvTT_YA;
   sub dvTT dvVA by dvTT_VA;
 
   sub dvTTH dvTTHA by dvTTH_TTHA;
-  sub dvTTH dvNA by dvTTH_NA;
   sub dvTTH dvYA by dvTTH_YA;
+  sub dvTTH dvVA by dvTTH_VA;
 
   sub dvDD dvDDA by dvDD_DDA;
   sub dvDD dvDDHA by dvDD_DDHA;
-  sub dvDD dvNA by dvDD_NA;
   sub dvDD dvYA by dvDD_YA;
   sub dvDD dvVA by dvDD_VA;
 
   sub dvDDH dvDDHA by dvDDH_DDHA;
   sub dvDDH dvYA by dvDDH_YA;
+  sub dvDDH dvVA by dvDDH_VA;
 
   sub dvNN dvTTA by dvNN_TTA;
   sub dvNN dvTTHA by dvNN_TTHA;
@@ -564,6 +561,7 @@ feature pres {
   sub dvT dvLA by dvT_LA;
   sub dvT dvVA by dvT_VA;
   sub dvT dvSA by dvT_SA;
+  sub dvT dvS dvNA by dvT_S_NA;
   sub dvT dvS dvYA by dvT_S_YA;
   sub dvT dvS dvVA by dvT_S_VA;
 
@@ -895,17 +893,10 @@ feature blws {
   sub dvRA dvmUU by dvRA_mUU;
   sub dvHA dvmU  by dvHA_mU;
   sub dvHA dvmUU by dvHA_mUU;
-  sub dvDA dvmvR by dvDA_mvR;
-  sub dvHA dvmvR by dvHA_mvR;
 
-  sub
-    dvSHA'
-    [
-      dvmvR
-      dvmvRR
-    ]
-  by
-    dvSHA.amvR;
+  sub dvDA  dvmvR by dvDA_mvR;
+  sub dvSHA dvmvR by dvSHA_mvR;
+  sub dvHA  dvmvR by dvHA_mvR;
 
 } blws;
 
@@ -976,9 +967,9 @@ feature haln {
 # Kerning
 # -------
 
-feature kern {
-  include (kern.fea);
-} kern;
+# feature kern {
+#   include (kern.fea);
+# } kern;
 
 
 # ---------
