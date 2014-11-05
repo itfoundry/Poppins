@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvP_TA" format="1">
+  <advance width="1040"/>
+  <outline>
+    <contour>
+      <point x="428" y="372" type="line"/>
+      <point x="412" y="337"/>
+      <point x="399" y="305"/>
+      <point x="343" y="305" type="curve" smooth="yes"/>
+      <point x="263" y="305"/>
+      <point x="244" y="362"/>
+      <point x="244" y="432" type="curve" smooth="yes"/>
+      <point x="244" y="600" type="line"/>
+      <point x="592" y="600" type="line"/>
+      <point x="592" y="740" type="line"/>
+      <point x="-20" y="740" type="line"/>
+      <point x="-20" y="600" type="line"/>
+      <point x="79" y="600" type="line"/>
+      <point x="79" y="436" type="line" smooth="yes"/>
+      <point x="79" y="271"/>
+      <point x="160" y="166"/>
+      <point x="317" y="166" type="curve" smooth="yes"/>
+      <point x="448" y="166"/>
+      <point x="487" y="249"/>
+      <point x="505" y="375" type="curve"/>
+    </contour>
+    <component base="dvTA" xOffset="339"/>
+  </outline>
+</glyph>

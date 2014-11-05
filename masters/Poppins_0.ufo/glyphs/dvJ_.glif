@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvJ" format="1">
+  <advance width="559"/>
+  <outline>
+    <contour>
+      <point x="139" y="398" type="curve" smooth="yes"/>
+      <point x="139" y="518" type="line"/>
+      <point x="74" y="518" type="line"/>
+      <point x="74" y="376" type="line" smooth="yes"/>
+      <point x="74" y="231"/>
+      <point x="96" y="106"/>
+      <point x="263" y="106" type="curve" smooth="yes"/>
+      <point x="430" y="106"/>
+      <point x="452" y="231"/>
+      <point x="452" y="376" type="curve" smooth="yes"/>
+      <point x="452" y="518" type="line"/>
+      <point x="387" y="518" type="line"/>
+      <point x="387" y="398" type="line" smooth="yes"/>
+      <point x="387" y="265"/>
+      <point x="387" y="166"/>
+      <point x="263" y="166" type="curve" smooth="yes"/>
+      <point x="139" y="166"/>
+      <point x="139" y="265"/>
+    </contour>
+    <contour>
+      <point x="720" y="518" type="line"/>
+      <point x="392" y="518" type="line"/>
+      <point x="392" y="460" type="line"/>
+      <point x="720" y="460" type="line"/>
+    </contour>
+    <contour>
+      <point x="721" y="680" type="curve"/>
+      <point x="721" y="740" type="line"/>
+      <point x="-40" y="740" type="line"/>
+      <point x="-40" y="680" type="line"/>
+      <point x="654" y="680"/>
+      <point x="721" y="680"/>
+    </contour>
+  </outline>
+</glyph>

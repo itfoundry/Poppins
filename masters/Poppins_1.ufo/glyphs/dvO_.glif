@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvO" format="1">
+  <advance width="1202"/>
+  <unicode hex="0913"/>
+  <outline>
+    <component base="dvA" xOffset="23"/>
+    <component base="dvmE" xOffset="1220"/>
+    <component base="dvmAA" xOffset="888"/>
+  </outline>
+</glyph>

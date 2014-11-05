@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guillemotright" format="1">
+  <advance width="557"/>
+  <unicode hex="00BB"/>
+  <outline>
+    <contour>
+      <point x="428" y="120" type="line"/>
+      <point x="512" y="295" type="line"/>
+      <point x="428" y="470" type="line"/>
+      <point x="270" y="470" type="line"/>
+      <point x="357" y="295" type="line"/>
+      <point x="270" y="120" type="line"/>
+    </contour>
+    <contour>
+      <point x="208" y="120" type="line"/>
+      <point x="292" y="295" type="line"/>
+      <point x="208" y="470" type="line"/>
+      <point x="50" y="470" type="line"/>
+      <point x="137" y="295" type="line"/>
+      <point x="50" y="120" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

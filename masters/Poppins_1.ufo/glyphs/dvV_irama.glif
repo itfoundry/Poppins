@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvVirama" format="1">
+  <advance width="0"/>
+  <unicode hex="094D"/>
+  <outline>
+    <contour>
+      <point x="-75" y="0" type="move" name="_blwm.virama"/>
+    </contour>
+    <contour>
+      <point x="63" y="-271" type="line"/>
+      <point x="-70" y="-54" type="line"/>
+      <point x="-224" y="-54" type="line"/>
+      <point x="-98" y="-271" type="line"/>
+    </contour>
+  </outline>
+</glyph>

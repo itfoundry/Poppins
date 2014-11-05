@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvNG_R" format="1">
+  <advance width="716"/>
+  <outline>
+    <component base="dvRashtrasign" xOffset="634" yOffset="-47"/>
+    <component base="dvNGA"/>
+    <component base="dvVirama" xOffset="460" yOffset="-125"/>
+  </outline>
+</glyph>

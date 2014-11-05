@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvK_NA" format="1">
+  <advance width="1549"/>
+  <outline>
+    <contour>
+      <point x="289" y="74" type="curve" smooth="yes"/>
+      <point x="418" y="74"/>
+      <point x="484" y="170"/>
+      <point x="466" y="296" type="curve"/>
+      <point x="433" y="309" type="line"/>
+      <point x="433" y="251"/>
+      <point x="394" y="214"/>
+      <point x="335" y="214" type="curve" smooth="yes"/>
+      <point x="274" y="214"/>
+      <point x="239" y="251"/>
+      <point x="239" y="308" type="curve" smooth="yes"/>
+      <point x="239" y="365"/>
+      <point x="274" y="402"/>
+      <point x="335" y="402" type="curve" smooth="yes"/>
+      <point x="394" y="402"/>
+      <point x="433" y="366"/>
+      <point x="433" y="308" type="curve"/>
+      <point x="466" y="320" type="line"/>
+      <point x="487" y="443"/>
+      <point x="418" y="542"/>
+      <point x="289" y="542" type="curve" smooth="yes"/>
+      <point x="151" y="542"/>
+      <point x="74" y="433"/>
+      <point x="74" y="308" type="curve" smooth="yes"/>
+      <point x="74" y="183"/>
+      <point x="151" y="74"/>
+    </contour>
+    <contour>
+      <point x="914" y="308" type="line"/>
+      <point x="904" y="434"/>
+      <point x="849" y="542"/>
+      <point x="718" y="542" type="curve" smooth="yes"/>
+      <point x="593" y="542"/>
+      <point x="549" y="431"/>
+      <point x="557" y="320" type="curve"/>
+      <point x="590" y="299" type="line"/>
+      <point x="590" y="360"/>
+      <point x="622" y="402"/>
+      <point x="678" y="402" type="curve" smooth="yes"/>
+      <point x="740" y="402"/>
+      <point x="769" y="361"/>
+      <point x="769" y="308" type="curve"/>
+    </contour>
+    <contour>
+      <point x="931" y="740" type="line"/>
+      <point x="-20" y="740" type="line"/>
+      <point x="-20" y="600" type="line"/>
+      <point x="433" y="600" type="line"/>
+      <point x="433" y="0" type="line"/>
+      <point x="590" y="0" type="line"/>
+      <point x="590" y="600" type="line"/>
+      <point x="931" y="600" type="line"/>
+    </contour>
+    <component base="dvNA" xOffset="739"/>
+  </outline>
+</glyph>

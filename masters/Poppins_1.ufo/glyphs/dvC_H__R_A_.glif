@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvCH_RA" format="1">
+  <advance width="830"/>
+  <outline>
+    <contour>
+      <point x="542" y="-184" type="move" name="blwm.u"/>
+    </contour>
+    <contour>
+      <point x="503" y="-113" type="move" name="blwm.virama"/>
+    </contour>
+    <contour>
+      <point x="677" y="740" type="move" name="abvm.e"/>
+    </contour>
+    <component base="dvCHA"/>
+    <component base="dvRashtrasign" xOffset="757" yOffset="3"/>
+  </outline>
+</glyph>
