@@ -152,18 +152,18 @@ def get_stem_position(glyph, stem_right_margin):
 def restore_abvm_content(abvm_content):
 
     if search(
-        r'# lookup MARK_BASE_abvm_Reph_alt \{',
+        r'# lookup MARK_BASE_abvm.i \{',
         abvm_content
     ):
 
         abvm_content = sub(
-            r'(?m)\n\n\n^lookup MARK_BASE_abvm_Reph_alt \{\n(^.+\n)+^\} MARK_BASE_abvm_Reph_alt;',
+            r'(?m)\n\n\n^lookup MARK_BASE_abvm.i \{\n(^.+\n)+^\} MARK_BASE_abvm.i;',
             r'',
             abvm_content
         )
 
         commented_abvm_lookup = search(
-            r'(?m)^# lookup MARK_BASE_abvm_Reph_alt \{\n(^# .+\n)+^# \} MARK_BASE_abvm_Reph_alt;',
+            r'(?m)^# lookup MARK_BASE_abvm.i \{\n(^# .+\n)+^# \} MARK_BASE_abvm.i;',
             abvm_content
         ).group()
 
@@ -190,7 +190,7 @@ def write_mI_matches_to_files(style_dir, mI_table, long_base_names):
     original_abvm_content = restore_abvm_content(abvm_content)
 
     original_abvm_lookup = search(
-        r'(?m)^lookup MARK_BASE_abvm_Reph_alt {\n(.+\n)+^} MARK_BASE_abvm_Reph_alt;',
+        r'(?m)^lookup MARK_BASE_abvm.i {\n(.+\n)+^} MARK_BASE_abvm.i;',
         original_abvm_content
     ).group()
 

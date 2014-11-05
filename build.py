@@ -50,17 +50,17 @@ if args.resetdirectories:
 
         print '\tResetting %s...' % style_name
 
-        style_dir = STYLES_DIR + style_name
+        style_dir = itf.STYLES_DIR + style_name
 
         call(['mkdir', style_dir])
 
         with open(style_dir + '/features', 'w') as f:
-            f.write(TEMPLATE_FEATURES)
+            f.write(itf.TEMPLATE_FEATURES)
 
         with open(style_dir + '/fontinfo', 'w') as f:
             if style_name == 'Bold':
                 IsBoldStyle_value = 'true'
-            f.write(TEMPLATE_FONTINFO % IsBoldStyle_value)
+            f.write(itf.TEMPLATE_FONTINFO % IsBoldStyle_value)
 
     print '#ITF: Done.\n'
 
