@@ -41,8 +41,8 @@ if args.resetdirectories:
 
     print '\n#ITF: Resetting style/instance directories...'
 
-    call('rm -fr styles')
-    call('mkdir styles')
+    call(['rm', '-fr', 'styles'])
+    call(['mkdir', 'styles'])
 
     IsBoldStyle_value = 'false'
 
@@ -86,8 +86,8 @@ if args.matchmi:
 
 if args.compile:
 
-    call('rm -fr build')
-    call('mkdir build')
+    call(['rm', '-fr', 'build'])
+    call(['mkdir', 'build'])
 
     for style_name in STYLE_NAMES:
 
