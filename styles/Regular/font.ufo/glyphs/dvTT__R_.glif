@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvTT_R" format="1">
+  <advance width="660"/>
+  <outline>
+    <component base="dvVirama" xOffset="491" yOffset="-42"/>
+    <component base="dvRashtrasign" xOffset="607" yOffset="1"/>
+    <component base="dvTTA"/>
+  </outline>
+</glyph>

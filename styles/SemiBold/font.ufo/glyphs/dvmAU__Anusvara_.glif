@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvmAU_Anusvara" format="1">
+  <advance width="279"/>
+  <outline>
+    <component base="dvmAI" xOffset="287"/>
+    <component base="dvmAA"/>
+    <component base="dvAnusvara" xOffset="425" yOffset="-3"/>
+  </outline>
+</glyph>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvS_T_YA" format="1">
+  <advance width="1646"/>
+  <outline>
+    <contour>
+      <point x="1031" y="680" type="line"/>
+      <point x="1031" y="740" type="line"/>
+      <point x="478" y="740" type="line"/>
+      <point x="478" y="680" type="line"/>
+    </contour>
+    <contour>
+      <point x="1067" y="372" type="line"/>
+      <point x="1047" y="456"/>
+      <point x="963" y="499"/>
+      <point x="846" y="499" type="curve" smooth="yes"/>
+      <point x="679" y="499"/>
+      <point x="582" y="417"/>
+      <point x="582" y="251" type="curve" smooth="yes"/>
+      <point x="582" y="116"/>
+      <point x="638" y="-2"/>
+      <point x="828" y="-2" type="curve" smooth="yes"/>
+      <point x="836" y="-2" type="line"/>
+      <point x="836" y="56" type="line"/>
+      <point x="686" y="56"/>
+      <point x="648" y="134"/>
+      <point x="648" y="251" type="curve" smooth="yes"/>
+      <point x="648" y="379"/>
+      <point x="721" y="439"/>
+      <point x="846" y="439" type="curve" smooth="yes"/>
+      <point x="946" y="439"/>
+      <point x="993" y="411"/>
+      <point x="1003" y="358" type="curve"/>
+    </contour>
+    <component base="dvYA" xOffset="928"/>
+    <component base="dvS"/>
+  </outline>
+</glyph>

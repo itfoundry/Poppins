@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvD_BHA" format="1">
+  <advance width="1315"/>
+  <outline>
+    <component base="dvVirama" xOffset="619"/>
+    <component base="dvBHA" xOffset="530"/>
+    <component base="dvDA"/>
+  </outline>
+</glyph>

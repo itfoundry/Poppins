@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvmII_Reph_Anusvara" format="1">
+  <advance width="265"/>
+  <outline>
+    <contour>
+      <point x="252" y="802" type="curve" smooth="yes"/>
+      <point x="274" y="802"/>
+      <point x="292" y="820"/>
+      <point x="292" y="842" type="curve" smooth="yes"/>
+      <point x="292" y="864"/>
+      <point x="274" y="882"/>
+      <point x="252" y="882" type="curve" smooth="yes"/>
+      <point x="230" y="882"/>
+      <point x="212" y="864"/>
+      <point x="212" y="842" type="curve" smooth="yes"/>
+      <point x="212" y="820"/>
+      <point x="230" y="802"/>
+    </contour>
+    <contour>
+      <point x="169" y="781" type="line"/>
+      <point x="169" y="864"/>
+      <point x="174" y="940"/>
+      <point x="252" y="940" type="curve" smooth="yes"/>
+      <point x="316" y="940"/>
+      <point x="329" y="886"/>
+      <point x="325" y="830" type="curve"/>
+      <point x="378" y="830" type="line"/>
+      <point x="386" y="915"/>
+      <point x="352" y="994"/>
+      <point x="260" y="994" type="curve" smooth="yes"/>
+      <point x="175" y="994"/>
+      <point x="128" y="930"/>
+      <point x="138" y="809" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-173" y="809" type="curve" smooth="yes"/>
+      <point x="-173" y="703" type="line"/>
+      <point x="-111" y="703" type="line"/>
+      <point x="-111" y="799" type="line" smooth="yes"/>
+      <point x="-111" y="902"/>
+      <point x="-88" y="957"/>
+      <point x="-2" y="957" type="curve"/>
+      <point x="84" y="957"/>
+      <point x="107" y="902"/>
+      <point x="107" y="799" type="curve"/>
+      <point x="107" y="703" type="line"/>
+      <point x="169" y="703" type="line"/>
+      <point x="169" y="809" type="line"/>
+      <point x="169" y="928"/>
+      <point x="131" y="1017"/>
+      <point x="-2" y="1017" type="curve"/>
+      <point x="-135" y="1017"/>
+      <point x="-173" y="928"/>
+    </contour>
+    <contour>
+      <point x="305" y="680" type="line"/>
+      <point x="305" y="740" type="line"/>
+      <point x="-40" y="740" type="line"/>
+      <point x="-40" y="680" type="line"/>
+      <point x="100" y="680" type="line"/>
+      <point x="100" y="0" type="line"/>
+      <point x="165" y="0" type="line"/>
+      <point x="165" y="680" type="line"/>
+    </contour>
+  </outline>
+</glyph>

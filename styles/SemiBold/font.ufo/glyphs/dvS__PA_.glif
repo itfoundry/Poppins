@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvS_PA" format="1">
+  <advance width="1199"/>
+  <outline>
+    <component base="dvS"/>
+    <component base="dvPA" xOffset="521"/>
+  </outline>
+</glyph>

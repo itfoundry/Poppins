@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="E" format="1">
+  <advance width="505"/>
+  <unicode hex="0045"/>
+  <outline>
+    <contour>
+      <point x="253" y="693" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="442" y="0" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="253" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="442" y="693" type="line"/>
+      <point x="75" y="693" type="line"/>
+      <point x="75" y="0" type="line"/>
+      <point x="442" y="0" type="line"/>
+      <point x="442" y="72" type="line"/>
+      <point x="166" y="72" type="line"/>
+      <point x="166" y="314" type="line"/>
+      <point x="412" y="314" type="line"/>
+      <point x="412" y="385" type="line"/>
+      <point x="166" y="385" type="line"/>
+      <point x="166" y="621" type="line"/>
+      <point x="442" y="621" type="line"/>
+    </contour>
+  </outline>
+</glyph>

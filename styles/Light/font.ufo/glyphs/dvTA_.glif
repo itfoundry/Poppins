@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvTA" format="1">
+  <advance width="666"/>
+  <unicode hex="0924"/>
+  <outline>
+    <contour>
+      <point x="338" y="56" type="line"/>
+      <point x="188" y="56"/>
+      <point x="130" y="124"/>
+      <point x="130" y="251" type="curve" smooth="yes"/>
+      <point x="130" y="389"/>
+      <point x="225" y="439"/>
+      <point x="350" y="439" type="curve" smooth="yes"/>
+      <point x="412" y="439" type="line"/>
+      <point x="501" y="439" type="line"/>
+      <point x="501" y="0" type="line"/>
+      <point x="566" y="0" type="line"/>
+      <point x="566" y="680" type="line"/>
+      <point x="706" y="680" type="line"/>
+      <point x="706" y="740" type="line"/>
+      <point x="-40" y="740" type="line"/>
+      <point x="-40" y="680" type="line"/>
+      <point x="501" y="680" type="line"/>
+      <point x="501" y="499" type="line"/>
+      <point x="404" y="499" type="line"/>
+      <point x="350" y="499" type="line" smooth="yes"/>
+      <point x="183" y="499"/>
+      <point x="64" y="427"/>
+      <point x="64" y="251" type="curve" smooth="yes"/>
+      <point x="64" y="106"/>
+      <point x="140" y="-2"/>
+      <point x="330" y="-2" type="curve" smooth="yes"/>
+      <point x="338" y="-2" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvR" format="1">
+  <advance width="525"/>
+  <outline>
+    <contour>
+      <point x="458" y="-251" type="line"/>
+      <point x="333" y="-68" type="line"/>
+      <point x="213" y="-68" type="line"/>
+      <point x="323" y="-251" type="line"/>
+    </contour>
+    <component base="dvRA"/>
+  </outline>
+</glyph>

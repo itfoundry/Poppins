@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph format="1" name="dvY">
+  <advance width="439" />
+  <outline>
+    <contour>
+      <point name="hintSet0000" type="line" x="526" y="382" />
+      <point x="526" y="274" />
+      <point x="477" y="205" />
+      <point type="curve" x="365" y="205" />
+      <point x="257" y="205" />
+      <point x="202" y="270" />
+      <point type="curve" x="204" y="364" />
+      <point x="341" y="378" />
+      <point x="365" y="451" />
+      <point type="curve" x="365" y="597" />
+      <point type="line" x="365" y="624" />
+      <point type="line" x="656" y="624" />
+      <point type="line" x="656" y="740" />
+      <point type="line" x="-26" y="740" />
+      <point type="line" x="-26" y="624" />
+      <point type="line" x="233" y="624" />
+      <point type="line" x="233" y="602" />
+      <point x="233" y="496" />
+      <point x="227" y="442" />
+      <point type="curve" x="64" y="442" />
+      <point x="52" y="229" />
+      <point x="149" y="89" />
+      <point type="curve" x="365" y="89" />
+      <point x="523" y="89" />
+      <point x="658" y="172" />
+      <point type="curve" x="656" y="382" />
+    </contour>
+  </outline>
+</glyph>

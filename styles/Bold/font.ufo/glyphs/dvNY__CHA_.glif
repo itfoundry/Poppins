@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvNY_CHA" format="1">
+  <advance width="1358"/>
+  <outline>
+    <contour>
+      <point x="1057" y="-12" type="move" name="blwm.virama"/>
+    </contour>
+    <contour>
+      <point x="1204" y="740" type="move" name="abvm.e"/>
+    </contour>
+    <contour>
+      <point x="1057" y="-91" type="move" name="blwm.u"/>
+    </contour>
+    <component base="dvCHA" xOffset="528"/>
+    <component base="dvNY"/>
+  </outline>
+</glyph>

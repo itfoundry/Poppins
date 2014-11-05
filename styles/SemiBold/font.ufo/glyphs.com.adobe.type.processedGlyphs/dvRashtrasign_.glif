@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph format="1" name="dvRashtrasign">
+  <advance width="0" />
+  <outline>
+    <contour>
+      <point name="hintSet0000" type="line" x="-67" y="-95" />
+      <point type="line" x="-199" y="64" />
+      <point type="line" x="-385" y="64" />
+      <point type="line" x="-519" y="-95" />
+      <point type="line" x="-386" y="-95" />
+      <point type="line" x="-292" y="34" />
+      <point type="line" x="-200" y="-95" />
+    </contour>
+  </outline>
+</glyph>

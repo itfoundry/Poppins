@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="softhyphen" format="1">
+  <advance width="589"/>
+  <unicode hex="00AD"/>
+  <outline>
+    <component base="minus"/>
+  </outline>
+</glyph>

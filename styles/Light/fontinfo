@@ -1,0 +1,8 @@
+#!opentype
+
+IsBoldStyle   false
+IsItalicStyle false
+
+PreferOS/2TypoMetrics      true
+IsOS/2WidthWeightSlopeOnly true
+IsOS/2OBLIQUE              false

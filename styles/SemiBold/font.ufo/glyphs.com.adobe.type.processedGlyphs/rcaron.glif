@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph format="1" name="rcaron">
+  <advance width="403" />
+  <unicode hex="0159" />
+  <outline>
+    <contour>
+      <point name="hintSet0000" type="line" x="216" y="554" />
+      <point type="line" x="75" y="554" />
+      <point type="line" x="75" y="0" />
+      <point type="line" x="216" y="0" />
+      <point type="line" x="216" y="278" />
+      <point x="216" y="386" />
+      <point x="264" y="418" />
+      <point type="curve" x="343" y="418" />
+      <point type="line" x="378" y="418" />
+      <point type="line" x="378" y="562" />
+      <point x="305" y="562" />
+      <point x="250" y="520" />
+      <point type="curve" x="216" y="456" />
+    </contour>
+    <contour>
+      <point type="line" x="256" y="695" />
+      <point type="line" x="107" y="781" />
+      <point type="line" x="107" y="679" />
+      <point type="line" x="256" y="595" />
+      <point type="line" x="404" y="679" />
+      <point type="line" x="404" y="781" />
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvAnusvara.amI" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-83" y="740" type="move" name="_abvm.i"/>
+    </contour>
+    <contour>
+      <point x="6" y="810" type="curve" smooth="yes"/>
+      <point x="30" y="810"/>
+      <point x="50" y="829"/>
+      <point x="50" y="854" type="curve" smooth="yes"/>
+      <point x="50" y="878"/>
+      <point x="30" y="898"/>
+      <point x="6" y="898" type="curve" smooth="yes"/>
+      <point x="-19" y="898"/>
+      <point x="-38" y="878"/>
+      <point x="-38" y="854" type="curve" smooth="yes"/>
+      <point x="-38" y="829"/>
+      <point x="-19" y="810"/>
+    </contour>
+  </outline>
+</glyph>

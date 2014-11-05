@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph format="1" name="dvJ_JA">
+  <advance width="1371" />
+  <outline>
+    <contour>
+      <point name="hintSet0000" type="line" x="1411" y="740" />
+      <point type="line" x="-40" y="740" />
+      <point type="line" x="-40" y="680" />
+      <point type="line" x="1206" y="680" />
+      <point type="line" x="1206" y="518" />
+      <point type="line" x="939" y="518" />
+      <point type="line" x="939" y="398" />
+      <point x="939" y="265" />
+      <point x="939" y="166" />
+      <point type="curve" x="815" y="166" />
+      <point x="691" y="166" />
+      <point x="691" y="265" />
+      <point type="curve" x="691" y="398" />
+      <point type="line" x="691" y="518" />
+      <point type="line" x="387" y="518" />
+      <point type="line" x="387" y="398" />
+      <point x="387" y="265" />
+      <point x="387" y="166" />
+      <point type="curve" x="263" y="166" />
+      <point x="139" y="166" />
+      <point x="139" y="265" />
+      <point type="curve" x="139" y="398" />
+      <point type="line" x="139" y="518" />
+      <point type="line" x="74" y="518" />
+      <point type="line" x="74" y="376" />
+      <point x="74" y="231" />
+      <point x="96" y="106" />
+      <point type="curve" x="263" y="106" />
+      <point x="430" y="106" />
+      <point x="452" y="231" />
+      <point type="curve" x="452" y="376" />
+      <point type="line" x="452" y="460" />
+      <point type="line" x="626" y="460" />
+      <point type="line" x="626" y="376" />
+      <point x="626" y="231" />
+      <point x="648" y="106" />
+      <point type="curve" x="815" y="106" />
+      <point x="982" y="106" />
+      <point x="1004" y="231" />
+      <point type="curve" x="1004" y="376" />
+      <point type="line" x="1004" y="460" />
+      <point type="line" x="1206" y="460" />
+      <point type="line" x="1206" y="0" />
+      <point type="line" x="1271" y="0" />
+      <point type="line" x="1271" y="680" />
+      <point type="line" x="1411" y="680" />
+    </contour>
+  </outline>
+</glyph>

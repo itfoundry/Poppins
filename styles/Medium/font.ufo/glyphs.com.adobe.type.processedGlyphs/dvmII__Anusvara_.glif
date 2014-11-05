@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph format="1" name="dvmII_Anusvara">
+  <advance width="287" />
+  <outline>
+    <contour>
+      <point name="hintSet0000" type="line" x="195" y="775" />
+      <point x="195" y="910" />
+      <point x="152" y="1008" />
+      <point type="curve" x="-1" y="1008" />
+      <point x="-154" y="1008" />
+      <point x="-197" y="911" />
+      <point type="curve" x="-197" y="775" />
+      <point type="line" x="-197" y="700" />
+      <point type="line" x="-93" y="700" />
+      <point type="line" x="-93" y="768" />
+      <point x="-93" y="862" />
+      <point x="-78" y="916" />
+      <point type="curve" x="-1" y="916" />
+      <point x="76" y="916" />
+      <point x="91" y="862" />
+      <point type="curve" x="91" y="768" />
+      <point type="line" x="91" y="740" />
+      <point type="line" x="-31" y="740" />
+      <point type="line" x="-31" y="645" />
+      <point type="line" x="89" y="645" />
+      <point type="line" x="89" y="0" />
+      <point type="line" x="198" y="0" />
+      <point type="line" x="198" y="645" />
+      <point type="line" x="318" y="645" />
+      <point type="line" x="318" y="740" />
+      <point type="line" x="195" y="740" />
+    </contour>
+    <contour>
+      <point type="curve" x="324" y="979" />
+      <point x="286" y="979" />
+      <point x="255" y="948" />
+      <point type="curve" x="255" y="909" />
+      <point x="255" y="871" />
+      <point x="286" y="841" />
+      <point type="curve" x="324" y="841" />
+      <point x="362" y="841" />
+      <point x="393" y="871" />
+      <point type="curve" x="393" y="909" />
+      <point x="393" y="948" />
+      <point x="362" y="979" />
+    </contour>
+  </outline>
+</glyph>

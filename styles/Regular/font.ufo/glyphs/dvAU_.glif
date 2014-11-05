@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvAU" format="1">
+  <advance width="1159"/>
+  <unicode hex="0914"/>
+  <outline>
+    <component base="dvA" xOffset="53"/>
+    <component base="dvmAI" xOffset="1167"/>
+    <component base="dvmAA" xOffset="884"/>
+  </outline>
+</glyph>

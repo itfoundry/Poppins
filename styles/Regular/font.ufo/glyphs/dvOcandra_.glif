@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvOcandra" format="1">
+  <advance width="1111"/>
+  <unicode hex="0911"/>
+  <outline>
+    <contour>
+      <point x="1036" y="995" type="curve"/>
+      <point x="960" y="995" type="line"/>
+      <point x="960" y="939"/>
+      <point x="935" y="886"/>
+      <point x="852" y="886" type="curve"/>
+      <point x="770" y="886"/>
+      <point x="744" y="939"/>
+      <point x="744" y="995" type="curve"/>
+      <point x="668" y="995" type="line"/>
+      <point x="668" y="898"/>
+      <point x="714" y="817"/>
+      <point x="852" y="817" type="curve"/>
+      <point x="990" y="817"/>
+      <point x="1036" y="898"/>
+    </contour>
+    <component base="dvA" xOffset="5"/>
+    <component base="dvmAA" xOffset="836"/>
+  </outline>
+</glyph>

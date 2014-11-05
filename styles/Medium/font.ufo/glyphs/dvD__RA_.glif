@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvD_RA" format="1">
+  <advance width="601"/>
+  <outline>
+    <contour>
+      <point x="533" y="-32" type="move" name="blwm.virama"/>
+    </contour>
+    <contour>
+      <point x="495" y="740" type="move" name="abvm.e"/>
+    </contour>
+    <contour>
+      <point x="527" y="-119" type="move" name="blwm.u"/>
+    </contour>
+    <contour>
+      <point x="530" y="-8" type="line"/>
+      <point x="530" y="285" type="line"/>
+      <point x="432" y="285" type="line"/>
+      <point x="432" y="207"/>
+      <point x="380" y="176"/>
+      <point x="315" y="176" type="curve"/>
+      <point x="227" y="176"/>
+      <point x="170" y="220"/>
+      <point x="170" y="310" type="curve" smooth="yes"/>
+      <point x="170" y="422"/>
+      <point x="251" y="455"/>
+      <point x="362" y="455" type="curve" smooth="yes"/>
+      <point x="495" y="455" type="line"/>
+      <point x="495" y="645" type="line"/>
+      <point x="632" y="645" type="line"/>
+      <point x="632" y="740" type="line"/>
+      <point x="-31" y="740" type="line"/>
+      <point x="-31" y="645" type="line"/>
+      <point x="386" y="645" type="line"/>
+      <point x="386" y="553" type="line"/>
+      <point x="351" y="553" type="line" smooth="yes"/>
+      <point x="184" y="553"/>
+      <point x="61" y="483"/>
+      <point x="61" y="313" type="curve" smooth="yes"/>
+      <point x="61" y="164"/>
+      <point x="159" y="89"/>
+      <point x="296" y="89" type="curve" smooth="yes"/>
+      <point x="352" y="89"/>
+      <point x="400" y="107"/>
+      <point x="422" y="136" type="curve"/>
+      <point x="422" y="-8" type="line"/>
+    </contour>
+    <contour>
+      <point x="150" y="-75" type="curve"/>
+      <point x="266" y="-75" type="line"/>
+      <point x="458" y="182" type="line"/>
+      <point x="458" y="182"/>
+      <point x="327" y="135"/>
+      <point x="325" y="135" type="curve"/>
+      <point x="320" y="128"/>
+      <point x="150" y="-75"/>
+    </contour>
+  </outline>
+</glyph>

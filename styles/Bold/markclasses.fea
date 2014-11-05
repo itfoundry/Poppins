@@ -1,0 +1,33 @@
+# Created: Wed Nov  5 17:35:30 2014
+# PS Name: Poppins-Bold
+# MM Inst: None
+# exported from noApp
+
+@mGC_abvm.e_n75_740 = [dvmE dvmAI dvmEcandra dvAnusvara dvCandrabindu dvReph dvReph_Anusvara dvmE_Anusvara dvmE_Reph dvmE_Reph_Anusvara dvmAI_Anusvara dvmAI_Reph dvmAI_Reph_Anusvara];
+@mGC_abvm.i_n75_740 = [dvAnusvara.amI dvReph.amI];
+@mGC_blwm.u_590_0 = [dvmvL dvmvLL];
+@mGC_blwm.u_n75_0 = [dvmU dvmUU dvmvR];
+@mGC_top_135_558 = [grave acute];
+@mGC_top_165_558 = [circumflex caron];
+
+markClass @mGC_abvm.e_n75_740 <anchor -75 740> @MC_abvm.e;
+markClass @mGC_abvm.i_n75_740 <anchor -75 740> @MC_abvm.i;
+markClass @mGC_blwm.u_590_0 <anchor 590 0> @MC_blwm.u;
+markClass @mGC_blwm.u_n75_0 <anchor -75 0> @MC_blwm.u;
+markClass @mGC_top_135_558 <anchor 135 558> @MC_top;
+markClass @mGC_top_165_558 <anchor 165 558> @MC_top;
+markClass breve <anchor 180 558> @MC_top;
+markClass cedilla <anchor 114 0> @MC_bottom;
+markClass commaaccent <anchor -40 -40> @MC_topright;
+markClass commaaccent <anchor 78 0> @MC_bottom;
+markClass commaaccent.alt <anchor 78 10> @MC_commaaccent;
+markClass dieresis <anchor 184 558> @MC_top;
+markClass dotaccent <anchor 84 558> @MC_top;
+markClass dvReph_Anusvara.amI <anchor -71 740> @MC_abvm.i;
+markClass dvVirama <anchor -75 0> @MC_blwm.virama;
+markClass hungarumlaut <anchor 172 558> @MC_top;
+markClass macron <anchor 210 558> @MC_top;
+markClass ogonek <anchor 243 0> @MC_ogonek;
+markClass ring <anchor 131 558> @MC_top;
+markClass tilde <anchor 205 558> @MC_top;
+

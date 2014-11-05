@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph format="1" name="umacron">
+  <advance width="649" />
+  <unicode hex="016B" />
+  <outline>
+    <contour>
+      <point name="hintSet0000" type="line" x="508" y="720" />
+      <point type="line" x="142" y="720" />
+      <point type="line" x="142" y="635" />
+      <point type="line" x="508" y="635" />
+    </contour>
+    <contour>
+      <point type="line" x="460" y="551" />
+      <point type="line" x="460" y="243" />
+      <point x="460" y="142" />
+      <point x="405" y="90" />
+      <point type="curve" x="321" y="90" />
+      <point x="238" y="90" />
+      <point x="183" y="142" />
+      <point type="curve" x="183" y="243" />
+      <point type="line" x="183" y="551" />
+      <point type="line" x="70" y="551" />
+      <point type="line" x="70" y="226" />
+      <point x="70" y="72" />
+      <point x="166" y="-8" />
+      <point type="curve" x="284" y="-8" />
+      <point x="360" y="-8" />
+      <point x="424" y="24" />
+      <point type="curve" x="460" y="87" />
+      <point type="line" x="460" y="0" />
+      <point type="line" x="574" y="0" />
+      <point type="line" x="574" y="551" />
+    </contour>
+  </outline>
+</glyph>

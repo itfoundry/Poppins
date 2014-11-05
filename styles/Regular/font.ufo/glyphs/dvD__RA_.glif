@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvD_RA" format="1">
+  <advance width="596"/>
+  <outline>
+    <contour>
+      <point x="526" y="-19" type="move" name="blwm.virama"/>
+    </contour>
+    <contour>
+      <point x="484" y="740" type="move" name="abvm.e"/>
+    </contour>
+    <contour>
+      <point x="517" y="-110" type="move" name="blwm.u"/>
+    </contour>
+    <contour>
+      <point x="522" y="0" type="line"/>
+      <point x="522" y="294" type="line"/>
+      <point x="444" y="294" type="line"/>
+      <point x="444" y="202"/>
+      <point x="384" y="170"/>
+      <point x="313" y="170" type="curve"/>
+      <point x="213" y="170"/>
+      <point x="149" y="218"/>
+      <point x="149" y="321" type="curve" smooth="yes"/>
+      <point x="149" y="452"/>
+      <point x="242" y="483"/>
+      <point x="370" y="483" type="curve" smooth="yes"/>
+      <point x="484" y="483" type="line"/>
+      <point x="484" y="663" type="line"/>
+      <point x="632" y="663" type="line"/>
+      <point x="632" y="740" type="line"/>
+      <point x="-36" y="740" type="line"/>
+      <point x="-36" y="663" type="line"/>
+      <point x="398" y="663" type="line"/>
+      <point x="398" y="561" type="line"/>
+      <point x="358" y="561" type="line" smooth="yes"/>
+      <point x="186" y="561"/>
+      <point x="62" y="494"/>
+      <point x="62" y="323" type="curve" smooth="yes"/>
+      <point x="62" y="180"/>
+      <point x="159" y="98"/>
+      <point x="301" y="98" type="curve" smooth="yes"/>
+      <point x="360" y="98"/>
+      <point x="412" y="119"/>
+      <point x="436" y="151" type="curve"/>
+      <point x="436" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="169" y="-65" type="curve"/>
+      <point x="266" y="-65" type="line"/>
+      <point x="475" y="199" type="line"/>
+      <point x="475" y="199"/>
+      <point x="363" y="156"/>
+      <point x="360" y="156" type="curve"/>
+      <point x="358" y="152"/>
+      <point x="169" y="-65"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph format="1" name="dvJ">
+  <advance width="551" />
+  <outline>
+    <contour>
+      <point name="hintSet0000" type="line" x="720" y="503" />
+      <point type="line" x="363" y="503" />
+      <point type="line" x="363" y="369" />
+      <point x="363" y="278" />
+      <point x="358" y="215" />
+      <point type="curve" x="278" y="215" />
+      <point x="199" y="215" />
+      <point x="189" y="278" />
+      <point type="curve" x="189" y="369" />
+      <point type="line" x="189" y="503" />
+      <point type="line" x="55" y="503" />
+      <point type="line" x="55" y="344" />
+      <point x="55" y="212" />
+      <point x="107" y="99" />
+      <point type="curve" x="280" y="99" />
+      <point x="438" y="99" />
+      <point x="495" y="194" />
+      <point type="curve" x="495" y="344" />
+      <point type="line" x="495" y="394" />
+      <point type="line" x="720" y="394" />
+    </contour>
+    <contour>
+      <point type="line" x="-26" y="740" />
+      <point type="line" x="-26" y="624" />
+      <point type="line" x="721" y="624" />
+      <point type="line" x="721" y="740" />
+    </contour>
+  </outline>
+</glyph>

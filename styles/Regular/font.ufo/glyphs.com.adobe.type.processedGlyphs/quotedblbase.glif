@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph format="1" name="quotedblbase">
+  <advance width="186" />
+  <unicode hex="201E" />
+  <outline>
+    <contour>
+      <point name="hintSet0000" type="line" x="39" y="67" />
+      <point type="line" x="39" y="-26" />
+      <point type="line" x="90" y="-26" />
+      <point type="line" x="90" y="-49" />
+      <point x="90" y="-84" />
+      <point x="76" y="-99" />
+      <point type="curve" x="42" y="-99" />
+      <point type="line" x="42" y="-143" />
+      <point x="137" y="-143" />
+      <point x="165" y="-72" />
+      <point type="curve" x="132" y="67" />
+    </contour>
+  </outline>
+</glyph>

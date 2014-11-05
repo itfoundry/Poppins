@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvP_SA" format="1">
+  <advance width="1171"/>
+  <outline>
+    <contour>
+      <point x="456" y="401" type="line"/>
+      <point x="451" y="326"/>
+      <point x="414" y="277"/>
+      <point x="328" y="277" type="curve" smooth="yes"/>
+      <point x="218" y="277"/>
+      <point x="185" y="352"/>
+      <point x="185" y="458" type="curve" smooth="yes"/>
+      <point x="185" y="663" type="line"/>
+      <point x="438" y="663"/>
+      <point x="544" y="663"/>
+      <point x="544" y="663" type="curve"/>
+      <point x="544" y="740" type="line"/>
+      <point x="-36" y="740" type="line"/>
+      <point x="-36" y="663" type="line"/>
+      <point x="99" y="663" type="line"/>
+      <point x="99" y="455" type="line" smooth="yes"/>
+      <point x="99" y="306"/>
+      <point x="163" y="200"/>
+      <point x="321" y="200" type="curve" smooth="yes"/>
+      <point x="433" y="200"/>
+      <point x="498" y="269"/>
+      <point x="509" y="386" type="curve"/>
+    </contour>
+    <component base="dvSA" xOffset="373"/>
+  </outline>
+</glyph>

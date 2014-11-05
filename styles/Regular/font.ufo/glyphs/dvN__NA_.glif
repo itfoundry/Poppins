@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvN_NA" format="1">
+  <advance width="1258"/>
+  <outline>
+    <contour>
+      <point x="648" y="663" type="curve"/>
+      <point x="648" y="740" type="line"/>
+      <point x="-36" y="740" type="line"/>
+      <point x="-36" y="663" type="line"/>
+      <point x="446" y="663"/>
+      <point x="648" y="663"/>
+    </contour>
+    <contour>
+      <point x="865" y="487" type="line"/>
+      <point x="276" y="487" type="line" smooth="yes"/>
+      <point x="127" y="487"/>
+      <point x="48" y="414"/>
+      <point x="48" y="294" type="curve" smooth="yes"/>
+      <point x="48" y="174"/>
+      <point x="138" y="100"/>
+      <point x="254" y="100" type="curve" smooth="yes"/>
+      <point x="372" y="100"/>
+      <point x="447" y="177"/>
+      <point x="447" y="283" type="curve" smooth="yes"/>
+      <point x="447" y="339"/>
+      <point x="425" y="388"/>
+      <point x="384" y="413" type="curve"/>
+      <point x="865" y="413" type="line"/>
+    </contour>
+    <contour>
+      <point x="250" y="411" type="curve" smooth="yes"/>
+      <point x="324" y="411"/>
+      <point x="368" y="364"/>
+      <point x="368" y="294" type="curve" smooth="yes"/>
+      <point x="368" y="216"/>
+      <point x="314" y="176"/>
+      <point x="254" y="176" type="curve" smooth="yes"/>
+      <point x="189" y="176"/>
+      <point x="130" y="212"/>
+      <point x="130" y="294" type="curve" smooth="yes"/>
+      <point x="130" y="370"/>
+      <point x="185" y="411"/>
+    </contour>
+    <component base="dvNA" xOffset="476"/>
+  </outline>
+</glyph>

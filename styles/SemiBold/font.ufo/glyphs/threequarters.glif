@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="threequarters" format="1">
+  <advance width="811"/>
+  <unicode hex="00BE"/>
+  <outline>
+    <contour>
+      <point x="169" y="0" type="line"/>
+      <point x="303" y="0" type="line"/>
+      <point x="697" y="700" type="line"/>
+      <point x="563" y="700" type="line"/>
+    </contour>
+    <contour>
+      <point x="745" y="128" type="line"/>
+      <point x="745" y="353" type="line"/>
+      <point x="591" y="353" type="line"/>
+      <point x="448" y="123" type="line"/>
+      <point x="448" y="65" type="line"/>
+      <point x="638" y="65" type="line"/>
+      <point x="638" y="0" type="line"/>
+      <point x="745" y="0" type="line"/>
+      <point x="745" y="65" type="line"/>
+      <point x="788" y="65" type="line"/>
+      <point x="788" y="128" type="line"/>
+    </contour>
+    <contour>
+      <point x="552" y="128" type="line"/>
+      <point x="642" y="282" type="line"/>
+      <point x="642" y="128" type="line"/>
+    </contour>
+    <component base="threesuperior" xOffset="25"/>
+  </outline>
+</glyph>

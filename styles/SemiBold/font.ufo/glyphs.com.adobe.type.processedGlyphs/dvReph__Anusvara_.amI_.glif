@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph format="1" name="dvReph_Anusvara.amI">
+  <advance width="0" />
+  <outline>
+    <contour>
+      <point name="hintSet0000" type="curve" x="6" y="810" />
+      <point x="30" y="810" />
+      <point x="50" y="829" />
+      <point type="curve" x="50" y="854" />
+      <point x="50" y="878" />
+      <point x="30" y="898" />
+      <point type="curve" x="6" y="898" />
+      <point x="-19" y="898" />
+      <point x="-38" y="878" />
+      <point type="curve" x="-38" y="854" />
+      <point x="-38" y="829" />
+      <point x="-19" y="810" />
+    </contour>
+    <contour>
+      <point type="line" x="-84" y="740" />
+      <point type="line" x="-84" y="829" />
+      <point x="-84" y="896" />
+      <point x="-58" y="942" />
+      <point type="curve" x="3" y="942" />
+      <point x="58" y="942" />
+      <point x="88" y="909" />
+      <point type="curve" x="89" y="858" />
+      <point type="line" x="201" y="858" />
+      <point x="201" y="977" />
+      <point x="128" y="1050" />
+      <point type="curve" x="12" y="1050" />
+      <point x="-141" y="1050" />
+      <point x="-188" y="937" />
+      <point type="curve" x="-188" y="824" />
+      <point x="-188" y="813" />
+      <point x="-188" y="750" />
+      <point type="curve" x="-187" y="740" />
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvCH_R_YA" format="1">
+  <advance width="1351"/>
+  <outline>
+    <component base="dvYA" xOffset="633"/>
+    <component base="dvRashtrasign" xOffset="674" yOffset="-15"/>
+    <component base="dvCH"/>
+  </outline>
+</glyph>

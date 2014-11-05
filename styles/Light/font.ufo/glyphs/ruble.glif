@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ruble" format="1">
+  <advance width="602"/>
+  <unicode hex="20BD"/>
+  <outline>
+    <contour>
+      <point x="31" y="289" type="line"/>
+      <point x="326" y="289" type="line" smooth="yes"/>
+      <point x="488" y="289"/>
+      <point x="562" y="375"/>
+      <point x="562" y="489" type="curve" smooth="yes"/>
+      <point x="562" y="604"/>
+      <point x="486" y="690"/>
+      <point x="326" y="690" type="curve" smooth="yes"/>
+      <point x="115" y="690" type="line"/>
+      <point x="115" y="0" type="line"/>
+      <point x="185" y="0" type="line"/>
+      <point x="185" y="633" type="line"/>
+      <point x="326" y="633" type="line" smooth="yes"/>
+      <point x="444" y="633"/>
+      <point x="491" y="578"/>
+      <point x="491" y="489" type="curve" smooth="yes"/>
+      <point x="491" y="403"/>
+      <point x="444" y="346"/>
+      <point x="326" y="346" type="curve" smooth="yes"/>
+      <point x="31" y="346" type="line"/>
+    </contour>
+    <contour>
+      <point x="30" y="130" type="line"/>
+      <point x="419" y="130" type="line"/>
+      <point x="419" y="190" type="line"/>
+      <point x="30" y="190" type="line"/>
+    </contour>
+  </outline>
+</glyph>

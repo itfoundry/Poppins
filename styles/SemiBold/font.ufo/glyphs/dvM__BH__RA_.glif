@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvM_BH_RA" format="1">
+  <advance width="1342"/>
+  <outline>
+    <contour>
+      <point x="723" y="624" type="line"/>
+      <point x="738" y="740" type="line"/>
+      <point x="-26" y="740" type="line"/>
+      <point x="-26" y="624" type="line"/>
+    </contour>
+    <contour>
+      <point x="340" y="300" type="line"/>
+      <point x="340" y="233"/>
+      <point x="323" y="189"/>
+      <point x="262" y="189" type="curve" smooth="yes"/>
+      <point x="215" y="189"/>
+      <point x="179" y="220"/>
+      <point x="179" y="268" type="curve" smooth="yes"/>
+      <point x="179" y="331"/>
+      <point x="228" y="351"/>
+      <point x="292" y="351" type="curve" smooth="yes"/>
+      <point x="779" y="351" type="line"/>
+      <point x="779" y="462" type="line"/>
+      <point x="293" y="462" type="line" smooth="yes"/>
+      <point x="147" y="462"/>
+      <point x="54" y="405"/>
+      <point x="54" y="272" type="curve" smooth="yes"/>
+      <point x="54" y="153"/>
+      <point x="147" y="75"/>
+      <point x="265" y="75" type="curve" smooth="yes"/>
+      <point x="402" y="75"/>
+      <point x="467" y="161"/>
+      <point x="467" y="304" type="curve" smooth="yes"/>
+      <point x="467" y="669" type="line"/>
+      <point x="340" y="669" type="line"/>
+    </contour>
+    <component base="dvBH_RA" xOffset="499"/>
+  </outline>
+</glyph>

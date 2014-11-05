@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph format="1" name="Omega.math">
+  <advance width="782" />
+  <unicode hex="2126" />
+  <outline>
+    <contour>
+      <point name="hintSet0000" type="line" x="55" y="57" />
+      <point type="line" x="55" y="0" />
+      <point type="line" x="331" y="0" />
+      <point type="line" x="331" y="59" />
+      <point x="203" y="84" />
+      <point x="111" y="191" />
+      <point type="curve" x="111" y="345" />
+      <point x="111" y="520" />
+      <point x="230" y="636" />
+      <point type="curve" x="391" y="636" />
+      <point x="549" y="636" />
+      <point x="671" y="523" />
+      <point type="curve" x="671" y="345" />
+      <point x="671" y="191" />
+      <point x="579" y="84" />
+      <point type="curve" x="451" y="59" />
+      <point type="line" x="451" y="0" />
+      <point type="line" x="727" y="0" />
+      <point type="line" x="727" y="57" />
+      <point type="line" x="574" y="57" />
+      <point x="679" y="108" />
+      <point x="742" y="222" />
+      <point type="curve" x="742" y="345" />
+      <point x="742" y="552" />
+      <point x="586" y="697" />
+      <point type="curve" x="391" y="697" />
+      <point x="196" y="697" />
+      <point x="40" y="552" />
+      <point type="curve" x="40" y="345" />
+      <point x="40" y="222" />
+      <point x="103" y="108" />
+      <point type="curve" x="208" y="57" />
+    </contour>
+  </outline>
+</glyph>

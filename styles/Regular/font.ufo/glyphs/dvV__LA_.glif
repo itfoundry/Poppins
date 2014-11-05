@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvV_LA" format="1">
+  <advance width="1291"/>
+  <outline>
+    <contour>
+      <point x="1041" y="-16" type="move" name="blwm.virama"/>
+    </contour>
+    <contour>
+      <point x="1062" y="740" type="move" name="abvm.e"/>
+    </contour>
+    <contour>
+      <point x="1064" y="-114" type="move" name="blwm.u"/>
+    </contour>
+    <contour>
+      <point x="554" y="663" type="line"/>
+      <point x="554" y="740" type="line"/>
+      <point x="-36" y="740" type="line"/>
+      <point x="-36" y="663" type="line"/>
+    </contour>
+    <contour>
+      <point x="54" y="331" type="curve" smooth="yes"/>
+      <point x="54" y="185"/>
+      <point x="158" y="94"/>
+      <point x="303" y="94" type="curve" smooth="yes"/>
+      <point x="448" y="94"/>
+      <point x="546" y="187"/>
+      <point x="546" y="331" type="curve" smooth="yes"/>
+      <point x="546" y="476"/>
+      <point x="447" y="569"/>
+      <point x="303" y="569" type="curve" smooth="yes"/>
+      <point x="159" y="569"/>
+      <point x="54" y="478"/>
+    </contour>
+    <contour>
+      <point x="139" y="331" type="curve" smooth="yes"/>
+      <point x="139" y="431"/>
+      <point x="204" y="493"/>
+      <point x="304" y="493" type="curve" smooth="yes"/>
+      <point x="404" y="493"/>
+      <point x="469" y="431"/>
+      <point x="469" y="331" type="curve" smooth="yes"/>
+      <point x="469" y="232"/>
+      <point x="404" y="170"/>
+      <point x="304" y="170" type="curve" smooth="yes"/>
+      <point x="204" y="170"/>
+      <point x="139" y="232"/>
+    </contour>
+    <component base="dvLA" xOffset="384"/>
+  </outline>
+</glyph>

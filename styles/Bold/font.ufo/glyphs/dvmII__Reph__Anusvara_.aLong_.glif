@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvmII_Reph_Anusvara.aLong" format="1">
+  <advance width="252"/>
+  <outline>
+    <contour>
+      <point x="311" y="768" type="curve" smooth="yes"/>
+      <point x="339" y="768"/>
+      <point x="360" y="790"/>
+      <point x="360" y="817" type="curve" smooth="yes"/>
+      <point x="360" y="845"/>
+      <point x="339" y="867"/>
+      <point x="311" y="867" type="curve" smooth="yes"/>
+      <point x="283" y="867"/>
+      <point x="262" y="845"/>
+      <point x="262" y="817" type="curve" smooth="yes"/>
+      <point x="262" y="790"/>
+      <point x="283" y="768"/>
+    </contour>
+    <contour>
+      <point x="221" y="825" type="line"/>
+      <point x="220" y="875"/>
+      <point x="258" y="910"/>
+      <point x="308" y="910" type="curve" smooth="yes"/>
+      <point x="360" y="910"/>
+      <point x="393" y="885"/>
+      <point x="394" y="837" type="curve"/>
+      <point x="539" y="837" type="line"/>
+      <point x="539" y="969"/>
+      <point x="456" y="1044"/>
+      <point x="328" y="1044" type="curve" smooth="yes"/>
+      <point x="194" y="1044"/>
+      <point x="137" y="937"/>
+      <point x="144" y="835" type="curve"/>
+    </contour>
+    <component base="dvmII.aLong"/>
+  </outline>
+</glyph>

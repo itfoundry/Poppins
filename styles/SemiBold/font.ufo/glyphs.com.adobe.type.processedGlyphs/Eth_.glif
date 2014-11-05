@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph format="1" name="Eth">
+  <advance width="729" />
+  <unicode hex="00D0" />
+  <outline>
+    <contour>
+      <point name="hintSet0000" type="line" x="222" y="107" />
+      <point type="line" x="222" y="282" />
+      <point type="line" x="384" y="282" />
+      <point type="line" x="384" y="414" />
+      <point type="line" x="222" y="414" />
+      <point type="line" x="222" y="589" />
+      <point type="line" x="318" y="589" />
+      <point x="466" y="589" />
+      <point x="550" y="495" />
+      <point type="curve" x="550" y="348" />
+      <point x="550" y="201" />
+      <point x="466" y="107" />
+      <point type="curve" x="318" y="107" />
+    </contour>
+    <contour>
+      <point type="line" x="81" y="698" />
+      <point type="line" x="81" y="414" />
+      <point type="line" x="14" y="414" />
+      <point type="line" x="14" y="282" />
+      <point type="line" x="81" y="282" />
+      <point type="line" x="81" y="0" />
+      <point type="line" x="318" y="0" />
+      <point x="541" y="0" />
+      <point x="693" y="136" />
+      <point type="curve" x="693" y="348" />
+      <point x="693" y="560" />
+      <point x="541" y="698" />
+      <point type="curve" x="318" y="698" />
+    </contour>
+  </outline>
+</glyph>

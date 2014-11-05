@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvmAI_Anusvara" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-83" y="740" type="move" name="_abvm.e"/>
+    </contour>
+    <component base="dvmAI"/>
+    <component base="dvAnusvara" xOffset="143" yOffset="-3"/>
+  </outline>
+</glyph>

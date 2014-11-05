@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvM_RA" format="1">
+  <advance width="860"/>
+  <outline>
+    <contour>
+      <point x="795" y="-100" type="move" name="blwm.u"/>
+    </contour>
+    <contour>
+      <point x="621" y="0" type="line"/>
+      <point x="785" y="0" type="line"/>
+      <point x="785" y="723" type="line"/>
+      <point x="621" y="723" type="line"/>
+    </contour>
+    <contour>
+      <point x="880" y="600" type="line"/>
+      <point x="880" y="740" type="line"/>
+      <point x="-20" y="740" type="line"/>
+      <point x="-20" y="600" type="line"/>
+    </contour>
+    <contour>
+      <point x="331" y="287" type="line"/>
+      <point x="331" y="234"/>
+      <point x="316" y="197"/>
+      <point x="266" y="197" type="curve" smooth="yes"/>
+      <point x="226" y="197"/>
+      <point x="196" y="221"/>
+      <point x="196" y="262" type="curve" smooth="yes"/>
+      <point x="196" y="313"/>
+      <point x="238" y="333"/>
+      <point x="289" y="333" type="curve" smooth="yes"/>
+      <point x="761" y="333" type="line"/>
+      <point x="761" y="467" type="line"/>
+      <point x="287" y="467" type="line" smooth="yes"/>
+      <point x="146" y="467"/>
+      <point x="44" y="408"/>
+      <point x="44" y="267" type="curve" smooth="yes"/>
+      <point x="44" y="140"/>
+      <point x="144" y="59"/>
+      <point x="270" y="59" type="curve" smooth="yes"/>
+      <point x="415" y="59"/>
+      <point x="485" y="149"/>
+      <point x="485" y="293" type="curve" smooth="yes"/>
+      <point x="485" y="653" type="line"/>
+      <point x="331" y="653" type="line"/>
+    </contour>
+    <contour>
+      <point x="324" y="-83" type="curve"/>
+      <point x="482" y="-83" type="line"/>
+      <point x="723" y="248" type="line"/>
+      <point x="636" y="306" type="line"/>
+      <point x="625" y="290"/>
+      <point x="324" y="-83"/>
+    </contour>
+  </outline>
+</glyph>

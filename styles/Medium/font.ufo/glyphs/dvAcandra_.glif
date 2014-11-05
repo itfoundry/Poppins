@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvAcandra" format="1">
+  <advance width="841"/>
+  <outline>
+    <component base="dvA"/>
+    <component base="dvmEcandra" xOffset="849" yOffset="-10"/>
+  </outline>
+</glyph>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvD_NA" format="1">
+  <advance width="1353"/>
+  <outline>
+    <component base="dvVirama" xOffset="620" yOffset="-21"/>
+    <component base="dvDA"/>
+    <component base="dvNA" xOffset="563"/>
+  </outline>
+</glyph>

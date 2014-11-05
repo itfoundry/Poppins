@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph format="1" name="dvRA_mUU">
+  <advance width="713" />
+  <outline>
+    <contour>
+      <point name="hintSet0000" type="line" x="441" y="680" />
+      <point type="line" x="753" y="680" />
+      <point type="line" x="753" y="740" />
+      <point type="line" x="-40" y="740" />
+      <point type="line" x="-40" y="680" />
+      <point type="line" x="375" y="680" />
+      <point type="line" x="375" y="628" />
+      <point x="375" y="400" />
+      <point x="352" y="407" />
+      <point type="curve" x="88" y="407" />
+      <point type="line" x="88" y="213" />
+      <point x="88" y="89" />
+      <point x="153" y="-1" />
+      <point type="curve" x="279" y="-1" />
+      <point x="401" y="-1" />
+      <point x="470" y="86" />
+      <point type="curve" x="470" y="210" />
+      <point type="line" x="404" y="210" />
+      <point x="404" y="120" />
+      <point x="367" y="59" />
+      <point type="curve" x="279" y="59" />
+      <point x="189" y="59" />
+      <point x="154" y="123" />
+      <point type="curve" x="154" y="213" />
+      <point type="line" x="154" y="349" />
+      <point x="233" y="349" />
+      <point x="291" y="353" />
+      <point type="curve" x="333" y="368" />
+      <point type="line" x="408" y="368" />
+      <point x="553" y="368" />
+      <point x="609" y="305" />
+      <point type="curve" x="609" y="166" />
+      <point type="line" x="609" y="52" />
+      <point type="line" x="673" y="52" />
+      <point type="line" x="673" y="166" />
+      <point x="673" y="337" />
+      <point x="593" y="426" />
+      <point type="curve" x="408" y="426" />
+      <point x="433" y="467" />
+      <point x="441" y="530" />
+      <point type="curve" x="441" y="624" />
+    </contour>
+  </outline>
+</glyph>

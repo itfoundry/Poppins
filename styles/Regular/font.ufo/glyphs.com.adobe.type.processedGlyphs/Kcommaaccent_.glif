@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph format="1" name="Kcommaaccent">
+  <advance width="598" />
+  <unicode hex="0136" />
+  <outline>
+    <contour>
+      <point name="hintSet0000" type="line" x="250" y="-48" />
+      <point type="line" x="250" y="-134" />
+      <point type="line" x="299" y="-134" />
+      <point type="line" x="299" y="-157" />
+      <point x="299" y="-192" />
+      <point x="285" y="-209" />
+      <point type="curve" x="251" y="-209" />
+      <point type="line" x="251" y="-253" />
+      <point x="317" y="-253" />
+      <point x="353" y="-220" />
+      <point type="curve" x="353" y="-140" />
+      <point x="353" y="-113" />
+      <point x="349" y="-83" />
+      <point type="curve" x="341" y="-48" />
+    </contour>
+    <contour>
+      <point type="line" x="570" y="693" />
+      <point type="line" x="451" y="693" />
+      <point type="line" x="166" y="372" />
+      <point type="line" x="166" y="693" />
+      <point type="line" x="75" y="693" />
+      <point type="line" x="75" y="0" />
+      <point type="line" x="166" y="0" />
+      <point type="line" x="166" y="310" />
+      <point type="line" x="449" y="0" />
+      <point type="line" x="570" y="0" />
+      <point type="line" x="246" y="342" />
+    </contour>
+  </outline>
+</glyph>

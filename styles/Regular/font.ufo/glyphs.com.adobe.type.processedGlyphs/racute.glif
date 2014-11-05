@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph format="1" name="racute">
+  <advance width="368" />
+  <unicode hex="0155" />
+  <outline>
+    <contour>
+      <point name="hintSet0000" type="line" x="326" y="783" />
+      <point type="line" x="113" y="657" />
+      <point type="line" x="113" y="587" />
+      <point type="line" x="326" y="699" />
+    </contour>
+    <contour>
+      <point type="line" x="166" y="549" />
+      <point type="line" x="75" y="549" />
+      <point type="line" x="75" y="0" />
+      <point type="line" x="166" y="0" />
+      <point type="line" x="166" y="300" />
+      <point x="166" y="426" />
+      <point x="222" y="463" />
+      <point type="curve" x="309" y="463" />
+      <point type="line" x="333" y="463" />
+      <point type="line" x="333" y="558" />
+      <point x="250" y="558" />
+      <point x="196" y="519" />
+      <point type="curve" x="166" y="456" />
+    </contour>
+  </outline>
+</glyph>

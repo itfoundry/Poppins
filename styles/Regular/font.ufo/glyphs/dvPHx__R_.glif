@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvPHx_R" format="1">
+  <advance width="728"/>
+  <outline>
+    <component base="dvNukta" xScale="0.962199998498" yScale="0.962199998498" xOffset="429" yOffset="264"/>
+    <component base="dvPH_R"/>
+  </outline>
+</glyph>

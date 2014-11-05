@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvT_R_YA" format="1">
+  <advance width="1134"/>
+  <outline>
+    <contour>
+      <point x="556" y="663" type="line"/>
+      <point x="556" y="740" type="line"/>
+      <point x="-36" y="740" type="line"/>
+      <point x="-36" y="663" type="line"/>
+    </contour>
+    <contour>
+      <point x="136" y="4" type="curve"/>
+      <point x="136" y="-1" type="line"/>
+      <point x="242" y="-1" type="line"/>
+      <point x="332" y="92"/>
+      <point x="467" y="231"/>
+      <point x="557" y="336" type="curve"/>
+      <point x="540" y="473"/>
+      <point x="465" y="561"/>
+      <point x="319" y="561" type="curve" smooth="yes"/>
+      <point x="175" y="561"/>
+      <point x="86" y="453"/>
+      <point x="80" y="304" type="curve"/>
+      <point x="165" y="304" type="line"/>
+      <point x="171" y="406"/>
+      <point x="227" y="484"/>
+      <point x="332" y="484" type="curve" smooth="yes"/>
+      <point x="428" y="484"/>
+      <point x="472" y="427"/>
+      <point x="481" y="346" type="curve"/>
+      <point x="481" y="346"/>
+      <point x="146" y="14"/>
+    </contour>
+    <component base="dvYA" xOffset="408"/>
+  </outline>
+</glyph>
