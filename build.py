@@ -78,6 +78,8 @@ if args.reset:
 
 if args.interpolate:
 
+    itf.fix_Glyphs_UFO_masters()
+
     subprocess.call(
         ['UFOInstanceGenerator.py', 'masters', '-o', 'styles'] + UFOIG_ARGS
     )

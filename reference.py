@@ -292,7 +292,6 @@ POSSIBLE_mI_BASES = [
     'dvD_BHA',
     'dvD_MA',
     'dvD_YA',
-    'dvD_Y_RA',
     'dvD_VA',
     'dvDH_NA',
     'dvDH_N_YA',
