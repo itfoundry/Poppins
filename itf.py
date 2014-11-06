@@ -136,6 +136,22 @@ def generate_classes(directory, suffix):
     print "#ITF: Done."
 
 
+def fix_Glyphs_UFO_masters():
+
+    for font in [get_font('masters', suffix) for suffix in ['_0', '_1']]:
+
+        if not font.info.postscriptFamilyBlues:
+            font.info.postscriptFamilyBlues = []
+        if not font.info.postscriptFamilyOtherBlues:
+            font.info.postscriptFamilyOtherBlues = []
+        if not font.info.postscriptStemSnapH:
+            font.info.postscriptStemSnapH = []
+        if not font.info.postscriptStemSnapV:
+            font.info.postscriptStemSnapV = []
+
+        font.save()
+
+
 def get_stem_position(glyph, stem_right_margin):
 
     has_stem_anchor = False
