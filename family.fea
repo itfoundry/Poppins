@@ -5,7 +5,7 @@ languagesystem dev2 dflt;
 languagesystem deva dflt;
 
 table head {
-  FontRevision 1.010;
+  FontRevision 1.100;
 } head;
 
 include (../../family_classes.fea);
@@ -517,7 +517,7 @@ feature pres {
 
   sub dvTTH dvTTHA by dvTTH_TTHA;
   sub dvTTH dvYA by dvTTH_YA;
-# sub dvTTH dvVA by dvTTH_VA;
+  sub dvTTH dvVA by dvTTH_VA;
 
   sub dvDD dvDDA by dvDD_DDA;
   sub dvDD dvDDHA by dvDD_DDHA;
@@ -526,7 +526,7 @@ feature pres {
 
   sub dvDDH dvDDHA by dvDDH_DDHA;
   sub dvDDH dvYA by dvDDH_YA;
-# sub dvDDH dvVA by dvDDH_VA;
+  sub dvDDH dvVA by dvDDH_VA;
 
   sub dvNN dvTTA by dvNN_TTA;
   sub dvNN dvTTHA by dvNN_TTHA;
@@ -850,8 +850,8 @@ feature abvs {
   sub dvmAI      dvAnusvara by dvmAI_Anusvara;
   sub dvmO       dvAnusvara by dvmO_Anusvara;
   sub dvmAU      dvAnusvara by dvmAU_Anusvara;
-# sub dvmEcandra dvAnusvara by dvmEcandra_Anusvara;
-# sub dvmOcandra dvAnusvara by dvmOcandra_Anusvara;
+  sub dvmEcandra dvAnusvara by dvmEcandra_Anusvara;
+  sub dvmOcandra dvAnusvara by dvmOcandra_Anusvara;
 
   # 4. MATRA + REPH + SYLLABLE-MODIFIER
   sub dvmII      dvReph dvAnusvara by dvmII_Reph_Anusvara;
