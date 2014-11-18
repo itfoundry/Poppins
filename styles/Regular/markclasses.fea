@@ -1,9 +1,9 @@
-# Created: Wed Nov  5 17:34:41 2014
+# Created: Tue Nov 18 12:37:26 2014
 # PS Name: Poppins-Regular
 # MM Inst: None
 # exported from noApp
 
-@mGC_abvm.e_n95_740 = [dvmE dvmAI dvmEcandra dvAnusvara dvCandrabindu dvReph dvReph_Anusvara dvmE_Anusvara dvmE_Reph dvmAI_Anusvara dvmAI_Reph dvmAI_Reph_Anusvara];
+@mGC_abvm.e_n95_740 = [dvmE dvmAI dvmEcandra dvAnusvara dvCandrabindu dvReph dvReph_Anusvara dvmE_Anusvara dvmE_Reph dvmAI_Anusvara dvmAI_Reph dvmAI_Reph_Anusvara dvmEcandra_Anusvara];
 @mGC_abvm.i_n95_740 = [dvAnusvara.amI dvReph.amI];
 @mGC_blwm.u_560_0 = [dvmvL dvmvLL];
 @mGC_blwm.u_n95_0 = [dvmU dvmvR];

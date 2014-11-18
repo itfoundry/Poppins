@@ -1191,7 +1191,6 @@
             <Ligature components="dvVA" glyph="dvD_VA"/>
             <Ligature components="dvG_RA" glyph="dvD_G_RA"/>
             <Ligature components="dvB_RA" glyph="dvD_B_RA"/>
-            <Ligature components="dvY_RA" glyph="dvD_Y_RA"/>
           </LigatureSet>
           <LigatureSet glyph="dvDD">
             <Ligature components="dvDDA" glyph="dvDD_DDA"/>
@@ -1202,6 +1201,7 @@
           <LigatureSet glyph="dvDDH">
             <Ligature components="dvDDHA" glyph="dvDDH_DDHA"/>
             <Ligature components="dvYA" glyph="dvDDH_YA"/>
+            <Ligature components="dvVA" glyph="dvDDH_VA"/>
           </LigatureSet>
           <LigatureSet glyph="dvDH">
             <Ligature components="dvN,dvYA" glyph="dvDH_N_YA"/>
@@ -1585,6 +1585,7 @@
           <LigatureSet glyph="dvTTH">
             <Ligature components="dvTTHA" glyph="dvTTH_TTHA"/>
             <Ligature components="dvYA" glyph="dvTTH_YA"/>
+            <Ligature components="dvVA" glyph="dvTTH_VA"/>
           </LigatureSet>
           <LigatureSet glyph="dvT_R">
             <Ligature components="dvYA" glyph="dvT_R_YA"/>
@@ -1694,6 +1695,8 @@
             <Glyph value="dvB_RA"/>
             <Glyph value="dvV_RA"/>
             <Glyph value="dvSS_RA"/>
+            <Glyph value="dvTTH_VA"/>
+            <Glyph value="dvDDH_VA"/>
           </LookAheadCoverage>
           <!-- SubstCount=1 -->
           <SubstLookupRecord index="0">
@@ -1726,7 +1729,6 @@
             <Glyph value="dvK_TA"/>
             <Glyph value="dvT_TA"/>
             <Glyph value="dvD_YA"/>
-            <Glyph value="dvD_Y_RA"/>
             <Glyph value="dvEyelash_HA"/>
             <Glyph value="dvH_NNA"/>
           </LookAheadCoverage>
@@ -2477,6 +2479,9 @@
             <Ligature components="dvAnusvara" glyph="dvmE_Anusvara"/>
             <Ligature components="dvReph" glyph="dvmE_Reph"/>
           </LigatureSet>
+          <LigatureSet glyph="dvmEcandra">
+            <Ligature components="dvAnusvara" glyph="dvmEcandra_Anusvara"/>
+          </LigatureSet>
           <LigatureSet glyph="dvmII">
             <Ligature components="dvReph,dvAnusvara" glyph="dvmII_Reph_Anusvara"/>
             <Ligature components="dvAnusvara" glyph="dvmII_Anusvara"/>
@@ -2486,6 +2491,9 @@
             <Ligature components="dvReph,dvAnusvara" glyph="dvmO_Reph_Anusvara"/>
             <Ligature components="dvAnusvara" glyph="dvmO_Anusvara"/>
             <Ligature components="dvReph" glyph="dvmO_Reph"/>
+          </LigatureSet>
+          <LigatureSet glyph="dvmOcandra">
+            <Ligature components="dvAnusvara" glyph="dvmOcandra_Anusvara"/>
           </LigatureSet>
         </LigatureSubst>
       </Lookup>
@@ -2690,12 +2698,14 @@
             <Glyph value="dvTT_VA"/>
             <Glyph value="dvTTH_TTHA"/>
             <Glyph value="dvTTH_YA"/>
+            <Glyph value="dvTTH_VA"/>
             <Glyph value="dvDD_DDA"/>
             <Glyph value="dvDD_DDHA"/>
             <Glyph value="dvDD_YA"/>
             <Glyph value="dvDD_VA"/>
             <Glyph value="dvDDH_DDHA"/>
             <Glyph value="dvDDH_YA"/>
+            <Glyph value="dvDDH_VA"/>
             <Glyph value="dvNN_TTA"/>
             <Glyph value="dvNN_TTHA"/>
             <Glyph value="dvNN_DDA"/>
@@ -2745,7 +2755,6 @@
             <Glyph value="dvD_BHA"/>
             <Glyph value="dvD_MA"/>
             <Glyph value="dvD_YA"/>
-            <Glyph value="dvD_Y_RA"/>
             <Glyph value="dvD_VA"/>
             <Glyph value="dvDH_NA"/>
             <Glyph value="dvDH_N_YA"/>

@@ -29,6 +29,7 @@
   dvmAI_Anusvara
   dvmAI_Reph
   dvmAI_Reph_Anusvara
+  dvmEcandra_Anusvara
   grave
   dieresis
   macron
@@ -305,12 +306,14 @@
   dvTT_VA
   dvTTH_TTHA
   dvTTH_YA
+  dvTTH_VA
   dvDD_DDA
   dvDD_DDHA
   dvDD_YA
   dvDD_VA
   dvDDH_DDHA
   dvDDH_YA
+  dvDDH_VA
   dvNN_TTA
   dvNN_TTHA
   dvNN_DDA
@@ -360,7 +363,6 @@
   dvD_BHA
   dvD_MA
   dvD_YA
-  dvD_Y_RA
   dvD_VA
   dvDH_NA
   dvDH_N_YA

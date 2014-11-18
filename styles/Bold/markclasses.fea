@@ -1,9 +1,9 @@
-# Created: Wed Nov  5 17:35:30 2014
+# Created: Tue Nov 18 12:38:17 2014
 # PS Name: Poppins-Bold
 # MM Inst: None
 # exported from noApp
 
-@mGC_abvm.e_n75_740 = [dvmE dvmAI dvmEcandra dvAnusvara dvCandrabindu dvReph dvReph_Anusvara dvmE_Anusvara dvmE_Reph dvmE_Reph_Anusvara dvmAI_Anusvara dvmAI_Reph dvmAI_Reph_Anusvara];
+@mGC_abvm.e_n75_740 = [dvmE dvmAI dvmEcandra dvAnusvara dvCandrabindu dvReph dvReph_Anusvara dvmE_Anusvara dvmE_Reph dvmE_Reph_Anusvara dvmAI_Anusvara dvmAI_Reph dvmAI_Reph_Anusvara dvmEcandra_Anusvara];
 @mGC_abvm.i_n75_740 = [dvAnusvara.amI dvReph.amI];
 @mGC_blwm.u_590_0 = [dvmvL dvmvLL];
 @mGC_blwm.u_n75_0 = [dvmU dvmUU dvmvR];

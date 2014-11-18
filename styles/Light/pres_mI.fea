@@ -70,8 +70,9 @@
   dvV_RA
   dvSS_RA
   dvGx_RA
+  dvTTH_VA
+  dvDDH_VA
   dvD_YA
-  dvD_Y_RA
 ];
 
 @mI_BASES_04 = [

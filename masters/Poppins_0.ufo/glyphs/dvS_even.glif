@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvSeven" format="1">
+  <advance width="560"/>
+  <outline>
+    <contour>
+      <point x="40" y="730" type="line"/>
+      <point x="40" y="670" type="line"/>
+      <point x="457" y="670" type="line"/>
+      <point x="151" y="0" type="line"/>
+      <point x="229" y="0" type="line"/>
+      <point x="522" y="677" type="line"/>
+      <point x="522" y="730" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>3</integer>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

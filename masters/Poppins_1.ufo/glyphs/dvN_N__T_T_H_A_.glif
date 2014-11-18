@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvNN_TTHA" format="1">
+  <advance width="1356"/>
+  <outline>
+    <contour>
+      <point x="798" y="600" type="line"/>
+      <point x="798" y="740" type="line"/>
+      <point x="-20" y="740" type="line"/>
+      <point x="-20" y="600" type="line"/>
+    </contour>
+    <contour>
+      <point x="537" y="367" type="curve" smooth="yes"/>
+      <point x="537" y="675" type="line"/>
+      <point x="375" y="675" type="line"/>
+      <point x="375" y="360" type="line" smooth="yes"/>
+      <point x="375" y="312"/>
+      <point x="358" y="276"/>
+      <point x="310" y="276" type="curve" smooth="yes"/>
+      <point x="263" y="276"/>
+      <point x="245" y="312"/>
+      <point x="245" y="360" type="curve" smooth="yes"/>
+      <point x="245" y="675" type="line"/>
+      <point x="83" y="675" type="line"/>
+      <point x="83" y="367" type="line" smooth="yes"/>
+      <point x="83" y="229"/>
+      <point x="151" y="136"/>
+      <point x="310" y="136" type="curve" smooth="yes"/>
+      <point x="469" y="136"/>
+      <point x="537" y="229"/>
+    </contour>
+    <component base="dvTHA" xOffset="567"/>
+  </outline>
+</glyph>

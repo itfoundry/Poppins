@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvmO_Reph_Anusvara" format="1">
+  <advance width="265"/>
+  <outline>
+    <contour>
+      <point x="208" y="823" type="curve" smooth="yes"/>
+      <point x="235" y="823"/>
+      <point x="257" y="845"/>
+      <point x="257" y="872" type="curve" smooth="yes"/>
+      <point x="257" y="899"/>
+      <point x="235" y="921"/>
+      <point x="208" y="921" type="curve" smooth="yes"/>
+      <point x="181" y="921"/>
+      <point x="159" y="899"/>
+      <point x="159" y="872" type="curve" smooth="yes"/>
+      <point x="159" y="845"/>
+      <point x="181" y="823"/>
+    </contour>
+    <contour>
+      <point x="129" y="786" type="line"/>
+      <point x="113" y="811"/>
+      <point x="102" y="841"/>
+      <point x="102" y="875" type="curve" smooth="yes"/>
+      <point x="102" y="948"/>
+      <point x="142" y="987"/>
+      <point x="205" y="987" type="curve" smooth="yes"/>
+      <point x="272" y="987"/>
+      <point x="307" y="947"/>
+      <point x="305" y="883" type="curve"/>
+      <point x="360" y="883" type="line"/>
+      <point x="363" y="971"/>
+      <point x="304" y="1041"/>
+      <point x="205" y="1041" type="curve" smooth="yes"/>
+      <point x="101" y="1041"/>
+      <point x="55" y="966"/>
+      <point x="55" y="891" type="curve" smooth="yes"/>
+      <point x="55" y="856"/>
+      <point x="65" y="822"/>
+      <point x="85" y="796" type="curve"/>
+    </contour>
+    <component base="dvmAA"/>
+    <component base="dvmE" xOffset="265"/>
+  </outline>
+</glyph>

@@ -26,6 +26,7 @@
 		<string>dvmAI_Anusvara</string>
 		<string>dvmAI_Reph</string>
 		<string>dvmAI_Reph_Anusvara</string>
+		<string>dvmEcandra_Anusvara</string>
 		<string>grave</string>
 		<string>dieresis</string>
 		<string>macron</string>
@@ -302,12 +303,14 @@
 		<string>dvTT_VA</string>
 		<string>dvTTH_TTHA</string>
 		<string>dvTTH_YA</string>
+		<string>dvTTH_VA</string>
 		<string>dvDD_DDA</string>
 		<string>dvDD_DDHA</string>
 		<string>dvDD_YA</string>
 		<string>dvDD_VA</string>
 		<string>dvDDH_DDHA</string>
 		<string>dvDDH_YA</string>
+		<string>dvDDH_VA</string>
 		<string>dvNN_TTA</string>
 		<string>dvNN_TTHA</string>
 		<string>dvNN_DDA</string>
@@ -357,7 +360,6 @@
 		<string>dvD_BHA</string>
 		<string>dvD_MA</string>
 		<string>dvD_YA</string>
-		<string>dvD_Y_RA</string>
 		<string>dvD_VA</string>
 		<string>dvDH_NA</string>
 		<string>dvDH_N_YA</string>

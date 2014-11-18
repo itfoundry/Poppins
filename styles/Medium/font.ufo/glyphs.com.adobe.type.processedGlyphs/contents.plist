@@ -214,6 +214,8 @@
 	<string>dvDDH__R_.glif</string>
 	<key>dvDDH_RA</key>
 	<string>dvDDH__RA_.glif</string>
+	<key>dvDDH_VA</key>
+	<string>dvDDH__VA_.glif</string>
 	<key>dvDDH_YA</key>
 	<string>dvDDH__YA_.glif</string>
 	<key>dvDDHxA</key>
@@ -274,8 +276,6 @@
 	<string>dvD__VA_.glif</string>
 	<key>dvD_YA</key>
 	<string>dvD__YA_.glif</string>
-	<key>dvD_Y_RA</key>
-	<string>dvD__Y__RA_.glif</string>
 	<key>dvE</key>
 	<string>dvE_.glif</string>
 	<key>dvEcandra</key>
@@ -834,6 +834,8 @@
 	<string>dvO_.glif</string>
 	<key>dvOcandra</key>
 	<string>dvOcandra_.glif</string>
+	<key>dvOm</key>
+	<string>dvOm_.glif</string>
 	<key>dvP</key>
 	<string>dvP_.glif</string>
 	<key>dvPA</key>
@@ -1072,6 +1074,8 @@
 	<string>dvTTH__RA_.glif</string>
 	<key>dvTTH_TTHA</key>
 	<string>dvTTH__TTHA_.glif</string>
+	<key>dvTTH_VA</key>
+	<string>dvTTH__VA_.glif</string>
 	<key>dvTTH_YA</key>
 	<string>dvTTH__YA_.glif</string>
 	<key>dvTT_R</key>
@@ -1170,6 +1174,8 @@
 	<string>dvY__RA_.glif</string>
 	<key>dvY_YA</key>
 	<string>dvY__YA_.glif</string>
+	<key>dvZero</key>
+	<string>dvZero_.glif</string>
 	<key>dvmAI</key>
 	<string>dvmAI_.glif</string>
 	<key>dvmAI_Anusvara</key>
@@ -1328,6 +1334,8 @@
 	<string>registered.glif</string>
 	<key>ruble</key>
 	<string>ruble.glif</string>
+	<key>rupee</key>
+	<string>rupee.glif</string>
 	<key>scedilla</key>
 	<string>scedilla.glif</string>
 	<key>section</key>
@@ -1346,6 +1354,8 @@
 	<string>tcommaaccent.glif</string>
 	<key>trademark</key>
 	<string>trademark.glif</string>
+	<key>turkishlira</key>
+	<string>turkishlira.glif</string>
 	<key>twosuperior</key>
 	<string>twosuperior.glif</string>
 	<key>u</key>

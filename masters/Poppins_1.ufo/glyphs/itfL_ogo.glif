@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="itfLogo" format="1">
+  <advance width="1734"/>
+  <outline>
+    <contour>
+      <point x="147" y="0" type="line"/>
+      <point x="354" y="0" type="line"/>
+      <point x="354" y="671" type="line"/>
+      <point x="147" y="671" type="line"/>
+    </contour>
+    <contour>
+      <point x="397" y="475" type="line"/>
+      <point x="604" y="475" type="line"/>
+      <point x="604" y="671" type="line"/>
+      <point x="397" y="671" type="line"/>
+    </contour>
+    <contour>
+      <point x="647" y="0" type="line"/>
+      <point x="854" y="0" type="line"/>
+      <point x="854" y="671" type="line"/>
+      <point x="647" y="671" type="line"/>
+    </contour>
+    <contour>
+      <point x="896" y="475" type="line"/>
+      <point x="1104" y="475" type="line"/>
+      <point x="1104" y="671" type="line"/>
+      <point x="896" y="671" type="line"/>
+    </contour>
+    <contour>
+      <point x="1146" y="0" type="line"/>
+      <point x="1354" y="0" type="line"/>
+      <point x="1354" y="671" type="line"/>
+      <point x="1146" y="671" type="line"/>
+    </contour>
+    <contour>
+      <point x="1396" y="475" type="line"/>
+      <point x="1603" y="475" type="line"/>
+      <point x="1603" y="671" type="line"/>
+      <point x="1396" y="671" type="line"/>
+    </contour>
+    <contour>
+      <point x="1396" y="237" type="line"/>
+      <point x="1603" y="237" type="line"/>
+      <point x="1603" y="433" type="line"/>
+      <point x="1396" y="433" type="line"/>
+    </contour>
+  </outline>
+</glyph>

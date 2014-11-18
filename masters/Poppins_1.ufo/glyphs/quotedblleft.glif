@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotedblleft" format="1">
+  <advance width="421"/>
+  <unicode hex="201C"/>
+  <outline>
+    <component base="commaaccent" xScale="-1.0" yScale="-1.0" xOffset="201" yOffset="530"/>
+    <component base="commaaccent" xScale="-1.0" yScale="-1.0" xOffset="391" yOffset="530"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>8</integer>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

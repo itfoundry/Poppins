@@ -351,6 +351,7 @@
       <map code="0x938" name="dvSA"/><!-- DEVANAGARI LETTER SA -->
       <map code="0x939" name="dvHA"/><!-- DEVANAGARI LETTER HA -->
       <map code="0x93c" name="dvNukta"/><!-- DEVANAGARI SIGN NUKTA -->
+      <map code="0x93d" name="dvAvagraha"/><!-- DEVANAGARI SIGN AVAGRAHA -->
       <map code="0x93e" name="dvmAA"/><!-- DEVANAGARI VOWEL SIGN AA -->
       <map code="0x93f" name="dvmI"/><!-- DEVANAGARI VOWEL SIGN I -->
       <map code="0x940" name="dvmII"/><!-- DEVANAGARI VOWEL SIGN II -->
@@ -365,6 +366,7 @@
       <map code="0x94b" name="dvmO"/><!-- DEVANAGARI VOWEL SIGN O -->
       <map code="0x94c" name="dvmAU"/><!-- DEVANAGARI VOWEL SIGN AU -->
       <map code="0x94d" name="dvVirama"/><!-- DEVANAGARI SIGN VIRAMA -->
+      <map code="0x950" name="dvOm"/><!-- DEVANAGARI OM -->
       <map code="0x958" name="dvKxA"/><!-- DEVANAGARI LETTER QA -->
       <map code="0x959" name="dvKHxA"/><!-- DEVANAGARI LETTER KHHA -->
       <map code="0x95a" name="dvGxA"/><!-- DEVANAGARI LETTER GHHA -->
@@ -378,6 +380,17 @@
       <map code="0x963" name="dvmvLL"/><!-- DEVANAGARI VOWEL SIGN VOCALIC LL -->
       <map code="0x964" name="danda"/><!-- DEVANAGARI DANDA -->
       <map code="0x965" name="doubledanda"/><!-- DEVANAGARI DOUBLE DANDA -->
+      <map code="0x966" name="dvZero"/><!-- DEVANAGARI DIGIT ZERO -->
+      <map code="0x967" name="dvOne"/><!-- DEVANAGARI DIGIT ONE -->
+      <map code="0x968" name="dvTwo"/><!-- DEVANAGARI DIGIT TWO -->
+      <map code="0x969" name="dvThree"/><!-- DEVANAGARI DIGIT THREE -->
+      <map code="0x96a" name="dvFour"/><!-- DEVANAGARI DIGIT FOUR -->
+      <map code="0x96b" name="dvFive"/><!-- DEVANAGARI DIGIT FIVE -->
+      <map code="0x96c" name="dvSix"/><!-- DEVANAGARI DIGIT SIX -->
+      <map code="0x96d" name="dvSeven"/><!-- DEVANAGARI DIGIT SEVEN -->
+      <map code="0x96e" name="dvEight"/><!-- DEVANAGARI DIGIT EIGHT -->
+      <map code="0x96f" name="dvNine"/><!-- DEVANAGARI DIGIT NINE -->
+      <map code="0x970" name="dvAbbreviationsign"/><!-- DEVANAGARI ABBREVIATION SIGN -->
       <map code="0x972" name="dvAcandra"/><!-- DEVANAGARI LETTER CANDRA A -->
       <map code="0x200b" name="zerowidthspace"/><!-- ZERO WIDTH SPACE -->
       <map code="0x200c" name="zerowidthnonjoiner"/><!-- ZERO WIDTH NON-JOINER -->
@@ -398,8 +411,10 @@
       <map code="0x2039" name="guilsinglleft"/><!-- SINGLE LEFT-POINTING ANGLE QUOTATION MARK -->
       <map code="0x203a" name="guilsinglright"/><!-- SINGLE RIGHT-POINTING ANGLE QUOTATION MARK -->
       <map code="0x2044" name="fraction"/><!-- FRACTION SLASH -->
+      <map code="0x20a8" name="rupee"/><!-- RUPEE SIGN -->
       <map code="0x20ac" name="Euro"/><!-- EURO SIGN -->
       <map code="0x20b9" name="indianrupee"/><!-- ???? -->
+      <map code="0x20ba" name="uni20BA"/><!-- ???? -->
       <map code="0x20bd" name="uni20BD"/><!-- ???? -->
       <map code="0x2113" name="uni2113"/><!-- SCRIPT SMALL L -->
       <map code="0x2122" name="trademark"/><!-- TRADE MARK SIGN -->
@@ -1022,6 +1037,7 @@
       <map code="0x938" name="dvSA"/><!-- DEVANAGARI LETTER SA -->
       <map code="0x939" name="dvHA"/><!-- DEVANAGARI LETTER HA -->
       <map code="0x93c" name="dvNukta"/><!-- DEVANAGARI SIGN NUKTA -->
+      <map code="0x93d" name="dvAvagraha"/><!-- DEVANAGARI SIGN AVAGRAHA -->
       <map code="0x93e" name="dvmAA"/><!-- DEVANAGARI VOWEL SIGN AA -->
       <map code="0x93f" name="dvmI"/><!-- DEVANAGARI VOWEL SIGN I -->
       <map code="0x940" name="dvmII"/><!-- DEVANAGARI VOWEL SIGN II -->
@@ -1036,6 +1052,7 @@
       <map code="0x94b" name="dvmO"/><!-- DEVANAGARI VOWEL SIGN O -->
       <map code="0x94c" name="dvmAU"/><!-- DEVANAGARI VOWEL SIGN AU -->
       <map code="0x94d" name="dvVirama"/><!-- DEVANAGARI SIGN VIRAMA -->
+      <map code="0x950" name="dvOm"/><!-- DEVANAGARI OM -->
       <map code="0x958" name="dvKxA"/><!-- DEVANAGARI LETTER QA -->
       <map code="0x959" name="dvKHxA"/><!-- DEVANAGARI LETTER KHHA -->
       <map code="0x95a" name="dvGxA"/><!-- DEVANAGARI LETTER GHHA -->
@@ -1049,6 +1066,17 @@
       <map code="0x963" name="dvmvLL"/><!-- DEVANAGARI VOWEL SIGN VOCALIC LL -->
       <map code="0x964" name="danda"/><!-- DEVANAGARI DANDA -->
       <map code="0x965" name="doubledanda"/><!-- DEVANAGARI DOUBLE DANDA -->
+      <map code="0x966" name="dvZero"/><!-- DEVANAGARI DIGIT ZERO -->
+      <map code="0x967" name="dvOne"/><!-- DEVANAGARI DIGIT ONE -->
+      <map code="0x968" name="dvTwo"/><!-- DEVANAGARI DIGIT TWO -->
+      <map code="0x969" name="dvThree"/><!-- DEVANAGARI DIGIT THREE -->
+      <map code="0x96a" name="dvFour"/><!-- DEVANAGARI DIGIT FOUR -->
+      <map code="0x96b" name="dvFive"/><!-- DEVANAGARI DIGIT FIVE -->
+      <map code="0x96c" name="dvSix"/><!-- DEVANAGARI DIGIT SIX -->
+      <map code="0x96d" name="dvSeven"/><!-- DEVANAGARI DIGIT SEVEN -->
+      <map code="0x96e" name="dvEight"/><!-- DEVANAGARI DIGIT EIGHT -->
+      <map code="0x96f" name="dvNine"/><!-- DEVANAGARI DIGIT NINE -->
+      <map code="0x970" name="dvAbbreviationsign"/><!-- DEVANAGARI ABBREVIATION SIGN -->
       <map code="0x972" name="dvAcandra"/><!-- DEVANAGARI LETTER CANDRA A -->
       <map code="0x200b" name="zerowidthspace"/><!-- ZERO WIDTH SPACE -->
       <map code="0x200c" name="zerowidthnonjoiner"/><!-- ZERO WIDTH NON-JOINER -->
@@ -1069,8 +1097,10 @@
       <map code="0x2039" name="guilsinglleft"/><!-- SINGLE LEFT-POINTING ANGLE QUOTATION MARK -->
       <map code="0x203a" name="guilsinglright"/><!-- SINGLE RIGHT-POINTING ANGLE QUOTATION MARK -->
       <map code="0x2044" name="fraction"/><!-- FRACTION SLASH -->
+      <map code="0x20a8" name="rupee"/><!-- RUPEE SIGN -->
       <map code="0x20ac" name="Euro"/><!-- EURO SIGN -->
       <map code="0x20b9" name="indianrupee"/><!-- ???? -->
+      <map code="0x20ba" name="uni20BA"/><!-- ???? -->
       <map code="0x20bd" name="uni20BD"/><!-- ???? -->
       <map code="0x2113" name="uni2113"/><!-- SCRIPT SMALL L -->
       <map code="0x2122" name="trademark"/><!-- TRADE MARK SIGN -->

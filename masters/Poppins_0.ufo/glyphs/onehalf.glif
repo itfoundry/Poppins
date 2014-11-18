@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="onehalf" format="1">
+  <advance width="607"/>
+  <unicode hex="00BD"/>
+  <outline>
+    <contour>
+      <point x="44" y="0" type="line"/>
+      <point x="44" y="0"/>
+      <point x="106" y="0"/>
+      <point x="106" y="0" type="curve"/>
+      <point x="466" y="690" type="line"/>
+      <point x="466" y="690"/>
+      <point x="404" y="690"/>
+      <point x="404" y="690" type="curve"/>
+    </contour>
+    <component base="onesuperior" xOffset="10"/>
+    <component base="twosuperior" xOffset="319" yOffset="-353"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

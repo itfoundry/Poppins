@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvYA" format="1">
+  <advance width="718"/>
+  <unicode hex="092F"/>
+  <outline>
+    <contour>
+      <point x="272" y="690" type="line"/>
+      <point x="272" y="645" type="line"/>
+      <point x="272" y="501"/>
+      <point x="271" y="450"/>
+      <point x="71" y="450" type="curve"/>
+      <point x="62" y="245"/>
+      <point x="158" y="114"/>
+      <point x="343" y="114" type="curve" smooth="yes"/>
+      <point x="505" y="114"/>
+      <point x="589" y="236"/>
+      <point x="569" y="358" type="curve"/>
+      <point x="553" y="409" type="line"/>
+      <point x="553" y="272"/>
+      <point x="475" y="174"/>
+      <point x="350" y="174" type="curve" smooth="yes"/>
+      <point x="212" y="174"/>
+      <point x="138" y="266"/>
+      <point x="140" y="395" type="curve"/>
+      <point x="316" y="404"/>
+      <point x="337" y="490"/>
+      <point x="337" y="644" type="curve"/>
+      <point x="337" y="698" type="line"/>
+    </contour>
+    <contour>
+      <point x="553" y="680" type="line"/>
+      <point x="553" y="0" type="line"/>
+      <point x="618" y="0" type="line"/>
+      <point x="618" y="680" type="line"/>
+      <point x="618" y="680"/>
+      <point x="758" y="680"/>
+      <point x="758" y="680" type="curve"/>
+      <point x="758" y="740" type="line"/>
+      <point x="-40" y="740" type="line"/>
+      <point x="-40" y="680" type="line"/>
+    </contour>
+  </outline>
+</glyph>

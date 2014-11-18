@@ -12,13 +12,13 @@
       Regular
     </namerecord>
     <namerecord nameID="3" platformID="1" platEncID="0" langID="0x0">
-      1.010;ITFO;Poppins-Regular
+      1.100;ITFO;Poppins-Regular
     </namerecord>
     <namerecord nameID="4" platformID="1" platEncID="0" langID="0x0">
       Poppins
     </namerecord>
     <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0">
-      Version 1.010;PS 1.0;hotconv 1.0.79;makeotf.lib2.5.61930
+      Version 1.100;PS 1.0;hotconv 1.0.79;makeotf.lib2.5.61930
     </namerecord>
     <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0">
       Poppins-Regular
@@ -54,13 +54,13 @@
       Regular
     </namerecord>
     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
-      1.010;ITFO;Poppins-Regular
+      1.100;ITFO;Poppins-Regular
     </namerecord>
     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
       Poppins
     </namerecord>
     <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
-      Version 1.010;PS 1.0;hotconv 1.0.79;makeotf.lib2.5.61930
+      Version 1.100;PS 1.0;hotconv 1.0.79;makeotf.lib2.5.61930
     </namerecord>
     <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
       Poppins-Regular

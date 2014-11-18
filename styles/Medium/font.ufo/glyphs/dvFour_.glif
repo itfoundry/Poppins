@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dvFour" format="1">
+  <advance width="647"/>
+  <outline>
+    <contour>
+      <point x="408" y="0" type="line"/>
+      <point x="520" y="0" type="line"/>
+      <point x="520" y="152" type="line"/>
+      <point x="613" y="152" type="line"/>
+      <point x="613" y="251" type="line"/>
+      <point x="520" y="251" type="line"/>
+      <point x="520" y="720" type="line"/>
+      <point x="382" y="720" type="line"/>
+      <point x="46" y="238" type="line"/>
+      <point x="46" y="152" type="line"/>
+      <point x="408" y="152" type="line"/>
+    </contour>
+    <contour>
+      <point x="177" y="251" type="line"/>
+      <point x="413" y="604" type="line"/>
+      <point x="413" y="251" type="line"/>
+    </contour>
+  </outline>
+</glyph>

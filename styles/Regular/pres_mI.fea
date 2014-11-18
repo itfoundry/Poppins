@@ -65,6 +65,8 @@
   dvB_RA
   dvV_RA
   dvSS_RA
+  dvTTH_VA
+  dvDDH_VA
 ];
 
 @mI_BASES_04 = [
@@ -85,7 +87,6 @@
   dvK_TA
   dvT_TA
   dvD_YA
-  dvD_Y_RA
   dvEyelash_HA
   dvH_NNA
 ];

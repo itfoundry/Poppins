@@ -30,6 +30,7 @@
       <ClassDef glyph="dvmE_Reph" class="3"/>
       <ClassDef glyph="dvmE_Reph_Anusvara" class="3"/>
       <ClassDef glyph="dvmEcandra" class="3"/>
+      <ClassDef glyph="dvmEcandra_Anusvara" class="3"/>
       <ClassDef glyph="dvmU" class="3"/>
       <ClassDef glyph="dvmUU" class="3"/>
       <ClassDef glyph="dvmvL" class="3"/>

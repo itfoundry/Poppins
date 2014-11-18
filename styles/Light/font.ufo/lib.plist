@@ -596,7 +596,6 @@
 		<string>dvD_BA</string>
 		<string>dvD_BHA</string>
 		<string>dvD_B_RA</string>
-		<string>dvD_Y_RA</string>
 		<string>dvH_NNA</string>
 		<string>dvH</string>
 		<string>dvH_LA</string>
@@ -989,6 +988,25 @@
 		<string>apostrophemod</string>
 		<string>dvKx_PHA</string>
 		<string>bulletoperator</string>
+		<string>dvTTH_VA</string>
+		<string>dvDDH_VA</string>
+		<string>rupee</string>
+		<string>turkishlira</string>
+		<string>dvOm</string>
+		<string>dvAvagraha</string>
+		<string>dvmEcandra_Anusvara</string>
+		<string>dvmOcandra_Anusvara</string>
+		<string>dvAbbreviationsign</string>
+		<string>dvZero</string>
+		<string>dvOne</string>
+		<string>dvTwo</string>
+		<string>dvThree</string>
+		<string>dvFour</string>
+		<string>dvFive</string>
+		<string>dvSix</string>
+		<string>dvSeven</string>
+		<string>dvEight</string>
+		<string>dvNine</string>
 	</array>
 </dict>
 </plist>
