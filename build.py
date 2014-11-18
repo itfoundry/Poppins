@@ -55,13 +55,12 @@ if args.reset:
     subprocess.call(['rm', '-fr', 'styles'])
     subprocess.call(['mkdir', 'styles'])
 
-    IsBoldStyle_value = 'false'
-
     for style_name in STYLE_NAMES:
 
         print '\tResetting %s...' % style_name
 
         style_dir = itf.STYLES_DIR + style_name
+        IsBoldStyle_value = 'false'
 
         subprocess.call(['mkdir', style_dir])
 
