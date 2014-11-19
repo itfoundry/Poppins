@@ -7,6 +7,7 @@
 		<string>dvmU</string>
 		<string>dvmUU</string>
 		<string>dvmvR</string>
+		<string>dvmvRR</string>
 		<string>dvmvL</string>
 		<string>dvmvLL</string>
 		<string>dvmE</string>
@@ -181,8 +182,8 @@
 		<string>dvY_RA</string>
 		<string>dvL_RA</string>
 		<string>dvV_RA</string>
-		<string>dvSS_RA</string>
 		<string>dvSH_RA</string>
+		<string>dvSS_RA</string>
 		<string>dvS_RA</string>
 		<string>dvH_RA</string>
 		<string>dvLL_RA</string>

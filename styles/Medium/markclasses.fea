@@ -1,4 +1,4 @@
-# Created: Tue Nov 18 12:37:43 2014
+# Created: Tue Nov 18 19:48:24 2014
 # PS Name: Poppins-Medium
 # MM Inst: None
 # exported from noApp
@@ -27,6 +27,7 @@ markClass dvReph_Anusvara.amI <anchor -87 740> @MC_abvm.i;
 markClass dvVirama <anchor -89 0> @MC_blwm.virama;
 markClass dvmE_Reph_Anusvara <anchor -90 740> @MC_abvm.e;
 markClass dvmUU <anchor -55 0> @MC_blwm.u;
+markClass dvmvRR <anchor -93 0> @MC_blwm.u;
 markClass hungarumlaut <anchor 138 551> @MC_top;
 markClass macron <anchor 193 551> @MC_top;
 markClass ogonek <anchor 209 0> @MC_ogonek;

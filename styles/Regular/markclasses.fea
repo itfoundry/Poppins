@@ -1,4 +1,4 @@
-# Created: Tue Nov 18 12:37:26 2014
+# Created: Tue Nov 18 19:48:07 2014
 # PS Name: Poppins-Regular
 # MM Inst: None
 # exported from noApp
@@ -27,6 +27,7 @@ markClass dvReph_Anusvara.amI <anchor -93 740> @MC_abvm.i;
 markClass dvVirama <anchor -95 0> @MC_blwm.virama;
 markClass dvmE_Reph_Anusvara <anchor -96 740> @MC_abvm.e;
 markClass dvmUU <anchor -47 0> @MC_blwm.u;
+markClass dvmvRR <anchor -100 0> @MC_blwm.u;
 markClass hungarumlaut <anchor 125 549> @MC_top;
 markClass macron <anchor 186 549> @MC_top;
 markClass ogonek <anchor 196 0> @MC_ogonek;

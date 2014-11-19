@@ -1,4 +1,4 @@
-# Created: Tue Nov 18 12:37:09 2014
+# Created: Tue Nov 18 19:47:49 2014
 # PS Name: Poppins-Light
 # MM Inst: None
 # exported from noApp
@@ -27,6 +27,7 @@ markClass dvReph_Anusvara.amI <anchor -99 740> @MC_abvm.i;
 markClass dvVirama <anchor -100 0> @MC_blwm.virama;
 markClass dvmE_Reph_Anusvara <anchor -101 740> @MC_abvm.e;
 markClass dvmUU <anchor -39 0> @MC_blwm.u;
+markClass dvmvRR <anchor -107 0> @MC_blwm.u;
 markClass hungarumlaut <anchor 112 546> @MC_top;
 markClass macron <anchor 180 546> @MC_top;
 markClass ogonek <anchor 183 0> @MC_ogonek;

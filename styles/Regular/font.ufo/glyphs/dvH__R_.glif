@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dvH_R" format="1">
-  <advance width="531"/>
+  <advance width="610"/>
   <outline>
-    <component base="dvRashtrasign" xOffset="584" yOffset="-134"/>
-    <component base="dvH"/>
+    <component base="dvH_RA"/>
+    <component base="dvVirama" xOffset="463" yOffset="-107"/>
   </outline>
 </glyph>

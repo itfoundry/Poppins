@@ -1,4 +1,4 @@
-# Created: Tue Nov 18 12:38:17 2014
+# Created: Tue Nov 18 19:48:58 2014
 # PS Name: Poppins-Bold
 # MM Inst: None
 # exported from noApp
@@ -25,6 +25,7 @@ markClass dieresis <anchor 184 558> @MC_top;
 markClass dotaccent <anchor 84 558> @MC_top;
 markClass dvReph_Anusvara.amI <anchor -71 740> @MC_abvm.i;
 markClass dvVirama <anchor -75 0> @MC_blwm.virama;
+markClass dvmvRR <anchor -76 0> @MC_blwm.u;
 markClass hungarumlaut <anchor 172 558> @MC_top;
 markClass macron <anchor 210 558> @MC_top;
 markClass ogonek <anchor 243 0> @MC_ogonek;

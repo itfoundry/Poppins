@@ -1,4 +1,4 @@
-# Created: Tue Nov 18 12:38:00 2014
+# Created: Tue Nov 18 19:48:41 2014
 # PS Name: Poppins-SemiBold
 # MM Inst: None
 # exported from noApp
@@ -26,6 +26,7 @@ markClass dotaccent <anchor 77 554> @MC_top;
 markClass dvReph_Anusvara.amI <anchor -79 740> @MC_abvm.i;
 markClass dvVirama <anchor -83 0> @MC_blwm.virama;
 markClass dvmUU <anchor -64 0> @MC_blwm.u;
+markClass dvmvRR <anchor -85 0> @MC_blwm.u;
 markClass hungarumlaut <anchor 154 554> @MC_top;
 markClass macron <anchor 201 554> @MC_top;
 markClass ogonek <anchor 225 0> @MC_ogonek;
