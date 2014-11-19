@@ -92,6 +92,8 @@ if args.instance:
 
         for font, style_name in zip(masters, STYLE_NAMES):
 
+            print "\n#ITF: %s" % style_name
+
             style_dir = 'styles/' + style_name
 
             subprocess.call([
@@ -110,7 +112,13 @@ if args.instance:
                 )
 
             if '-flat' in UFOIG_ARGS:
-                subprocess.call(['checkoutlines', '-e', style_dir + '/font.ufo'])
+                print "#ITF: Flattening the glyphs..."
+                subprocess.Popen(
+                    ['checkoutlines', '-e', style_dir + '/font.ufo'],
+                    stderr=subprocess.STDOUT,
+                    stdout=subprocess.PIPE
+                ).communicate()
+                print "#ITF: Done."
 
     else:
 

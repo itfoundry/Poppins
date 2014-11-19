@@ -50,7 +50,7 @@ def get_font(directory, suffix = ''):
         font = robofab.world.OpenFont(directory + '/' + font_file_name)
         return font
     else:
-        print "[!] Can't find the font file with suffix `%s`." % suffix
+        print "#ITF: Can't find the font file with suffix `%s`." % suffix
         return None
 
 
