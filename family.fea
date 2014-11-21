@@ -5,7 +5,7 @@ languagesystem dev2 dflt;
 languagesystem deva dflt;
 
 table head {
-  FontRevision 1.101;
+  FontRevision 2.000;
 } head;
 
 include (../../family_classes.fea);
