@@ -15,4 +15,4 @@ This working directory is forked from the common code base, [ITF Base Devanagari
 ## Dependencies
 
 - [Adobe Font Development Kit for OpenType](http://www.adobe.com/devnet/opentype/afdko.html) (AFDKO), version 2.5 build 63209 (Sep 18 2014) or newer.
-- Extra Python [scripts](https://github.com/adobe-type-tools/python-scripts) and [modules](https://github.com/adobe-type-tools/python-modules) for AFDKO, to be placed in the directory `FDK/Tools/osx`.
+- A script [`UFOInstanceGenerator.py`](https://github.com/adobe-type-tools/python-scripts/blob/master/FDK%20Extras/UFOInstanceGenerator.py) (to be placed in AFDKO’s directory `FDK/Tools/osx`) and two [modules](https://github.com/adobe-type-tools/python-modules) (to be placed in Python’s `site-packages` directory) from Adobe.

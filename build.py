@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 import argparse, sys, subprocess, os.path
+import WriteFeaturesMarkFDK
 
 import itf
 from config import (
@@ -25,8 +26,8 @@ procedures.add_argument(
     help='reset style/instance directories'
 )
 procedures.add_argument(
-    '-i', '--interpolate', action='store_true',
-    help='interpolate instances'
+    '-i', '--instance', action='store_true',
+    help='generate instances'
 )
 procedures.add_argument(
     '-m', '--match', action='store_true',
@@ -35,6 +36,10 @@ procedures.add_argument(
 procedures.add_argument(
     '-c', '--compile', action='store_true',
     help='compile OTFs'
+)
+procedures.add_argument(
+    '--nointerpolate', action='store_true',
+    help='do not interpolate the masters'
 )
 
 if len(sys.argv) == 1:
@@ -75,13 +80,53 @@ if args.reset:
     print '#ITF: Done.\n'
 
 
-if args.interpolate:
+if args.instance:
 
-    itf.fix_Glyphs_UFO_masters()
+    masters = [
+        i for i in [
+            itf.get_font('masters', suffix) for suffix in ['_0', '_1']
+        ] if i
+    ]
 
-    subprocess.call(
-        ['UFOInstanceGenerator.py', 'masters', '-o', 'styles'] + UFOIG_ARGS
-    )
+    if args.nointerpolate:
+
+        for font, style_name in zip(masters, STYLE_NAMES):
+
+            print "\n#ITF: %s" % style_name
+
+            style_dir = 'styles/' + style_name
+
+            subprocess.call([
+                'cp', '-fr', font.path,
+                style_dir + '/font.ufo'
+            ])
+
+            if '-mark' in UFOIG_ARGS:
+                WriteFeaturesMarkFDK.MarkDataClass(
+                    font = itf.get_font(style_dir),
+                    folderPath = style_dir,
+                    trimCasingTags = False,
+                    genMkmkFeature = True if '-mkmk' in UFOIG_ARGS else False,
+                    writeClassesFile = True if '-clas' in UFOIG_ARGS else False,
+                    indianScriptsFormat = True if '-indi' in UFOIG_ARGS else False
+                )
+
+            if '-flat' in UFOIG_ARGS:
+                print "#ITF: Flattening the glyphs..."
+                subprocess.Popen(
+                    ['checkoutlines', '-e', style_dir + '/font.ufo'],
+                    stderr=subprocess.STDOUT,
+                    stdout=subprocess.PIPE
+                ).communicate()
+                print "#ITF: Done."
+
+    else:
+
+        itf.fix_Glyphs_UFO_masters(masters)
+
+        subprocess.call(
+            ['UFOInstanceGenerator.py', 'masters', '-o', 'styles'] + UFOIG_ARGS
+        )
 
 
 if args.match:

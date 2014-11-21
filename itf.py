@@ -40,14 +40,18 @@ for line in goadb_content.splitlines():
 
 def get_font(directory, suffix = ''):
 
+    font_file_name = ''
+
     for file_name in os.listdir(directory):
         if file_name.endswith(suffix + ".ufo"):
             font_file_name = file_name
             break
-
-    font = robofab.world.OpenFont(directory + '/' + font_file_name)
-
-    return font
+    if font_file_name:
+        font = robofab.world.OpenFont(directory + '/' + font_file_name)
+        return font
+    else:
+        print "#ITF: Can't find the font file with suffix `%s`." % suffix
+        return None
 
 
 def sort_glyphs(glyphs):
@@ -136,9 +140,9 @@ def generate_classes(directory, suffix):
     print "#ITF: Done."
 
 
-def fix_Glyphs_UFO_masters():
+def fix_Glyphs_UFO_masters(masters):
 
-    for font in [get_font('masters', suffix) for suffix in ['_0', '_1']]:
+    for font in masters:
 
         if not font.info.postscriptFamilyBlues:
             font.info.postscriptFamilyBlues = []
