@@ -2,6 +2,7 @@
 # encoding: UTF-8
 from __future__ import division, absolute_import, print_function, unicode_literals
 import hindkit as kit
+import datetime
 
 def override(self):
     self.style_scheme = kit.constants.STYLES_ITF_CamelCase
@@ -21,6 +22,8 @@ def override(self):
     })
 
 kit.Client.override = override
+kit.FeatureMatches.mI_VARIANT_NAME_PATTERN = r"mI\.a\d\d"
+kit.filters.POTENTIAL_BASES_FOR_LONG_mII.append("K_TA")
 
 family = kit.Family(
     client_name = "Google Fonts",
@@ -34,6 +37,7 @@ i = family.info
 i.copyright = "Copyright (c) 2014, 2016 Indian Type Foundry (info@indiantypefoundry.com)"
 i.openTypeNameDesigner = "Ninad Kale (Devanagari), Jonny Pinhorn (Latin)"
 i.openTypeHheaAscender, i.openTypeHheaDescender, i.openTypeHheaLineGap = 1050, -350, 100
+i.openTypeOS2WinAscent, i.openTypeOS2WinDescent = 1100, 400
 
 project = kit.Project(
     family,
@@ -42,6 +46,7 @@ project = kit.Project(
         "prepare_mark_positioning": True,
         "match_mI_variants": "single",
         "position_marks_for_mI_variants": True,
+        "additional_unicode_range_bits": [0, 1, 2],
     },
 )
 project.build()

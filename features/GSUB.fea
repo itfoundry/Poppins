@@ -790,7 +790,7 @@ feature pres {
 
   # MATRA I
 
-  include (pres_mI.fea);
+  include (mI_variant_matches.fea);
 
 } pres;
 
@@ -850,8 +850,8 @@ feature abvs {
   # MATRA I
 
   sub
-    @mI_ALTS # Only substitute Reph and Syllable Modifier for substituted mI.
-    @mI_BASES
+    @mI_VARIANTS # Only substitute Reph and Syllable Modifier for substituted mI.
+    @BASES_ALIVE
     [
       dvReph
       dvAnusvara
@@ -894,7 +894,7 @@ feature psts {
   # MATRA II
 
   sub
-    @mII_BASES
+    @BASES_FOR_LONG_mI
     [
       dvmII
       dvmII_Reph
