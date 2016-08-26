@@ -41,12 +41,13 @@ i.openTypeOS2WinAscent, i.openTypeOS2WinDescent = 1100, 400
 
 project = kit.Project(
     family,
-    fontrevision = "2.001",
+    fontrevision = "2.100",
     options = {
         "prepare_mark_positioning": True,
         "match_mI_variants": "single",
         "position_marks_for_mI_variants": True,
         "additional_unicode_range_bits": [0, 1, 2],
+        # "build_ttf": True,
     },
 )
 project.build()
