@@ -1,5 +1,10 @@
 {
-.appVersion = "916";
+.appVersion = "919";
+DisplayStrings = (
+/quoteright,
+/quotedblbase,
+/quotesinglbase
+);
 customParameters = (
 {
 name = glyphOrder;
@@ -106948,25 +106953,27 @@ public.markColor = "0.5,0.09,0.79,1";
 {
 color = 8;
 glyphname = quotesinglbase;
-lastChange = "2016-08-13 07:58:21 +0000";
+lastChange = "2016-08-30 11:41:34 +0000";
 layers = (
 {
 components = (
 {
-name = comma;
+name = quoteright;
+transform = "{1, 0, 0, 1, 20, -711}";
 }
 );
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
-width = 172;
+width = 171;
 },
 {
 components = (
 {
-name = comma;
+name = quoteright;
+transform = "{1, 0, 0, 1, -10, -734}";
 }
 );
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
-width = 241;
+width = 221;
 }
 );
 unicode = 201A;
@@ -107202,31 +107209,33 @@ public.markColor = "0.5,0.09,0.79,1";
 {
 color = 8;
 glyphname = quotedblbase;
-lastChange = "2016-08-13 07:58:21 +0000";
+lastChange = "2016-08-30 11:45:46 +0000";
 layers = (
 {
 components = (
 {
-name = comma;
+name = quotesinglbase;
 },
 {
-name = comma;
+name = quotesinglbase;
+transform = "{1, 0, 0, 1, 117, 0}";
 }
 );
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
-width = 172;
+width = 288;
 },
 {
 components = (
 {
-name = comma;
+name = quotesinglbase;
 },
 {
-name = comma;
+name = quotesinglbase;
+transform = "{1, 0, 0, 1, 189, 0}";
 }
 );
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
-width = 241;
+width = 410;
 }
 );
 unicode = 201E;
