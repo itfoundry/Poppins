@@ -174,7 +174,7 @@ doubledanda doubledanda uni0965
 # Miscellaneous
 
 rupee rupee uni20A8
-indianrupee indianrupee uni20B9
+# indianrupee indianrupee uni20B9
 apostrophemod apostrophemod uni02BC
 
 zerowidthspace zerowidthspace uni200B
@@ -184,7 +184,7 @@ dottedcircle dottedcircle uni25CC
 
 # ---
 
-itfLogo itfLogo
+# itfLogo itfLogo
 
 # ---
 
@@ -1107,6 +1107,7 @@ guilsinglleft guilsinglleft uni2039 # SINGLE LEFT-POINTING ANGLE QUOTATION MARK
 guilsinglright guilsinglright uni203A # SINGLE RIGHT-POINTING ANGLE QUOTATION MARK
 fraction fraction uni2044 # FRACTION SLASH
 Euro Euro uni20AC # EURO SIGN
+indianrupee indianrupee uni20B9
 uni20BA turkishlira uni20BA # TURKISH LIRA SIGN
 uni20BD ruble uni20BD # RUBLE SIGN
 uni2113 litre uni2113 # SCRIPT SMALL L
@@ -1130,3 +1131,5 @@ greaterequal greaterequal uni2265 # GREATER-THAN OR EQUAL TO
 lozenge lozenge uni25CA # LOZENGE
 fi fi uniFB01 # LATIN SMALL LIGATURE FI
 fl fl uniFB02 # LATIN SMALL LIGATURE FL
+
+ITF ITF

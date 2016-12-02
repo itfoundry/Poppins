@@ -22,13 +22,13 @@ def override(self):
     })
 
 kit.Client.override = override
-kit.FeatureMatches.mI_VARIANT_NAME_PATTERN = r"mI\.a\d\d"
-kit.filters.POTENTIAL_BASES_FOR_LONG_mII.append("K_TA")
+# kit.FeatureMatches.mI_VARIANT_NAME_PATTERN = r"mI\.a\d\d"
+# kit.filters.POTENTIAL_BASES_FOR_LONG_mII.append("K_TA")
 
 family = kit.Family(
     client_name = "Google Fonts",
-    trademark = "Poppins",
-    script_name = "Devanagari",
+    trademark = "Poppins GBM",
+    # script_name = "Devanagari",
 )
 family.set_masters()
 family.set_styles()
@@ -41,13 +41,14 @@ i.openTypeOS2WinAscent, i.openTypeOS2WinDescent = 1100, 400
 
 project = kit.Project(
     family,
-    fontrevision = "2.100",
+    fontrevision = "2.101",
     options = {
-        "prepare_mark_positioning": True,
-        "match_mI_variants": "single",
-        "position_marks_for_mI_variants": True,
+        # "prepare_mark_positioning": True,
+        # "match_mI_variants": "single",
+        # "position_marks_for_mI_variants": True,
         "additional_unicode_range_bits": [0, 1, 2],
-        # "build_ttf": True,
+        "build_ttf": True,
+        "omit_mac_name_records": False,
     },
 )
 project.build()
