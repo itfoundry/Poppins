@@ -1,54 +1,40 @@
 #! /usr/bin/env AFDKOPython
 # encoding: UTF-8
 from __future__ import division, absolute_import, print_function, unicode_literals
-import hindkit as kit
-import datetime
+import hindkit
 
-def override(self):
-    self.style_scheme = kit.constants.STYLES_ITF_CamelCase
-    self.vertical_metrics_strategy = "Google Fonts"
-    self.tables["name"].update({
-        0: kit.fallback(
-            self.family.info.copyright,
-            "Copyright (c) {} Indian Type Foundry (info@indiantypefoundry.com)".format(datetime.date.today().year),
-        ),
-        7: None,
-        11: "http://www.indiantypefoundry.com/googlefonts",
-        13: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL",
-        14: "http://scripts.sil.org/OFL",
-    })
-    self.tables["OS/2"].update({
-        "fsType": 0,
-    })
+STYLES_ITF_CamelCase = [
+    ("Light",     0, 300),
+    ("Regular",  21, 400),
+    ("Medium",   44, 500),
+    ("SemiBold", 70, 600),
+    ("Bold",    100, 700),
+]
 
-kit.Client.override = override
-# kit.FeatureMatches.mI_VARIANT_NAME_PATTERN = r"mI\.a\d\d"
-# kit.filters.POTENTIAL_BASES_FOR_LONG_mII.append("K_TA")
-
-family = kit.Family(
+family = hindkit.Family(
+    trademark = "Poppins",
+    script_name = "Latin",
     client_name = "Google Fonts",
-    trademark = "Poppins GBM",
-    # script_name = "Devanagari",
+    variant_tag = "Latin-only", #!
+    initial_release_year = 2014,
+    is_serif = False,
 )
 family.set_masters()
-family.set_styles()
+family.set_styles(STYLES_ITF_CamelCase)
 
 i = family.info
-i.copyright = "Copyright (c) 2014, 2016 Indian Type Foundry (info@indiantypefoundry.com)"
 i.openTypeNameDesigner = "Ninad Kale (Devanagari), Jonny Pinhorn (Latin)"
 i.openTypeHheaAscender, i.openTypeHheaDescender, i.openTypeHheaLineGap = 1050, -350, 100
 i.openTypeOS2WinAscent, i.openTypeOS2WinDescent = 1100, 400
 
-project = kit.Project(
+project = hindkit.Project(
     family,
-    fontrevision = "2.101",
+    fontrevision = "2.110",
     options = {
-        # "prepare_mark_positioning": True,
-        # "match_mI_variants": "single",
-        # "position_marks_for_mI_variants": True,
-        "additional_unicode_range_bits": [0, 1, 2],
+        "do_style_linking": True,
+        # "omit_mac_name_records": False, # False for Office 2011 for Mac
+        "additional_unicode_range_bits": [1, 2],
         "build_ttf": True,
-        "omit_mac_name_records": False,
     },
 )
 project.build()
