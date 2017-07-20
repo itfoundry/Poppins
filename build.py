@@ -3,6 +3,18 @@
 from __future__ import division, absolute_import, print_function, unicode_literals
 import hindkit
 
+def master_postprocess(self):
+    self.import_from_font(
+        source_path = "resources/ITF Misc-Regular.ufo",
+        glyph_names_included = "zerowidthnonjoiner zerowidthjoiner dottedcircle".split(),
+    )
+    self.import_from_font(
+        source_path = "masters/Poppins Devanagari-{}.ufo".format(self.name),
+    )
+    self.derive_glyphs("NULL CR nonbreakingspace zerowidthspace".split())
+
+hindkit.Master.postprocess = master_postprocess
+
 STYLES_ITF_CamelCase = [
     ("Light",     0, 300),
     ("Regular",  21, 400),
@@ -13,9 +25,9 @@ STYLES_ITF_CamelCase = [
 
 family = hindkit.Family(
     trademark = "Poppins",
-    script_name = "Latin",
+    script_name = "Devanagari",
+    append_script_name = False,
     client_name = "Google Fonts",
-    variant_tag = "Latin-only", #!
     initial_release_year = 2014,
     is_serif = False,
 )
@@ -29,10 +41,9 @@ i.openTypeOS2WinAscent, i.openTypeOS2WinDescent = 1100, 400
 
 project = hindkit.Project(
     family,
-    fontrevision = "2.110",
+    fontrevision = "2.200",
     options = {
         "do_style_linking": True,
-        # "omit_mac_name_records": False, # False for Office 2011 for Mac
         "additional_unicode_range_bits": [1, 2],
         "build_ttf": True,
     },
