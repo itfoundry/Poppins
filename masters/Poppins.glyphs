@@ -15121,22 +15121,32 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 };
 },
 {
+color = 4;
 glyphname = quotedblbase;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:22:58 +0000";
 layers = (
 {
+background = {
 components = (
 {
 name = comma;
 },
 {
 name = comma;
+}
+);
+};
+components = (
+{
+name = quotedblright;
+transform = "{1, 0, 0, 1, 0, -712}";
 }
 );
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
-width = 172;
+width = 252;
 },
 {
+background = {
 components = (
 {
 name = comma;
@@ -15145,10 +15155,18 @@ name = comma;
 name = comma;
 }
 );
-layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
-width = 241;
+};
+components = (
+{
+name = quotedblright;
+transform = "{1, 0, 0, 1, 0, -734}";
 }
 );
+layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
+width = 421;
+}
+);
+widthMetricsKey = quotedblright;
 unicode = 201E;
 userData = {
 com.schriftgestaltung.Glyphs.ColorIndex = 8;
@@ -15499,8 +15517,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 };
 },
 {
+color = 6;
 glyphname = space;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:23:36 +0000";
 layers = (
 {
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
