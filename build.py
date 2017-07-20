@@ -52,6 +52,8 @@ project = hindkit.Project(
         "do_style_linking": True,
         "additional_unicode_range_bits": [0, 1, 2],
         "build_ttf": True,
+        "use_os_2_version_4": True,
+            "prefer_typo_metrics": True,
     },
 )
 project.build()
