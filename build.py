@@ -6,7 +6,7 @@ import hindkit
 def master_postprocess(self):
     self.import_from_font(
         source_path = "resources/ITF Misc-Regular.ufo",
-        glyph_names_included = "zerowidthnonjoiner zerowidthjoiner dottedcircle".split(),
+        glyph_names_included = ".notdef zerowidthnonjoiner zerowidthjoiner dottedcircle".split(),
     )
     self.import_from_font(
         source_path = "masters/Poppins Devanagari-{}.ufo".format(self.name),

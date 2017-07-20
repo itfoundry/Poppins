@@ -1,5 +1,5 @@
 {
-.appVersion = "1009";
+.appVersion = "1043";
 customParameters = (
 {
 name = glyphOrder;
@@ -23,6 +23,108 @@ xHeight = 500;
 }
 );
 glyphs = (
+{
+color = 4;
+glyphname = .notdef;
+lastChange = "2017-07-20 17:08:17 +0000";
+layers = (
+{
+layerId = "E5FD5CA1-FC87-4284-BDA6-331FF66688C4";
+paths = (
+{
+closed = 1;
+nodes = (
+"0 0 LINE",
+"500 0 LINE",
+"500 700 LINE",
+"0 700 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"250 395 LINE",
+"80 650 LINE",
+"420 650 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"280 350 LINE",
+"450 605 LINE",
+"450 95 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"80 50 LINE",
+"250 305 LINE",
+"420 50 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"50 605 LINE",
+"220 350 LINE",
+"50 95 LINE"
+);
+}
+);
+width = 500;
+},
+{
+layerId = "E5FD5CA1-FC87-4284-BDA6-331FF66688C4";
+paths = (
+{
+closed = 1;
+nodes = (
+"0 0 LINE",
+"500 0 LINE",
+"500 700 LINE",
+"0 700 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"250 395 LINE",
+"80 650 LINE",
+"420 650 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"280 350 LINE",
+"450 605 LINE",
+"450 95 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"80 50 LINE",
+"250 305 LINE",
+"420 50 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"50 605 LINE",
+"220 350 LINE",
+"50 95 LINE"
+);
+}
+);
+width = 500;
+}
+);
+note = .notdef;
+},
 {
 color = 10;
 glyphname = zerowidthnonjoiner;
