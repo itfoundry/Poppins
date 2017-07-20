@@ -27,19 +27,9 @@ xHeight = 472;
 glyphs = (
 {
 glyphname = A;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = ogonek;
-position = "{632, 0}";
-},
-{
-name = top;
-position = "{343, 690}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -68,16 +58,6 @@ nodes = (
 width = 685;
 },
 {
-anchors = (
-{
-name = ogonek;
-position = "{704, 0}";
-},
-{
-name = top;
-position = "{357, 704}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -701,19 +681,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = C;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{390, 0}";
-},
-{
-name = top;
-position = "{390, 690}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -751,16 +721,6 @@ nodes = (
 width = 780;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{382, 0}";
-},
-{
-name = top;
-position = "{382, 704}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -913,15 +873,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = D;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = top;
-position = "{343, 690}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -956,12 +910,6 @@ nodes = (
 width = 685;
 },
 {
-anchors = (
-{
-name = top;
-position = "{370, 704}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -1163,23 +1111,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 },
 {
 glyphname = E;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{244, 0}";
-},
-{
-name = ogonek;
-position = "{426, 0}";
-},
-{
-name = top;
-position = "{244, 690}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -1203,20 +1137,6 @@ nodes = (
 width = 487;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{286, 0}";
-},
-{
-name = ogonek;
-position = "{500, 0}";
-},
-{
-name = top;
-position = "{286, 704}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -1587,19 +1507,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = G;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{390, 0}";
-},
-{
-name = top;
-position = "{390, 690}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -1640,16 +1550,6 @@ nodes = (
 width = 780;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{382, 0}";
-},
-{
-name = top;
-position = "{382, 704}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -1733,15 +1633,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 },
 {
 glyphname = Gcommaaccent;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _bottom;
-position = "{390, 0}";
-}
-);
 components = (
 {
 name = G;
@@ -1772,12 +1666,6 @@ nodes = (
 width = 780;
 },
 {
-anchors = (
-{
-name = _bottom;
-position = "{382, 0}";
-}
-);
 components = (
 {
 name = G;
@@ -1891,19 +1779,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = I;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = ogonek;
-position = "{145, 1}";
-},
-{
-name = top;
-position = "{110, 690}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -1919,16 +1797,6 @@ nodes = (
 width = 220;
 },
 {
-anchors = (
-{
-name = ogonek;
-position = "{246, 0}";
-},
-{
-name = top;
-position = "{161, 704}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -2267,19 +2135,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = K;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{283, 0}";
-},
-{
-name = top;
-position = "{283, 690}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -2307,16 +2165,6 @@ nodes = (
 width = 565;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{360, 0}";
-},
-{
-name = top;
-position = "{360, 704}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -2351,15 +2199,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = Kcommaaccent;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _bottom;
-position = "{283, 0}";
-}
-);
 components = (
 {
 name = K;
@@ -2390,12 +2232,6 @@ nodes = (
 width = 565;
 },
 {
-anchors = (
-{
-name = _bottom;
-position = "{360, 0}";
-}
-);
 components = (
 {
 name = K;
@@ -2433,27 +2269,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 },
 {
 glyphname = L;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{230, 0}";
-},
-{
-name = commaaccent;
-position = "{230, 10}";
-},
-{
-name = top;
-position = "{208, 690}";
-},
-{
-name = topright;
-position = "{396, 690}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -2471,24 +2289,6 @@ nodes = (
 width = 416;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{270, 0}";
-},
-{
-name = commaaccent;
-position = "{270, 10}";
-},
-{
-name = top;
-position = "{240, 704}";
-},
-{
-name = topright;
-position = "{459, 704}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -2549,15 +2349,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 },
 {
 glyphname = Lcaron;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _bottom;
-position = "{312, 740}";
-}
-);
 components = (
 {
 name = L;
@@ -2588,12 +2382,6 @@ nodes = (
 width = 416;
 },
 {
-anchors = (
-{
-name = _bottom;
-position = "{403, 742}";
-}
-);
 components = (
 {
 name = L;
@@ -2631,15 +2419,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 },
 {
 glyphname = Lcommaaccent;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _commaaccent;
-position = "{230, 10}";
-}
-);
 components = (
 {
 name = L;
@@ -2670,12 +2452,6 @@ nodes = (
 width = 416;
 },
 {
-anchors = (
-{
-name = _commaaccent;
-position = "{270, 10}";
-}
-);
 components = (
 {
 name = L;
@@ -2839,19 +2615,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = N;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{339, 0}";
-},
-{
-name = top;
-position = "{339, 690}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -2873,16 +2639,6 @@ nodes = (
 width = 677;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{389, 0}";
-},
-{
-name = top;
-position = "{389, 704}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -2983,15 +2739,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 },
 {
 glyphname = Ncommaaccent;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _bottom;
-position = "{339, 0}";
-}
-);
 components = (
 {
 name = N;
@@ -3022,12 +2772,6 @@ nodes = (
 width = 677;
 },
 {
-anchors = (
-{
-name = _bottom;
-position = "{389, 0}";
-}
-);
 components = (
 {
 name = N;
@@ -3101,15 +2845,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = O;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = top;
-position = "{391, 690}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -3150,12 +2888,6 @@ nodes = (
 width = 781;
 },
 {
-anchors = (
-{
-name = top;
-position = "{394, 704}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -3505,15 +3237,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = OE;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = top;
-position = "{391, 690}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -3845,19 +3571,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = R;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{302, 0}";
-},
-{
-name = top;
-position = "{302, 690}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -3903,16 +3619,6 @@ nodes = (
 width = 603;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{334, 0}";
-},
-{
-name = top;
-position = "{334, 704}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -4037,15 +3743,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 },
 {
 glyphname = Rcommaaccent;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _bottom;
-position = "{302, 0}";
-}
-);
 components = (
 {
 name = R;
@@ -4076,12 +3776,6 @@ nodes = (
 width = 603;
 },
 {
-anchors = (
-{
-name = _bottom;
-position = "{334, 0}";
-}
-);
 components = (
 {
 name = R;
@@ -4119,19 +3813,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 },
 {
 glyphname = S;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{286, 0}";
-},
-{
-name = top;
-position = "{286, 690}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -4175,16 +3859,6 @@ nodes = (
 width = 571;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{324, 0}";
-},
-{
-name = top;
-position = "{324, 704}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -4343,15 +4017,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 },
 {
 glyphname = Scommaaccent;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _bottom;
-position = "{286, 0}";
-}
-);
 components = (
 {
 name = S;
@@ -4382,12 +4050,6 @@ nodes = (
 width = 571;
 },
 {
-anchors = (
-{
-name = _bottom;
-position = "{324, 0}";
-}
-);
 components = (
 {
 name = S;
@@ -4425,19 +4087,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 },
 {
 glyphname = T;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{265, 0}";
-},
-{
-name = top;
-position = "{265, 690}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -4457,16 +4109,6 @@ nodes = (
 width = 529;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{304, 0}";
-},
-{
-name = top;
-position = "{304, 704}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -4609,15 +4251,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 },
 {
 glyphname = Tcommaaccent;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _bottom;
-position = "{265, 0}";
-}
-);
 components = (
 {
 name = T;
@@ -4648,12 +4284,6 @@ nodes = (
 width = 529;
 },
 {
-anchors = (
-{
-name = _bottom;
-position = "{304, 0}";
-}
-);
 components = (
 {
 name = T;
@@ -4691,19 +4321,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 },
 {
 glyphname = U;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = ogonek;
-position = "{452, 0}";
-},
-{
-name = top;
-position = "{329, 690}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -4733,16 +4353,6 @@ nodes = (
 width = 658;
 },
 {
-anchors = (
-{
-name = ogonek;
-position = "{528, 0}";
-},
-{
-name = top;
-position = "{366, 704}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -5315,15 +4925,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = Y;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = top;
-position = "{271, 690}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -5345,12 +4949,6 @@ nodes = (
 width = 541;
 },
 {
-anchors = (
-{
-name = top;
-position = "{344, 704}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -5451,15 +5049,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = Z;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = top;
-position = "{264, 690}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -5481,12 +5073,6 @@ nodes = (
 width = 528;
 },
 {
-anchors = (
-{
-name = top;
-position = "{298, 704}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -5623,19 +5209,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 },
 {
 glyphname = a;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = ogonek;
-position = "{587, 0}";
-},
-{
-name = top;
-position = "{331, 546}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -5681,16 +5257,6 @@ nodes = (
 width = 662;
 },
 {
-anchors = (
-{
-name = ogonek;
-position = "{623, 0}";
-},
-{
-name = top;
-position = "{349, 558}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -6333,19 +5899,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = c;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{300, 0}";
-},
-{
-name = top;
-position = "{300, 546}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -6383,16 +5939,6 @@ nodes = (
 width = 600;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{300, 0}";
-},
-{
-name = top;
-position = "{300, 558}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -6545,15 +6091,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = d;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = topright;
-position = "{587, 740}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -6599,12 +6139,6 @@ nodes = (
 width = 662;
 },
 {
-anchors = (
-{
-name = topright;
-position = "{623, 740}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -6657,15 +6191,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = eth;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = top;
-position = "{313, 546}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -6785,15 +6313,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = dcaron;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _bottom;
-position = "{683, 790}";
-}
-);
 components = (
 {
 name = d;
@@ -6824,12 +6346,6 @@ nodes = (
 width = 739;
 },
 {
-anchors = (
-{
-name = _bottom;
-position = "{741, 780}";
-}
-);
 components = (
 {
 name = d;
@@ -6917,23 +6433,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 },
 {
 glyphname = e;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{303, 0}";
-},
-{
-name = ogonek;
-position = "{453, 56}";
-},
-{
-name = top;
-position = "{303, 546}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -6977,20 +6479,6 @@ nodes = (
 width = 605;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{316, 0}";
-},
-{
-name = ogonek;
-position = "{509, 78}";
-},
-{
-name = top;
-position = "{316, 558}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -7489,15 +6977,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = g;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = top;
-position = "{331, 546}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -7555,12 +7037,6 @@ nodes = (
 width = 662;
 },
 {
-anchors = (
-{
-name = top;
-position = "{349, 558}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -7661,15 +7137,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 },
 {
 glyphname = gcommaaccent;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _top;
-position = "{331, 546}";
-}
-);
 components = (
 {
 name = g;
@@ -7700,12 +7170,6 @@ nodes = (
 width = 662;
 },
 {
-anchors = (
-{
-name = _top;
-position = "{349, 558}";
-}
-);
 components = (
 {
 name = g;
@@ -7825,15 +7289,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = i;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = ogonek;
-position = "{145, 1}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -7866,12 +7324,6 @@ nodes = (
 width = 220;
 },
 {
-anchors = (
-{
-name = ogonek;
-position = "{246, 0}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -7911,19 +7363,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = dotlessi;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = ogonek;
-position = "{198, 10}";
-},
-{
-name = top;
-position = "{110, 546}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -7939,16 +7381,6 @@ nodes = (
 width = 220;
 },
 {
-anchors = (
-{
-name = ogonek;
-position = "{289, 10}";
-},
-{
-name = top;
-position = "{161, 558}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -8277,15 +7709,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = k;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{238, 0}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -8313,12 +7739,6 @@ nodes = (
 width = 476;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{327, 0}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -8353,15 +7773,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = kcommaaccent;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _bottom;
-position = "{238, 0}";
-}
-);
 components = (
 {
 name = k;
@@ -8392,12 +7806,6 @@ nodes = (
 width = 476;
 },
 {
-anchors = (
-{
-name = _bottom;
-position = "{327, 0}";
-}
-);
 components = (
 {
 name = k;
@@ -8435,27 +7843,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 },
 {
 glyphname = l;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{110, 0}";
-},
-{
-name = commaaccent;
-position = "{110, 10}";
-},
-{
-name = top;
-position = "{110, 740}";
-},
-{
-name = topright;
-position = "{200, 546}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -8471,24 +7861,6 @@ nodes = (
 width = 220;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{161, 0}";
-},
-{
-name = commaaccent;
-position = "{161, 10}";
-},
-{
-name = top;
-position = "{161, 740}";
-},
-{
-name = topright;
-position = "{301, 558}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -8547,15 +7919,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 },
 {
 glyphname = lcaron;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _bottom;
-position = "{267, 790}";
-}
-);
 components = (
 {
 name = l;
@@ -8586,12 +7952,6 @@ nodes = (
 width = 355;
 },
 {
-anchors = (
-{
-name = _bottom;
-position = "{392, 780}";
-}
-);
 components = (
 {
 name = l;
@@ -8629,15 +7989,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 },
 {
 glyphname = lcommaaccent;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _commaaccent;
-position = "{110, 10}";
-}
-);
 components = (
 {
 name = l;
@@ -8668,12 +8022,6 @@ nodes = (
 width = 220;
 },
 {
-anchors = (
-{
-name = _commaaccent;
-position = "{161, 10}";
-}
-);
 components = (
 {
 name = l;
@@ -8893,19 +8241,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = n;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{305, 0}";
-},
-{
-name = top;
-position = "{305, 546}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -8942,16 +8280,6 @@ nodes = (
 width = 609;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{350, 0}";
-},
-{
-name = top;
-position = "{374, 558}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -9067,15 +8395,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 },
 {
 glyphname = ncommaaccent;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _bottom;
-position = "{305, 0}";
-}
-);
 components = (
 {
 name = n;
@@ -9106,12 +8428,6 @@ nodes = (
 width = 609;
 },
 {
-anchors = (
-{
-name = _bottom;
-position = "{350, 0}";
-}
-);
 components = (
 {
 name = n;
@@ -9185,15 +8501,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = o;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = top;
-position = "{313, 546}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -9234,12 +8544,6 @@ nodes = (
 width = 626;
 },
 {
-anchors = (
-{
-name = top;
-position = "{327, 558}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -10044,19 +9348,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = r;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{112, 0}";
-},
-{
-name = top;
-position = "{217, 546}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -10086,16 +9380,6 @@ nodes = (
 width = 353;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{157, 0}";
-},
-{
-name = top;
-position = "{272, 558}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -10204,15 +9488,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 },
 {
 glyphname = rcommaaccent;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _bottom;
-position = "{112, 0}";
-}
-);
 components = (
 {
 name = r;
@@ -10243,12 +9521,6 @@ nodes = (
 width = 353;
 },
 {
-anchors = (
-{
-name = _bottom;
-position = "{157, 0}";
-}
-);
 components = (
 {
 name = r;
@@ -10286,19 +9558,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 },
 {
 glyphname = s;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{259, 0}";
-},
-{
-name = top;
-position = "{259, 546}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -10342,16 +9604,6 @@ nodes = (
 width = 518;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{278, 0}";
-},
-{
-name = top;
-position = "{278, 558}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -10510,15 +9762,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 },
 {
 glyphname = scommaaccent;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _bottom;
-position = "{259, 0}";
-}
-);
 components = (
 {
 name = s;
@@ -10549,12 +9795,6 @@ nodes = (
 width = 518;
 },
 {
-anchors = (
-{
-name = _bottom;
-position = "{278, 0}";
-}
-);
 components = (
 {
 name = s;
@@ -10716,19 +9956,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = t;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = bottom;
-position = "{170, 0}";
-},
-{
-name = topright;
-position = "{170, 780}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -10761,16 +9991,6 @@ nodes = (
 width = 339;
 },
 {
-anchors = (
-{
-name = bottom;
-position = "{208, 0}";
-},
-{
-name = topright;
-position = "{245, 888}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -11026,15 +10246,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 },
 {
 glyphname = tcommaaccent;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _bottom;
-position = "{170, 0}";
-}
-);
 components = (
 {
 name = t;
@@ -11065,12 +10279,6 @@ nodes = (
 width = 339;
 },
 {
-anchors = (
-{
-name = _bottom;
-position = "{208, 0}";
-}
-);
 components = (
 {
 name = t;
@@ -11108,19 +10316,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 },
 {
 glyphname = u;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = ogonek;
-position = "{534, 0}";
-},
-{
-name = top;
-position = "{305, 546}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -11157,16 +10355,6 @@ nodes = (
 width = 609;
 },
 {
-anchors = (
-{
-name = ogonek;
-position = "{625, -2}";
-},
-{
-name = top;
-position = "{350, 558}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -11684,15 +10872,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = y;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = top;
-position = "{268, 546}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -11712,12 +10894,6 @@ nodes = (
 width = 535;
 },
 {
-anchors = (
-{
-name = top;
-position = "{321, 558}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -11816,15 +10992,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = z;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = top;
-position = "{219, 546}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -11846,12 +11016,6 @@ nodes = (
 width = 437;
 },
 {
-anchors = (
-{
-name = top;
-position = "{258, 558}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -15992,15 +15156,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 },
 {
 glyphname = quotedblleft;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _top;
-position = "{66, 530}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -16045,12 +15203,6 @@ nodes = (
 width = 252;
 },
 {
-anchors = (
-{
-name = _top;
-position = "{123, 530}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -16102,15 +15254,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 },
 {
 glyphname = quotedblright;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _bottom;
-position = "{186, 818}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -16155,12 +15301,6 @@ nodes = (
 width = 252;
 },
 {
-anchors = (
-{
-name = _bottom;
-position = "{298, 880}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -16212,15 +15352,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 },
 {
 glyphname = quoteleft;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _top;
-position = "{66, 530}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -16246,12 +15380,6 @@ nodes = (
 width = 131;
 },
 {
-anchors = (
-{
-name = _top;
-position = "{123, 530}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -16284,15 +15412,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 },
 {
 glyphname = quoteright;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _bottom;
-position = "{65, 818}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -16318,12 +15440,6 @@ nodes = (
 width = 131;
 },
 {
-anchors = (
-{
-name = _bottom;
-position = "{108, 880}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -20770,15 +19886,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 },
 {
 glyphname = acute;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _top;
-position = "{123, 546}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -20794,12 +19904,6 @@ nodes = (
 width = 225;
 },
 {
-anchors = (
-{
-name = _top;
-position = "{135, 558}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -20822,15 +19926,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = breve;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _top;
-position = "{145, 546}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -20858,12 +19956,6 @@ nodes = (
 width = 290;
 },
 {
-anchors = (
-{
-name = _top;
-position = "{180, 558}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -20898,15 +19990,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = caron;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _top;
-position = "{144, 546}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -20924,12 +20010,6 @@ nodes = (
 width = 288;
 },
 {
-anchors = (
-{
-name = _top;
-position = "{165, 558}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -20954,15 +20034,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = cedilla;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _bottom;
-position = "{85, 0}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -20993,12 +20067,6 @@ nodes = (
 width = 253;
 },
 {
-anchors = (
-{
-name = _bottom;
-position = "{114, 0}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -21036,15 +20104,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = circumflex;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _top;
-position = "{144, 546}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -21062,12 +20124,6 @@ nodes = (
 width = 288;
 },
 {
-anchors = (
-{
-name = _top;
-position = "{165, 558}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -21092,15 +20148,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = dieresis;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _top;
-position = "{134, 546}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -21141,12 +20191,6 @@ nodes = (
 width = 268;
 },
 {
-anchors = (
-{
-name = _top;
-position = "{184, 558}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -21194,15 +20238,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = dotaccent;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _top;
-position = "{59, 546}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -21226,12 +20264,6 @@ nodes = (
 width = 118;
 },
 {
-anchors = (
-{
-name = _top;
-position = "{84, 558}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -21262,15 +20294,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = grave;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _top;
-position = "{123, 546}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -21286,12 +20312,6 @@ nodes = (
 width = 225;
 },
 {
-anchors = (
-{
-name = _top;
-position = "{135, 558}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -21314,15 +20334,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = hungarumlaut;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _top;
-position = "{112, 546}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -21347,12 +20361,6 @@ nodes = (
 width = 304;
 },
 {
-anchors = (
-{
-name = _top;
-position = "{172, 558}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -21384,15 +20392,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = macron;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _top;
-position = "{180, 546}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -21408,12 +20410,6 @@ nodes = (
 width = 359;
 },
 {
-anchors = (
-{
-name = _top;
-position = "{210, 558}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -21436,15 +20432,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = ogonek;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _ogonek;
-position = "{183, 0}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -21474,12 +20464,6 @@ nodes = (
 width = 243;
 },
 {
-anchors = (
-{
-name = _ogonek;
-position = "{243, 0}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -21516,15 +20500,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 8;
 },
 {
 glyphname = ring;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _top;
-position = "{110, 546}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -21565,12 +20543,6 @@ nodes = (
 width = 220;
 },
 {
-anchors = (
-{
-name = _top;
-position = "{131, 558}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
@@ -21618,15 +20590,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = tilde;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 15:11:41 +0000";
 layers = (
 {
-anchors = (
-{
-name = _top;
-position = "{148, 546}";
-}
-);
 layerId = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 paths = (
 {
@@ -21658,12 +20624,6 @@ nodes = (
 width = 314;
 },
 {
-anchors = (
-{
-name = _top;
-position = "{205, 558}";
-}
-);
 layerId = "22D14058-393A-410A-BECB-F56B411A01B2";
 paths = (
 {
