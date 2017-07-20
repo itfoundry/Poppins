@@ -10,10 +10,13 @@ def master_postprocess(self):
     )
     self.import_from_font(
         source_path = "masters/Poppins Devanagari-{}.ufo".format(self.name),
+        import_anchors = True,
     )
     self.derive_glyphs("NULL CR nonbreakingspace zerowidthspace".split())
 
 hindkit.Master.postprocess = master_postprocess
+hindkit.FeatureMatches.mI_VARIANT_NAME_PATTERN = r"mI\.a\d\d"
+hindkit.filters.POTENTIAL_BASES_FOR_LONG_mII.append("K_TA")
 
 STYLES_ITF_CamelCase = [
     ("Light",     0, 300),
@@ -43,8 +46,11 @@ project = hindkit.Project(
     family,
     fontrevision = "2.200",
     options = {
+        "prepare_mark_positioning": True,
+        "match_mI_variants": 1,
+            "position_marks_for_mI_variants": True,
         "do_style_linking": True,
-        "additional_unicode_range_bits": [1, 2],
+        "additional_unicode_range_bits": [0, 1, 2],
         "build_ttf": True,
     },
 )

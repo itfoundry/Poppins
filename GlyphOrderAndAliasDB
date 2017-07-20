@@ -1,12 +1,7 @@
-# This GOADB file is synced to `itf_gfd_dv.enc`.
-
 .notdef .notdef
 NULL NULL uni0000
 CR CR uni000D
 space space uni0020
-
-# Vowel letters
-
 dvA dvA uni0905
 dvAA dvAA uni0906
 dvI dvI uni0907
@@ -24,9 +19,6 @@ dvAU dvAU uni0914
 dvEcandra dvEcandra uni090D
 dvAcandra dvAcandra uni0972
 dvOcandra dvOcandra uni0911
-
-# Matras
-
 dvmAA dvmAA uni093E
 dvmI dvmI uni093F
 dvmII dvmII uni0940
@@ -42,9 +34,6 @@ dvmO dvmO uni094B
 dvmAU dvmAU uni094C
 dvmEcandra dvmEcandra uni0945
 dvmOcandra dvmOcandra uni0949
-
-# Consonant letters: basic
-
 dvKA dvKA uni0915
 dvKHA dvKHA uni0916
 dvGA dvGA uni0917
@@ -79,12 +68,8 @@ dvSSA dvSSA uni0937
 dvSA dvSA uni0938
 dvHA dvHA uni0939
 dvLLA dvLLA uni0933
-
 dvK_SSA dvK_SSA
 dvJ_NYA dvJ_NYA
-
-# Consonant letters: nukta
-
 dvKxA dvKxA uni0958
 dvKHxA dvKHxA uni0959
 dvGxA dvGxA uni095A
@@ -93,9 +78,6 @@ dvDDxA dvDDxA uni095C
 dvDDHxA dvDDHxA uni095D
 dvPHxA dvPHxA uni095E
 dvRxA dvRxA uni0931
-
-# Consonant letters: half
-
 dvK dvK
 dvKH dvKH
 dvG dvG
@@ -130,29 +112,19 @@ dvSS dvSS
 dvS dvS
 dvH dvH
 dvLL dvLL
-
 dvK_SS dvK_SS
 dvJ_NY dvJ_NY
-
-# Consonant letters: half nukta
-
 dvKx dvKx
 dvKHx dvKHx
 dvGx dvGx
 dvJx dvJx
 dvPHx dvPHx
-
-# Phonological marks
-
 dvAnusvara dvAnusvara uni0902
 dvCandrabindu dvCandrabindu uni0901
 dvVisarga dvVisarga uni0903
 dvAvagraha dvAvagraha uni093D
 dvVirama dvVirama uni094D
 dvNukta dvNukta uni093C
-
-# Digits
-
 dvZero dvZero uni0966
 dvOne dvOne uni0967
 dvTwo dvTwo uni0968
@@ -163,39 +135,20 @@ dvSix dvSix uni096C
 dvSeven dvSeven uni096D
 dvEight dvEight uni096E
 dvNine dvNine uni096F
-
-# Additional signs
-
 dvOm dvOm uni0950
 dvAbbreviationsign dvAbbreviationsign uni0970
 danda danda uni0964
 doubledanda doubledanda uni0965
-
-# Miscellaneous
-
 rupee rupee uni20A8
-# indianrupee indianrupee uni20B9
+indianrupee indianrupee uni20B9
 apostrophemod apostrophemod uni02BC
-
 zerowidthspace zerowidthspace uni200B
 zerowidthnonjoiner zerowidthnonjoiner uni200C
 zerowidthjoiner zerowidthjoiner uni200D
 dottedcircle dottedcircle uni25CC
-
-# ---
-
-# itfLogo itfLogo
-
-# ---
-
-# RA variants
-
 dvReph dvReph
 dvEyelash dvEyelash
 dvRashtrasign dvRashtrasign
-
-# Consonant letters: vattu
-
 dvK_RA dvK_RA
 dvKH_RA dvKH_RA
 dvG_RA dvG_RA
@@ -222,7 +175,6 @@ dvB_RA dvB_RA
 dvBH_RA dvBH_RA
 dvM_RA dvM_RA
 dvY_RA dvY_RA
-# Reph
 dvL_RA dvL_RA
 dvV_RA dvV_RA
 dvSH_RA dvSH_RA
@@ -230,17 +182,11 @@ dvSS_RA dvSS_RA
 dvS_RA dvS_RA
 dvH_RA dvH_RA
 dvLL_RA dvLL_RA
-
-# Consonant letters: vattu nukta
-
 dvKx_RA dvKx_RA
 dvKHx_RA dvKHx_RA
 dvGx_RA dvGx_RA
 dvJx_RA dvJx_RA
 dvPHx_RA dvPHx_RA
-
-# Consonant letters: half vattu
-
 dvK_R dvK_R
 dvKH_R dvKH_R
 dvG_R dvG_R
@@ -267,7 +213,6 @@ dvB_R dvB_R
 dvBH_R dvBH_R
 dvM_R dvM_R
 dvY_R dvY_R
-# Reph
 dvL_R dvL_R
 dvV_R dvV_R
 dvSH_R dvSH_R
@@ -275,17 +220,11 @@ dvSS_R dvSS_R
 dvS_R dvS_R
 dvH_R dvH_R
 dvLL_R dvLL_R
-
-# Consonant letters: half vattu nukta
-
 dvKx_R dvKx_R
 dvKHx_R dvKHx_R
 dvGx_R dvGx_R
 dvJx_R dvJx_R
 dvPHx_R dvPHx_R
-
-# Consonant conjuncts
-
 dvK_KA dvK_KA
 dvKx_KxA dvKx_KxA
 dvK_KHA dvK_KHA
@@ -324,7 +263,6 @@ dvK_S_DDA dvK_S_DDA
 dvK_S_TA dvK_S_TA
 dvK_S_P_RA dvK_S_P_RA
 dvK_S_P_LA dvK_S_P_LA
-
 dvKH_KHA dvKH_KHA
 dvKH_TA dvKH_TA
 dvKHx_TA dvKHx_TA
@@ -338,7 +276,6 @@ dvKHx_VA dvKHx_VA
 dvKH_SHA dvKH_SHA
 dvKHx_SHA dvKHx_SHA
 dvKHx_SA dvKHx_SA
-
 dvG_GA dvG_GA
 dvG_GHA dvG_GHA
 dvG_JA dvG_JA
@@ -358,21 +295,17 @@ dvG_R_YA dvG_R_YA
 dvG_LA dvG_LA
 dvG_VA dvG_VA
 dvG_SA dvG_SA
-
 dvGH_NA dvGH_NA
 dvGH_MA dvGH_MA
 dvGH_YA dvGH_YA
-
 dvC_CA dvC_CA
 dvC_CHA dvC_CHA
 dvC_CH_VA dvC_CH_VA
 dvC_NA dvC_NA
 dvC_MA dvC_MA
 dvC_YA dvC_YA
-
 dvCH_YA dvCH_YA
 dvCH_R_YA dvCH_R_YA
-
 dvJ_KA dvJ_KA
 dvJ_JA dvJ_JA
 dvJx_JxA dvJx_JxA
@@ -391,34 +324,27 @@ dvJ_MA dvJ_MA
 dvJ_YA dvJ_YA
 dvJx_YA dvJx_YA
 dvJ_VA dvJ_VA
-
 dvJH_NA dvJH_NA
 dvJH_MA dvJH_MA
 dvJH_YA dvJH_YA
-
 dvNY_CA dvNY_CA
 dvNY_CHA dvNY_CHA
 dvNY_JA dvNY_JA
 dvNY_SHA dvNY_SHA
-
 dvTT_TTA dvTT_TTA
 dvTT_TTHA dvTT_TTHA
 dvTT_YA dvTT_YA
 dvTT_VA dvTT_VA
-
 dvTTH_TTHA dvTTH_TTHA
 dvTTH_YA dvTTH_YA
 dvTTH_VA dvTTH_VA
-
 dvDD_DDA dvDD_DDA
 dvDD_DDHA dvDD_DDHA
 dvDD_YA dvDD_YA
 dvDD_VA dvDD_VA
-
 dvDDH_DDHA dvDDH_DDHA
 dvDDH_YA dvDDH_YA
 dvDDH_VA dvDDH_VA
-
 dvNN_TTA dvNN_TTA
 dvNN_TTHA dvNN_TTHA
 dvNN_DDA dvNN_DDA
@@ -427,7 +353,6 @@ dvNN_NNA dvNN_NNA
 dvNN_MA dvNN_MA
 dvNN_YA dvNN_YA
 dvNN_VA dvNN_VA
-
 dvT_KA dvT_KA
 dvT_K_YA dvT_K_YA
 dvT_K_RA dvT_K_RA
@@ -455,11 +380,9 @@ dvT_SA dvT_SA
 dvT_S_NA dvT_S_NA
 dvT_S_YA dvT_S_YA
 dvT_S_VA dvT_S_VA
-
 dvTH_NA dvTH_NA
 dvTH_YA dvTH_YA
 dvTH_VA dvTH_VA
-
 dvD_GA dvD_GA
 dvD_G_RA dvD_G_RA
 dvD_GHA dvD_GHA
@@ -472,13 +395,11 @@ dvD_BHA dvD_BHA
 dvD_MA dvD_MA
 dvD_YA dvD_YA
 dvD_VA dvD_VA
-
 dvDH_NA dvDH_NA
 dvDH_N_YA dvDH_N_YA
 dvDH_MA dvDH_MA
 dvDH_YA dvDH_YA
 dvDH_VA dvDH_VA
-
 dvN_KA dvN_KA
 dvN_K_SA dvN_K_SA
 dvN_CA dvN_CA
@@ -517,7 +438,6 @@ dvN_S_TTA dvN_S_TTA
 dvN_S_M_YA dvN_S_M_YA
 dvN_S_YA dvN_S_YA
 dvN_HA dvN_HA
-
 dvP_TTA dvP_TTA
 dvP_TTHA dvP_TTHA
 dvP_TA dvP_TA
@@ -530,7 +450,6 @@ dvP_YA dvP_YA
 dvP_LA dvP_LA
 dvP_VA dvP_VA
 dvP_SA dvP_SA
-
 dvPH_JA dvPH_JA
 dvPHx_JxA dvPHx_JxA
 dvPH_TTA dvPH_TTA
@@ -544,7 +463,6 @@ dvPH_YA dvPH_YA
 dvPH_LA dvPH_LA
 dvPH_SHA dvPH_SHA
 dvPHx_SA dvPHx_SA
-
 dvB_JA dvB_JA
 dvB_JxA dvB_JxA
 dvB_J_YA dvB_J_YA
@@ -563,13 +481,11 @@ dvB_L_YA dvB_L_YA
 dvB_VA dvB_VA
 dvB_SHA dvB_SHA
 dvB_SA dvB_SA
-
 dvBH_NA dvBH_NA
 dvBH_YA dvBH_YA
 dvBH_R_YA dvBH_R_YA
 dvBH_LA dvBH_LA
 dvBH_VA dvBH_VA
-
 dvM_TA dvM_TA
 dvM_DA dvM_DA
 dvM_NA dvM_NA
@@ -589,13 +505,10 @@ dvM_VA dvM_VA
 dvM_SHA dvM_SHA
 dvM_SA dvM_SA
 dvM_HA dvM_HA
-
 dvY_NA dvY_NA
 dvY_YA dvY_YA
-
 dvEyelash_YA dvEyelash_YA
 dvEyelash_HA dvEyelash_HA
-
 dvL_KA dvL_KA
 dvL_K_YA dvL_K_YA
 dvL_KHA dvL_KHA
@@ -623,13 +536,11 @@ dvL_VA dvL_VA
 dvL_V_DDA dvL_V_DDA
 dvL_SA dvL_SA
 dvL_HA dvL_HA
-
 dvV_NA dvV_NA
 dvV_YA dvV_YA
 dvV_LA dvV_LA
 dvV_VA dvV_VA
 dvV_HA dvV_HA
-
 dvSH_KA dvSH_KA
 dvSH_KxA dvSH_KxA
 dvSH_CA dvSH_CA
@@ -642,7 +553,6 @@ dvSH_YA dvSH_YA
 dvSH_LA dvSH_LA
 dvSH_VA dvSH_VA
 dvSH_SHA dvSH_SHA
-
 dvSS_KA dvSS_KA
 dvSS_K_RA dvSS_K_RA
 dvSS_TTA dvSS_TTA
@@ -662,7 +572,6 @@ dvSS_M_YA dvSS_M_YA
 dvSS_YA dvSS_YA
 dvSS_VA dvSS_VA
 dvSS_SSA dvSS_SSA
-
 dvS_KA dvS_KA
 dvS_K_RA dvS_K_RA
 dvS_K_VA dvS_K_VA
@@ -687,55 +596,39 @@ dvS_YA dvS_YA
 dvS_LA dvS_LA
 dvS_VA dvS_VA
 dvS_SA dvS_SA
-
 dvH_NNA dvH_NNA
 dvH_NA dvH_NA
 dvH_MA dvH_MA
 dvH_YA dvH_YA
 dvH_LA dvH_LA
 dvH_VA dvH_VA
-
 dvLL_YA dvLL_YA
-
-# Mark ligatures and variants
-
 dvmII.aLong dvmII.aLong
-
 dvReph_Anusvara dvReph_Anusvara
-
 dvAnusvara.amI dvAnusvara.amI
 dvReph.amI dvReph.amI
 dvReph_Anusvara.amI dvReph_Anusvara.amI
-
 dvII_Anusvara dvII_Anusvara
-
 dvmII_Anusvara dvmII_Anusvara
 dvmII_Reph dvmII_Reph
 dvmII_Reph_Anusvara dvmII_Reph_Anusvara
-
 dvmII_Anusvara.aLong dvmII_Anusvara.aLong
 dvmII_Reph.aLong dvmII_Reph.aLong
 dvmII_Reph_Anusvara.aLong dvmII_Reph_Anusvara.aLong
-
 dvmE_Anusvara dvmE_Anusvara
 dvmE_Reph dvmE_Reph
 dvmE_Reph_Anusvara dvmE_Reph_Anusvara
-
 dvmAI_Anusvara dvmAI_Anusvara
 dvmAI_Reph dvmAI_Reph
 dvmAI_Reph_Anusvara dvmAI_Reph_Anusvara
-
 dvmO_Anusvara dvmO_Anusvara
 dvmO_Reph dvmO_Reph
 dvmO_Reph_Anusvara dvmO_Reph_Anusvara
-
 dvmAU_Anusvara dvmAU_Anusvara
 dvmAU_Reph dvmAU_Reph
 dvmAU_Reph_Anusvara dvmAU_Reph_Anusvara
-
 dvmEcandra_Anusvara dvmEcandra_Anusvara
 dvmOcandra_Anusvara dvmOcandra_Anusvara
-
 dvRA_mU dvRA_mU
 dvRA_mUU dvRA_mUU
 dvHA_mU dvHA_mU
@@ -743,7 +636,6 @@ dvHA_mUU dvHA_mUU
 dvDA_mvR dvDA_mvR
 dvSHA_mvR dvSHA_mvR
 dvHA_mvR dvHA_mvR
-
 dvmI.a01 dvmI.a01
 dvmI.a02 dvmI.a02
 dvmI.a03 dvmI.a03
@@ -794,12 +686,6 @@ dvmI.a47 dvmI.a47
 dvmI.a48 dvmI.a48
 dvmI.a49 dvmI.a49
 dvmI.a50 dvmI.a50
-
-# ---
-
-# Adobe Latin 3
-
-# space space uni0020 # SPACE
 exclam exclam uni0021 # EXCLAMATION MARK
 quotedbl quotedbl uni0022 # QUOTATION MARK
 numbersign numbersign uni0023 # NUMBER SIGN
@@ -1107,7 +993,6 @@ guilsinglleft guilsinglleft uni2039 # SINGLE LEFT-POINTING ANGLE QUOTATION MARK
 guilsinglright guilsinglright uni203A # SINGLE RIGHT-POINTING ANGLE QUOTATION MARK
 fraction fraction uni2044 # FRACTION SLASH
 Euro Euro uni20AC # EURO SIGN
-indianrupee indianrupee uni20B9
 uni20BA turkishlira uni20BA # TURKISH LIRA SIGN
 uni20BD ruble uni20BD # RUBLE SIGN
 uni2113 litre uni2113 # SCRIPT SMALL L
@@ -1131,5 +1016,3 @@ greaterequal greaterequal uni2265 # GREATER-THAN OR EQUAL TO
 lozenge lozenge uni25CA # LOZENGE
 fi fi uniFB01 # LATIN SMALL LIGATURE FI
 fl fl uniFB02 # LATIN SMALL LIGATURE FL
-
-ITF ITF
