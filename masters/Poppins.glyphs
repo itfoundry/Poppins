@@ -7,21 +7,35 @@ disablesNiceNames = 1;
 familyName = Poppins;
 fontMaster = (
 {
-ascender = 757;
-capHeight = 462;
-descender = -435;
+alignmentZones = (
+"{740, 24}",
+"{690, 8}",
+"{546, 11}",
+"{0, -8}",
+"{-258, -11}"
+);
+ascender = 740;
+capHeight = 690;
+descender = -258;
 id = "C0ED9D5D-A651-429A-8F5D-D93A2EDA2DC0";
 weight = Light;
 weightValue = 0;
-xHeight = 676;
+xHeight = 546;
 },
 {
-ascender = 737;
-capHeight = 738;
-descender = -163;
+alignmentZones = (
+"{740, 44}",
+"{702, 11}",
+"{558, 7}",
+"{0, -8}",
+"{-266, -11}"
+);
+ascender = 740;
+capHeight = 702;
+descender = -266;
 id = "22D14058-393A-410A-BECB-F56B411A01B2";
 weight = Bold;
-xHeight = 472;
+xHeight = 558;
 }
 );
 glyphs = (
@@ -10030,21 +10044,9 @@ com.schriftgestaltung.Glyphs.ColorIndex = 4;
 },
 {
 glyphname = tcaron;
-lastChange = "2017-07-20 14:38:52 +0000";
+lastChange = "2017-07-20 17:14:42 +0000";
 layers = (
 {
-background = {
-components = (
-{
-name = commaaccent;
-transform = "{1, 0, 0, 1, 115, 0}";
-},
-{
-name = commaaccent;
-transform = "{1, 0, 0, 1, 226, 790}";
-}
-);
-};
 components = (
 {
 name = t;
@@ -10075,18 +10077,6 @@ nodes = (
 width = 339;
 },
 {
-background = {
-components = (
-{
-name = commaaccent;
-transform = "{1, 0, 0, 1, 130, 0}";
-},
-{
-name = commaaccent;
-transform = "{1, 0, 0, 1, 301, 880}";
-}
-);
-};
 components = (
 {
 name = t;
