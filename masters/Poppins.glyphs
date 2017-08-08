@@ -20712,7 +20712,7 @@ nodes = (
 );
 }
 );
-width = 680.81690;
+width = 680.8169;
 }
 );
 unicode = 0070;
@@ -47421,7 +47421,7 @@ public.markColor = "0.97,1,0,1";
 },
 {
 glyphname = space.copy_1;
-lastChange = "2017-08-08 23:36:52 +0000";
+lastChange = "2017-08-08 23:44:13 +0000";
 layers = (
 {
 layerId = "4C47FEBD-3B68-4176-B8ED-E26FA8D86AD9";
@@ -47430,6 +47430,14 @@ width = 170;
 {
 layerId = "F6847B4A-0A2E-406E-80B1-427EE12FE698";
 width = 170;
+},
+{
+layerId = "1A40E216-9158-4F5D-A2E9-8F4663F027D5";
+width = 600;
+},
+{
+layerId = "248E82CE-81F2-4042-A23E-56D22FBFDD32";
+width = 600;
 }
 );
 },
