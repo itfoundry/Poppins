@@ -1,3 +1,6 @@
+.notdef .notdef
+NULL NULL uni0000
+CR CR uni000D
 space space uni0020 # SPACE
 exclam exclam uni0021 # EXCLAMATION MARK
 quotedbl quotedbl uni0022 # QUOTATION MARK
@@ -93,7 +96,7 @@ braceleft braceleft uni007B # LEFT CURLY BRACKET
 bar bar uni007C # VERTICAL LINE
 braceright braceright uni007D # RIGHT CURLY BRACKET
 asciitilde asciitilde uni007E # TILDE
-uni00A0 uni00A0 uni00A0 # NO-BREAK SPACE
+uni00A0 nonbreakingspace uni00A0 # NO-BREAK SPACE
 exclamdown exclamdown uni00A1 # INVERTED EXCLAMATION MARK
 cent cent uni00A2 # CENT SIGN
 sterling sterling uni00A3 # POUND SIGN
@@ -106,7 +109,7 @@ copyright copyright uni00A9 # COPYRIGHT SIGN
 ordfeminine ordfeminine uni00AA # FEMININE ORDINAL INDICATOR
 guillemotleft guillemotleft uni00AB # LEFT-POINTING DOUBLE ANGLE QUOTATION MARK
 logicalnot logicalnot uni00AC # NOT SIGN
-uni00AD uni00AD uni00AD # SOFT HYPHEN
+uni00AD softhyphen uni00AD # SOFT HYPHEN
 registered registered uni00AE # REGISTERED SIGN
 macron macron uni00AF # MACRON
 degree degree uni00B0 # DEGREE SIGN
@@ -345,13 +348,13 @@ uni0251 uni0251 uni0251 # LATIN SMALL LETTER ALPHA
 uni0259 uni0259 uni0259 # LATIN SMALL LETTER SCHWA
 uni0261 uni0261 uni0261 # LATIN SMALL LETTER SCRIPT G
 uni02BB uni02BB uni02BB # MODIFIER LETTER TURNED COMMA
-uni02BC uni02BC uni02BC # MODIFIER LETTER APOSTROPHE
+uni02BC apostrophemod uni02BC # MODIFIER LETTER APOSTROPHE
 uni02BE uni02BE uni02BE # MODIFIER LETTER RIGHT HALF RING
 uni02BF uni02BF uni02BF # MODIFIER LETTER LEFT HALF RING
 circumflex circumflex uni02C6 # MODIFIER LETTER CIRCUMFLEX ACCENT
 caron caron uni02C7 # CARON
 uni02C8 uni02C8 uni02C8 # MODIFIER LETTER VERTICAL LINE
-uni02C9 uni02C9 uni02C9 # MODIFIER LETTER MACRON
+uni02C9 macronmod uni02C9 # MODIFIER LETTER MACRON
 uni02CA uni02CA uni02CA # MODIFIER LETTER ACUTE ACCENT
 uni02CB uni02CB uni02CB # MODIFIER LETTER GRAVE ACCENT
 uni02CC uni02CC uni02CC # MODIFIER LETTER LOW VERTICAL LINE
@@ -600,8 +603,8 @@ uni2206 increment uni2206 # INCREMENT
 product product uni220F # N-ARY PRODUCT
 summation summation uni2211 # N-ARY SUMMATION
 minus minus uni2212 # MINUS SIGN
-uni2215 uni2215 uni2215 # DIVISION SLASH
-uni2219 uni2219 uni2219 # BULLET OPERATOR
+uni2215 divisionslash uni2215 # DIVISION SLASH
+uni2219 bulletoperator uni2219 # BULLET OPERATOR
 radical radical uni221A # SQUARE ROOT
 infinity infinity uni221E # INFINITY
 integral integral uni222B # INTEGRAL
