@@ -12,7 +12,11 @@ def master_postprocess(self):
         source_path = "masters/Poppins Devanagari-{}.ufo".format(self.name),
         import_anchors = True,
     )
-    self.derive_glyphs("NULL CR nonbreakingspace zerowidthspace".split())
+    self.derive_glyphs([
+        "NULL", "zerowidthspace",
+        "CR", "nonbreakingspace",
+        "softhyphen", "divisionslash", "bulletoperator", "macronmod", "apostrophemod",
+    ])
 
 hindkit.Master.postprocess = master_postprocess
 hindkit.FeatureMatches.mI_VARIANT_NAME_PATTERN = r"mI\.a\d\d"
