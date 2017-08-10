@@ -951,7 +951,7 @@ feature haln {
 # Standard Ligatures
 # ------------------
 
-feature liga {
-  sub f i by fi;
-  sub f l by fl;
-} liga;
+# feature liga {
+#   sub f i by fi;
+#   sub f l by fl;
+# } liga;

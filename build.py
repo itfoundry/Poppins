@@ -13,8 +13,7 @@ def master_postprocess(self):
         import_anchors = True,
     )
     self.derive_glyphs([
-        "NULL", "zerowidthspace",
-        "CR", "nonbreakingspace",
+        "NULL", "CR", "nonbreakingspace",
         "softhyphen", "divisionslash", "bulletoperator", "macronmod", "apostrophemod",
     ])
 
@@ -22,42 +21,73 @@ hindkit.Master.postprocess = master_postprocess
 hindkit.FeatureMatches.mI_VARIANT_NAME_PATTERN = r"mI\.a\d\d"
 hindkit.filters.POTENTIAL_BASES_FOR_LONG_mII.append("K_TA")
 
-STYLES_ITF_CamelCase = [
-    ("Light",     0, 300),
-    ("Regular",  21, 400),
-    ("Medium",   44, 500),
-    ("SemiBold", 70, 600),
-    ("Bold",    100, 700),
-]
+DATA = {
+    "roman": (
+        [
+            ("100", -100),
+            ("900",  200),
+        ],
+        [
+            ("Thin",       -100, 250),
+            ("ExtraLight",  -50, 275),
+            ("Light",         0, 300),
+            ("Regular",      21, 400),
+            ("Medium",       44, 500),
+            ("SemiBold",     70, 600),
+            ("Bold",        100, 700),
+            ("ExtraBold",   150, 800),
+            ("Black",       200, 900),
+        ],
+    ),
+    "italic": (
+        [
+            ("100i", -100),
+            ("900i",  200),
+        ],
+        [
+            ("Thin Italic",       -100, 250),
+            ("ExtraLight Italic",  -50, 275),
+            ("Light Italic",         0, 300),
+            ("Italic",              21, 400),
+            ("Medium Italic",       44, 500),
+            ("SemiBold Italic",     70, 600),
+            ("Bold Italic",        100, 700),
+            ("ExtraBold Italic",   150, 800),
+            ("Black Italic",       200, 900),
+        ],
+    ),
+}
 
-family = hindkit.Family(
-    trademark = "Poppins",
-    script_name = "Devanagari",
-    append_script_name = False,
-    client_name = "Google Fonts",
-    initial_release_year = 2014,
-    is_serif = False,
-)
-family.set_masters()
-family.set_styles(STYLES_ITF_CamelCase)
+for master_scheme, style_scheme in DATA.values():
 
-i = family.info
-i.openTypeNameDesigner = "Ninad Kale (Devanagari), Jonny Pinhorn (Latin)"
-i.openTypeHheaAscender, i.openTypeHheaDescender, i.openTypeHheaLineGap = 1050, -350, 100
-i.openTypeOS2WinAscent, i.openTypeOS2WinDescent = 1100, 400
+    family = hindkit.Family(
+        trademark = "Poppins",
+        script_name = "Devanagari",
+        append_script_name = False,
+        client_name = "Google Fonts",
+        initial_release_year = 2014,
+        is_serif = False,
+    )
+    family.set_masters(master_scheme)
+    family.set_styles(style_scheme)
 
-project = hindkit.Project(
-    family,
-    fontrevision = "2.200",
-    options = {
-        "prepare_mark_positioning": True,
-        "match_mI_variants": 1,
-            "position_marks_for_mI_variants": True,
-        "do_style_linking": True,
-        "additional_unicode_range_bits": [0, 1, 2],
-        "use_os_2_version_4": True,
-            "prefer_typo_metrics": True,
-        "build_ttf": True,
-    },
-)
-project.build()
+    i = family.info
+    i.openTypeNameDesigner = "Ninad Kale (Devanagari), Jonny Pinhorn (Latin)"
+    i.openTypeHheaAscender, i.openTypeHheaDescender, i.openTypeHheaLineGap = 1050, -350, 100
+    i.openTypeOS2WinAscent, i.openTypeOS2WinDescent = 1100, 400
+
+    project = hindkit.Project(
+        family,
+        fontrevision = "3.000",
+        options = {
+            "prepare_mark_positioning": True,
+            "match_mI_variants": 1,
+                "position_marks_for_mI_variants": True,
+            "do_style_linking": True,
+            "additional_unicode_range_bits": [0, 1, 2],
+            "use_os_2_version_4": True,
+                "prefer_typo_metrics": True,
+            "build_ttf": True,
+        },
+    )
+    project.build()
