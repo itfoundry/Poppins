@@ -3,6 +3,9 @@
 from __future__ import division, absolute_import, print_function, unicode_literals
 import hindkit
 
+DIGITS = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
+DIGITS_DEVANAGARI = ["dv" + i.title() for i in DIGITS]
+
 def master_postprocess(self):
     self.import_from_font(
         source_path = "resources/ITF Misc-Regular.ufo",
@@ -15,45 +18,46 @@ def master_postprocess(self):
     self.derive_glyphs([
         "NULL", "CR", "nonbreakingspace",
         "softhyphen", "divisionslash", "bulletoperator", "macronmod", "apostrophemod",
-    ])
+    ] + DIGITS_DEVANAGARI)
 
+hindkit.constants.DERIVABLE_GLYPHS.update({k: [v] for k, v in zip(DIGITS, DIGITS_DEVANAGARI)})
+hindkit.filters.POTENTIAL_BASES_FOR_LONG_mII.append("K_TA")
 hindkit.Master.postprocess = master_postprocess
 hindkit.FeatureMatches.mI_VARIANT_NAME_PATTERN = r"mI\.a\d\d"
-hindkit.filters.POTENTIAL_BASES_FOR_LONG_mII.append("K_TA")
 
 DATA = {
     "roman": (
         [
-            ("100", -100),
-            ("900",  200),
+            ("100", -50),
+            ("900", 150),
         ],
         [
-            ("Thin",       -100, 250),
-            ("ExtraLight",  -50, 275),
-            ("Light",         0, 300),
-            ("Regular",      21, 400),
-            ("Medium",       44, 500),
-            ("SemiBold",     70, 600),
-            ("Bold",        100, 700),
-            ("ExtraBold",   150, 800),
-            ("Black",       200, 900),
+            ("Thin",       -50, 250),
+            ("ExtraLight", -25, 275),
+            ("Light",        0, 300),
+            ("Regular",     21, 400),
+            ("Medium",      44, 500),
+            ("SemiBold",    70, 600),
+            ("Bold",       100, 700),
+            ("ExtraBold",  125, 800),
+            ("Black",      150, 900),
         ],
     ),
     "italic": (
         [
-            ("100i", -100),
-            ("900i",  200),
+            ("100i", -50),
+            ("900i", 150),
         ],
         [
-            ("Thin Italic",       -100, 250),
-            ("ExtraLight Italic",  -50, 275),
-            ("Light Italic",         0, 300),
-            ("Italic",              21, 400),
-            ("Medium Italic",       44, 500),
-            ("SemiBold Italic",     70, 600),
-            ("Bold Italic",        100, 700),
-            ("ExtraBold Italic",   150, 800),
-            ("Black Italic",       200, 900),
+            ("Thin Italic",       -50, 250),
+            ("ExtraLight Italic", -25, 275),
+            ("Light Italic",        0, 300),
+            ("Italic",             21, 400),
+            ("Medium Italic",      44, 500),
+            ("SemiBold Italic",    70, 600),
+            ("Bold Italic",       100, 700),
+            ("ExtraBold Italic",  125, 800),
+            ("Black Italic",      150, 900),
         ],
     ),
 }
