@@ -78,11 +78,11 @@ for master_scheme, style_scheme in DATA.values():
     i = family.info
     i.openTypeNameDesigner = "Ninad Kale (Devanagari), Jonny Pinhorn (Latin)"
     i.openTypeHheaAscender, i.openTypeHheaDescender, i.openTypeHheaLineGap = 1050, -350, 100
-    i.openTypeOS2WinAscent, i.openTypeOS2WinDescent = 1100, 400
+    i.openTypeOS2WinAscent, i.openTypeOS2WinDescent = 1135, 627
 
     project = hindkit.Project(
         family,
-        fontrevision = "3.000",
+        fontrevision = "3.010",
         options = {
             "prepare_mark_positioning": True,
             "match_mI_variants": 1,
