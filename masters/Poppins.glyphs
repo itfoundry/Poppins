@@ -572,8 +572,9 @@ width = 773;
 unicode = 0100;
 },
 {
+color = 0;
 glyphname = Aogonek;
-lastChange = "2017-08-09 06:16:28 +0000";
+lastChange = "2017-08-12 00:31:06 +0000";
 layers = (
 {
 layerId = "4C47FEBD-3B68-4176-B8ED-E26FA8D86AD9";
@@ -2942,8 +2943,9 @@ width = 556;
 unicode = 0112;
 },
 {
+color = 0;
 glyphname = Eogonek;
-lastChange = "2017-08-09 06:16:28 +0000";
+lastChange = "2017-08-12 00:31:06 +0000";
 layers = (
 {
 components = (
@@ -4457,8 +4459,9 @@ width = 322;
 unicode = 012A;
 },
 {
+color = 0;
 glyphname = Iogonek;
-lastChange = "2017-08-09 06:16:28 +0000";
+lastChange = "2017-08-12 00:31:06 +0000";
 layers = (
 {
 components = (
@@ -9618,8 +9621,9 @@ width = 719;
 unicode = 016A;
 },
 {
+color = 0;
 glyphname = Uogonek;
-lastChange = "2017-08-10 04:35:58 +0000";
+lastChange = "2017-08-12 00:31:06 +0000";
 layers = (
 {
 layerId = "4C47FEBD-3B68-4176-B8ED-E26FA8D86AD9";
@@ -11950,8 +11954,9 @@ width = 681;
 unicode = 0101;
 },
 {
+color = 0;
 glyphname = aogonek;
-lastChange = "2017-08-09 06:16:28 +0000";
+lastChange = "2017-08-12 00:31:06 +0000";
 layers = (
 {
 components = (
@@ -15229,8 +15234,9 @@ width = 614;
 unicode = 0113;
 },
 {
+color = 0;
 glyphname = eogonek;
-lastChange = "2017-08-09 06:16:28 +0000";
+lastChange = "2017-08-12 00:31:06 +0000";
 layers = (
 {
 layerId = "4C47FEBD-3B68-4176-B8ED-E26FA8D86AD9";
@@ -16993,8 +16999,9 @@ width = 332;
 unicode = 012B;
 },
 {
+color = 0;
 glyphname = iogonek;
-lastChange = "2017-08-09 06:16:28 +0000";
+lastChange = "2017-08-12 00:31:06 +0000";
 layers = (
 {
 components = (
@@ -23419,8 +23426,9 @@ width = 697;
 unicode = 016B;
 },
 {
+color = 0;
 glyphname = uogonek;
-lastChange = "2017-08-09 06:16:28 +0000";
+lastChange = "2017-08-12 00:31:06 +0000";
 layers = (
 {
 components = (
@@ -42579,8 +42587,9 @@ type = fontInfo;
 };
 },
 {
+color = 0;
 glyphname = ogonek;
-lastChange = "2017-08-09 23:45:17 +0000";
+lastChange = "2017-08-12 00:31:06 +0000";
 layers = (
 {
 layerId = "4C47FEBD-3B68-4176-B8ED-E26FA8D86AD9";
