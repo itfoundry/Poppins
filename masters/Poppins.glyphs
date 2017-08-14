@@ -1,5 +1,5 @@
 {
-.appVersion = "1045";
+.appVersion = "1049";
 date = "2017-08-08 23:36:15 +0000";
 disablesAutomaticAlignment = 1;
 disablesNiceNames = 1;
@@ -572,9 +572,8 @@ width = 773;
 unicode = 0100;
 },
 {
-color = 0;
 glyphname = Aogonek;
-lastChange = "2017-08-12 00:31:06 +0000";
+lastChange = "2017-08-14 23:36:16 +0000";
 layers = (
 {
 layerId = "4C47FEBD-3B68-4176-B8ED-E26FA8D86AD9";
@@ -2943,9 +2942,9 @@ width = 556;
 unicode = 0112;
 },
 {
-color = 0;
+color = 4;
 glyphname = Eogonek;
-lastChange = "2017-08-12 00:31:06 +0000";
+lastChange = "2017-08-14 23:36:23 +0000";
 layers = (
 {
 components = (
@@ -2954,7 +2953,7 @@ name = E;
 },
 {
 name = ogonek;
-transform = "{1, 0, 0, 1, 246, 0}";
+transform = "{1, 0, 0, 1, 246, 38}";
 }
 );
 layerId = "4C47FEBD-3B68-4176-B8ED-E26FA8D86AD9";
@@ -2981,7 +2980,7 @@ transform = "{1, 0, 0, 1, -2, 0}";
 },
 {
 name = ogonek;
-transform = "{1, 0, 0, 1, 156, 0}";
+transform = "{1, 0, 0, 1, 166, 42}";
 }
 );
 layerId = "F6847B4A-0A2E-406E-80B1-427EE12FE698";
@@ -4459,9 +4458,9 @@ width = 322;
 unicode = 012A;
 },
 {
-color = 0;
+color = 4;
 glyphname = Iogonek;
-lastChange = "2017-08-12 00:31:06 +0000";
+lastChange = "2017-08-14 23:36:23 +0000";
 layers = (
 {
 components = (
@@ -4470,7 +4469,7 @@ name = I;
 },
 {
 name = ogonek;
-transform = "{1, 0, 0, 1, -78, 0}";
+transform = "{1, 0, 0, 1, -78, 38}";
 }
 );
 layerId = "4C47FEBD-3B68-4176-B8ED-E26FA8D86AD9";
@@ -4497,7 +4496,7 @@ transform = "{1, 0, 0, 1, -2, 0}";
 },
 {
 name = ogonek;
-transform = "{1, 0, 0, 1, -165, 0}";
+transform = "{1, 0, 0, 1, -158, 42}";
 }
 );
 layerId = "F6847B4A-0A2E-406E-80B1-427EE12FE698";
@@ -9621,9 +9620,8 @@ width = 719;
 unicode = 016A;
 },
 {
-color = 0;
 glyphname = Uogonek;
-lastChange = "2017-08-12 00:31:06 +0000";
+lastChange = "2017-08-14 23:36:16 +0000";
 layers = (
 {
 layerId = "4C47FEBD-3B68-4176-B8ED-E26FA8D86AD9";
@@ -11954,9 +11952,9 @@ width = 681;
 unicode = 0101;
 },
 {
-color = 0;
+color = 4;
 glyphname = aogonek;
-lastChange = "2017-08-12 00:31:06 +0000";
+lastChange = "2017-08-14 23:36:23 +0000";
 layers = (
 {
 components = (
@@ -11965,7 +11963,7 @@ name = a;
 },
 {
 name = ogonek;
-transform = "{1, 0, 0, 1, 404, 0}";
+transform = "{1, 0, 0, 1, 403, 38}";
 }
 );
 layerId = "4C47FEBD-3B68-4176-B8ED-E26FA8D86AD9";
@@ -11992,7 +11990,7 @@ transform = "{1, 0, 0, 1, 2, 0}";
 },
 {
 name = ogonek;
-transform = "{1, 0, 0, 1, 336, 0}";
+transform = "{1, 0, 0, 1, 341, 42}";
 }
 );
 layerId = "F6847B4A-0A2E-406E-80B1-427EE12FE698";
@@ -15234,9 +15232,8 @@ width = 614;
 unicode = 0113;
 },
 {
-color = 0;
 glyphname = eogonek;
-lastChange = "2017-08-12 00:31:06 +0000";
+lastChange = "2017-08-14 23:36:16 +0000";
 layers = (
 {
 layerId = "4C47FEBD-3B68-4176-B8ED-E26FA8D86AD9";
@@ -16999,9 +16996,9 @@ width = 332;
 unicode = 012B;
 },
 {
-color = 0;
+color = 4;
 glyphname = iogonek;
-lastChange = "2017-08-12 00:31:06 +0000";
+lastChange = "2017-08-14 23:36:23 +0000";
 layers = (
 {
 components = (
@@ -17010,7 +17007,7 @@ name = i;
 },
 {
 name = ogonek;
-transform = "{1, 0, 0, 1, -79, 0}";
+transform = "{1, 0, 0, 1, -78, 38}";
 }
 );
 layerId = "4C47FEBD-3B68-4176-B8ED-E26FA8D86AD9";
@@ -17037,7 +17034,7 @@ transform = "{1, 0, 0, 1, -1, 0}";
 },
 {
 name = ogonek;
-transform = "{1, 0, 0, 1, -154, 0}";
+transform = "{1, 0, 0, 1, -145, 42}";
 }
 );
 layerId = "F6847B4A-0A2E-406E-80B1-427EE12FE698";
@@ -23426,9 +23423,9 @@ width = 697;
 unicode = 016B;
 },
 {
-color = 0;
+color = 4;
 glyphname = uogonek;
-lastChange = "2017-08-12 00:31:06 +0000";
+lastChange = "2017-08-14 23:36:23 +0000";
 layers = (
 {
 components = (
@@ -23437,7 +23434,7 @@ name = u;
 },
 {
 name = ogonek;
-transform = "{1, 0, 0, 1, 331, 0}";
+transform = "{1, 0, 0, 1, 331, 38}";
 }
 );
 layerId = "4C47FEBD-3B68-4176-B8ED-E26FA8D86AD9";
@@ -23464,7 +23461,7 @@ transform = "{1, 0, 0, 1, -6, 0}";
 },
 {
 name = ogonek;
-transform = "{1, 0, 0, 1, 256, 0}";
+transform = "{1, 0, 0, 1, 262, 42}";
 }
 );
 layerId = "F6847B4A-0A2E-406E-80B1-427EE12FE698";
@@ -42587,9 +42584,8 @@ type = fontInfo;
 };
 },
 {
-color = 0;
 glyphname = ogonek;
-lastChange = "2017-08-12 00:31:06 +0000";
+lastChange = "2017-08-14 23:36:16 +0000";
 layers = (
 {
 layerId = "4C47FEBD-3B68-4176-B8ED-E26FA8D86AD9";
