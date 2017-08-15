@@ -1035,13 +1035,13 @@
   <head>
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
-    <fontRevision value="3.0"/>
-    <checkSumAdjustment value="0x25f9c30d"/>
+    <fontRevision value="3.01"/>
+    <checkSumAdjustment value="0x2416d211"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1000"/>
-    <created value="Thu Aug 10 00:16:03 2017"/>
-    <modified value="Thu Aug 10 00:16:03 2017"/>
+    <created value="Mon Aug 14 17:40:57 2017"/>
+    <modified value="Mon Aug 14 17:40:57 2017"/>
     <xMin value="-626"/>
     <yMin value="-627"/>
     <xMax value="2420"/>
@@ -1120,8 +1120,8 @@
     <sTypoAscender value="1050"/>
     <sTypoDescender value="-350"/>
     <sTypoLineGap value="100"/>
-    <usWinAscent value="1100"/>
-    <usWinDescent value="400"/>
+    <usWinAscent value="1135"/>
+    <usWinDescent value="627"/>
     <ulCodePageRange1 value="00100000 00000000 00000000 10010011"/>
     <ulCodePageRange2 value="00000000 00000000 00000000 00000000"/>
     <sxHeight value="564"/>
@@ -1142,13 +1142,13 @@
       Regular
     </namerecord>
     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
-      3.000;ITFO;Poppins-Black
+      3.010;ITFO;Poppins-Black
     </namerecord>
     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
       Poppins Black
     </namerecord>
     <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
-      Version 3.000;PS 1.000;hotconv 16.6.54;makeotf.lib2.5.65590
+      Version 3.010;PS 1.000;hotconv 16.6.54;makeotf.lib2.5.65590
     </namerecord>
     <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
       Poppins-Black

@@ -1035,13 +1035,13 @@
   <head>
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
-    <fontRevision value="3.0"/>
-    <checkSumAdjustment value="0x75dd939"/>
+    <fontRevision value="3.01"/>
+    <checkSumAdjustment value="0xc0a8063f"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1000"/>
-    <created value="Thu Aug 10 00:19:11 2017"/>
-    <modified value="Thu Aug 10 07:19:13 2017"/>
+    <created value="Mon Aug 14 17:43:18 2017"/>
+    <modified value="Tue Aug 15 00:43:21 2017"/>
     <xMin value="-531"/>
     <yMin value="-573"/>
     <xMax value="2567"/>
@@ -1079,8 +1079,8 @@
     <numGlyphs value="1027"/>
     <maxPoints value="153"/>
     <maxContours value="12"/>
-    <maxCompositePoints value="119"/>
-    <maxCompositeContours value="6"/>
+    <maxCompositePoints value="132"/>
+    <maxCompositeContours value="8"/>
     <maxZones value="1"/>
     <maxTwilightPoints value="2"/>
     <maxStorage value="30"/>
@@ -1088,7 +1088,7 @@
     <maxInstructionDefs value="0"/>
     <maxStackElements value="100"/>
     <maxSizeOfInstructions value="0"/>
-    <maxComponentElements value="3"/>
+    <maxComponentElements value="4"/>
     <maxComponentDepth value="1"/>
   </maxp>
 
@@ -1134,8 +1134,8 @@
     <sTypoAscender value="1050"/>
     <sTypoDescender value="-350"/>
     <sTypoLineGap value="100"/>
-    <usWinAscent value="1100"/>
-    <usWinDescent value="400"/>
+    <usWinAscent value="1135"/>
+    <usWinDescent value="627"/>
     <ulCodePageRange1 value="00100000 00000000 00000000 10010011"/>
     <ulCodePageRange2 value="00000000 00000000 00000000 00000000"/>
     <sxHeight value="549"/>
@@ -3628,57 +3628,8 @@
     </TTGlyph>
 
     <TTGlyph name="Ccedilla" xMin="49" yMin="-260" xMax="714" yMax="712">
-      <contour>
-        <pt x="471" y="78" on="0"/>
-        <pt x="591" y="161" on="0"/>
-        <pt x="618" y="231" on="1"/>
-        <pt x="714" y="231" on="1"/>
-        <pt x="684" y="127" on="0"/>
-        <pt x="530" y="2" on="0"/>
-        <pt x="413" y="-5" on="1"/>
-        <pt x="413" y="-67" on="1"/>
-        <pt x="469" y="-65" on="0"/>
-        <pt x="540" y="-112" on="0"/>
-        <pt x="540" y="-161" on="1"/>
-        <pt x="540" y="-209" on="0"/>
-        <pt x="472" y="-260" on="0"/>
-        <pt x="418" y="-260" on="1"/>
-        <pt x="316" y="-260" on="1"/>
-        <pt x="316" y="-207" on="1"/>
-        <pt x="408" y="-207" on="1"/>
-        <pt x="475" y="-207" on="0"/>
-        <pt x="475" y="-159" on="1"/>
-        <pt x="475" y="-139" on="0"/>
-        <pt x="443" y="-114" on="0"/>
-        <pt x="408" y="-114" on="1"/>
-        <pt x="354" y="-114" on="1"/>
-        <pt x="354" y="-5" on="1"/>
-        <pt x="263" y="2" on="0"/>
-        <pt x="125" y="97" on="0"/>
-        <pt x="49" y="253" on="0"/>
-        <pt x="49" y="352" on="1"/>
-        <pt x="49" y="457" on="0"/>
-        <pt x="134" y="621" on="0"/>
-        <pt x="286" y="712" on="0"/>
-        <pt x="385" y="712" on="1"/>
-        <pt x="514" y="712" on="0"/>
-        <pt x="682" y="585" on="0"/>
-        <pt x="714" y="475" on="1"/>
-        <pt x="618" y="475" on="1"/>
-        <pt x="591" y="545" on="0"/>
-        <pt x="471" y="628" on="0"/>
-        <pt x="384" y="628" on="1"/>
-        <pt x="315" y="628" on="0"/>
-        <pt x="206" y="561" on="0"/>
-        <pt x="143" y="436" on="0"/>
-        <pt x="143" y="352" on="1"/>
-        <pt x="143" y="269" on="0"/>
-        <pt x="206" y="145" on="0"/>
-        <pt x="315" y="78" on="0"/>
-        <pt x="384" y="78" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="C" x="0" y="0" flags="0x0"/>
+      <component glyphName="cedilla" x="287" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="Cdotaccent" xMin="49" yMin="-6" xMax="714" yMax="881">
@@ -3783,41 +3734,9 @@
       <component glyphName="macron" x="62" y="157" flags="0x4"/>
     </TTGlyph>
 
-    <TTGlyph name="Eogonek" xMin="73" yMin="-197" xMax="488" yMax="705">
-      <contour>
-        <pt x="488" y="-144" on="1"/>
-        <pt x="488" y="-197" on="1"/>
-        <pt x="384" y="-197" on="1"/>
-        <pt x="328" y="-197" on="0"/>
-        <pt x="257" y="-142" on="0"/>
-        <pt x="257" y="-92" on="1"/>
-        <pt x="257" y="-59" on="0"/>
-        <pt x="287" y="-12" on="0"/>
-        <pt x="314" y="0" on="1"/>
-        <pt x="73" y="0" on="1"/>
-        <pt x="73" y="705" on="1"/>
-        <pt x="462" y="705" on="1"/>
-        <pt x="462" y="631" on="1"/>
-        <pt x="164" y="631" on="1"/>
-        <pt x="164" y="390" on="1"/>
-        <pt x="432" y="390" on="1"/>
-        <pt x="432" y="320" on="1"/>
-        <pt x="164" y="320" on="1"/>
-        <pt x="164" y="74" on="1"/>
-        <pt x="462" y="74" on="1"/>
-        <pt x="462" y="0" on="1"/>
-        <pt x="446" y="0" on="1"/>
-        <pt x="446" y="-36" on="1"/>
-        <pt x="392" y="-36" on="1"/>
-        <pt x="360" y="-36" on="0"/>
-        <pt x="322" y="-64" on="0"/>
-        <pt x="322" y="-89" on="1"/>
-        <pt x="322" y="-114" on="0"/>
-        <pt x="360" y="-144" on="0"/>
-        <pt x="392" y="-144" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+    <TTGlyph name="Eogonek" xMin="73" yMin="-173" xMax="488" yMax="705">
+      <component glyphName="E" x="0" y="0" flags="0x0"/>
+      <component glyphName="ogonek" x="231" y="51" flags="0x4"/>
     </TTGlyph>
 
     <TTGlyph name="Eth" xMin="6" yMin="0" xMax="693" yMax="705">
@@ -4040,9 +3959,9 @@
       <component glyphName="macron" x="-87" y="157" flags="0x4"/>
     </TTGlyph>
 
-    <TTGlyph name="Iogonek" xMin="-25" yMin="-224" xMax="206" yMax="705">
+    <TTGlyph name="Iogonek" xMin="-25" yMin="-199" xMax="206" yMax="705">
       <component glyphName="I" x="0" y="0" flags="0x0"/>
-      <component glyphName="ogonek" x="-51" y="0" flags="0x0"/>
+      <component glyphName="ogonek" x="-51" y="25" flags="0x4"/>
     </TTGlyph>
 
     <TTGlyph name="Itilde" xMin="-37" yMin="0" xMax="274" yMax="869">
@@ -5106,9 +5025,9 @@
         </assembly></instructions>
     </TTGlyph>
 
-    <TTGlyph name="aogonek" xMin="46" yMin="-224" xMax="644" yMax="556">
+    <TTGlyph name="aogonek" xMin="46" yMin="-199" xMax="644" yMax="556">
       <component glyphName="a" x="0" y="0" flags="0x0"/>
-      <component glyphName="ogonek" x="387" y="0" flags="0x0"/>
+      <component glyphName="ogonek" x="387" y="25" flags="0x4"/>
     </TTGlyph>
 
     <TTGlyph name="approxequal" xMin="33" yMin="197" xMax="485" yMax="559">
@@ -5606,56 +5525,8 @@
     </TTGlyph>
 
     <TTGlyph name="ccedilla" xMin="46" yMin="-260" xMax="575" yMax="556">
-      <contour>
-        <pt x="380" y="72" on="0"/>
-        <pt x="469" y="140" on="0"/>
-        <pt x="479" y="199" on="1"/>
-        <pt x="575" y="199" on="1"/>
-        <pt x="560" y="108" on="0"/>
-        <pt x="429" y="-3" on="0"/>
-        <pt x="328" y="-7" on="1"/>
-        <pt x="328" y="-67" on="1"/>
-        <pt x="384" y="-65" on="0"/>
-        <pt x="455" y="-112" on="0"/>
-        <pt x="455" y="-161" on="1"/>
-        <pt x="455" y="-209" on="0"/>
-        <pt x="387" y="-260" on="0"/>
-        <pt x="333" y="-260" on="1"/>
-        <pt x="231" y="-260" on="1"/>
-        <pt x="231" y="-207" on="1"/>
-        <pt x="323" y="-207" on="1"/>
-        <pt x="390" y="-207" on="0"/>
-        <pt x="390" y="-159" on="1"/>
-        <pt x="390" y="-139" on="0"/>
-        <pt x="358" y="-114" on="0"/>
-        <pt x="323" y="-114" on="1"/>
-        <pt x="269" y="-114" on="1"/>
-        <pt x="269" y="-4" on="1"/>
-        <pt x="168" y="11" on="0"/>
-        <pt x="46" y="158" on="0"/>
-        <pt x="46" y="274" on="1"/>
-        <pt x="46" y="360" on="0"/>
-        <pt x="115" y="488" on="0"/>
-        <pt x="237" y="556" on="0"/>
-        <pt x="316" y="556" on="1"/>
-        <pt x="421" y="556" on="0"/>
-        <pt x="559" y="444" on="0"/>
-        <pt x="575" y="350" on="1"/>
-        <pt x="479" y="350" on="1"/>
-        <pt x="469" y="409" on="0"/>
-        <pt x="380" y="476" on="0"/>
-        <pt x="314" y="476" on="1"/>
-        <pt x="266" y="476" on="0"/>
-        <pt x="187" y="432" on="0"/>
-        <pt x="139" y="341" on="0"/>
-        <pt x="139" y="274" on="1"/>
-        <pt x="139" y="207" on="0"/>
-        <pt x="187" y="116" on="0"/>
-        <pt x="266" y="72" on="0"/>
-        <pt x="314" y="72" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="c" x="0" y="0" flags="0x0"/>
+      <component glyphName="cedilla" x="202" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="cdotaccent" xMin="46" yMin="-7" xMax="575" yMax="724">
@@ -6543,215 +6414,19 @@
     </TTGlyph>
 
     <TTGlyph name="dvAA" xMin="74" yMin="0" xMax="1147" yMax="749">
-      <contour>
-        <pt x="1147" y="670" on="1"/>
-        <pt x="1016" y="670" on="1"/>
-        <pt x="1016" y="0" on="1"/>
-        <pt x="932" y="0" on="1"/>
-        <pt x="932" y="670" on="1"/>
-        <pt x="722" y="670" on="1"/>
-        <pt x="722" y="0" on="1"/>
-        <pt x="639" y="0" on="1"/>
-        <pt x="639" y="327" on="1"/>
-        <pt x="480" y="328" on="1"/>
-        <pt x="498" y="289" on="0"/>
-        <pt x="498" y="245" on="1"/>
-        <pt x="498" y="158" on="0"/>
-        <pt x="388" y="53" on="0"/>
-        <pt x="296" y="53" on="1"/>
-        <pt x="232" y="53" on="0"/>
-        <pt x="131" y="104" on="0"/>
-        <pt x="74" y="196" on="0"/>
-        <pt x="74" y="256" on="1"/>
-        <pt x="152" y="256" on="1"/>
-        <pt x="152" y="199" on="0"/>
-        <pt x="229" y="125" on="0"/>
-        <pt x="290" y="125" on="1"/>
-        <pt x="350" y="125" on="0"/>
-        <pt x="422" y="196" on="0"/>
-        <pt x="422" y="253" on="1"/>
-        <pt x="422" y="296" on="0"/>
-        <pt x="399" y="328" on="1"/>
-        <pt x="396" y="328" on="1"/>
-        <pt x="395" y="334" on="1"/>
-        <pt x="358" y="380" on="0"/>
-        <pt x="282" y="380" on="1"/>
-        <pt x="242" y="380" on="1"/>
-        <pt x="242" y="448" on="1"/>
-        <pt x="282" y="448" on="1"/>
-        <pt x="343" y="448" on="0"/>
-        <pt x="411" y="515" on="0"/>
-        <pt x="411" y="560" on="1"/>
-        <pt x="411" y="615" on="0"/>
-        <pt x="341" y="678" on="0"/>
-        <pt x="288" y="678" on="1"/>
-        <pt x="233" y="678" on="0"/>
-        <pt x="158" y="615" on="0"/>
-        <pt x="159" y="564" on="1"/>
-        <pt x="82" y="564" on="1"/>
-        <pt x="82" y="620" on="0"/>
-        <pt x="135" y="703" on="0"/>
-        <pt x="228" y="749" on="0"/>
-        <pt x="288" y="749" on="1"/>
-        <pt x="376" y="749" on="0"/>
-        <pt x="486" y="652" on="0"/>
-        <pt x="486" y="572" on="1"/>
-        <pt x="486" y="514" on="0"/>
-        <pt x="424" y="432" on="0"/>
-        <pt x="365" y="417" on="1"/>
-        <pt x="365" y="415" on="1"/>
-        <pt x="395" y="410" on="0"/>
-        <pt x="417" y="397" on="1"/>
-        <pt x="639" y="397" on="1"/>
-        <pt x="639" y="740" on="1"/>
-        <pt x="1147" y="740" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvmAA" x="827" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvAI" xMin="-26" yMin="19" xMax="678" yMax="981">
-      <contour>
-        <pt x="367" y="426" on="0"/>
-        <pt x="381" y="426" on="1"/>
-        <pt x="437" y="426" on="0"/>
-        <pt x="485" y="488" on="0"/>
-        <pt x="485" y="556" on="1"/>
-        <pt x="485" y="670" on="1"/>
-        <pt x="185" y="670" on="1"/>
-        <pt x="185" y="271" on="1"/>
-        <pt x="185" y="186" on="0"/>
-        <pt x="265" y="91" on="0"/>
-        <pt x="343" y="91" on="1"/>
-        <pt x="413" y="91" on="0"/>
-        <pt x="492" y="173" on="0"/>
-        <pt x="492" y="248" on="1"/>
-        <pt x="573" y="248" on="1"/>
-        <pt x="573" y="140" on="0"/>
-        <pt x="451" y="19" on="0"/>
-        <pt x="344" y="19" on="1"/>
-        <pt x="224" y="19" on="0"/>
-        <pt x="102" y="156" on="0"/>
-        <pt x="102" y="274" on="1"/>
-        <pt x="102" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="482" y="740" on="1"/>
-        <pt x="431" y="820" on="0"/>
-        <pt x="364" y="892" on="0"/>
-        <pt x="302" y="913" on="0"/>
-        <pt x="249" y="913" on="1"/>
-        <pt x="207" y="913" on="1"/>
-        <pt x="207" y="981" on="1"/>
-        <pt x="248" y="981" on="1"/>
-        <pt x="321" y="981" on="0"/>
-        <pt x="406" y="952" on="0"/>
-        <pt x="496" y="851" on="0"/>
-        <pt x="562" y="740" on="1"/>
-        <pt x="678" y="740" on="1"/>
-        <pt x="678" y="670" on="1"/>
-        <pt x="567" y="670" on="1"/>
-        <pt x="567" y="554" on="1"/>
-        <pt x="567" y="450" on="0"/>
-        <pt x="488" y="350" on="0"/>
-        <pt x="398" y="350" on="1"/>
-        <pt x="388" y="350" on="0"/>
-        <pt x="360" y="352" on="1"/>
-        <pt x="360" y="427" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvE" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvmE" x="669" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvAU" xMin="74" yMin="0" xMax="1147" yMax="1041">
-      <contour>
-        <pt x="1147" y="740" on="1"/>
-        <pt x="1147" y="670" on="1"/>
-        <pt x="1016" y="670" on="1"/>
-        <pt x="1016" y="0" on="1"/>
-        <pt x="932" y="0" on="1"/>
-        <pt x="932" y="670" on="1"/>
-        <pt x="722" y="670" on="1"/>
-        <pt x="722" y="0" on="1"/>
-        <pt x="639" y="0" on="1"/>
-        <pt x="639" y="327" on="1"/>
-        <pt x="480" y="328" on="1"/>
-        <pt x="498" y="289" on="0"/>
-        <pt x="498" y="245" on="1"/>
-        <pt x="498" y="158" on="0"/>
-        <pt x="388" y="53" on="0"/>
-        <pt x="296" y="53" on="1"/>
-        <pt x="232" y="53" on="0"/>
-        <pt x="131" y="104" on="0"/>
-        <pt x="74" y="196" on="0"/>
-        <pt x="74" y="256" on="1"/>
-        <pt x="152" y="256" on="1"/>
-        <pt x="152" y="199" on="0"/>
-        <pt x="229" y="125" on="0"/>
-        <pt x="290" y="125" on="1"/>
-        <pt x="350" y="125" on="0"/>
-        <pt x="422" y="196" on="0"/>
-        <pt x="422" y="253" on="1"/>
-        <pt x="422" y="296" on="0"/>
-        <pt x="399" y="328" on="1"/>
-        <pt x="396" y="328" on="1"/>
-        <pt x="395" y="334" on="1"/>
-        <pt x="358" y="380" on="0"/>
-        <pt x="282" y="380" on="1"/>
-        <pt x="242" y="380" on="1"/>
-        <pt x="242" y="448" on="1"/>
-        <pt x="282" y="448" on="1"/>
-        <pt x="343" y="448" on="0"/>
-        <pt x="411" y="515" on="0"/>
-        <pt x="411" y="560" on="1"/>
-        <pt x="411" y="615" on="0"/>
-        <pt x="341" y="678" on="0"/>
-        <pt x="288" y="678" on="1"/>
-        <pt x="233" y="678" on="0"/>
-        <pt x="158" y="615" on="0"/>
-        <pt x="159" y="564" on="1"/>
-        <pt x="82" y="564" on="1"/>
-        <pt x="82" y="620" on="0"/>
-        <pt x="135" y="703" on="0"/>
-        <pt x="228" y="749" on="0"/>
-        <pt x="288" y="749" on="1"/>
-        <pt x="376" y="749" on="0"/>
-        <pt x="486" y="652" on="0"/>
-        <pt x="486" y="572" on="1"/>
-        <pt x="486" y="514" on="0"/>
-        <pt x="424" y="432" on="0"/>
-        <pt x="365" y="417" on="1"/>
-        <pt x="365" y="415" on="1"/>
-        <pt x="395" y="410" on="0"/>
-        <pt x="417" y="397" on="1"/>
-        <pt x="639" y="397" on="1"/>
-        <pt x="639" y="740" on="1"/>
-        <pt x="937" y="740" on="1"/>
-        <pt x="878" y="786" on="0"/>
-        <pt x="813" y="824" on="0"/>
-        <pt x="753" y="834" on="0"/>
-        <pt x="694" y="834" on="1"/>
-        <pt x="652" y="834" on="1"/>
-        <pt x="652" y="889" on="1"/>
-        <pt x="692" y="889" on="1"/>
-        <pt x="750" y="889" on="0"/>
-        <pt x="810" y="881" on="0"/>
-        <pt x="874" y="847" on="0"/>
-        <pt x="922" y="807" on="1"/>
-        <pt x="876" y="891" on="0"/>
-        <pt x="807" y="967" on="0"/>
-        <pt x="746" y="986" on="0"/>
-        <pt x="695" y="986" on="1"/>
-        <pt x="652" y="986" on="1"/>
-        <pt x="652" y="1041" on="1"/>
-        <pt x="694" y="1041" on="1"/>
-        <pt x="767" y="1041" on="0"/>
-        <pt x="847" y="1009" on="0"/>
-        <pt x="937" y="885" on="0"/>
-        <pt x="1011" y="740" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvmAI" x="1119" y="0" flags="0x0"/>
+      <component glyphName="dvA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvmAA" x="827" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvAbbreviationsign" xMin="81" yMin="187" xMax="413" yMax="510">
@@ -7943,78 +7618,8 @@
     </TTGlyph>
 
     <TTGlyph name="dvB_DA" xMin="-26" yMin="-16" xMax="1071" yMax="740">
-      <contour>
-        <pt x="696" y="488" on="0"/>
-        <pt x="590" y="402" on="0"/>
-        <pt x="590" y="323" on="1"/>
-        <pt x="590" y="252" on="0"/>
-        <pt x="675" y="166" on="0"/>
-        <pt x="747" y="166" on="1"/>
-        <pt x="782" y="166" on="0"/>
-        <pt x="847" y="196" on="0"/>
-        <pt x="889" y="257" on="0"/>
-        <pt x="889" y="302" on="1"/>
-        <pt x="966" y="302" on="1"/>
-        <pt x="966" y="-16" on="1"/>
-        <pt x="884" y="-16" on="1"/>
-        <pt x="884" y="176" on="1"/>
-        <pt x="863" y="141" on="0"/>
-        <pt x="778" y="99" on="0"/>
-        <pt x="725" y="99" on="1"/>
-        <pt x="662" y="99" on="0"/>
-        <pt x="563" y="151" on="0"/>
-        <pt x="535" y="200" on="1"/>
-        <pt x="505" y="149" on="0"/>
-        <pt x="396" y="91" on="0"/>
-        <pt x="323" y="91" on="1"/>
-        <pt x="250" y="91" on="0"/>
-        <pt x="135" y="151" on="0"/>
-        <pt x="70" y="260" on="0"/>
-        <pt x="70" y="330" on="1"/>
-        <pt x="70" y="400" on="0"/>
-        <pt x="133" y="509" on="0"/>
-        <pt x="247" y="569" on="0"/>
-        <pt x="321" y="569" on="1"/>
-        <pt x="399" y="569" on="0"/>
-        <pt x="509" y="506" on="0"/>
-        <pt x="539" y="453" on="1"/>
-        <pt x="573" y="505" on="0"/>
-        <pt x="694" y="560" on="0"/>
-        <pt x="770" y="560" on="1"/>
-        <pt x="843" y="560" on="1"/>
-        <pt x="843" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1071" y="740" on="1"/>
-        <pt x="1070" y="670" on="1"/>
-        <pt x="927" y="670" on="1"/>
-        <pt x="927" y="488" on="1"/>
-        <pt x="778" y="488" on="1"/>
-      </contour>
-      <contour>
-        <pt x="505" y="270" on="0"/>
-        <pt x="505" y="329" on="1"/>
-        <pt x="505" y="375" on="0"/>
-        <pt x="463" y="458" on="0"/>
-        <pt x="381" y="510" on="0"/>
-        <pt x="323" y="510" on="1"/>
-        <pt x="250" y="510" on="0"/>
-        <pt x="199" y="465" on="1"/>
-        <pt x="473" y="225" on="1"/>
-      </contour>
-      <contour>
-        <pt x="140" y="274" on="0"/>
-        <pt x="191" y="193" on="0"/>
-        <pt x="275" y="150" on="0"/>
-        <pt x="325" y="150" on="1"/>
-        <pt x="400" y="150" on="0"/>
-        <pt x="448" y="195" on="1"/>
-        <pt x="172" y="436" on="1"/>
-        <pt x="140" y="390" on="0"/>
-        <pt x="140" y="328" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvDA" x="435" y="0" flags="0x0"/>
+      <component glyphName="dvB" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvB_DHA" xMin="-26" yMin="0" xMax="1155" yMax="749">
@@ -8717,84 +8322,8 @@
     </TTGlyph>
 
     <TTGlyph name="dvB_NA" xMin="-26" yMin="0" xMax="1258" yMax="740">
-      <contour>
-        <pt x="1258" y="670" on="1"/>
-        <pt x="1126" y="670" on="1"/>
-        <pt x="1126" y="0" on="1"/>
-        <pt x="1043" y="0" on="1"/>
-        <pt x="1043" y="434" on="1"/>
-        <pt x="848" y="434" on="1"/>
-        <pt x="873" y="411" on="0"/>
-        <pt x="902" y="343" on="0"/>
-        <pt x="902" y="301" on="1"/>
-        <pt x="902" y="245" on="0"/>
-        <pt x="851" y="161" on="0"/>
-        <pt x="763" y="117" on="0"/>
-        <pt x="708" y="117" on="1"/>
-        <pt x="653" y="117" on="0"/>
-        <pt x="563" y="161" on="0"/>
-        <pt x="536" y="201" on="1"/>
-        <pt x="506" y="150" on="0"/>
-        <pt x="396" y="91" on="0"/>
-        <pt x="323" y="91" on="1"/>
-        <pt x="250" y="91" on="0"/>
-        <pt x="135" y="151" on="0"/>
-        <pt x="70" y="260" on="0"/>
-        <pt x="70" y="330" on="1"/>
-        <pt x="70" y="400" on="0"/>
-        <pt x="133" y="509" on="0"/>
-        <pt x="247" y="569" on="0"/>
-        <pt x="321" y="569" on="1"/>
-        <pt x="406" y="569" on="0"/>
-        <pt x="521" y="496" on="0"/>
-        <pt x="548" y="436" on="1"/>
-        <pt x="576" y="469" on="0"/>
-        <pt x="663" y="504" on="0"/>
-        <pt x="715" y="504" on="1"/>
-        <pt x="1043" y="504" on="1"/>
-        <pt x="1043" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1258" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="505" y="270" on="0"/>
-        <pt x="505" y="329" on="1"/>
-        <pt x="505" y="375" on="0"/>
-        <pt x="463" y="458" on="0"/>
-        <pt x="381" y="510" on="0"/>
-        <pt x="323" y="510" on="1"/>
-        <pt x="250" y="510" on="0"/>
-        <pt x="199" y="465" on="1"/>
-        <pt x="473" y="225" on="1"/>
-      </contour>
-      <contour>
-        <pt x="140" y="274" on="0"/>
-        <pt x="191" y="193" on="0"/>
-        <pt x="275" y="150" on="0"/>
-        <pt x="325" y="150" on="1"/>
-        <pt x="400" y="150" on="0"/>
-        <pt x="448" y="195" on="1"/>
-        <pt x="172" y="436" on="1"/>
-        <pt x="140" y="390" on="0"/>
-        <pt x="140" y="328" on="1"/>
-      </contour>
-      <contour>
-        <pt x="764" y="188" on="0"/>
-        <pt x="834" y="257" on="0"/>
-        <pt x="834" y="311" on="1"/>
-        <pt x="834" y="364" on="0"/>
-        <pt x="764" y="434" on="0"/>
-        <pt x="709" y="434" on="1"/>
-        <pt x="653" y="434" on="0"/>
-        <pt x="581" y="365" on="0"/>
-        <pt x="581" y="310" on="1"/>
-        <pt x="581" y="256" on="0"/>
-        <pt x="652" y="188" on="0"/>
-        <pt x="709" y="188" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvNA" x="442" y="0" flags="0x0"/>
+      <component glyphName="dvB" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvB_R" xMin="-26" yMin="-54" xMax="573" yMax="740">
@@ -9082,153 +8611,13 @@
     </TTGlyph>
 
     <TTGlyph name="dvB_TA" xMin="-26" yMin="0" xMax="1149" yMax="740">
-      <contour>
-        <pt x="1149" y="670" on="1"/>
-        <pt x="1017" y="670" on="1"/>
-        <pt x="1017" y="0" on="1"/>
-        <pt x="934" y="0" on="1"/>
-        <pt x="934" y="426" on="1"/>
-        <pt x="788" y="426" on="1"/>
-        <pt x="692" y="426" on="0"/>
-        <pt x="583" y="336" on="0"/>
-        <pt x="583" y="248" on="1"/>
-        <pt x="583" y="163" on="0"/>
-        <pt x="680" y="68" on="0"/>
-        <pt x="770" y="68" on="1"/>
-        <pt x="792" y="68" on="1"/>
-        <pt x="792" y="2" on="1"/>
-        <pt x="759" y="2" on="1"/>
-        <pt x="663" y="2" on="0"/>
-        <pt x="532" y="85" on="0"/>
-        <pt x="510" y="166" on="1"/>
-        <pt x="477" y="130" on="0"/>
-        <pt x="383" y="91" on="0"/>
-        <pt x="323" y="91" on="1"/>
-        <pt x="250" y="91" on="0"/>
-        <pt x="135" y="151" on="0"/>
-        <pt x="70" y="260" on="0"/>
-        <pt x="70" y="330" on="1"/>
-        <pt x="70" y="400" on="0"/>
-        <pt x="133" y="509" on="0"/>
-        <pt x="247" y="569" on="0"/>
-        <pt x="321" y="569" on="1"/>
-        <pt x="413" y="569" on="0"/>
-        <pt x="532" y="484" on="0"/>
-        <pt x="556" y="416" on="1"/>
-        <pt x="593" y="457" on="0"/>
-        <pt x="710" y="498" on="0"/>
-        <pt x="784" y="498" on="1"/>
-        <pt x="934" y="498" on="1"/>
-        <pt x="934" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1149" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="250" y="510" on="0"/>
-        <pt x="199" y="465" on="1"/>
-        <pt x="473" y="225" on="1"/>
-        <pt x="505" y="270" on="0"/>
-        <pt x="505" y="329" on="1"/>
-        <pt x="505" y="375" on="0"/>
-        <pt x="463" y="458" on="0"/>
-        <pt x="381" y="510" on="0"/>
-        <pt x="323" y="510" on="1"/>
-      </contour>
-      <contour>
-        <pt x="140" y="274" on="0"/>
-        <pt x="191" y="193" on="0"/>
-        <pt x="275" y="150" on="0"/>
-        <pt x="325" y="150" on="1"/>
-        <pt x="400" y="150" on="0"/>
-        <pt x="448" y="195" on="1"/>
-        <pt x="172" y="436" on="1"/>
-        <pt x="140" y="390" on="0"/>
-        <pt x="140" y="328" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvTA" x="429" y="0" flags="0x0"/>
+      <component glyphName="dvB" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvB_VA" xMin="-26" yMin="0" xMax="1136" yMax="740">
-      <contour>
-        <pt x="1136" y="670" on="1"/>
-        <pt x="1004" y="670" on="1"/>
-        <pt x="1004" y="0" on="1"/>
-        <pt x="923" y="0" on="1"/>
-        <pt x="923" y="202" on="1"/>
-        <pt x="898" y="153" on="0"/>
-        <pt x="800" y="95" on="0"/>
-        <pt x="733" y="95" on="1"/>
-        <pt x="668" y="95" on="0"/>
-        <pt x="566" y="151" on="0"/>
-        <pt x="537" y="202" on="1"/>
-        <pt x="506" y="150" on="0"/>
-        <pt x="397" y="91" on="0"/>
-        <pt x="323" y="91" on="1"/>
-        <pt x="250" y="91" on="0"/>
-        <pt x="135" y="151" on="0"/>
-        <pt x="70" y="260" on="0"/>
-        <pt x="70" y="330" on="1"/>
-        <pt x="70" y="400" on="0"/>
-        <pt x="133" y="509" on="0"/>
-        <pt x="247" y="569" on="0"/>
-        <pt x="321" y="569" on="1"/>
-        <pt x="398" y="569" on="0"/>
-        <pt x="507" y="508" on="0"/>
-        <pt x="537" y="457" on="1"/>
-        <pt x="566" y="507" on="0"/>
-        <pt x="668" y="563" on="0"/>
-        <pt x="733" y="563" on="1"/>
-        <pt x="801" y="563" on="0"/>
-        <pt x="898" y="506" on="0"/>
-        <pt x="923" y="458" on="1"/>
-        <pt x="923" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1136" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="505" y="270" on="0"/>
-        <pt x="505" y="329" on="1"/>
-        <pt x="505" y="375" on="0"/>
-        <pt x="463" y="458" on="0"/>
-        <pt x="381" y="510" on="0"/>
-        <pt x="323" y="510" on="1"/>
-        <pt x="250" y="510" on="0"/>
-        <pt x="199" y="465" on="1"/>
-        <pt x="473" y="225" on="1"/>
-      </contour>
-      <contour>
-        <pt x="810" y="163" on="0"/>
-        <pt x="886" y="212" on="0"/>
-        <pt x="923" y="288" on="0"/>
-        <pt x="923" y="328" on="1"/>
-        <pt x="923" y="370" on="0"/>
-        <pt x="886" y="447" on="0"/>
-        <pt x="810" y="495" on="0"/>
-        <pt x="754" y="495" on="1"/>
-        <pt x="707" y="495" on="0"/>
-        <pt x="631" y="455" on="0"/>
-        <pt x="587" y="380" on="0"/>
-        <pt x="587" y="331" on="1"/>
-        <pt x="587" y="254" on="0"/>
-        <pt x="681" y="163" on="0"/>
-        <pt x="754" y="163" on="1"/>
-      </contour>
-      <contour>
-        <pt x="140" y="274" on="0"/>
-        <pt x="191" y="193" on="0"/>
-        <pt x="275" y="150" on="0"/>
-        <pt x="325" y="150" on="1"/>
-        <pt x="400" y="150" on="0"/>
-        <pt x="448" y="195" on="1"/>
-        <pt x="172" y="436" on="1"/>
-        <pt x="140" y="390" on="0"/>
-        <pt x="140" y="328" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvVA" x="435" y="0" flags="0x0"/>
+      <component glyphName="dvB" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvB_YA" xMin="-26" yMin="0" xMax="1197" yMax="740">
@@ -9520,240 +8909,18 @@
     </TTGlyph>
 
     <TTGlyph name="dvCH_R" xMin="-26" yMin="-121" xMax="844" yMax="740">
-      <contour>
-        <pt x="180" y="670" on="1"/>
-        <pt x="180" y="568" on="1"/>
-        <pt x="180" y="508" on="0"/>
-        <pt x="242" y="447" on="0"/>
-        <pt x="311" y="447" on="1"/>
-        <pt x="333" y="447" on="1"/>
-        <pt x="333" y="380" on="1"/>
-        <pt x="313" y="380" on="1"/>
-        <pt x="236" y="380" on="0"/>
-        <pt x="158" y="309" on="0"/>
-        <pt x="158" y="254" on="1"/>
-        <pt x="158" y="179" on="0"/>
-        <pt x="285" y="99" on="0"/>
-        <pt x="398" y="99" on="1"/>
-        <pt x="486" y="99" on="0"/>
-        <pt x="621" y="158" on="0"/>
-        <pt x="696" y="268" on="0"/>
-        <pt x="696" y="344" on="1"/>
-        <pt x="696" y="412" on="0"/>
-        <pt x="631" y="487" on="0"/>
-        <pt x="586" y="487" on="1"/>
-        <pt x="544" y="487" on="0"/>
-        <pt x="481" y="430" on="0"/>
-        <pt x="481" y="372" on="1"/>
-        <pt x="481" y="332" on="0"/>
-        <pt x="497" y="279" on="1"/>
-        <pt x="427" y="279" on="1"/>
-        <pt x="410" y="328" on="0"/>
-        <pt x="410" y="380" on="1"/>
-        <pt x="410" y="467" on="0"/>
-        <pt x="512" y="551" on="0"/>
-        <pt x="586" y="551" on="1"/>
-        <pt x="638" y="551" on="0"/>
-        <pt x="722" y="503" on="0"/>
-        <pt x="771" y="409" on="0"/>
-        <pt x="771" y="341" on="1"/>
-        <pt x="771" y="220" on="0"/>
-        <pt x="625" y="60" on="0"/>
-        <pt x="499" y="36" on="1"/>
-        <pt x="646" y="-121" on="1"/>
-        <pt x="559" y="-121" on="1"/>
-        <pt x="424" y="25" on="1"/>
-        <pt x="289" y="-121" on="1"/>
-        <pt x="202" y="-121" on="1"/>
-        <pt x="341" y="29" on="1"/>
-        <pt x="217" y="40" on="0"/>
-        <pt x="73" y="151" on="0"/>
-        <pt x="73" y="247" on="1"/>
-        <pt x="73" y="315" on="0"/>
-        <pt x="150" y="399" on="0"/>
-        <pt x="212" y="412" on="1"/>
-        <pt x="212" y="414" on="1"/>
-        <pt x="160" y="423" on="0"/>
-        <pt x="96" y="497" on="0"/>
-        <pt x="96" y="565" on="1"/>
-        <pt x="96" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="844" y="740" on="1"/>
-        <pt x="844" y="670" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvRashtrasign" x="664" y="-24" flags="0x4"/>
+      <component glyphName="dvCH" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvCH_RA" xMin="-26" yMin="-121" xMax="844" yMax="740">
-      <contour>
-        <pt x="625" y="670" on="1"/>
-        <pt x="625" y="547" on="1"/>
-        <pt x="690" y="534" on="0"/>
-        <pt x="771" y="428" on="0"/>
-        <pt x="771" y="341" on="1"/>
-        <pt x="771" y="220" on="0"/>
-        <pt x="625" y="60" on="0"/>
-        <pt x="499" y="36" on="1"/>
-        <pt x="646" y="-121" on="1"/>
-        <pt x="559" y="-121" on="1"/>
-        <pt x="424" y="25" on="1"/>
-        <pt x="289" y="-121" on="1"/>
-        <pt x="202" y="-121" on="1"/>
-        <pt x="341" y="29" on="1"/>
-        <pt x="217" y="40" on="0"/>
-        <pt x="73" y="151" on="0"/>
-        <pt x="73" y="247" on="1"/>
-        <pt x="73" y="315" on="0"/>
-        <pt x="150" y="399" on="0"/>
-        <pt x="212" y="412" on="1"/>
-        <pt x="212" y="414" on="1"/>
-        <pt x="160" y="423" on="0"/>
-        <pt x="96" y="497" on="0"/>
-        <pt x="96" y="565" on="1"/>
-        <pt x="96" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="844" y="740" on="1"/>
-        <pt x="844" y="670" on="1"/>
-      </contour>
-      <contour>
-        <pt x="548" y="670" on="1"/>
-        <pt x="180" y="670" on="1"/>
-        <pt x="180" y="568" on="1"/>
-        <pt x="180" y="508" on="0"/>
-        <pt x="242" y="447" on="0"/>
-        <pt x="311" y="447" on="1"/>
-        <pt x="333" y="447" on="1"/>
-        <pt x="333" y="380" on="1"/>
-        <pt x="313" y="380" on="1"/>
-        <pt x="236" y="380" on="0"/>
-        <pt x="158" y="309" on="0"/>
-        <pt x="158" y="254" on="1"/>
-        <pt x="158" y="179" on="0"/>
-        <pt x="285" y="99" on="0"/>
-        <pt x="398" y="99" on="1"/>
-        <pt x="486" y="99" on="0"/>
-        <pt x="621" y="158" on="0"/>
-        <pt x="696" y="268" on="0"/>
-        <pt x="696" y="344" on="1"/>
-        <pt x="696" y="412" on="0"/>
-        <pt x="631" y="487" on="0"/>
-        <pt x="586" y="487" on="1"/>
-        <pt x="544" y="487" on="0"/>
-        <pt x="481" y="430" on="0"/>
-        <pt x="481" y="372" on="1"/>
-        <pt x="481" y="332" on="0"/>
-        <pt x="497" y="279" on="1"/>
-        <pt x="427" y="279" on="1"/>
-        <pt x="410" y="328" on="0"/>
-        <pt x="410" y="380" on="1"/>
-        <pt x="410" y="455" on="0"/>
-        <pt x="487" y="538" on="0"/>
-        <pt x="548" y="548" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvCHA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvRashtrasign" x="664" y="-24" flags="0x4"/>
     </TTGlyph>
 
     <TTGlyph name="dvCH_R_YA" xMin="-26" yMin="-121" xMax="1391" yMax="740">
-      <contour>
-        <pt x="1391" y="670" on="1"/>
-        <pt x="1259" y="670" on="1"/>
-        <pt x="1259" y="0" on="1"/>
-        <pt x="1176" y="0" on="1"/>
-        <pt x="1176" y="217" on="1"/>
-        <pt x="1148" y="169" on="0"/>
-        <pt x="1043" y="111" on="0"/>
-        <pt x="970" y="111" on="1"/>
-        <pt x="894" y="111" on="0"/>
-        <pt x="781" y="171" on="0"/>
-        <pt x="747" y="227" on="1"/>
-        <pt x="719" y="152" on="0"/>
-        <pt x="591" y="54" on="0"/>
-        <pt x="499" y="36" on="1"/>
-        <pt x="646" y="-121" on="1"/>
-        <pt x="559" y="-121" on="1"/>
-        <pt x="424" y="25" on="1"/>
-        <pt x="289" y="-121" on="1"/>
-        <pt x="202" y="-121" on="1"/>
-        <pt x="341" y="29" on="1"/>
-        <pt x="217" y="40" on="0"/>
-        <pt x="73" y="151" on="0"/>
-        <pt x="73" y="247" on="1"/>
-        <pt x="73" y="315" on="0"/>
-        <pt x="150" y="399" on="0"/>
-        <pt x="212" y="412" on="1"/>
-        <pt x="212" y="414" on="1"/>
-        <pt x="160" y="423" on="0"/>
-        <pt x="96" y="497" on="0"/>
-        <pt x="96" y="565" on="1"/>
-        <pt x="96" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1391" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="486" y="99" on="0"/>
-        <pt x="621" y="158" on="0"/>
-        <pt x="696" y="268" on="0"/>
-        <pt x="696" y="344" on="1"/>
-        <pt x="696" y="412" on="0"/>
-        <pt x="631" y="487" on="0"/>
-        <pt x="586" y="487" on="1"/>
-        <pt x="544" y="487" on="0"/>
-        <pt x="481" y="430" on="0"/>
-        <pt x="481" y="372" on="1"/>
-        <pt x="481" y="332" on="0"/>
-        <pt x="497" y="279" on="1"/>
-        <pt x="427" y="279" on="1"/>
-        <pt x="410" y="328" on="0"/>
-        <pt x="410" y="380" on="1"/>
-        <pt x="410" y="467" on="0"/>
-        <pt x="512" y="551" on="0"/>
-        <pt x="586" y="551" on="1"/>
-        <pt x="637" y="551" on="0"/>
-        <pt x="718" y="504" on="0"/>
-        <pt x="742" y="458" on="1"/>
-        <pt x="817" y="460" on="0"/>
-        <pt x="893" y="526" on="0"/>
-        <pt x="893" y="598" on="1"/>
-        <pt x="893" y="670" on="1"/>
-        <pt x="180" y="670" on="1"/>
-        <pt x="180" y="568" on="1"/>
-        <pt x="180" y="508" on="0"/>
-        <pt x="242" y="447" on="0"/>
-        <pt x="311" y="447" on="1"/>
-        <pt x="333" y="447" on="1"/>
-        <pt x="333" y="380" on="1"/>
-        <pt x="313" y="380" on="1"/>
-        <pt x="236" y="380" on="0"/>
-        <pt x="158" y="309" on="0"/>
-        <pt x="158" y="254" on="1"/>
-        <pt x="158" y="179" on="0"/>
-        <pt x="285" y="99" on="0"/>
-        <pt x="398" y="99" on="1"/>
-      </contour>
-      <contour>
-        <pt x="1176" y="670" on="1"/>
-        <pt x="974" y="670" on="1"/>
-        <pt x="974" y="588" on="1"/>
-        <pt x="974" y="492" on="0"/>
-        <pt x="864" y="395" on="0"/>
-        <pt x="763" y="393" on="1"/>
-        <pt x="764" y="386" on="1"/>
-        <pt x="766" y="387" on="1"/>
-        <pt x="778" y="289" on="0"/>
-        <pt x="884" y="182" on="0"/>
-        <pt x="977" y="182" on="1"/>
-        <pt x="1032" y="182" on="0"/>
-        <pt x="1123" y="230" on="0"/>
-        <pt x="1176" y="315" on="0"/>
-        <pt x="1176" y="370" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvCH_YA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvRashtrasign" x="664" y="-24" flags="0x4"/>
     </TTGlyph>
 
     <TTGlyph name="dvCH_YA" xMin="-26" yMin="0" xMax="1391" yMax="740">
@@ -10753,67 +9920,14 @@
     </TTGlyph>
 
     <TTGlyph name="dvDDH_R" xMin="-26" yMin="-354" xMax="667" yMax="740">
-      <component glyphName="dvDDH_RA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvDDHA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvRashtrasign" x="591" y="-44" flags="0x4"/>
       <component glyphName="dvVirama" x="501" y="-94" flags="0x4"/>
     </TTGlyph>
 
     <TTGlyph name="dvDDH_RA" xMin="-26" yMin="-141" xMax="667" yMax="740">
-      <contour>
-        <pt x="282" y="498" on="0"/>
-        <pt x="151" y="387" on="0"/>
-        <pt x="151" y="281" on="1"/>
-        <pt x="151" y="220" on="0"/>
-        <pt x="205" y="124" on="0"/>
-        <pt x="306" y="70" on="0"/>
-        <pt x="372" y="70" on="1"/>
-        <pt x="445" y="70" on="0"/>
-        <pt x="539" y="143" on="0"/>
-        <pt x="539" y="203" on="1"/>
-        <pt x="539" y="248" on="0"/>
-        <pt x="483" y="306" on="0"/>
-        <pt x="440" y="306" on="1"/>
-        <pt x="402" y="306" on="0"/>
-        <pt x="349" y="257" on="0"/>
-        <pt x="349" y="218" on="1"/>
-        <pt x="349" y="209" on="0"/>
-        <pt x="351" y="199" on="1"/>
-        <pt x="289" y="199" on="1"/>
-        <pt x="286" y="226" on="0"/>
-        <pt x="286" y="229" on="1"/>
-        <pt x="286" y="293" on="0"/>
-        <pt x="375" y="367" on="0"/>
-        <pt x="443" y="367" on="1"/>
-        <pt x="520" y="367" on="0"/>
-        <pt x="612" y="276" on="0"/>
-        <pt x="612" y="203" on="1"/>
-        <pt x="612" y="127" on="0"/>
-        <pt x="515" y="25" on="0"/>
-        <pt x="430" y="12" on="1"/>
-        <pt x="573" y="-141" on="1"/>
-        <pt x="486" y="-141" on="1"/>
-        <pt x="351" y="5" on="1"/>
-        <pt x="216" y="-141" on="1"/>
-        <pt x="129" y="-141" on="1"/>
-        <pt x="278" y="19" on="1"/>
-        <pt x="184" y="44" on="0"/>
-        <pt x="70" y="183" on="0"/>
-        <pt x="70" y="284" on="1"/>
-        <pt x="70" y="373" on="0"/>
-        <pt x="146" y="496" on="0"/>
-        <pt x="279" y="558" on="0"/>
-        <pt x="364" y="558" on="1"/>
-        <pt x="404" y="558" on="1"/>
-        <pt x="404" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="667" y="740" on="1"/>
-        <pt x="667" y="670" on="1"/>
-        <pt x="483" y="670" on="1"/>
-        <pt x="483" y="498" on="1"/>
-        <pt x="388" y="498" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvDDHA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvRashtrasign" x="591" y="-44" flags="0x4"/>
     </TTGlyph>
 
     <TTGlyph name="dvDDH_VA" xMin="-26" yMin="-291" xMax="668" yMax="740">
@@ -11147,63 +10261,14 @@
     </TTGlyph>
 
     <TTGlyph name="dvDD_R" xMin="-26" yMin="-376" xMax="601" yMax="740">
-      <component glyphName="dvDD_RA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvDDA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvRashtrasign" x="545" y="-66" flags="0x4"/>
       <component glyphName="dvVirama" x="450" y="-116" flags="0x4"/>
     </TTGlyph>
 
     <TTGlyph name="dvDD_RA" xMin="-26" yMin="-163" xMax="601" yMax="740">
-      <contour>
-        <pt x="239" y="488" on="0"/>
-        <pt x="170" y="452" on="0"/>
-        <pt x="170" y="405" on="1"/>
-        <pt x="170" y="362" on="0"/>
-        <pt x="229" y="323" on="0"/>
-        <pt x="276" y="323" on="1"/>
-        <pt x="321" y="323" on="1"/>
-        <pt x="408" y="323" on="0"/>
-        <pt x="526" y="243" on="0"/>
-        <pt x="526" y="154" on="1"/>
-        <pt x="526" y="92" on="0"/>
-        <pt x="452" y="7" on="0"/>
-        <pt x="382" y="-8" on="1"/>
-        <pt x="527" y="-163" on="1"/>
-        <pt x="440" y="-163" on="1"/>
-        <pt x="305" y="-17" on="1"/>
-        <pt x="170" y="-163" on="1"/>
-        <pt x="83" y="-163" on="1"/>
-        <pt x="230" y="-5" on="1"/>
-        <pt x="156" y="13" on="0"/>
-        <pt x="72" y="110" on="0"/>
-        <pt x="70" y="179" on="1"/>
-        <pt x="153" y="179" on="1"/>
-        <pt x="154" y="121" on="0"/>
-        <pt x="237" y="50" on="0"/>
-        <pt x="313" y="50" on="1"/>
-        <pt x="378" y="50" on="0"/>
-        <pt x="447" y="108" on="0"/>
-        <pt x="447" y="154" on="1"/>
-        <pt x="447" y="212" on="0"/>
-        <pt x="368" y="262" on="0"/>
-        <pt x="307" y="262" on="1"/>
-        <pt x="266" y="262" on="1"/>
-        <pt x="192" y="262" on="0"/>
-        <pt x="86" y="331" on="0"/>
-        <pt x="86" y="408" on="1"/>
-        <pt x="86" y="481" on="0"/>
-        <pt x="190" y="549" on="0"/>
-        <pt x="267" y="549" on="1"/>
-        <pt x="381" y="549" on="1"/>
-        <pt x="381" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="601" y="740" on="1"/>
-        <pt x="601" y="670" on="1"/>
-        <pt x="462" y="670" on="1"/>
-        <pt x="462" y="488" on="1"/>
-        <pt x="290" y="488" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvDDA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvRashtrasign" x="545" y="-66" flags="0x4"/>
     </TTGlyph>
 
     <TTGlyph name="dvDD_VA" xMin="-26" yMin="-291" xMax="628" yMax="740">
@@ -12613,86 +11678,9 @@
     </TTGlyph>
 
     <TTGlyph name="dvD_NA" xMin="-26" yMin="-295" xMax="1404" yMax="740">
-      <contour>
-        <pt x="1404" y="670" on="1"/>
-        <pt x="1272" y="670" on="1"/>
-        <pt x="1272" y="0" on="1"/>
-        <pt x="1189" y="0" on="1"/>
-        <pt x="1189" y="434" on="1"/>
-        <pt x="994" y="434" on="1"/>
-        <pt x="1019" y="411" on="0"/>
-        <pt x="1048" y="343" on="0"/>
-        <pt x="1048" y="301" on="1"/>
-        <pt x="1048" y="245" on="0"/>
-        <pt x="997" y="161" on="0"/>
-        <pt x="909" y="117" on="0"/>
-        <pt x="854" y="117" on="1"/>
-        <pt x="797" y="117" on="0"/>
-        <pt x="704" y="165" on="0"/>
-        <pt x="651" y="252" on="0"/>
-        <pt x="651" y="310" on="1"/>
-        <pt x="651" y="370" on="0"/>
-        <pt x="706" y="458" on="0"/>
-        <pt x="801" y="504" on="0"/>
-        <pt x="861" y="504" on="1"/>
-        <pt x="1189" y="504" on="1"/>
-        <pt x="1189" y="670" on="1"/>
-        <pt x="492" y="670" on="1"/>
-        <pt x="492" y="488" on="1"/>
-        <pt x="343" y="488" on="1"/>
-        <pt x="261" y="488" on="0"/>
-        <pt x="155" y="402" on="0"/>
-        <pt x="155" y="323" on="1"/>
-        <pt x="155" y="252" on="0"/>
-        <pt x="240" y="166" on="0"/>
-        <pt x="312" y="166" on="1"/>
-        <pt x="347" y="166" on="0"/>
-        <pt x="412" y="196" on="0"/>
-        <pt x="454" y="257" on="0"/>
-        <pt x="454" y="302" on="1"/>
-        <pt x="531" y="302" on="1"/>
-        <pt x="531" y="-16" on="1"/>
-        <pt x="449" y="-16" on="1"/>
-        <pt x="449" y="176" on="1"/>
-        <pt x="428" y="141" on="0"/>
-        <pt x="343" y="99" on="0"/>
-        <pt x="290" y="99" on="1"/>
-        <pt x="226" y="99" on="0"/>
-        <pt x="126" y="153" on="0"/>
-        <pt x="70" y="255" on="0"/>
-        <pt x="70" y="325" on="1"/>
-        <pt x="70" y="401" on="0"/>
-        <pt x="140" y="507" on="0"/>
-        <pt x="260" y="560" on="0"/>
-        <pt x="335" y="560" on="1"/>
-        <pt x="408" y="560" on="1"/>
-        <pt x="408" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1404" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="910" y="188" on="0"/>
-        <pt x="980" y="257" on="0"/>
-        <pt x="980" y="311" on="1"/>
-        <pt x="980" y="364" on="0"/>
-        <pt x="910" y="434" on="0"/>
-        <pt x="855" y="434" on="1"/>
-        <pt x="799" y="434" on="0"/>
-        <pt x="727" y="365" on="0"/>
-        <pt x="727" y="310" on="1"/>
-        <pt x="727" y="256" on="0"/>
-        <pt x="798" y="188" on="0"/>
-        <pt x="855" y="188" on="1"/>
-      </contour>
-      <contour>
-        <pt x="532" y="-96" on="1"/>
-        <pt x="656" y="-295" on="1"/>
-        <pt x="570" y="-295" on="1"/>
-        <pt x="449" y="-96" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvDA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvVirama" x="634" y="-35" flags="0x4"/>
+      <component glyphName="dvNA" x="588" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvD_R" xMin="-26" yMin="-295" xMax="656" yMax="740">
@@ -13490,152 +12478,13 @@
     </TTGlyph>
 
     <TTGlyph name="dvGH_YA" xMin="-26" yMin="0" xMax="1215" yMax="740">
-      <contour>
-        <pt x="1215" y="670" on="1"/>
-        <pt x="1083" y="670" on="1"/>
-        <pt x="1083" y="0" on="1"/>
-        <pt x="1000" y="0" on="1"/>
-        <pt x="1000" y="219" on="1"/>
-        <pt x="971" y="170" on="0"/>
-        <pt x="861" y="111" on="0"/>
-        <pt x="784" y="111" on="1"/>
-        <pt x="705" y="111" on="0"/>
-        <pt x="591" y="172" on="0"/>
-        <pt x="559" y="229" on="1"/>
-        <pt x="525" y="172" on="0"/>
-        <pt x="404" y="106" on="0"/>
-        <pt x="325" y="106" on="1"/>
-        <pt x="212" y="106" on="0"/>
-        <pt x="83" y="199" on="0"/>
-        <pt x="83" y="288" on="1"/>
-        <pt x="83" y="351" on="0"/>
-        <pt x="160" y="431" on="0"/>
-        <pt x="216" y="440" on="1"/>
-        <pt x="216" y="443" on="1"/>
-        <pt x="163" y="452" on="0"/>
-        <pt x="99" y="526" on="0"/>
-        <pt x="99" y="594" on="1"/>
-        <pt x="99" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1215" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="381" y="175" on="0"/>
-        <pt x="469" y="220" on="0"/>
-        <pt x="520" y="301" on="0"/>
-        <pt x="522" y="353" on="1"/>
-        <pt x="520" y="379" on="0"/>
-        <pt x="520" y="393" on="1"/>
-        <pt x="520" y="418" on="0"/>
-        <pt x="523" y="440" on="1"/>
-        <pt x="537" y="440" on="1"/>
-        <pt x="626" y="440" on="0"/>
-        <pt x="716" y="515" on="0"/>
-        <pt x="716" y="601" on="1"/>
-        <pt x="716" y="670" on="1"/>
-        <pt x="183" y="670" on="1"/>
-        <pt x="183" y="597" on="1"/>
-        <pt x="183" y="537" on="0"/>
-        <pt x="247" y="477" on="0"/>
-        <pt x="319" y="477" on="1"/>
-        <pt x="366" y="477" on="1"/>
-        <pt x="366" y="408" on="1"/>
-        <pt x="313" y="408" on="1"/>
-        <pt x="240" y="408" on="0"/>
-        <pt x="167" y="346" on="0"/>
-        <pt x="167" y="296" on="1"/>
-        <pt x="167" y="236" on="0"/>
-        <pt x="254" y="175" on="0"/>
-        <pt x="325" y="175" on="1"/>
-      </contour>
-      <contour>
-        <pt x="1000" y="670" on="1"/>
-        <pt x="798" y="670" on="1"/>
-        <pt x="798" y="588" on="1"/>
-        <pt x="798" y="401" on="0"/>
-        <pt x="602" y="393" on="1"/>
-        <pt x="602" y="386" on="1"/>
-        <pt x="602" y="291" on="0"/>
-        <pt x="707" y="182" on="0"/>
-        <pt x="801" y="182" on="1"/>
-        <pt x="857" y="182" on="0"/>
-        <pt x="948" y="229" on="0"/>
-        <pt x="1000" y="315" on="0"/>
-        <pt x="1000" y="370" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvGH" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvYA" x="451" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvG_BA" xMin="-26" yMin="0" xMax="1159" yMax="740">
-      <contour>
-        <pt x="1159" y="670" on="1"/>
-        <pt x="1028" y="670" on="1"/>
-        <pt x="1028" y="0" on="1"/>
-        <pt x="947" y="0" on="1"/>
-        <pt x="947" y="196" on="1"/>
-        <pt x="923" y="149" on="0"/>
-        <pt x="824" y="91" on="0"/>
-        <pt x="756" y="91" on="1"/>
-        <pt x="689" y="91" on="0"/>
-        <pt x="578" y="150" on="0"/>
-        <pt x="514" y="259" on="0"/>
-        <pt x="514" y="330" on="1"/>
-        <pt x="514" y="401" on="0"/>
-        <pt x="577" y="510" on="0"/>
-        <pt x="687" y="569" on="0"/>
-        <pt x="755" y="569" on="1"/>
-        <pt x="823" y="569" on="0"/>
-        <pt x="920" y="511" on="0"/>
-        <pt x="947" y="463" on="1"/>
-        <pt x="947" y="670" on="1"/>
-        <pt x="379" y="670" on="1"/>
-        <pt x="379" y="399" on="1"/>
-        <pt x="379" y="321" on="0"/>
-        <pt x="298" y="224" on="0"/>
-        <pt x="214" y="224" on="1"/>
-        <pt x="134" y="224" on="0"/>
-        <pt x="48" y="318" on="0"/>
-        <pt x="48" y="395" on="1"/>
-        <pt x="48" y="426" on="1"/>
-        <pt x="129" y="426" on="1"/>
-        <pt x="129" y="394" on="1"/>
-        <pt x="129" y="352" on="0"/>
-        <pt x="169" y="296" on="0"/>
-        <pt x="212" y="296" on="1"/>
-        <pt x="258" y="296" on="0"/>
-        <pt x="295" y="353" on="0"/>
-        <pt x="295" y="396" on="1"/>
-        <pt x="295" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1159" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="697" y="512" on="0"/>
-        <pt x="646" y="467" on="1"/>
-        <pt x="921" y="227" on="1"/>
-        <pt x="952" y="274" on="0"/>
-        <pt x="952" y="331" on="1"/>
-        <pt x="952" y="377" on="0"/>
-        <pt x="910" y="460" on="0"/>
-        <pt x="828" y="512" on="0"/>
-        <pt x="770" y="512" on="1"/>
-      </contour>
-      <contour>
-        <pt x="588" y="276" on="0"/>
-        <pt x="637" y="195" on="0"/>
-        <pt x="721" y="152" on="0"/>
-        <pt x="772" y="152" on="1"/>
-        <pt x="847" y="152" on="0"/>
-        <pt x="895" y="197" on="1"/>
-        <pt x="620" y="438" on="1"/>
-        <pt x="588" y="392" on="0"/>
-        <pt x="588" y="330" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvG" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvBA" x="444" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvG_BHA" xMin="-26" yMin="0" xMax="1259" yMax="749">
@@ -13820,62 +12669,8 @@
     </TTGlyph>
 
     <TTGlyph name="dvG_DA" xMin="-26" yMin="-16" xMax="1080" yMax="740">
-      <contour>
-        <pt x="705" y="488" on="0"/>
-        <pt x="599" y="402" on="0"/>
-        <pt x="599" y="323" on="1"/>
-        <pt x="599" y="252" on="0"/>
-        <pt x="684" y="166" on="0"/>
-        <pt x="756" y="166" on="1"/>
-        <pt x="791" y="166" on="0"/>
-        <pt x="856" y="196" on="0"/>
-        <pt x="898" y="257" on="0"/>
-        <pt x="898" y="302" on="1"/>
-        <pt x="975" y="302" on="1"/>
-        <pt x="975" y="-16" on="1"/>
-        <pt x="893" y="-16" on="1"/>
-        <pt x="893" y="176" on="1"/>
-        <pt x="872" y="141" on="0"/>
-        <pt x="787" y="99" on="0"/>
-        <pt x="734" y="99" on="1"/>
-        <pt x="670" y="99" on="0"/>
-        <pt x="570" y="153" on="0"/>
-        <pt x="514" y="255" on="0"/>
-        <pt x="514" y="325" on="1"/>
-        <pt x="514" y="401" on="0"/>
-        <pt x="584" y="507" on="0"/>
-        <pt x="704" y="560" on="0"/>
-        <pt x="779" y="560" on="1"/>
-        <pt x="852" y="560" on="1"/>
-        <pt x="852" y="670" on="1"/>
-        <pt x="379" y="670" on="1"/>
-        <pt x="379" y="399" on="1"/>
-        <pt x="379" y="321" on="0"/>
-        <pt x="298" y="224" on="0"/>
-        <pt x="214" y="224" on="1"/>
-        <pt x="134" y="224" on="0"/>
-        <pt x="48" y="318" on="0"/>
-        <pt x="48" y="395" on="1"/>
-        <pt x="48" y="426" on="1"/>
-        <pt x="129" y="426" on="1"/>
-        <pt x="129" y="394" on="1"/>
-        <pt x="129" y="352" on="0"/>
-        <pt x="169" y="296" on="0"/>
-        <pt x="212" y="296" on="1"/>
-        <pt x="258" y="296" on="0"/>
-        <pt x="295" y="353" on="0"/>
-        <pt x="295" y="396" on="1"/>
-        <pt x="295" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1080" y="740" on="1"/>
-        <pt x="1079" y="670" on="1"/>
-        <pt x="936" y="670" on="1"/>
-        <pt x="936" y="488" on="1"/>
-        <pt x="787" y="488" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvG" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvDA" x="444" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvG_DHA" xMin="-26" yMin="0" xMax="1177" yMax="749">
@@ -14181,532 +12976,43 @@
     </TTGlyph>
 
     <TTGlyph name="dvG_GA" xMin="-26" yMin="0" xMax="1222" yMax="740">
-      <contour>
-        <pt x="1222" y="670" on="1"/>
-        <pt x="1090" y="670" on="1"/>
-        <pt x="1090" y="0" on="1"/>
-        <pt x="1007" y="0" on="1"/>
-        <pt x="1007" y="670" on="1"/>
-        <pt x="829" y="670" on="1"/>
-        <pt x="829" y="399" on="1"/>
-        <pt x="829" y="321" on="0"/>
-        <pt x="748" y="224" on="0"/>
-        <pt x="664" y="224" on="1"/>
-        <pt x="584" y="224" on="0"/>
-        <pt x="498" y="318" on="0"/>
-        <pt x="498" y="395" on="1"/>
-        <pt x="498" y="426" on="1"/>
-        <pt x="579" y="426" on="1"/>
-        <pt x="579" y="394" on="1"/>
-        <pt x="579" y="352" on="0"/>
-        <pt x="619" y="296" on="0"/>
-        <pt x="662" y="296" on="1"/>
-        <pt x="708" y="296" on="0"/>
-        <pt x="745" y="353" on="0"/>
-        <pt x="745" y="396" on="1"/>
-        <pt x="745" y="670" on="1"/>
-        <pt x="379" y="670" on="1"/>
-        <pt x="379" y="399" on="1"/>
-        <pt x="379" y="321" on="0"/>
-        <pt x="298" y="224" on="0"/>
-        <pt x="214" y="224" on="1"/>
-        <pt x="134" y="224" on="0"/>
-        <pt x="48" y="318" on="0"/>
-        <pt x="48" y="395" on="1"/>
-        <pt x="48" y="426" on="1"/>
-        <pt x="129" y="426" on="1"/>
-        <pt x="129" y="394" on="1"/>
-        <pt x="129" y="352" on="0"/>
-        <pt x="169" y="296" on="0"/>
-        <pt x="212" y="296" on="1"/>
-        <pt x="258" y="296" on="0"/>
-        <pt x="295" y="353" on="0"/>
-        <pt x="295" y="396" on="1"/>
-        <pt x="295" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1222" y="740" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvG" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvGA" x="450" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvG_GHA" xMin="-26" yMin="0" xMax="1171" yMax="740">
-      <contour>
-        <pt x="1171" y="670" on="1"/>
-        <pt x="1040" y="670" on="1"/>
-        <pt x="1040" y="0" on="1"/>
-        <pt x="956" y="0" on="1"/>
-        <pt x="956" y="220" on="1"/>
-        <pt x="925" y="166" on="0"/>
-        <pt x="812" y="106" on="0"/>
-        <pt x="741" y="106" on="1"/>
-        <pt x="641" y="106" on="0"/>
-        <pt x="517" y="200" on="0"/>
-        <pt x="517" y="288" on="1"/>
-        <pt x="517" y="351" on="0"/>
-        <pt x="594" y="431" on="0"/>
-        <pt x="650" y="440" on="1"/>
-        <pt x="650" y="443" on="1"/>
-        <pt x="597" y="452" on="0"/>
-        <pt x="533" y="526" on="0"/>
-        <pt x="533" y="594" on="1"/>
-        <pt x="533" y="670" on="1"/>
-        <pt x="379" y="670" on="1"/>
-        <pt x="379" y="399" on="1"/>
-        <pt x="379" y="321" on="0"/>
-        <pt x="298" y="224" on="0"/>
-        <pt x="214" y="224" on="1"/>
-        <pt x="134" y="224" on="0"/>
-        <pt x="48" y="318" on="0"/>
-        <pt x="48" y="395" on="1"/>
-        <pt x="48" y="426" on="1"/>
-        <pt x="129" y="426" on="1"/>
-        <pt x="129" y="394" on="1"/>
-        <pt x="129" y="352" on="0"/>
-        <pt x="169" y="296" on="0"/>
-        <pt x="212" y="296" on="1"/>
-        <pt x="258" y="296" on="0"/>
-        <pt x="295" y="353" on="0"/>
-        <pt x="295" y="396" on="1"/>
-        <pt x="295" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1171" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="956" y="670" on="1"/>
-        <pt x="617" y="670" on="1"/>
-        <pt x="617" y="597" on="1"/>
-        <pt x="617" y="537" on="0"/>
-        <pt x="681" y="477" on="0"/>
-        <pt x="753" y="477" on="1"/>
-        <pt x="800" y="477" on="1"/>
-        <pt x="800" y="408" on="1"/>
-        <pt x="747" y="408" on="1"/>
-        <pt x="674" y="408" on="0"/>
-        <pt x="601" y="346" on="0"/>
-        <pt x="601" y="296" on="1"/>
-        <pt x="601" y="236" on="0"/>
-        <pt x="688" y="175" on="0"/>
-        <pt x="759" y="175" on="1"/>
-        <pt x="813" y="175" on="0"/>
-        <pt x="903" y="222" on="0"/>
-        <pt x="956" y="306" on="0"/>
-        <pt x="956" y="360" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvG" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvGHA" x="434" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvG_JA" xMin="-26" yMin="0" xMax="1305" yMax="740">
-      <contour>
-        <pt x="1305" y="670" on="1"/>
-        <pt x="1173" y="670" on="1"/>
-        <pt x="1173" y="0" on="1"/>
-        <pt x="1090" y="0" on="1"/>
-        <pt x="1090" y="427" on="1"/>
-        <pt x="900" y="427" on="1"/>
-        <pt x="900" y="333" on="1"/>
-        <pt x="900" y="243" on="0"/>
-        <pt x="795" y="131" on="0"/>
-        <pt x="705" y="131" on="1"/>
-        <pt x="615" y="131" on="0"/>
-        <pt x="513" y="242" on="0"/>
-        <pt x="513" y="333" on="1"/>
-        <pt x="513" y="499" on="1"/>
-        <pt x="597" y="499" on="1"/>
-        <pt x="597" y="334" on="1"/>
-        <pt x="597" y="275" on="0"/>
-        <pt x="655" y="204" on="0"/>
-        <pt x="706" y="204" on="1"/>
-        <pt x="758" y="204" on="0"/>
-        <pt x="819" y="275" on="0"/>
-        <pt x="819" y="334" on="1"/>
-        <pt x="819" y="499" on="1"/>
-        <pt x="1090" y="499" on="1"/>
-        <pt x="1090" y="670" on="1"/>
-        <pt x="379" y="670" on="1"/>
-        <pt x="379" y="399" on="1"/>
-        <pt x="379" y="321" on="0"/>
-        <pt x="298" y="224" on="0"/>
-        <pt x="214" y="224" on="1"/>
-        <pt x="134" y="224" on="0"/>
-        <pt x="48" y="318" on="0"/>
-        <pt x="48" y="395" on="1"/>
-        <pt x="48" y="426" on="1"/>
-        <pt x="129" y="426" on="1"/>
-        <pt x="129" y="394" on="1"/>
-        <pt x="129" y="352" on="0"/>
-        <pt x="169" y="296" on="0"/>
-        <pt x="212" y="296" on="1"/>
-        <pt x="258" y="296" on="0"/>
-        <pt x="295" y="353" on="0"/>
-        <pt x="295" y="396" on="1"/>
-        <pt x="295" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1305" y="740" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvG" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvJA" x="438" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvG_LA" xMin="-26" yMin="69" xMax="1374" yMax="740">
-      <contour>
-        <pt x="1128" y="670" on="1"/>
-        <pt x="1128" y="537" on="1"/>
-        <pt x="1197" y="520" on="0"/>
-        <pt x="1278" y="403" on="0"/>
-        <pt x="1278" y="314" on="1"/>
-        <pt x="1278" y="243" on="0"/>
-        <pt x="1224" y="132" on="0"/>
-        <pt x="1116" y="69" on="0"/>
-        <pt x="1040" y="69" on="1"/>
-        <pt x="1032" y="69" on="0"/>
-        <pt x="1006" y="71" on="1"/>
-        <pt x="1006" y="144" on="1"/>
-        <pt x="1026" y="142" on="0"/>
-        <pt x="1035" y="142" on="1"/>
-        <pt x="1110" y="142" on="0"/>
-        <pt x="1194" y="236" on="0"/>
-        <pt x="1194" y="313" on="1"/>
-        <pt x="1194" y="381" on="0"/>
-        <pt x="1127" y="469" on="0"/>
-        <pt x="1065" y="469" on="1"/>
-        <pt x="999" y="469" on="0"/>
-        <pt x="931" y="370" on="0"/>
-        <pt x="931" y="286" on="1"/>
-        <pt x="931" y="271" on="1"/>
-        <pt x="861" y="271" on="1"/>
-        <pt x="861" y="286" on="1"/>
-        <pt x="861" y="369" on="0"/>
-        <pt x="796" y="469" on="0"/>
-        <pt x="733" y="469" on="1"/>
-        <pt x="668" y="469" on="0"/>
-        <pt x="598" y="382" on="0"/>
-        <pt x="598" y="313" on="1"/>
-        <pt x="598" y="236" on="0"/>
-        <pt x="681" y="142" on="0"/>
-        <pt x="757" y="142" on="1"/>
-        <pt x="764" y="142" on="0"/>
-        <pt x="786" y="144" on="1"/>
-        <pt x="786" y="71" on="1"/>
-        <pt x="760" y="69" on="0"/>
-        <pt x="752" y="69" on="1"/>
-        <pt x="676" y="69" on="0"/>
-        <pt x="568" y="132" on="0"/>
-        <pt x="514" y="243" on="0"/>
-        <pt x="514" y="314" on="1"/>
-        <pt x="514" y="384" on="0"/>
-        <pt x="566" y="488" on="0"/>
-        <pt x="661" y="543" on="0"/>
-        <pt x="722" y="543" on="1"/>
-        <pt x="795" y="543" on="0"/>
-        <pt x="879" y="459" on="0"/>
-        <pt x="895" y="398" on="1"/>
-        <pt x="897" y="398" on="1"/>
-        <pt x="912" y="453" on="0"/>
-        <pt x="984" y="532" on="0"/>
-        <pt x="1046" y="541" on="1"/>
-        <pt x="1046" y="670" on="1"/>
-        <pt x="379" y="670" on="1"/>
-        <pt x="379" y="399" on="1"/>
-        <pt x="379" y="321" on="0"/>
-        <pt x="298" y="224" on="0"/>
-        <pt x="214" y="224" on="1"/>
-        <pt x="134" y="224" on="0"/>
-        <pt x="48" y="318" on="0"/>
-        <pt x="48" y="395" on="1"/>
-        <pt x="48" y="426" on="1"/>
-        <pt x="129" y="426" on="1"/>
-        <pt x="129" y="394" on="1"/>
-        <pt x="129" y="352" on="0"/>
-        <pt x="169" y="296" on="0"/>
-        <pt x="212" y="296" on="1"/>
-        <pt x="258" y="296" on="0"/>
-        <pt x="295" y="353" on="0"/>
-        <pt x="295" y="396" on="1"/>
-        <pt x="295" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1374" y="740" on="1"/>
-        <pt x="1374" y="670" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvG" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvLA" x="444" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvG_MA" xMin="-26" yMin="0" xMax="1270" yMax="740">
-      <contour>
-        <pt x="1270" y="670" on="1"/>
-        <pt x="1138" y="670" on="1"/>
-        <pt x="1138" y="0" on="1"/>
-        <pt x="1054" y="0" on="1"/>
-        <pt x="1054" y="385" on="1"/>
-        <pt x="871" y="385" on="1"/>
-        <pt x="871" y="308" on="1"/>
-        <pt x="871" y="208" on="0"/>
-        <pt x="777" y="101" on="0"/>
-        <pt x="690" y="101" on="1"/>
-        <pt x="606" y="101" on="0"/>
-        <pt x="505" y="198" on="0"/>
-        <pt x="505" y="278" on="1"/>
-        <pt x="505" y="361" on="0"/>
-        <pt x="613" y="454" on="0"/>
-        <pt x="698" y="454" on="1"/>
-        <pt x="793" y="454" on="1"/>
-        <pt x="793" y="670" on="1"/>
-        <pt x="379" y="670" on="1"/>
-        <pt x="379" y="399" on="1"/>
-        <pt x="379" y="321" on="0"/>
-        <pt x="298" y="224" on="0"/>
-        <pt x="214" y="224" on="1"/>
-        <pt x="134" y="224" on="0"/>
-        <pt x="48" y="318" on="0"/>
-        <pt x="48" y="395" on="1"/>
-        <pt x="48" y="426" on="1"/>
-        <pt x="129" y="426" on="1"/>
-        <pt x="129" y="394" on="1"/>
-        <pt x="129" y="352" on="0"/>
-        <pt x="169" y="296" on="0"/>
-        <pt x="212" y="296" on="1"/>
-        <pt x="258" y="296" on="0"/>
-        <pt x="295" y="353" on="0"/>
-        <pt x="295" y="396" on="1"/>
-        <pt x="295" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1270" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="1054" y="670" on="1"/>
-        <pt x="871" y="670" on="1"/>
-        <pt x="871" y="454" on="1"/>
-        <pt x="1054" y="454" on="1"/>
-      </contour>
-      <contour>
-        <pt x="793" y="385" on="1"/>
-        <pt x="700" y="385" on="1"/>
-        <pt x="648" y="385" on="0"/>
-        <pt x="583" y="327" on="0"/>
-        <pt x="583" y="278" on="1"/>
-        <pt x="583" y="230" on="0"/>
-        <pt x="642" y="172" on="0"/>
-        <pt x="688" y="172" on="1"/>
-        <pt x="737" y="172" on="0"/>
-        <pt x="793" y="241" on="0"/>
-        <pt x="793" y="303" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvG" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvMA" x="457" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvG_NA" xMin="-26" yMin="0" xMax="1266" yMax="740">
-      <contour>
-        <pt x="1266" y="670" on="1"/>
-        <pt x="1134" y="670" on="1"/>
-        <pt x="1134" y="0" on="1"/>
-        <pt x="1051" y="0" on="1"/>
-        <pt x="1051" y="434" on="1"/>
-        <pt x="856" y="434" on="1"/>
-        <pt x="881" y="411" on="0"/>
-        <pt x="910" y="343" on="0"/>
-        <pt x="910" y="301" on="1"/>
-        <pt x="910" y="245" on="0"/>
-        <pt x="859" y="161" on="0"/>
-        <pt x="771" y="117" on="0"/>
-        <pt x="716" y="117" on="1"/>
-        <pt x="659" y="117" on="0"/>
-        <pt x="566" y="165" on="0"/>
-        <pt x="513" y="252" on="0"/>
-        <pt x="513" y="310" on="1"/>
-        <pt x="513" y="370" on="0"/>
-        <pt x="568" y="458" on="0"/>
-        <pt x="663" y="504" on="0"/>
-        <pt x="723" y="504" on="1"/>
-        <pt x="1051" y="504" on="1"/>
-        <pt x="1051" y="670" on="1"/>
-        <pt x="379" y="670" on="1"/>
-        <pt x="379" y="399" on="1"/>
-        <pt x="379" y="321" on="0"/>
-        <pt x="298" y="224" on="0"/>
-        <pt x="214" y="224" on="1"/>
-        <pt x="134" y="224" on="0"/>
-        <pt x="48" y="318" on="0"/>
-        <pt x="48" y="395" on="1"/>
-        <pt x="48" y="426" on="1"/>
-        <pt x="129" y="426" on="1"/>
-        <pt x="129" y="394" on="1"/>
-        <pt x="129" y="352" on="0"/>
-        <pt x="169" y="296" on="0"/>
-        <pt x="212" y="296" on="1"/>
-        <pt x="258" y="296" on="0"/>
-        <pt x="295" y="353" on="0"/>
-        <pt x="295" y="396" on="1"/>
-        <pt x="295" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1266" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="772" y="188" on="0"/>
-        <pt x="842" y="257" on="0"/>
-        <pt x="842" y="311" on="1"/>
-        <pt x="842" y="364" on="0"/>
-        <pt x="772" y="434" on="0"/>
-        <pt x="717" y="434" on="1"/>
-        <pt x="661" y="434" on="0"/>
-        <pt x="589" y="365" on="0"/>
-        <pt x="589" y="310" on="1"/>
-        <pt x="589" y="256" on="0"/>
-        <pt x="660" y="188" on="0"/>
-        <pt x="717" y="188" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvG" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvNA" x="450" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvG_NNA" xMin="-26" yMin="0" xMax="1329" yMax="740">
-      <contour>
-        <pt x="1329" y="670" on="1"/>
-        <pt x="1198" y="670" on="1"/>
-        <pt x="1198" y="0" on="1"/>
-        <pt x="1114" y="0" on="1"/>
-        <pt x="1114" y="670" on="1"/>
-        <pt x="919" y="670" on="1"/>
-        <pt x="919" y="383" on="1"/>
-        <pt x="919" y="293" on="0"/>
-        <pt x="819" y="183" on="0"/>
-        <pt x="728" y="183" on="1"/>
-        <pt x="638" y="183" on="0"/>
-        <pt x="538" y="294" on="0"/>
-        <pt x="538" y="383" on="1"/>
-        <pt x="538" y="670" on="1"/>
-        <pt x="379" y="670" on="1"/>
-        <pt x="379" y="399" on="1"/>
-        <pt x="379" y="321" on="0"/>
-        <pt x="298" y="224" on="0"/>
-        <pt x="214" y="224" on="1"/>
-        <pt x="134" y="224" on="0"/>
-        <pt x="48" y="318" on="0"/>
-        <pt x="48" y="395" on="1"/>
-        <pt x="48" y="426" on="1"/>
-        <pt x="129" y="426" on="1"/>
-        <pt x="129" y="394" on="1"/>
-        <pt x="129" y="352" on="0"/>
-        <pt x="169" y="296" on="0"/>
-        <pt x="212" y="296" on="1"/>
-        <pt x="258" y="296" on="0"/>
-        <pt x="295" y="353" on="0"/>
-        <pt x="295" y="396" on="1"/>
-        <pt x="295" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1329" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="837" y="670" on="1"/>
-        <pt x="620" y="670" on="1"/>
-        <pt x="620" y="376" on="1"/>
-        <pt x="620" y="321" on="0"/>
-        <pt x="679" y="254" on="0"/>
-        <pt x="729" y="254" on="1"/>
-        <pt x="780" y="254" on="0"/>
-        <pt x="837" y="321" on="0"/>
-        <pt x="837" y="376" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvG" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvNNA" x="447" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvG_N_YA" xMin="-26" yMin="0" xMax="1728" yMax="740">
-      <contour>
-        <pt x="1728" y="670" on="1"/>
-        <pt x="1596" y="670" on="1"/>
-        <pt x="1596" y="0" on="1"/>
-        <pt x="1513" y="0" on="1"/>
-        <pt x="1513" y="219" on="1"/>
-        <pt x="1484" y="170" on="0"/>
-        <pt x="1374" y="111" on="0"/>
-        <pt x="1297" y="111" on="1"/>
-        <pt x="1177" y="111" on="0"/>
-        <pt x="1039" y="264" on="0"/>
-        <pt x="1033" y="396" on="1"/>
-        <pt x="855" y="396" on="1"/>
-        <pt x="880" y="372" on="0"/>
-        <pt x="910" y="304" on="0"/>
-        <pt x="910" y="262" on="1"/>
-        <pt x="910" y="206" on="0"/>
-        <pt x="859" y="123" on="0"/>
-        <pt x="771" y="79" on="0"/>
-        <pt x="716" y="79" on="1"/>
-        <pt x="659" y="79" on="0"/>
-        <pt x="566" y="127" on="0"/>
-        <pt x="513" y="214" on="0"/>
-        <pt x="513" y="271" on="1"/>
-        <pt x="513" y="331" on="0"/>
-        <pt x="568" y="419" on="0"/>
-        <pt x="663" y="465" on="0"/>
-        <pt x="723" y="465" on="1"/>
-        <pt x="1050" y="465" on="1"/>
-        <pt x="1140" y="465" on="0"/>
-        <pt x="1229" y="526" on="0"/>
-        <pt x="1229" y="601" on="1"/>
-        <pt x="1229" y="670" on="1"/>
-        <pt x="379" y="670" on="1"/>
-        <pt x="379" y="399" on="1"/>
-        <pt x="379" y="321" on="0"/>
-        <pt x="298" y="224" on="0"/>
-        <pt x="214" y="224" on="1"/>
-        <pt x="134" y="224" on="0"/>
-        <pt x="48" y="318" on="0"/>
-        <pt x="48" y="395" on="1"/>
-        <pt x="48" y="426" on="1"/>
-        <pt x="129" y="426" on="1"/>
-        <pt x="129" y="394" on="1"/>
-        <pt x="129" y="352" on="0"/>
-        <pt x="169" y="296" on="0"/>
-        <pt x="212" y="296" on="1"/>
-        <pt x="258" y="296" on="0"/>
-        <pt x="295" y="353" on="0"/>
-        <pt x="295" y="396" on="1"/>
-        <pt x="295" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1728" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="1513" y="670" on="1"/>
-        <pt x="1312" y="670" on="1"/>
-        <pt x="1312" y="588" on="1"/>
-        <pt x="1312" y="499" on="0"/>
-        <pt x="1208" y="407" on="0"/>
-        <pt x="1113" y="402" on="1"/>
-        <pt x="1115" y="301" on="0"/>
-        <pt x="1222" y="182" on="0"/>
-        <pt x="1314" y="182" on="1"/>
-        <pt x="1370" y="182" on="0"/>
-        <pt x="1461" y="229" on="0"/>
-        <pt x="1513" y="315" on="0"/>
-        <pt x="1513" y="370" on="1"/>
-      </contour>
-      <contour>
-        <pt x="772" y="149" on="0"/>
-        <pt x="842" y="218" on="0"/>
-        <pt x="842" y="273" on="1"/>
-        <pt x="842" y="326" on="0"/>
-        <pt x="772" y="395" on="0"/>
-        <pt x="717" y="395" on="1"/>
-        <pt x="661" y="395" on="0"/>
-        <pt x="589" y="326" on="0"/>
-        <pt x="589" y="271" on="1"/>
-        <pt x="589" y="217" on="0"/>
-        <pt x="660" y="149" on="0"/>
-        <pt x="717" y="149" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvG" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvN_YA" x="450" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvG_R" xMin="-26" yMin="-20" xMax="574" yMax="740">
@@ -14848,195 +13154,18 @@
     </TTGlyph>
 
     <TTGlyph name="dvG_SA" xMin="-26" yMin="-9" xMax="1281" yMax="740">
-      <contour>
-        <pt x="1281" y="670" on="1"/>
-        <pt x="1149" y="670" on="1"/>
-        <pt x="1149" y="0" on="1"/>
-        <pt x="1065" y="0" on="1"/>
-        <pt x="1065" y="350" on="1"/>
-        <pt x="600" y="350" on="1"/>
-        <pt x="600" y="203" on="1"/>
-        <pt x="600" y="140" on="0"/>
-        <pt x="659" y="63" on="0"/>
-        <pt x="716" y="63" on="1"/>
-        <pt x="769" y="63" on="0"/>
-        <pt x="831" y="134" on="0"/>
-        <pt x="831" y="192" on="1"/>
-        <pt x="831" y="204" on="1"/>
-        <pt x="911" y="204" on="1"/>
-        <pt x="912" y="197" on="0"/>
-        <pt x="912" y="188" on="1"/>
-        <pt x="912" y="98" on="0"/>
-        <pt x="807" y="-9" on="0"/>
-        <pt x="717" y="-9" on="1"/>
-        <pt x="620" y="-9" on="0"/>
-        <pt x="517" y="110" on="0"/>
-        <pt x="517" y="207" on="1"/>
-        <pt x="517" y="411" on="1"/>
-        <pt x="611" y="411" on="1"/>
-        <pt x="695" y="411" on="0"/>
-        <pt x="782" y="501" on="0"/>
-        <pt x="782" y="579" on="1"/>
-        <pt x="782" y="670" on="1"/>
-        <pt x="379" y="670" on="1"/>
-        <pt x="379" y="399" on="1"/>
-        <pt x="379" y="321" on="0"/>
-        <pt x="298" y="224" on="0"/>
-        <pt x="214" y="224" on="1"/>
-        <pt x="134" y="224" on="0"/>
-        <pt x="48" y="318" on="0"/>
-        <pt x="48" y="395" on="1"/>
-        <pt x="48" y="426" on="1"/>
-        <pt x="129" y="426" on="1"/>
-        <pt x="129" y="394" on="1"/>
-        <pt x="129" y="352" on="0"/>
-        <pt x="169" y="296" on="0"/>
-        <pt x="212" y="296" on="1"/>
-        <pt x="258" y="296" on="0"/>
-        <pt x="295" y="353" on="0"/>
-        <pt x="295" y="396" on="1"/>
-        <pt x="295" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1281" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="1065" y="670" on="1"/>
-        <pt x="864" y="670" on="1"/>
-        <pt x="864" y="579" on="1"/>
-        <pt x="864" y="527" on="0"/>
-        <pt x="832" y="445" on="0"/>
-        <pt x="803" y="418" on="1"/>
-        <pt x="1065" y="418" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvG" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvSA" x="435" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvG_VA" xMin="-26" yMin="0" xMax="1145" yMax="740">
-      <contour>
-        <pt x="1145" y="670" on="1"/>
-        <pt x="1013" y="670" on="1"/>
-        <pt x="1013" y="0" on="1"/>
-        <pt x="932" y="0" on="1"/>
-        <pt x="932" y="202" on="1"/>
-        <pt x="907" y="153" on="0"/>
-        <pt x="809" y="95" on="0"/>
-        <pt x="742" y="95" on="1"/>
-        <pt x="675" y="95" on="0"/>
-        <pt x="572" y="154" on="0"/>
-        <pt x="514" y="261" on="0"/>
-        <pt x="514" y="332" on="1"/>
-        <pt x="514" y="400" on="0"/>
-        <pt x="572" y="505" on="0"/>
-        <pt x="676" y="563" on="0"/>
-        <pt x="742" y="563" on="1"/>
-        <pt x="810" y="563" on="0"/>
-        <pt x="907" y="506" on="0"/>
-        <pt x="932" y="458" on="1"/>
-        <pt x="932" y="670" on="1"/>
-        <pt x="379" y="670" on="1"/>
-        <pt x="379" y="399" on="1"/>
-        <pt x="379" y="321" on="0"/>
-        <pt x="298" y="224" on="0"/>
-        <pt x="214" y="224" on="1"/>
-        <pt x="134" y="224" on="0"/>
-        <pt x="48" y="318" on="0"/>
-        <pt x="48" y="395" on="1"/>
-        <pt x="48" y="426" on="1"/>
-        <pt x="129" y="426" on="1"/>
-        <pt x="129" y="394" on="1"/>
-        <pt x="129" y="352" on="0"/>
-        <pt x="169" y="296" on="0"/>
-        <pt x="212" y="296" on="1"/>
-        <pt x="258" y="296" on="0"/>
-        <pt x="295" y="353" on="0"/>
-        <pt x="295" y="396" on="1"/>
-        <pt x="295" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1145" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="819" y="163" on="0"/>
-        <pt x="895" y="212" on="0"/>
-        <pt x="932" y="288" on="0"/>
-        <pt x="932" y="328" on="1"/>
-        <pt x="932" y="370" on="0"/>
-        <pt x="895" y="447" on="0"/>
-        <pt x="819" y="495" on="0"/>
-        <pt x="763" y="495" on="1"/>
-        <pt x="716" y="495" on="0"/>
-        <pt x="640" y="455" on="0"/>
-        <pt x="596" y="380" on="0"/>
-        <pt x="596" y="331" on="1"/>
-        <pt x="596" y="254" on="0"/>
-        <pt x="690" y="163" on="0"/>
-        <pt x="763" y="163" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvG" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvVA" x="444" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvG_YA" xMin="-26" yMin="0" xMax="1209" yMax="740">
-      <contour>
-        <pt x="1209" y="670" on="1"/>
-        <pt x="1077" y="670" on="1"/>
-        <pt x="1077" y="0" on="1"/>
-        <pt x="994" y="0" on="1"/>
-        <pt x="994" y="219" on="1"/>
-        <pt x="965" y="170" on="0"/>
-        <pt x="855" y="111" on="0"/>
-        <pt x="778" y="111" on="1"/>
-        <pt x="653" y="111" on="0"/>
-        <pt x="514" y="263" on="0"/>
-        <pt x="514" y="393" on="1"/>
-        <pt x="514" y="418" on="0"/>
-        <pt x="517" y="440" on="1"/>
-        <pt x="531" y="440" on="1"/>
-        <pt x="620" y="440" on="0"/>
-        <pt x="710" y="515" on="0"/>
-        <pt x="710" y="601" on="1"/>
-        <pt x="710" y="670" on="1"/>
-        <pt x="379" y="670" on="1"/>
-        <pt x="379" y="399" on="1"/>
-        <pt x="379" y="321" on="0"/>
-        <pt x="298" y="224" on="0"/>
-        <pt x="214" y="224" on="1"/>
-        <pt x="134" y="224" on="0"/>
-        <pt x="48" y="318" on="0"/>
-        <pt x="48" y="395" on="1"/>
-        <pt x="48" y="426" on="1"/>
-        <pt x="129" y="426" on="1"/>
-        <pt x="129" y="394" on="1"/>
-        <pt x="129" y="352" on="0"/>
-        <pt x="169" y="296" on="0"/>
-        <pt x="212" y="296" on="1"/>
-        <pt x="258" y="296" on="0"/>
-        <pt x="295" y="353" on="0"/>
-        <pt x="295" y="396" on="1"/>
-        <pt x="295" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1209" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="994" y="670" on="1"/>
-        <pt x="792" y="670" on="1"/>
-        <pt x="792" y="588" on="1"/>
-        <pt x="792" y="401" on="0"/>
-        <pt x="596" y="393" on="1"/>
-        <pt x="596" y="386" on="1"/>
-        <pt x="596" y="291" on="0"/>
-        <pt x="701" y="182" on="0"/>
-        <pt x="795" y="182" on="1"/>
-        <pt x="851" y="182" on="0"/>
-        <pt x="942" y="229" on="0"/>
-        <pt x="994" y="315" on="0"/>
-        <pt x="994" y="370" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvG" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvYA" x="445" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvGx" xMin="-26" yMin="28" xMax="506" yMax="740">
@@ -15050,103 +13179,13 @@
     </TTGlyph>
 
     <TTGlyph name="dvGx_R" xMin="-26" yMin="-20" xMax="574" yMax="740">
-      <contour>
-        <pt x="574" y="740" on="1"/>
-        <pt x="574" y="670" on="1"/>
-        <pt x="379" y="670" on="1"/>
-        <pt x="379" y="453" on="1"/>
-        <pt x="379" y="375" on="0"/>
-        <pt x="298" y="278" on="0"/>
-        <pt x="214" y="278" on="1"/>
-        <pt x="134" y="278" on="0"/>
-        <pt x="48" y="371" on="0"/>
-        <pt x="48" y="448" on="1"/>
-        <pt x="48" y="479" on="1"/>
-        <pt x="129" y="479" on="1"/>
-        <pt x="129" y="448" on="1"/>
-        <pt x="129" y="406" on="0"/>
-        <pt x="169" y="350" on="0"/>
-        <pt x="212" y="350" on="1"/>
-        <pt x="258" y="350" on="0"/>
-        <pt x="295" y="407" on="0"/>
-        <pt x="295" y="450" on="1"/>
-        <pt x="295" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="192" y="-20" on="1"/>
-        <pt x="574" y="353" on="1"/>
-        <pt x="574" y="265" on="1"/>
-        <pt x="290" y="-20" on="1"/>
-      </contour>
-      <contour>
-        <pt x="120" y="161" on="0"/>
-        <pt x="150" y="131" on="0"/>
-        <pt x="150" y="108" on="1"/>
-        <pt x="150" y="86" on="0"/>
-        <pt x="120" y="56" on="0"/>
-        <pt x="98" y="56" on="1"/>
-        <pt x="76" y="56" on="0"/>
-        <pt x="45" y="86" on="0"/>
-        <pt x="45" y="108" on="1"/>
-        <pt x="45" y="131" on="0"/>
-        <pt x="76" y="161" on="0"/>
-        <pt x="98" y="161" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvG_R" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvNukta" x="434" y="195" scale="0.9364" flags="0x4"/>
     </TTGlyph>
 
     <TTGlyph name="dvGx_RA" xMin="-26" yMin="-20" xMax="772" yMax="740">
-      <contour>
-        <pt x="772" y="740" on="1"/>
-        <pt x="772" y="670" on="1"/>
-        <pt x="640" y="670" on="1"/>
-        <pt x="640" y="0" on="1"/>
-        <pt x="559" y="0" on="1"/>
-        <pt x="559" y="251" on="1"/>
-        <pt x="290" y="-20" on="1"/>
-        <pt x="192" y="-20" on="1"/>
-        <pt x="557" y="336" on="1"/>
-        <pt x="557" y="670" on="1"/>
-        <pt x="379" y="670" on="1"/>
-        <pt x="379" y="453" on="1"/>
-        <pt x="379" y="375" on="0"/>
-        <pt x="298" y="278" on="0"/>
-        <pt x="214" y="278" on="1"/>
-        <pt x="134" y="278" on="0"/>
-        <pt x="48" y="371" on="0"/>
-        <pt x="48" y="448" on="1"/>
-        <pt x="48" y="479" on="1"/>
-        <pt x="129" y="479" on="1"/>
-        <pt x="129" y="448" on="1"/>
-        <pt x="129" y="406" on="0"/>
-        <pt x="169" y="350" on="0"/>
-        <pt x="212" y="350" on="1"/>
-        <pt x="258" y="350" on="0"/>
-        <pt x="295" y="407" on="0"/>
-        <pt x="295" y="450" on="1"/>
-        <pt x="295" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="120" y="161" on="0"/>
-        <pt x="150" y="131" on="0"/>
-        <pt x="150" y="108" on="1"/>
-        <pt x="150" y="86" on="0"/>
-        <pt x="120" y="56" on="0"/>
-        <pt x="98" y="56" on="1"/>
-        <pt x="76" y="56" on="0"/>
-        <pt x="45" y="86" on="0"/>
-        <pt x="45" y="108" on="1"/>
-        <pt x="45" y="131" on="0"/>
-        <pt x="76" y="161" on="0"/>
-        <pt x="98" y="161" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvG_RA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvNukta" x="434" y="195" scale="0.9364" flags="0x4"/>
     </TTGlyph>
 
     <TTGlyph name="dvH" xMin="-26" yMin="-382" xMax="612" yMax="740">
@@ -16071,72 +14110,9 @@
         </assembly></instructions>
     </TTGlyph>
 
-    <TTGlyph name="dvII" xMin="-37" yMin="-77" xMax="714" yMax="1007">
-      <contour>
-        <pt x="629" y="1007" on="0"/>
-        <pt x="714" y="914" on="0"/>
-        <pt x="712" y="838" on="1"/>
-        <pt x="639" y="838" on="1"/>
-        <pt x="640" y="883" on="0"/>
-        <pt x="593" y="937" on="0"/>
-        <pt x="553" y="937" on="1"/>
-        <pt x="463" y="937" on="0"/>
-        <pt x="463" y="815" on="1"/>
-        <pt x="463" y="740" on="1"/>
-        <pt x="617" y="740" on="1"/>
-        <pt x="617" y="670" on="1"/>
-        <pt x="465" y="670" on="1"/>
-        <pt x="465" y="488" on="1"/>
-        <pt x="288" y="488" on="1"/>
-        <pt x="236" y="488" on="0"/>
-        <pt x="166" y="452" on="0"/>
-        <pt x="166" y="405" on="1"/>
-        <pt x="166" y="362" on="0"/>
-        <pt x="226" y="323" on="0"/>
-        <pt x="275" y="323" on="1"/>
-        <pt x="319" y="323" on="1"/>
-        <pt x="406" y="323" on="0"/>
-        <pt x="524" y="242" on="0"/>
-        <pt x="524" y="152" on="1"/>
-        <pt x="524" y="80" on="0"/>
-        <pt x="430" y="-13" on="0"/>
-        <pt x="345" y="-13" on="1"/>
-        <pt x="274" y="-13" on="0"/>
-        <pt x="189" y="46" on="0"/>
-        <pt x="174" y="79" on="1"/>
-        <pt x="174" y="-77" on="1"/>
-        <pt x="95" y="-77" on="1"/>
-        <pt x="95" y="179" on="1"/>
-        <pt x="170" y="179" on="1"/>
-        <pt x="175" y="121" on="0"/>
-        <pt x="255" y="50" on="0"/>
-        <pt x="323" y="50" on="1"/>
-        <pt x="382" y="50" on="0"/>
-        <pt x="445" y="109" on="0"/>
-        <pt x="445" y="154" on="1"/>
-        <pt x="445" y="212" on="0"/>
-        <pt x="365" y="262" on="0"/>
-        <pt x="304" y="262" on="1"/>
-        <pt x="269" y="262" on="0"/>
-        <pt x="251" y="263" on="1"/>
-        <pt x="180" y="265" on="0"/>
-        <pt x="82" y="336" on="0"/>
-        <pt x="82" y="406" on="1"/>
-        <pt x="82" y="481" on="0"/>
-        <pt x="187" y="550" on="0"/>
-        <pt x="265" y="550" on="1"/>
-        <pt x="384" y="550" on="1"/>
-        <pt x="384" y="670" on="1"/>
-        <pt x="-37" y="670" on="1"/>
-        <pt x="-37" y="740" on="1"/>
-        <pt x="385" y="740" on="1"/>
-        <pt x="385" y="814" on="1"/>
-        <pt x="385" y="902" on="0"/>
-        <pt x="466" y="1007" on="0"/>
-        <pt x="552" y="1007" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+    <TTGlyph name="dvII" xMin="-37" yMin="-77" xMax="712" yMax="1007">
+      <component glyphName="dvI" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvReph" x="568" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvII_Anusvara" xMin="-37" yMin="-77" xMax="741" yMax="1017">
@@ -16807,75 +14783,8 @@
     </TTGlyph>
 
     <TTGlyph name="dvJ_BA" xMin="-26" yMin="0" xMax="1259" yMax="740">
-      <contour>
-        <pt x="1259" y="670" on="1"/>
-        <pt x="1128" y="670" on="1"/>
-        <pt x="1128" y="0" on="1"/>
-        <pt x="1047" y="0" on="1"/>
-        <pt x="1047" y="196" on="1"/>
-        <pt x="1023" y="149" on="0"/>
-        <pt x="924" y="91" on="0"/>
-        <pt x="856" y="91" on="1"/>
-        <pt x="789" y="91" on="0"/>
-        <pt x="678" y="150" on="0"/>
-        <pt x="614" y="259" on="0"/>
-        <pt x="614" y="330" on="1"/>
-        <pt x="614" y="384" on="0"/>
-        <pt x="632" y="427" on="1"/>
-        <pt x="462" y="427" on="1"/>
-        <pt x="462" y="333" on="1"/>
-        <pt x="462" y="243" on="0"/>
-        <pt x="357" y="131" on="0"/>
-        <pt x="267" y="131" on="1"/>
-        <pt x="177" y="131" on="0"/>
-        <pt x="75" y="242" on="0"/>
-        <pt x="75" y="333" on="1"/>
-        <pt x="75" y="499" on="1"/>
-        <pt x="159" y="499" on="1"/>
-        <pt x="159" y="334" on="1"/>
-        <pt x="159" y="275" on="0"/>
-        <pt x="217" y="204" on="0"/>
-        <pt x="268" y="204" on="1"/>
-        <pt x="320" y="204" on="0"/>
-        <pt x="381" y="275" on="0"/>
-        <pt x="381" y="334" on="1"/>
-        <pt x="381" y="499" on="1"/>
-        <pt x="679" y="499" on="1"/>
-        <pt x="711" y="533" on="0"/>
-        <pt x="802" y="569" on="0"/>
-        <pt x="855" y="569" on="1"/>
-        <pt x="923" y="569" on="0"/>
-        <pt x="1020" y="511" on="0"/>
-        <pt x="1047" y="463" on="1"/>
-        <pt x="1047" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1259" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="797" y="512" on="0"/>
-        <pt x="746" y="467" on="1"/>
-        <pt x="1021" y="227" on="1"/>
-        <pt x="1052" y="274" on="0"/>
-        <pt x="1052" y="331" on="1"/>
-        <pt x="1052" y="377" on="0"/>
-        <pt x="1010" y="460" on="0"/>
-        <pt x="928" y="512" on="0"/>
-        <pt x="870" y="512" on="1"/>
-      </contour>
-      <contour>
-        <pt x="688" y="276" on="0"/>
-        <pt x="737" y="195" on="0"/>
-        <pt x="821" y="152" on="0"/>
-        <pt x="872" y="152" on="1"/>
-        <pt x="947" y="152" on="0"/>
-        <pt x="995" y="197" on="1"/>
-        <pt x="720" y="438" on="1"/>
-        <pt x="688" y="392" on="0"/>
-        <pt x="688" y="330" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvJ" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvBA" x="544" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvJ_DA" xMin="-26" yMin="-16" xMax="1189" yMax="740">
@@ -17010,138 +14919,13 @@
     </TTGlyph>
 
     <TTGlyph name="dvJ_JA" xMin="-26" yMin="0" xMax="1436" yMax="740">
-      <contour>
-        <pt x="1436" y="670" on="1"/>
-        <pt x="1304" y="670" on="1"/>
-        <pt x="1304" y="0" on="1"/>
-        <pt x="1221" y="0" on="1"/>
-        <pt x="1221" y="427" on="1"/>
-        <pt x="1031" y="427" on="1"/>
-        <pt x="1031" y="333" on="1"/>
-        <pt x="1031" y="243" on="0"/>
-        <pt x="926" y="131" on="0"/>
-        <pt x="836" y="131" on="1"/>
-        <pt x="746" y="131" on="0"/>
-        <pt x="644" y="242" on="0"/>
-        <pt x="644" y="333" on="1"/>
-        <pt x="644" y="427" on="1"/>
-        <pt x="462" y="427" on="1"/>
-        <pt x="462" y="333" on="1"/>
-        <pt x="462" y="243" on="0"/>
-        <pt x="357" y="131" on="0"/>
-        <pt x="267" y="131" on="1"/>
-        <pt x="177" y="131" on="0"/>
-        <pt x="75" y="242" on="0"/>
-        <pt x="75" y="333" on="1"/>
-        <pt x="75" y="499" on="1"/>
-        <pt x="159" y="499" on="1"/>
-        <pt x="159" y="334" on="1"/>
-        <pt x="159" y="275" on="0"/>
-        <pt x="217" y="204" on="0"/>
-        <pt x="268" y="204" on="1"/>
-        <pt x="320" y="204" on="0"/>
-        <pt x="381" y="275" on="0"/>
-        <pt x="381" y="334" on="1"/>
-        <pt x="381" y="499" on="1"/>
-        <pt x="728" y="499" on="1"/>
-        <pt x="728" y="334" on="1"/>
-        <pt x="728" y="275" on="0"/>
-        <pt x="786" y="204" on="0"/>
-        <pt x="837" y="204" on="1"/>
-        <pt x="889" y="204" on="0"/>
-        <pt x="950" y="275" on="0"/>
-        <pt x="950" y="334" on="1"/>
-        <pt x="950" y="499" on="1"/>
-        <pt x="1221" y="499" on="1"/>
-        <pt x="1221" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1436" y="740" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvJA" x="569" y="0" flags="0x0"/>
+      <component glyphName="dvJ" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvJ_JHA" xMin="-26" yMin="-77" xMax="1423" yMax="740">
-      <contour>
-        <pt x="1423" y="670" on="1"/>
-        <pt x="1291" y="670" on="1"/>
-        <pt x="1291" y="0" on="1"/>
-        <pt x="1209" y="0" on="1"/>
-        <pt x="1209" y="259" on="1"/>
-        <pt x="1020" y="260" on="1"/>
-        <pt x="1069" y="218" on="0"/>
-        <pt x="1069" y="144" on="1"/>
-        <pt x="1069" y="78" on="0"/>
-        <pt x="980" y="-7" on="0"/>
-        <pt x="897" y="-7" on="1"/>
-        <pt x="826" y="-7" on="0"/>
-        <pt x="745" y="47" on="0"/>
-        <pt x="727" y="77" on="1"/>
-        <pt x="727" y="-77" on="1"/>
-        <pt x="648" y="-77" on="1"/>
-        <pt x="648" y="171" on="1"/>
-        <pt x="722" y="171" on="1"/>
-        <pt x="729" y="121" on="0"/>
-        <pt x="807" y="56" on="0"/>
-        <pt x="874" y="56" on="1"/>
-        <pt x="932" y="56" on="0"/>
-        <pt x="992" y="112" on="0"/>
-        <pt x="992" y="154" on="1"/>
-        <pt x="992" y="205" on="0"/>
-        <pt x="920" y="262" on="0"/>
-        <pt x="851" y="262" on="1"/>
-        <pt x="816" y="262" on="0"/>
-        <pt x="798" y="263" on="1"/>
-        <pt x="727" y="265" on="0"/>
-        <pt x="629" y="336" on="0"/>
-        <pt x="629" y="406" on="1"/>
-        <pt x="629" y="420" on="0"/>
-        <pt x="630" y="427" on="1"/>
-        <pt x="462" y="427" on="1"/>
-        <pt x="462" y="333" on="1"/>
-        <pt x="462" y="243" on="0"/>
-        <pt x="357" y="131" on="0"/>
-        <pt x="267" y="131" on="1"/>
-        <pt x="177" y="131" on="0"/>
-        <pt x="75" y="242" on="0"/>
-        <pt x="75" y="333" on="1"/>
-        <pt x="75" y="499" on="1"/>
-        <pt x="159" y="499" on="1"/>
-        <pt x="159" y="334" on="1"/>
-        <pt x="159" y="275" on="0"/>
-        <pt x="217" y="204" on="0"/>
-        <pt x="268" y="204" on="1"/>
-        <pt x="320" y="204" on="0"/>
-        <pt x="381" y="275" on="0"/>
-        <pt x="381" y="334" on="1"/>
-        <pt x="381" y="499" on="1"/>
-        <pt x="663" y="499" on="1"/>
-        <pt x="687" y="525" on="0"/>
-        <pt x="765" y="550" on="0"/>
-        <pt x="812" y="550" on="1"/>
-        <pt x="931" y="550" on="1"/>
-        <pt x="931" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1423" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="1209" y="323" on="1"/>
-        <pt x="1209" y="670" on="1"/>
-        <pt x="1012" y="670" on="1"/>
-        <pt x="1012" y="488" on="1"/>
-        <pt x="835" y="488" on="1"/>
-        <pt x="783" y="488" on="0"/>
-        <pt x="713" y="452" on="0"/>
-        <pt x="713" y="405" on="1"/>
-        <pt x="713" y="362" on="0"/>
-        <pt x="773" y="323" on="0"/>
-        <pt x="822" y="323" on="1"/>
-        <pt x="866" y="323" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvJHA" x="547" y="0" flags="0x0"/>
+      <component glyphName="dvJ" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvJ_J_NYA" xMin="-26" yMin="0" xMax="1363" yMax="740">
@@ -17204,88 +14988,9 @@
     </TTGlyph>
 
     <TTGlyph name="dvJ_J_VA" xMin="-26" yMin="0" xMax="1819" yMax="740">
-      <contour>
-        <pt x="1819" y="670" on="1"/>
-        <pt x="1687" y="670" on="1"/>
-        <pt x="1687" y="0" on="1"/>
-        <pt x="1606" y="0" on="1"/>
-        <pt x="1606" y="202" on="1"/>
-        <pt x="1581" y="153" on="0"/>
-        <pt x="1483" y="95" on="0"/>
-        <pt x="1416" y="95" on="1"/>
-        <pt x="1349" y="95" on="0"/>
-        <pt x="1246" y="154" on="0"/>
-        <pt x="1188" y="261" on="0"/>
-        <pt x="1188" y="332" on="1"/>
-        <pt x="1188" y="384" on="0"/>
-        <pt x="1205" y="427" on="1"/>
-        <pt x="1031" y="427" on="1"/>
-        <pt x="1031" y="333" on="1"/>
-        <pt x="1031" y="243" on="0"/>
-        <pt x="926" y="131" on="0"/>
-        <pt x="836" y="131" on="1"/>
-        <pt x="746" y="131" on="0"/>
-        <pt x="644" y="242" on="0"/>
-        <pt x="644" y="333" on="1"/>
-        <pt x="644" y="427" on="1"/>
-        <pt x="462" y="427" on="1"/>
-        <pt x="462" y="333" on="1"/>
-        <pt x="462" y="243" on="0"/>
-        <pt x="357" y="131" on="0"/>
-        <pt x="267" y="131" on="1"/>
-        <pt x="177" y="131" on="0"/>
-        <pt x="75" y="242" on="0"/>
-        <pt x="75" y="333" on="1"/>
-        <pt x="75" y="499" on="1"/>
-        <pt x="159" y="499" on="1"/>
-        <pt x="159" y="334" on="1"/>
-        <pt x="159" y="275" on="0"/>
-        <pt x="217" y="204" on="0"/>
-        <pt x="268" y="204" on="1"/>
-        <pt x="320" y="204" on="0"/>
-        <pt x="381" y="275" on="0"/>
-        <pt x="381" y="334" on="1"/>
-        <pt x="381" y="499" on="1"/>
-        <pt x="728" y="499" on="1"/>
-        <pt x="728" y="334" on="1"/>
-        <pt x="728" y="275" on="0"/>
-        <pt x="786" y="204" on="0"/>
-        <pt x="837" y="204" on="1"/>
-        <pt x="889" y="204" on="0"/>
-        <pt x="950" y="275" on="0"/>
-        <pt x="950" y="334" on="1"/>
-        <pt x="950" y="499" on="1"/>
-        <pt x="1252" y="499" on="1"/>
-        <pt x="1282" y="530" on="0"/>
-        <pt x="1366" y="563" on="0"/>
-        <pt x="1416" y="563" on="1"/>
-        <pt x="1484" y="563" on="0"/>
-        <pt x="1581" y="506" on="0"/>
-        <pt x="1606" y="458" on="1"/>
-        <pt x="1606" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1819" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="1493" y="163" on="0"/>
-        <pt x="1569" y="212" on="0"/>
-        <pt x="1606" y="288" on="0"/>
-        <pt x="1606" y="328" on="1"/>
-        <pt x="1606" y="370" on="0"/>
-        <pt x="1569" y="447" on="0"/>
-        <pt x="1493" y="495" on="0"/>
-        <pt x="1437" y="495" on="1"/>
-        <pt x="1390" y="495" on="0"/>
-        <pt x="1314" y="455" on="0"/>
-        <pt x="1270" y="380" on="0"/>
-        <pt x="1270" y="331" on="1"/>
-        <pt x="1270" y="254" on="0"/>
-        <pt x="1364" y="163" on="0"/>
-        <pt x="1437" y="163" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvJ" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvJ" x="569" y="0" flags="0x0"/>
+      <component glyphName="dvVA" x="1118" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvJ_J_YA" xMin="-26" yMin="0" xMax="1892" yMax="740">
@@ -17368,96 +15073,8 @@
     </TTGlyph>
 
     <TTGlyph name="dvJ_KA" xMin="-26" yMin="0" xMax="1573" yMax="740">
-      <contour>
-        <pt x="1095" y="670" on="1"/>
-        <pt x="1095" y="454" on="1"/>
-        <pt x="1116" y="502" on="0"/>
-        <pt x="1204" y="559" on="0"/>
-        <pt x="1268" y="559" on="1"/>
-        <pt x="1328" y="559" on="0"/>
-        <pt x="1424" y="501" on="0"/>
-        <pt x="1477" y="398" on="0"/>
-        <pt x="1477" y="332" on="1"/>
-        <pt x="1477" y="261" on="0"/>
-        <pt x="1423" y="157" on="0"/>
-        <pt x="1328" y="102" on="0"/>
-        <pt x="1268" y="102" on="1"/>
-        <pt x="1231" y="102" on="0"/>
-        <pt x="1206" y="109" on="1"/>
-        <pt x="1206" y="175" on="1"/>
-        <pt x="1222" y="171" on="0"/>
-        <pt x="1248" y="171" on="1"/>
-        <pt x="1311" y="171" on="0"/>
-        <pt x="1392" y="256" on="0"/>
-        <pt x="1392" y="330" on="1"/>
-        <pt x="1392" y="401" on="0"/>
-        <pt x="1308" y="487" on="0"/>
-        <pt x="1245" y="487" on="1"/>
-        <pt x="1170" y="487" on="0"/>
-        <pt x="1095" y="388" on="0"/>
-        <pt x="1095" y="321" on="1"/>
-        <pt x="1095" y="0" on="1"/>
-        <pt x="1015" y="0" on="1"/>
-        <pt x="1015" y="202" on="1"/>
-        <pt x="992" y="154" on="0"/>
-        <pt x="900" y="97" on="0"/>
-        <pt x="835" y="97" on="1"/>
-        <pt x="773" y="97" on="0"/>
-        <pt x="676" y="154" on="0"/>
-        <pt x="622" y="260" on="0"/>
-        <pt x="622" y="330" on="1"/>
-        <pt x="622" y="382" on="0"/>
-        <pt x="639" y="427" on="1"/>
-        <pt x="462" y="427" on="1"/>
-        <pt x="462" y="333" on="1"/>
-        <pt x="462" y="243" on="0"/>
-        <pt x="357" y="131" on="0"/>
-        <pt x="267" y="131" on="1"/>
-        <pt x="177" y="131" on="0"/>
-        <pt x="75" y="242" on="0"/>
-        <pt x="75" y="333" on="1"/>
-        <pt x="75" y="499" on="1"/>
-        <pt x="159" y="499" on="1"/>
-        <pt x="159" y="334" on="1"/>
-        <pt x="159" y="275" on="0"/>
-        <pt x="217" y="204" on="0"/>
-        <pt x="268" y="204" on="1"/>
-        <pt x="320" y="204" on="0"/>
-        <pt x="381" y="275" on="0"/>
-        <pt x="381" y="334" on="1"/>
-        <pt x="381" y="499" on="1"/>
-        <pt x="685" y="499" on="1"/>
-        <pt x="714" y="528" on="0"/>
-        <pt x="792" y="559" on="0"/>
-        <pt x="838" y="559" on="1"/>
-        <pt x="903" y="559" on="0"/>
-        <pt x="993" y="503" on="0"/>
-        <pt x="1015" y="457" on="1"/>
-        <pt x="1015" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1573" y="740" on="1"/>
-        <pt x="1573" y="670" on="1"/>
-      </contour>
-      <contour>
-        <pt x="911" y="168" on="0"/>
-        <pt x="981" y="215" on="0"/>
-        <pt x="1015" y="289" on="0"/>
-        <pt x="1015" y="327" on="1"/>
-        <pt x="1015" y="328" on="1"/>
-        <pt x="1015" y="368" on="0"/>
-        <pt x="982" y="441" on="0"/>
-        <pt x="912" y="487" on="0"/>
-        <pt x="861" y="487" on="1"/>
-        <pt x="795" y="487" on="0"/>
-        <pt x="706" y="402" on="0"/>
-        <pt x="706" y="330" on="1"/>
-        <pt x="706" y="255" on="0"/>
-        <pt x="792" y="168" on="0"/>
-        <pt x="860" y="168" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvJ" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvKA" x="552" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvJ_MA" xMin="-26" yMin="0" xMax="1371" yMax="740">
@@ -17932,70 +15549,8 @@
     </TTGlyph>
 
     <TTGlyph name="dvJ_VA" xMin="-26" yMin="0" xMax="1250" yMax="740">
-      <contour>
-        <pt x="1250" y="670" on="1"/>
-        <pt x="1118" y="670" on="1"/>
-        <pt x="1118" y="0" on="1"/>
-        <pt x="1037" y="0" on="1"/>
-        <pt x="1037" y="202" on="1"/>
-        <pt x="1012" y="153" on="0"/>
-        <pt x="914" y="95" on="0"/>
-        <pt x="847" y="95" on="1"/>
-        <pt x="780" y="95" on="0"/>
-        <pt x="677" y="154" on="0"/>
-        <pt x="619" y="261" on="0"/>
-        <pt x="619" y="332" on="1"/>
-        <pt x="619" y="384" on="0"/>
-        <pt x="636" y="427" on="1"/>
-        <pt x="462" y="427" on="1"/>
-        <pt x="462" y="333" on="1"/>
-        <pt x="462" y="243" on="0"/>
-        <pt x="357" y="131" on="0"/>
-        <pt x="267" y="131" on="1"/>
-        <pt x="177" y="131" on="0"/>
-        <pt x="75" y="242" on="0"/>
-        <pt x="75" y="333" on="1"/>
-        <pt x="75" y="499" on="1"/>
-        <pt x="159" y="499" on="1"/>
-        <pt x="159" y="334" on="1"/>
-        <pt x="159" y="275" on="0"/>
-        <pt x="217" y="204" on="0"/>
-        <pt x="268" y="204" on="1"/>
-        <pt x="320" y="204" on="0"/>
-        <pt x="381" y="275" on="0"/>
-        <pt x="381" y="334" on="1"/>
-        <pt x="381" y="499" on="1"/>
-        <pt x="683" y="499" on="1"/>
-        <pt x="713" y="530" on="0"/>
-        <pt x="797" y="563" on="0"/>
-        <pt x="847" y="563" on="1"/>
-        <pt x="915" y="563" on="0"/>
-        <pt x="1012" y="506" on="0"/>
-        <pt x="1037" y="458" on="1"/>
-        <pt x="1037" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1250" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="924" y="163" on="0"/>
-        <pt x="1000" y="212" on="0"/>
-        <pt x="1037" y="288" on="0"/>
-        <pt x="1037" y="328" on="1"/>
-        <pt x="1037" y="370" on="0"/>
-        <pt x="1000" y="447" on="0"/>
-        <pt x="924" y="495" on="0"/>
-        <pt x="868" y="495" on="1"/>
-        <pt x="821" y="495" on="0"/>
-        <pt x="745" y="455" on="0"/>
-        <pt x="701" y="380" on="0"/>
-        <pt x="701" y="331" on="1"/>
-        <pt x="701" y="254" on="0"/>
-        <pt x="795" y="163" on="0"/>
-        <pt x="868" y="163" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvJ" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvVA" x="549" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvJ_YA" xMin="-26" yMin="0" xMax="1323" yMax="740">
@@ -18072,113 +15627,18 @@
     <TTGlyph name="dvJx_JxA" xMin="-26" yMin="-60" xMax="1436" yMax="740">
       <component glyphName="dvNukta" x="630" y="88" flags="0x4"/>
       <component glyphName="dvNukta" x="1199" y="88" flags="0x4"/>
-      <component glyphName="dvJ_JA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvJA" x="569" y="0" flags="0x0"/>
+      <component glyphName="dvJ" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvJx_R" xMin="-26" yMin="-33" xMax="694" yMax="740">
-      <contour>
-        <pt x="694" y="740" on="1"/>
-        <pt x="694" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="694" y="429" on="1"/>
-        <pt x="459" y="429" on="1"/>
-        <pt x="459" y="402" on="1"/>
-        <pt x="459" y="312" on="0"/>
-        <pt x="356" y="201" on="0"/>
-        <pt x="267" y="201" on="1"/>
-        <pt x="177" y="201" on="0"/>
-        <pt x="75" y="312" on="0"/>
-        <pt x="75" y="402" on="1"/>
-        <pt x="75" y="502" on="1"/>
-        <pt x="159" y="502" on="1"/>
-        <pt x="159" y="404" on="1"/>
-        <pt x="159" y="345" on="0"/>
-        <pt x="217" y="274" on="0"/>
-        <pt x="268" y="274" on="1"/>
-        <pt x="320" y="274" on="0"/>
-        <pt x="381" y="345" on="0"/>
-        <pt x="381" y="404" on="1"/>
-        <pt x="381" y="502" on="1"/>
-        <pt x="694" y="502" on="1"/>
-      </contour>
-      <contour>
-        <pt x="303" y="-33" on="1"/>
-        <pt x="694" y="367" on="1"/>
-        <pt x="694" y="281" on="1"/>
-        <pt x="396" y="-33" on="1"/>
-      </contour>
-      <contour>
-        <pt x="166" y="97" on="0"/>
-        <pt x="196" y="67" on="0"/>
-        <pt x="196" y="44" on="1"/>
-        <pt x="196" y="22" on="0"/>
-        <pt x="166" y="-8" on="0"/>
-        <pt x="144" y="-8" on="1"/>
-        <pt x="122" y="-8" on="0"/>
-        <pt x="91" y="22" on="0"/>
-        <pt x="91" y="44" on="1"/>
-        <pt x="91" y="67" on="0"/>
-        <pt x="122" y="97" on="0"/>
-        <pt x="144" y="97" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvJ_R" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvNukta" x="480" y="131" scale="0.9364" flags="0x4"/>
     </TTGlyph>
 
     <TTGlyph name="dvJx_RA" xMin="-26" yMin="-33" xMax="867" yMax="740">
-      <contour>
-        <pt x="867" y="670" on="1"/>
-        <pt x="735" y="670" on="1"/>
-        <pt x="735" y="0" on="1"/>
-        <pt x="657" y="0" on="1"/>
-        <pt x="657" y="242" on="1"/>
-        <pt x="396" y="-33" on="1"/>
-        <pt x="303" y="-33" on="1"/>
-        <pt x="655" y="326" on="1"/>
-        <pt x="655" y="433" on="1"/>
-        <pt x="459" y="433" on="1"/>
-        <pt x="459" y="402" on="1"/>
-        <pt x="459" y="312" on="0"/>
-        <pt x="356" y="201" on="0"/>
-        <pt x="267" y="201" on="1"/>
-        <pt x="177" y="201" on="0"/>
-        <pt x="75" y="312" on="0"/>
-        <pt x="75" y="402" on="1"/>
-        <pt x="75" y="502" on="1"/>
-        <pt x="159" y="502" on="1"/>
-        <pt x="159" y="404" on="1"/>
-        <pt x="159" y="345" on="0"/>
-        <pt x="217" y="274" on="0"/>
-        <pt x="268" y="274" on="1"/>
-        <pt x="320" y="274" on="0"/>
-        <pt x="381" y="345" on="0"/>
-        <pt x="381" y="404" on="1"/>
-        <pt x="381" y="502" on="1"/>
-        <pt x="655" y="502" on="1"/>
-        <pt x="655" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="867" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="166" y="97" on="0"/>
-        <pt x="196" y="67" on="0"/>
-        <pt x="196" y="44" on="1"/>
-        <pt x="196" y="22" on="0"/>
-        <pt x="166" y="-8" on="0"/>
-        <pt x="144" y="-8" on="1"/>
-        <pt x="122" y="-8" on="0"/>
-        <pt x="91" y="22" on="0"/>
-        <pt x="91" y="44" on="1"/>
-        <pt x="91" y="67" on="0"/>
-        <pt x="122" y="97" on="0"/>
-        <pt x="144" y="97" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvJ_RA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvNukta" x="480" y="131" scale="0.9364" flags="0x4"/>
     </TTGlyph>
 
     <TTGlyph name="dvJx_YA" xMin="-26" yMin="-60" xMax="1323" yMax="740">
@@ -19321,175 +16781,13 @@
     </TTGlyph>
 
     <TTGlyph name="dvKHx_R" xMin="-26" yMin="-144" xMax="830" yMax="740">
-      <contour>
-        <pt x="345" y="434" on="0"/>
-        <pt x="247" y="338" on="0"/>
-        <pt x="166" y="337" on="1"/>
-        <pt x="166" y="235" on="1"/>
-        <pt x="166" y="160" on="0"/>
-        <pt x="257" y="69" on="0"/>
-        <pt x="335" y="69" on="1"/>
-        <pt x="392" y="69" on="0"/>
-        <pt x="470" y="124" on="0"/>
-        <pt x="491" y="167" on="1"/>
-        <pt x="447" y="193" on="0"/>
-        <pt x="398" y="282" on="0"/>
-        <pt x="398" y="340" on="1"/>
-        <pt x="398" y="434" on="0"/>
-        <pt x="517" y="544" on="0"/>
-        <pt x="614" y="544" on="1"/>
-        <pt x="711" y="544" on="0"/>
-        <pt x="830" y="434" on="0"/>
-        <pt x="830" y="340" on="1"/>
-        <pt x="830" y="277" on="0"/>
-        <pt x="774" y="185" on="0"/>
-        <pt x="676" y="136" on="0"/>
-        <pt x="614" y="136" on="1"/>
-        <pt x="584" y="136" on="0"/>
-        <pt x="557" y="142" on="1"/>
-        <pt x="534" y="94" on="0"/>
-        <pt x="501" y="64" on="1"/>
-        <pt x="299" y="-144" on="1"/>
-        <pt x="209" y="-144" on="1"/>
-        <pt x="209" y="-139" on="1"/>
-        <pt x="349" y="0" on="1"/>
-        <pt x="333" y="0" on="1"/>
-        <pt x="219" y="0" on="0"/>
-        <pt x="84" y="129" on="0"/>
-        <pt x="84" y="243" on="1"/>
-        <pt x="84" y="398" on="1"/>
-        <pt x="119" y="398" on="1"/>
-        <pt x="185" y="398" on="0"/>
-        <pt x="261" y="465" on="0"/>
-        <pt x="261" y="549" on="1"/>
-        <pt x="261" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="830" y="740" on="1"/>
-        <pt x="830" y="670" on="1"/>
-        <pt x="345" y="670" on="1"/>
-        <pt x="345" y="539" on="1"/>
-      </contour>
-      <contour>
-        <pt x="550" y="480" on="0"/>
-        <pt x="472" y="404" on="0"/>
-        <pt x="472" y="340" on="1"/>
-        <pt x="472" y="276" on="0"/>
-        <pt x="550" y="200" on="0"/>
-        <pt x="614" y="200" on="1"/>
-        <pt x="679" y="200" on="0"/>
-        <pt x="756" y="276" on="0"/>
-        <pt x="756" y="340" on="1"/>
-        <pt x="756" y="404" on="0"/>
-        <pt x="679" y="480" on="0"/>
-        <pt x="614" y="480" on="1"/>
-      </contour>
-      <contour>
-        <pt x="124" y="-17" on="0"/>
-        <pt x="154" y="-47" on="0"/>
-        <pt x="154" y="-70" on="1"/>
-        <pt x="154" y="-92" on="0"/>
-        <pt x="124" y="-122" on="0"/>
-        <pt x="102" y="-122" on="1"/>
-        <pt x="80" y="-122" on="0"/>
-        <pt x="49" y="-92" on="0"/>
-        <pt x="49" y="-70" on="1"/>
-        <pt x="49" y="-48" on="0"/>
-        <pt x="80" y="-17" on="0"/>
-        <pt x="102" y="-17" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvKH_R" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvNukta" x="438" y="17" scale="0.9364" flags="0x4"/>
     </TTGlyph>
 
     <TTGlyph name="dvKHx_RA" xMin="-26" yMin="-144" xMax="960" yMax="740">
-      <contour>
-        <pt x="960" y="740" on="1"/>
-        <pt x="960" y="670" on="1"/>
-        <pt x="828" y="670" on="1"/>
-        <pt x="828" y="0" on="1"/>
-        <pt x="745" y="0" on="1"/>
-        <pt x="745" y="217" on="1"/>
-        <pt x="724" y="180" on="0"/>
-        <pt x="648" y="136" on="0"/>
-        <pt x="595" y="136" on="1"/>
-        <pt x="574" y="136" on="0"/>
-        <pt x="556" y="139" on="1"/>
-        <pt x="533" y="95" on="0"/>
-        <pt x="501" y="64" on="1"/>
-        <pt x="299" y="-144" on="1"/>
-        <pt x="209" y="-144" on="1"/>
-        <pt x="209" y="-139" on="1"/>
-        <pt x="349" y="0" on="1"/>
-        <pt x="333" y="0" on="1"/>
-        <pt x="219" y="0" on="0"/>
-        <pt x="84" y="129" on="0"/>
-        <pt x="84" y="243" on="1"/>
-        <pt x="84" y="398" on="1"/>
-        <pt x="119" y="398" on="1"/>
-        <pt x="185" y="398" on="0"/>
-        <pt x="261" y="465" on="0"/>
-        <pt x="261" y="549" on="1"/>
-        <pt x="261" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="391" y="69" on="0"/>
-        <pt x="468" y="122" on="0"/>
-        <pt x="489" y="164" on="1"/>
-        <pt x="446" y="190" on="0"/>
-        <pt x="397" y="284" on="0"/>
-        <pt x="397" y="344" on="1"/>
-        <pt x="397" y="403" on="0"/>
-        <pt x="449" y="495" on="0"/>
-        <pt x="539" y="545" on="0"/>
-        <pt x="595" y="545" on="1"/>
-        <pt x="648" y="545" on="0"/>
-        <pt x="724" y="501" on="0"/>
-        <pt x="745" y="464" on="1"/>
-        <pt x="745" y="670" on="1"/>
-        <pt x="345" y="670" on="1"/>
-        <pt x="345" y="539" on="1"/>
-        <pt x="345" y="434" on="0"/>
-        <pt x="247" y="338" on="0"/>
-        <pt x="166" y="337" on="1"/>
-        <pt x="166" y="235" on="1"/>
-        <pt x="166" y="160" on="0"/>
-        <pt x="257" y="69" on="0"/>
-        <pt x="335" y="69" on="1"/>
-      </contour>
-      <contour>
-        <pt x="655" y="201" on="0"/>
-        <pt x="716" y="242" on="0"/>
-        <pt x="745" y="306" on="0"/>
-        <pt x="745" y="341" on="1"/>
-        <pt x="745" y="396" on="0"/>
-        <pt x="678" y="480" on="0"/>
-        <pt x="611" y="480" on="1"/>
-        <pt x="552" y="480" on="0"/>
-        <pt x="472" y="406" on="0"/>
-        <pt x="472" y="344" on="1"/>
-        <pt x="472" y="277" on="0"/>
-        <pt x="551" y="201" on="0"/>
-        <pt x="611" y="201" on="1"/>
-      </contour>
-      <contour>
-        <pt x="124" y="-17" on="0"/>
-        <pt x="154" y="-47" on="0"/>
-        <pt x="154" y="-70" on="1"/>
-        <pt x="154" y="-92" on="0"/>
-        <pt x="124" y="-122" on="0"/>
-        <pt x="102" y="-122" on="1"/>
-        <pt x="80" y="-122" on="0"/>
-        <pt x="49" y="-92" on="0"/>
-        <pt x="49" y="-70" on="1"/>
-        <pt x="49" y="-48" on="0"/>
-        <pt x="80" y="-17" on="0"/>
-        <pt x="102" y="-17" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvKH_RA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvNukta" x="438" y="17" scale="0.9364" flags="0x4"/>
     </TTGlyph>
 
     <TTGlyph name="dvKHx_SA" xMin="-26" yMin="-196" xMax="1521" yMax="740">
@@ -24349,79 +21647,8 @@
     </TTGlyph>
 
     <TTGlyph name="dvLL_R" xMin="-26" yMin="-54" xMax="1024" yMax="740">
-      <contour>
-        <pt x="1024" y="740" on="1"/>
-        <pt x="1024" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="928" y="242" on="0"/>
-        <pt x="846" y="128" on="0"/>
-        <pt x="778" y="107" on="1"/>
-        <pt x="928" y="-54" on="1"/>
-        <pt x="841" y="-54" on="1"/>
-        <pt x="706" y="92" on="1"/>
-        <pt x="571" y="-54" on="1"/>
-        <pt x="484" y="-54" on="1"/>
-        <pt x="632" y="106" on="1"/>
-        <pt x="584" y="121" on="0"/>
-        <pt x="515" y="190" on="0"/>
-        <pt x="500" y="235" on="1"/>
-        <pt x="497" y="235" on="1"/>
-        <pt x="477" y="173" on="0"/>
-        <pt x="369" y="95" on="0"/>
-        <pt x="294" y="95" on="1"/>
-        <pt x="231" y="95" on="0"/>
-        <pt x="129" y="152" on="0"/>
-        <pt x="70" y="254" on="0"/>
-        <pt x="70" y="320" on="1"/>
-        <pt x="70" y="388" on="0"/>
-        <pt x="129" y="492" on="0"/>
-        <pt x="231" y="549" on="0"/>
-        <pt x="294" y="549" on="1"/>
-        <pt x="369" y="549" on="0"/>
-        <pt x="472" y="474" on="0"/>
-        <pt x="497" y="411" on="1"/>
-        <pt x="500" y="411" on="1"/>
-        <pt x="525" y="474" on="0"/>
-        <pt x="629" y="549" on="0"/>
-        <pt x="704" y="549" on="1"/>
-        <pt x="766" y="549" on="0"/>
-        <pt x="869" y="492" on="0"/>
-        <pt x="928" y="388" on="0"/>
-        <pt x="928" y="320" on="1"/>
-      </contour>
-      <contour>
-        <pt x="373" y="167" on="0"/>
-        <pt x="457" y="252" on="0"/>
-        <pt x="457" y="320" on="1"/>
-        <pt x="457" y="389" on="0"/>
-        <pt x="373" y="477" on="0"/>
-        <pt x="305" y="477" on="1"/>
-        <pt x="237" y="477" on="0"/>
-        <pt x="151" y="390" on="0"/>
-        <pt x="151" y="319" on="1"/>
-        <pt x="151" y="251" on="0"/>
-        <pt x="238" y="167" on="0"/>
-        <pt x="305" y="167" on="1"/>
-      </contour>
-      <contour>
-        <pt x="759" y="167" on="0"/>
-        <pt x="846" y="251" on="0"/>
-        <pt x="846" y="319" on="1"/>
-        <pt x="846" y="390" on="0"/>
-        <pt x="760" y="477" on="0"/>
-        <pt x="693" y="477" on="1"/>
-        <pt x="624" y="477" on="0"/>
-        <pt x="540" y="389" on="0"/>
-        <pt x="540" y="320" on="1"/>
-        <pt x="540" y="252" on="0"/>
-        <pt x="624" y="167" on="0"/>
-        <pt x="692" y="167" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvLL" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvRashtrasign" x="946" y="43" flags="0x4"/>
     </TTGlyph>
 
     <TTGlyph name="dvLL_RA" xMin="-26" yMin="-54" xMax="1024" yMax="740">
@@ -28286,134 +25513,13 @@
     </TTGlyph>
 
     <TTGlyph name="dvM_PA" xMin="-26" yMin="0" xMax="1186" yMax="740">
-      <contour>
-        <pt x="1186" y="670" on="1"/>
-        <pt x="1055" y="670" on="1"/>
-        <pt x="1055" y="0" on="1"/>
-        <pt x="972" y="0" on="1"/>
-        <pt x="972" y="283" on="1"/>
-        <pt x="947" y="242" on="0"/>
-        <pt x="862" y="197" on="0"/>
-        <pt x="804" y="197" on="1"/>
-        <pt x="714" y="197" on="0"/>
-        <pt x="607" y="297" on="0"/>
-        <pt x="594" y="385" on="1"/>
-        <pt x="414" y="385" on="1"/>
-        <pt x="414" y="308" on="1"/>
-        <pt x="414" y="208" on="0"/>
-        <pt x="320" y="101" on="0"/>
-        <pt x="233" y="101" on="1"/>
-        <pt x="149" y="101" on="0"/>
-        <pt x="48" y="198" on="0"/>
-        <pt x="48" y="278" on="1"/>
-        <pt x="48" y="361" on="0"/>
-        <pt x="156" y="454" on="0"/>
-        <pt x="241" y="454" on="1"/>
-        <pt x="336" y="454" on="1"/>
-        <pt x="336" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1186" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="414" y="454" on="1"/>
-        <pt x="590" y="454" on="1"/>
-        <pt x="590" y="670" on="1"/>
-        <pt x="414" y="670" on="1"/>
-      </contour>
-      <contour>
-        <pt x="972" y="670" on="1"/>
-        <pt x="673" y="670" on="1"/>
-        <pt x="673" y="445" on="1"/>
-        <pt x="673" y="361" on="0"/>
-        <pt x="748" y="268" on="0"/>
-        <pt x="824" y="268" on="1"/>
-        <pt x="893" y="268" on="0"/>
-        <pt x="972" y="357" on="0"/>
-        <pt x="972" y="423" on="1"/>
-      </contour>
-      <contour>
-        <pt x="336" y="385" on="1"/>
-        <pt x="243" y="385" on="1"/>
-        <pt x="191" y="385" on="0"/>
-        <pt x="126" y="327" on="0"/>
-        <pt x="126" y="278" on="1"/>
-        <pt x="126" y="230" on="0"/>
-        <pt x="185" y="172" on="0"/>
-        <pt x="231" y="172" on="1"/>
-        <pt x="280" y="172" on="0"/>
-        <pt x="336" y="241" on="0"/>
-        <pt x="336" y="303" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvM" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvPA" x="505" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvM_P_RA" xMin="-26" yMin="-12" xMax="1186" yMax="740">
-      <contour>
-        <pt x="1186" y="670" on="1"/>
-        <pt x="1055" y="670" on="1"/>
-        <pt x="1055" y="0" on="1"/>
-        <pt x="972" y="0" on="1"/>
-        <pt x="972" y="285" on="1"/>
-        <pt x="963" y="269" on="0"/>
-        <pt x="942" y="248" on="1"/>
-        <pt x="693" y="-12" on="1"/>
-        <pt x="601" y="-12" on="1"/>
-        <pt x="813" y="201" on="1"/>
-        <pt x="804" y="201" on="1"/>
-        <pt x="714" y="201" on="0"/>
-        <pt x="608" y="298" on="0"/>
-        <pt x="594" y="385" on="1"/>
-        <pt x="414" y="385" on="1"/>
-        <pt x="414" y="308" on="1"/>
-        <pt x="414" y="208" on="0"/>
-        <pt x="320" y="101" on="0"/>
-        <pt x="233" y="101" on="1"/>
-        <pt x="149" y="101" on="0"/>
-        <pt x="48" y="198" on="0"/>
-        <pt x="48" y="278" on="1"/>
-        <pt x="48" y="361" on="0"/>
-        <pt x="156" y="454" on="0"/>
-        <pt x="241" y="454" on="1"/>
-        <pt x="336" y="454" on="1"/>
-        <pt x="336" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1186" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="414" y="454" on="1"/>
-        <pt x="590" y="454" on="1"/>
-        <pt x="590" y="670" on="1"/>
-        <pt x="414" y="670" on="1"/>
-      </contour>
-      <contour>
-        <pt x="972" y="670" on="1"/>
-        <pt x="673" y="670" on="1"/>
-        <pt x="673" y="445" on="1"/>
-        <pt x="673" y="361" on="0"/>
-        <pt x="748" y="268" on="0"/>
-        <pt x="824" y="268" on="1"/>
-        <pt x="893" y="268" on="0"/>
-        <pt x="972" y="357" on="0"/>
-        <pt x="972" y="423" on="1"/>
-      </contour>
-      <contour>
-        <pt x="336" y="385" on="1"/>
-        <pt x="243" y="385" on="1"/>
-        <pt x="191" y="385" on="0"/>
-        <pt x="126" y="327" on="0"/>
-        <pt x="126" y="278" on="1"/>
-        <pt x="126" y="230" on="0"/>
-        <pt x="185" y="172" on="0"/>
-        <pt x="231" y="172" on="1"/>
-        <pt x="280" y="172" on="0"/>
-        <pt x="336" y="241" on="0"/>
-        <pt x="336" y="303" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvM" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvP_RA" x="505" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvM_R" xMin="-26" yMin="-74" xMax="636" yMax="740">
@@ -29058,77 +26164,14 @@
     </TTGlyph>
 
     <TTGlyph name="dvNG_R" xMin="-26" yMin="-376" xMax="686" yMax="740">
-      <component glyphName="dvNG_RA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvNGA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvRashtrasign" x="552" y="-66" flags="0x4"/>
       <component glyphName="dvVirama" x="458" y="-116" flags="0x4"/>
     </TTGlyph>
 
     <TTGlyph name="dvNG_RA" xMin="-26" yMin="-163" xMax="686" yMax="740">
-      <contour>
-        <pt x="686" y="740" on="1"/>
-        <pt x="686" y="670" on="1"/>
-        <pt x="467" y="670" on="1"/>
-        <pt x="467" y="488" on="1"/>
-        <pt x="290" y="488" on="1"/>
-        <pt x="239" y="488" on="0"/>
-        <pt x="170" y="452" on="0"/>
-        <pt x="170" y="405" on="1"/>
-        <pt x="170" y="362" on="0"/>
-        <pt x="229" y="323" on="0"/>
-        <pt x="276" y="323" on="1"/>
-        <pt x="321" y="323" on="1"/>
-        <pt x="408" y="323" on="0"/>
-        <pt x="526" y="243" on="0"/>
-        <pt x="526" y="154" on="1"/>
-        <pt x="526" y="94" on="0"/>
-        <pt x="455" y="9" on="0"/>
-        <pt x="388" y="-6" on="1"/>
-        <pt x="534" y="-163" on="1"/>
-        <pt x="447" y="-163" on="1"/>
-        <pt x="312" y="-17" on="1"/>
-        <pt x="177" y="-163" on="1"/>
-        <pt x="90" y="-163" on="1"/>
-        <pt x="236" y="-6" on="1"/>
-        <pt x="159" y="11" on="0"/>
-        <pt x="72" y="108" on="0"/>
-        <pt x="70" y="179" on="1"/>
-        <pt x="153" y="179" on="1"/>
-        <pt x="154" y="121" on="0"/>
-        <pt x="237" y="50" on="0"/>
-        <pt x="313" y="50" on="1"/>
-        <pt x="378" y="50" on="0"/>
-        <pt x="447" y="108" on="0"/>
-        <pt x="447" y="154" on="1"/>
-        <pt x="447" y="212" on="0"/>
-        <pt x="368" y="262" on="0"/>
-        <pt x="307" y="262" on="1"/>
-        <pt x="266" y="262" on="1"/>
-        <pt x="192" y="262" on="0"/>
-        <pt x="86" y="331" on="0"/>
-        <pt x="86" y="408" on="1"/>
-        <pt x="86" y="481" on="0"/>
-        <pt x="190" y="549" on="0"/>
-        <pt x="267" y="549" on="1"/>
-        <pt x="386" y="549" on="1"/>
-        <pt x="386" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="610" y="445" on="0"/>
-        <pt x="640" y="415" on="0"/>
-        <pt x="640" y="393" on="1"/>
-        <pt x="640" y="371" on="0"/>
-        <pt x="610" y="342" on="0"/>
-        <pt x="588" y="342" on="1"/>
-        <pt x="566" y="342" on="0"/>
-        <pt x="536" y="371" on="0"/>
-        <pt x="536" y="393" on="1"/>
-        <pt x="536" y="415" on="0"/>
-        <pt x="566" y="445" on="0"/>
-        <pt x="588" y="445" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvNGA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvRashtrasign" x="552" y="-66" flags="0x4"/>
     </TTGlyph>
 
     <TTGlyph name="dvNN" xMin="-26" yMin="183" xMax="591" yMax="740">
@@ -29198,269 +26241,23 @@
     </TTGlyph>
 
     <TTGlyph name="dvNN_DDA" xMin="-26" yMin="-14" xMax="1143" yMax="740">
-      <contour>
-        <pt x="781" y="488" on="0"/>
-        <pt x="712" y="452" on="0"/>
-        <pt x="712" y="405" on="1"/>
-        <pt x="712" y="362" on="0"/>
-        <pt x="771" y="323" on="0"/>
-        <pt x="818" y="323" on="1"/>
-        <pt x="863" y="323" on="1"/>
-        <pt x="950" y="323" on="0"/>
-        <pt x="1068" y="243" on="0"/>
-        <pt x="1068" y="154" on="1"/>
-        <pt x="1068" y="78" on="0"/>
-        <pt x="958" y="-14" on="0"/>
-        <pt x="857" y="-14" on="1"/>
-        <pt x="746" y="-14" on="0"/>
-        <pt x="614" y="91" on="0"/>
-        <pt x="612" y="179" on="1"/>
-        <pt x="695" y="179" on="1"/>
-        <pt x="696" y="121" on="0"/>
-        <pt x="779" y="50" on="0"/>
-        <pt x="855" y="50" on="1"/>
-        <pt x="920" y="50" on="0"/>
-        <pt x="989" y="108" on="0"/>
-        <pt x="989" y="154" on="1"/>
-        <pt x="989" y="212" on="0"/>
-        <pt x="910" y="262" on="0"/>
-        <pt x="849" y="262" on="1"/>
-        <pt x="808" y="262" on="1"/>
-        <pt x="734" y="262" on="0"/>
-        <pt x="628" y="331" on="0"/>
-        <pt x="628" y="408" on="1"/>
-        <pt x="628" y="481" on="0"/>
-        <pt x="732" y="549" on="0"/>
-        <pt x="809" y="549" on="1"/>
-        <pt x="923" y="549" on="1"/>
-        <pt x="923" y="670" on="1"/>
-        <pt x="472" y="670" on="1"/>
-        <pt x="472" y="383" on="1"/>
-        <pt x="472" y="293" on="0"/>
-        <pt x="372" y="183" on="0"/>
-        <pt x="281" y="183" on="1"/>
-        <pt x="191" y="183" on="0"/>
-        <pt x="91" y="294" on="0"/>
-        <pt x="91" y="383" on="1"/>
-        <pt x="91" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1143" y="740" on="1"/>
-        <pt x="1143" y="670" on="1"/>
-        <pt x="1004" y="670" on="1"/>
-        <pt x="1004" y="488" on="1"/>
-        <pt x="832" y="488" on="1"/>
-      </contour>
-      <contour>
-        <pt x="390" y="670" on="1"/>
-        <pt x="173" y="670" on="1"/>
-        <pt x="173" y="376" on="1"/>
-        <pt x="173" y="321" on="0"/>
-        <pt x="232" y="254" on="0"/>
-        <pt x="282" y="254" on="1"/>
-        <pt x="333" y="254" on="0"/>
-        <pt x="390" y="321" on="0"/>
-        <pt x="390" y="376" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvNN" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvDDA" x="542" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvNN_DDHA" xMin="-26" yMin="8" xMax="1221" yMax="740">
-      <contour>
-        <pt x="836" y="498" on="0"/>
-        <pt x="705" y="387" on="0"/>
-        <pt x="705" y="281" on="1"/>
-        <pt x="705" y="220" on="0"/>
-        <pt x="759" y="124" on="0"/>
-        <pt x="860" y="70" on="0"/>
-        <pt x="926" y="70" on="1"/>
-        <pt x="999" y="70" on="0"/>
-        <pt x="1093" y="143" on="0"/>
-        <pt x="1093" y="203" on="1"/>
-        <pt x="1093" y="248" on="0"/>
-        <pt x="1037" y="306" on="0"/>
-        <pt x="994" y="306" on="1"/>
-        <pt x="956" y="306" on="0"/>
-        <pt x="903" y="257" on="0"/>
-        <pt x="903" y="218" on="1"/>
-        <pt x="903" y="209" on="0"/>
-        <pt x="905" y="199" on="1"/>
-        <pt x="843" y="199" on="1"/>
-        <pt x="840" y="226" on="0"/>
-        <pt x="840" y="229" on="1"/>
-        <pt x="840" y="293" on="0"/>
-        <pt x="929" y="367" on="0"/>
-        <pt x="997" y="367" on="1"/>
-        <pt x="1074" y="367" on="0"/>
-        <pt x="1166" y="276" on="0"/>
-        <pt x="1166" y="203" on="1"/>
-        <pt x="1166" y="145" on="0"/>
-        <pt x="1107" y="56" on="0"/>
-        <pt x="999" y="8" on="0"/>
-        <pt x="925" y="8" on="1"/>
-        <pt x="839" y="8" on="0"/>
-        <pt x="702" y="76" on="0"/>
-        <pt x="624" y="201" on="0"/>
-        <pt x="624" y="284" on="1"/>
-        <pt x="624" y="373" on="0"/>
-        <pt x="700" y="496" on="0"/>
-        <pt x="833" y="558" on="0"/>
-        <pt x="918" y="558" on="1"/>
-        <pt x="958" y="558" on="1"/>
-        <pt x="958" y="670" on="1"/>
-        <pt x="472" y="670" on="1"/>
-        <pt x="472" y="383" on="1"/>
-        <pt x="472" y="293" on="0"/>
-        <pt x="372" y="183" on="0"/>
-        <pt x="281" y="183" on="1"/>
-        <pt x="191" y="183" on="0"/>
-        <pt x="91" y="294" on="0"/>
-        <pt x="91" y="383" on="1"/>
-        <pt x="91" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1221" y="740" on="1"/>
-        <pt x="1221" y="670" on="1"/>
-        <pt x="1037" y="670" on="1"/>
-        <pt x="1037" y="498" on="1"/>
-        <pt x="942" y="498" on="1"/>
-      </contour>
-      <contour>
-        <pt x="390" y="670" on="1"/>
-        <pt x="173" y="670" on="1"/>
-        <pt x="173" y="376" on="1"/>
-        <pt x="173" y="321" on="0"/>
-        <pt x="232" y="254" on="0"/>
-        <pt x="282" y="254" on="1"/>
-        <pt x="333" y="254" on="0"/>
-        <pt x="390" y="321" on="0"/>
-        <pt x="390" y="376" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvNN" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvDDHA" x="554" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvNN_MA" xMin="-26" yMin="0" xMax="1348" yMax="740">
-      <contour>
-        <pt x="1348" y="670" on="1"/>
-        <pt x="1216" y="670" on="1"/>
-        <pt x="1216" y="0" on="1"/>
-        <pt x="1132" y="0" on="1"/>
-        <pt x="1132" y="385" on="1"/>
-        <pt x="949" y="385" on="1"/>
-        <pt x="949" y="308" on="1"/>
-        <pt x="949" y="208" on="0"/>
-        <pt x="855" y="101" on="0"/>
-        <pt x="768" y="101" on="1"/>
-        <pt x="684" y="101" on="0"/>
-        <pt x="583" y="198" on="0"/>
-        <pt x="583" y="278" on="1"/>
-        <pt x="583" y="361" on="0"/>
-        <pt x="691" y="454" on="0"/>
-        <pt x="776" y="454" on="1"/>
-        <pt x="871" y="454" on="1"/>
-        <pt x="871" y="670" on="1"/>
-        <pt x="472" y="670" on="1"/>
-        <pt x="472" y="383" on="1"/>
-        <pt x="472" y="293" on="0"/>
-        <pt x="372" y="183" on="0"/>
-        <pt x="281" y="183" on="1"/>
-        <pt x="191" y="183" on="0"/>
-        <pt x="91" y="294" on="0"/>
-        <pt x="91" y="383" on="1"/>
-        <pt x="91" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1348" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="390" y="670" on="1"/>
-        <pt x="173" y="670" on="1"/>
-        <pt x="173" y="376" on="1"/>
-        <pt x="173" y="321" on="0"/>
-        <pt x="232" y="254" on="0"/>
-        <pt x="282" y="254" on="1"/>
-        <pt x="333" y="254" on="0"/>
-        <pt x="390" y="321" on="0"/>
-        <pt x="390" y="376" on="1"/>
-      </contour>
-      <contour>
-        <pt x="1132" y="670" on="1"/>
-        <pt x="949" y="670" on="1"/>
-        <pt x="949" y="454" on="1"/>
-        <pt x="1132" y="454" on="1"/>
-      </contour>
-      <contour>
-        <pt x="871" y="385" on="1"/>
-        <pt x="778" y="385" on="1"/>
-        <pt x="726" y="385" on="0"/>
-        <pt x="661" y="327" on="0"/>
-        <pt x="661" y="278" on="1"/>
-        <pt x="661" y="230" on="0"/>
-        <pt x="720" y="172" on="0"/>
-        <pt x="766" y="172" on="1"/>
-        <pt x="815" y="172" on="0"/>
-        <pt x="871" y="241" on="0"/>
-        <pt x="871" y="303" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvNN" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvMA" x="535" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvNN_NNA" xMin="-26" yMin="0" xMax="1432" yMax="740">
-      <contour>
-        <pt x="1432" y="670" on="1"/>
-        <pt x="1301" y="670" on="1"/>
-        <pt x="1301" y="0" on="1"/>
-        <pt x="1217" y="0" on="1"/>
-        <pt x="1217" y="670" on="1"/>
-        <pt x="1022" y="670" on="1"/>
-        <pt x="1022" y="383" on="1"/>
-        <pt x="1022" y="293" on="0"/>
-        <pt x="922" y="183" on="0"/>
-        <pt x="831" y="183" on="1"/>
-        <pt x="741" y="183" on="0"/>
-        <pt x="641" y="294" on="0"/>
-        <pt x="641" y="383" on="1"/>
-        <pt x="641" y="670" on="1"/>
-        <pt x="472" y="670" on="1"/>
-        <pt x="472" y="383" on="1"/>
-        <pt x="472" y="293" on="0"/>
-        <pt x="372" y="183" on="0"/>
-        <pt x="281" y="183" on="1"/>
-        <pt x="191" y="183" on="0"/>
-        <pt x="91" y="294" on="0"/>
-        <pt x="91" y="383" on="1"/>
-        <pt x="91" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1432" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="390" y="670" on="1"/>
-        <pt x="173" y="670" on="1"/>
-        <pt x="173" y="376" on="1"/>
-        <pt x="173" y="321" on="0"/>
-        <pt x="232" y="254" on="0"/>
-        <pt x="282" y="254" on="1"/>
-        <pt x="333" y="254" on="0"/>
-        <pt x="390" y="321" on="0"/>
-        <pt x="390" y="376" on="1"/>
-      </contour>
-      <contour>
-        <pt x="940" y="670" on="1"/>
-        <pt x="723" y="670" on="1"/>
-        <pt x="723" y="376" on="1"/>
-        <pt x="723" y="321" on="0"/>
-        <pt x="782" y="254" on="0"/>
-        <pt x="832" y="254" on="1"/>
-        <pt x="883" y="254" on="0"/>
-        <pt x="940" y="321" on="0"/>
-        <pt x="940" y="376" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvNN" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvNNA" x="550" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvNN_R" xMin="-26" yMin="-32" xMax="662" yMax="740">
@@ -29540,261 +26337,23 @@
     </TTGlyph>
 
     <TTGlyph name="dvNN_TTA" xMin="-26" yMin="42" xMax="1209" yMax="740">
-      <contour>
-        <pt x="803" y="483" on="0"/>
-        <pt x="685" y="386" on="0"/>
-        <pt x="685" y="295" on="1"/>
-        <pt x="685" y="243" on="0"/>
-        <pt x="733" y="161" on="0"/>
-        <pt x="818" y="115" on="0"/>
-        <pt x="871" y="115" on="1"/>
-        <pt x="925" y="115" on="0"/>
-        <pt x="1010" y="163" on="0"/>
-        <pt x="1057" y="248" on="0"/>
-        <pt x="1057" y="302" on="1"/>
-        <pt x="1137" y="302" on="1"/>
-        <pt x="1137" y="226" on="0"/>
-        <pt x="1071" y="108" on="0"/>
-        <pt x="951" y="42" on="0"/>
-        <pt x="872" y="42" on="1"/>
-        <pt x="794" y="42" on="0"/>
-        <pt x="671" y="106" on="0"/>
-        <pt x="602" y="221" on="0"/>
-        <pt x="602" y="295" on="1"/>
-        <pt x="602" y="378" on="0"/>
-        <pt x="675" y="494" on="0"/>
-        <pt x="805" y="554" on="0"/>
-        <pt x="891" y="554" on="1"/>
-        <pt x="914" y="554" on="1"/>
-        <pt x="914" y="670" on="1"/>
-        <pt x="472" y="670" on="1"/>
-        <pt x="472" y="383" on="1"/>
-        <pt x="472" y="293" on="0"/>
-        <pt x="372" y="183" on="0"/>
-        <pt x="281" y="183" on="1"/>
-        <pt x="191" y="183" on="0"/>
-        <pt x="91" y="294" on="0"/>
-        <pt x="91" y="383" on="1"/>
-        <pt x="91" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1209" y="740" on="1"/>
-        <pt x="1209" y="670" on="1"/>
-        <pt x="996" y="670" on="1"/>
-        <pt x="996" y="483" on="1"/>
-        <pt x="895" y="483" on="1"/>
-      </contour>
-      <contour>
-        <pt x="390" y="670" on="1"/>
-        <pt x="173" y="670" on="1"/>
-        <pt x="173" y="376" on="1"/>
-        <pt x="173" y="321" on="0"/>
-        <pt x="232" y="254" on="0"/>
-        <pt x="282" y="254" on="1"/>
-        <pt x="333" y="254" on="0"/>
-        <pt x="390" y="321" on="0"/>
-        <pt x="390" y="376" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvNN" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvTTA" x="532" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvNN_TTHA" xMin="-26" yMin="47" xMax="1251" yMax="740">
-      <contour>
-        <pt x="927" y="670" on="1"/>
-        <pt x="927" y="548" on="1"/>
-        <pt x="992" y="540" on="0"/>
-        <pt x="1095" y="475" on="0"/>
-        <pt x="1155" y="368" on="0"/>
-        <pt x="1155" y="299" on="1"/>
-        <pt x="1155" y="225" on="0"/>
-        <pt x="1085" y="110" on="0"/>
-        <pt x="963" y="47" on="0"/>
-        <pt x="887" y="47" on="1"/>
-        <pt x="811" y="47" on="0"/>
-        <pt x="689" y="110" on="0"/>
-        <pt x="619" y="224" on="0"/>
-        <pt x="619" y="299" on="1"/>
-        <pt x="619" y="368" on="0"/>
-        <pt x="678" y="474" on="0"/>
-        <pt x="781" y="539" on="0"/>
-        <pt x="845" y="547" on="1"/>
-        <pt x="845" y="670" on="1"/>
-        <pt x="472" y="670" on="1"/>
-        <pt x="472" y="383" on="1"/>
-        <pt x="472" y="293" on="0"/>
-        <pt x="372" y="183" on="0"/>
-        <pt x="281" y="183" on="1"/>
-        <pt x="191" y="183" on="0"/>
-        <pt x="91" y="294" on="0"/>
-        <pt x="91" y="383" on="1"/>
-        <pt x="91" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1251" y="740" on="1"/>
-        <pt x="1251" y="670" on="1"/>
-      </contour>
-      <contour>
-        <pt x="390" y="670" on="1"/>
-        <pt x="173" y="670" on="1"/>
-        <pt x="173" y="376" on="1"/>
-        <pt x="173" y="321" on="0"/>
-        <pt x="232" y="254" on="0"/>
-        <pt x="282" y="254" on="1"/>
-        <pt x="333" y="254" on="0"/>
-        <pt x="390" y="321" on="0"/>
-        <pt x="390" y="376" on="1"/>
-      </contour>
-      <contour>
-        <pt x="1072" y="351" on="0"/>
-        <pt x="1025" y="433" on="0"/>
-        <pt x="940" y="479" on="0"/>
-        <pt x="887" y="479" on="1"/>
-        <pt x="834" y="479" on="0"/>
-        <pt x="749" y="433" on="0"/>
-        <pt x="702" y="351" on="0"/>
-        <pt x="702" y="299" on="1"/>
-        <pt x="702" y="247" on="0"/>
-        <pt x="749" y="164" on="0"/>
-        <pt x="834" y="118" on="0"/>
-        <pt x="887" y="118" on="1"/>
-        <pt x="940" y="118" on="0"/>
-        <pt x="1025" y="164" on="0"/>
-        <pt x="1072" y="247" on="0"/>
-        <pt x="1072" y="299" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvNN" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvTTHA" x="549" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvNN_VA" xMin="-26" yMin="0" xMax="1247" yMax="740">
-      <contour>
-        <pt x="1247" y="670" on="1"/>
-        <pt x="1115" y="670" on="1"/>
-        <pt x="1115" y="0" on="1"/>
-        <pt x="1034" y="0" on="1"/>
-        <pt x="1034" y="202" on="1"/>
-        <pt x="1009" y="153" on="0"/>
-        <pt x="911" y="95" on="0"/>
-        <pt x="844" y="95" on="1"/>
-        <pt x="777" y="95" on="0"/>
-        <pt x="674" y="154" on="0"/>
-        <pt x="616" y="261" on="0"/>
-        <pt x="616" y="332" on="1"/>
-        <pt x="616" y="400" on="0"/>
-        <pt x="674" y="505" on="0"/>
-        <pt x="778" y="563" on="0"/>
-        <pt x="844" y="563" on="1"/>
-        <pt x="912" y="563" on="0"/>
-        <pt x="1009" y="506" on="0"/>
-        <pt x="1034" y="458" on="1"/>
-        <pt x="1034" y="670" on="1"/>
-        <pt x="472" y="670" on="1"/>
-        <pt x="472" y="383" on="1"/>
-        <pt x="472" y="293" on="0"/>
-        <pt x="372" y="183" on="0"/>
-        <pt x="281" y="183" on="1"/>
-        <pt x="191" y="183" on="0"/>
-        <pt x="91" y="294" on="0"/>
-        <pt x="91" y="383" on="1"/>
-        <pt x="91" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1247" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="390" y="670" on="1"/>
-        <pt x="173" y="670" on="1"/>
-        <pt x="173" y="376" on="1"/>
-        <pt x="173" y="321" on="0"/>
-        <pt x="232" y="254" on="0"/>
-        <pt x="282" y="254" on="1"/>
-        <pt x="333" y="254" on="0"/>
-        <pt x="390" y="321" on="0"/>
-        <pt x="390" y="376" on="1"/>
-      </contour>
-      <contour>
-        <pt x="921" y="163" on="0"/>
-        <pt x="997" y="212" on="0"/>
-        <pt x="1034" y="288" on="0"/>
-        <pt x="1034" y="328" on="1"/>
-        <pt x="1034" y="370" on="0"/>
-        <pt x="997" y="447" on="0"/>
-        <pt x="921" y="495" on="0"/>
-        <pt x="865" y="495" on="1"/>
-        <pt x="818" y="495" on="0"/>
-        <pt x="742" y="455" on="0"/>
-        <pt x="698" y="380" on="0"/>
-        <pt x="698" y="331" on="1"/>
-        <pt x="698" y="254" on="0"/>
-        <pt x="792" y="163" on="0"/>
-        <pt x="865" y="163" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvNN" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvVA" x="546" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvNN_YA" xMin="-26" yMin="0" xMax="1286" yMax="740">
-      <contour>
-        <pt x="1286" y="670" on="1"/>
-        <pt x="1154" y="670" on="1"/>
-        <pt x="1154" y="0" on="1"/>
-        <pt x="1071" y="0" on="1"/>
-        <pt x="1071" y="219" on="1"/>
-        <pt x="1042" y="170" on="0"/>
-        <pt x="932" y="111" on="0"/>
-        <pt x="855" y="111" on="1"/>
-        <pt x="730" y="111" on="0"/>
-        <pt x="591" y="263" on="0"/>
-        <pt x="591" y="393" on="1"/>
-        <pt x="591" y="418" on="0"/>
-        <pt x="594" y="440" on="1"/>
-        <pt x="608" y="440" on="1"/>
-        <pt x="697" y="440" on="0"/>
-        <pt x="787" y="515" on="0"/>
-        <pt x="787" y="601" on="1"/>
-        <pt x="787" y="670" on="1"/>
-        <pt x="472" y="670" on="1"/>
-        <pt x="472" y="383" on="1"/>
-        <pt x="472" y="293" on="0"/>
-        <pt x="372" y="183" on="0"/>
-        <pt x="281" y="183" on="1"/>
-        <pt x="191" y="183" on="0"/>
-        <pt x="91" y="294" on="0"/>
-        <pt x="91" y="383" on="1"/>
-        <pt x="91" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1286" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="390" y="670" on="1"/>
-        <pt x="173" y="670" on="1"/>
-        <pt x="173" y="376" on="1"/>
-        <pt x="173" y="321" on="0"/>
-        <pt x="232" y="254" on="0"/>
-        <pt x="282" y="254" on="1"/>
-        <pt x="333" y="254" on="0"/>
-        <pt x="390" y="321" on="0"/>
-        <pt x="390" y="376" on="1"/>
-      </contour>
-      <contour>
-        <pt x="1071" y="670" on="1"/>
-        <pt x="869" y="670" on="1"/>
-        <pt x="869" y="588" on="1"/>
-        <pt x="869" y="401" on="0"/>
-        <pt x="673" y="393" on="1"/>
-        <pt x="673" y="386" on="1"/>
-        <pt x="673" y="291" on="0"/>
-        <pt x="778" y="182" on="0"/>
-        <pt x="872" y="182" on="1"/>
-        <pt x="928" y="182" on="0"/>
-        <pt x="1019" y="229" on="0"/>
-        <pt x="1071" y="315" on="0"/>
-        <pt x="1071" y="370" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvNN" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvYA" x="522" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvNY" xMin="-26" yMin="89" xMax="665" yMax="740">
@@ -30051,67 +26610,8 @@
     </TTGlyph>
 
     <TTGlyph name="dvNY_JA" xMin="-26" yMin="0" xMax="1414" yMax="740">
-      <contour>
-        <pt x="1414" y="670" on="1"/>
-        <pt x="1282" y="670" on="1"/>
-        <pt x="1282" y="0" on="1"/>
-        <pt x="1199" y="0" on="1"/>
-        <pt x="1199" y="427" on="1"/>
-        <pt x="1009" y="427" on="1"/>
-        <pt x="1009" y="333" on="1"/>
-        <pt x="1009" y="243" on="0"/>
-        <pt x="904" y="131" on="0"/>
-        <pt x="814" y="131" on="1"/>
-        <pt x="734" y="131" on="0"/>
-        <pt x="636" y="218" on="0"/>
-        <pt x="625" y="293" on="1"/>
-        <pt x="515" y="293" on="1"/>
-        <pt x="506" y="203" on="0"/>
-        <pt x="387" y="89" on="0"/>
-        <pt x="290" y="89" on="1"/>
-        <pt x="227" y="89" on="0"/>
-        <pt x="132" y="136" on="0"/>
-        <pt x="77" y="215" on="0"/>
-        <pt x="70" y="263" on="1"/>
-        <pt x="149" y="263" on="1"/>
-        <pt x="161" y="220" on="0"/>
-        <pt x="233" y="161" on="0"/>
-        <pt x="291" y="161" on="1"/>
-        <pt x="363" y="161" on="0"/>
-        <pt x="441" y="255" on="0"/>
-        <pt x="441" y="326" on="1"/>
-        <pt x="441" y="394" on="0"/>
-        <pt x="363" y="488" on="0"/>
-        <pt x="291" y="488" on="1"/>
-        <pt x="231" y="488" on="0"/>
-        <pt x="159" y="428" on="0"/>
-        <pt x="149" y="385" on="1"/>
-        <pt x="70" y="385" on="1"/>
-        <pt x="80" y="460" on="0"/>
-        <pt x="194" y="560" on="0"/>
-        <pt x="290" y="560" on="1"/>
-        <pt x="385" y="560" on="0"/>
-        <pt x="503" y="450" on="0"/>
-        <pt x="515" y="364" on="1"/>
-        <pt x="622" y="364" on="1"/>
-        <pt x="622" y="499" on="1"/>
-        <pt x="706" y="499" on="1"/>
-        <pt x="706" y="334" on="1"/>
-        <pt x="706" y="275" on="0"/>
-        <pt x="764" y="204" on="0"/>
-        <pt x="815" y="204" on="1"/>
-        <pt x="867" y="204" on="0"/>
-        <pt x="928" y="275" on="0"/>
-        <pt x="928" y="334" on="1"/>
-        <pt x="928" y="499" on="1"/>
-        <pt x="1199" y="499" on="1"/>
-        <pt x="1199" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1414" y="740" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvNY" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvJA" x="547" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvNY_R" xMin="-26" yMin="-79" xMax="675" yMax="740">
@@ -31692,241 +28192,14 @@
     </TTGlyph>
 
     <TTGlyph name="dvN_KA" xMin="-26" yMin="0" xMax="1527" yMax="740">
-      <contour>
-        <pt x="1049" y="670" on="1"/>
-        <pt x="1049" y="454" on="1"/>
-        <pt x="1070" y="502" on="0"/>
-        <pt x="1158" y="559" on="0"/>
-        <pt x="1222" y="559" on="1"/>
-        <pt x="1282" y="559" on="0"/>
-        <pt x="1378" y="501" on="0"/>
-        <pt x="1431" y="398" on="0"/>
-        <pt x="1431" y="332" on="1"/>
-        <pt x="1431" y="261" on="0"/>
-        <pt x="1377" y="157" on="0"/>
-        <pt x="1282" y="102" on="0"/>
-        <pt x="1222" y="102" on="1"/>
-        <pt x="1185" y="102" on="0"/>
-        <pt x="1160" y="109" on="1"/>
-        <pt x="1160" y="175" on="1"/>
-        <pt x="1176" y="171" on="0"/>
-        <pt x="1202" y="171" on="1"/>
-        <pt x="1265" y="171" on="0"/>
-        <pt x="1346" y="256" on="0"/>
-        <pt x="1346" y="330" on="1"/>
-        <pt x="1346" y="401" on="0"/>
-        <pt x="1262" y="487" on="0"/>
-        <pt x="1199" y="487" on="1"/>
-        <pt x="1124" y="487" on="0"/>
-        <pt x="1049" y="388" on="0"/>
-        <pt x="1049" y="321" on="1"/>
-        <pt x="1049" y="0" on="1"/>
-        <pt x="969" y="0" on="1"/>
-        <pt x="969" y="202" on="1"/>
-        <pt x="946" y="154" on="0"/>
-        <pt x="854" y="97" on="0"/>
-        <pt x="789" y="97" on="1"/>
-        <pt x="727" y="97" on="0"/>
-        <pt x="630" y="154" on="0"/>
-        <pt x="576" y="260" on="0"/>
-        <pt x="576" y="330" on="1"/>
-        <pt x="576" y="388" on="0"/>
-        <pt x="596" y="434" on="1"/>
-        <pt x="406" y="434" on="1"/>
-        <pt x="431" y="411" on="0"/>
-        <pt x="460" y="343" on="0"/>
-        <pt x="460" y="301" on="1"/>
-        <pt x="460" y="245" on="0"/>
-        <pt x="409" y="161" on="0"/>
-        <pt x="321" y="117" on="0"/>
-        <pt x="266" y="117" on="1"/>
-        <pt x="209" y="117" on="0"/>
-        <pt x="116" y="165" on="0"/>
-        <pt x="63" y="252" on="0"/>
-        <pt x="63" y="310" on="1"/>
-        <pt x="63" y="370" on="0"/>
-        <pt x="118" y="458" on="0"/>
-        <pt x="213" y="504" on="0"/>
-        <pt x="273" y="504" on="1"/>
-        <pt x="644" y="504" on="1"/>
-        <pt x="704" y="559" on="0"/>
-        <pt x="792" y="559" on="1"/>
-        <pt x="857" y="559" on="0"/>
-        <pt x="947" y="503" on="0"/>
-        <pt x="969" y="457" on="1"/>
-        <pt x="969" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1527" y="740" on="1"/>
-        <pt x="1527" y="670" on="1"/>
-      </contour>
-      <contour>
-        <pt x="865" y="168" on="0"/>
-        <pt x="935" y="215" on="0"/>
-        <pt x="969" y="289" on="0"/>
-        <pt x="969" y="327" on="1"/>
-        <pt x="969" y="328" on="1"/>
-        <pt x="969" y="368" on="0"/>
-        <pt x="936" y="441" on="0"/>
-        <pt x="866" y="487" on="0"/>
-        <pt x="815" y="487" on="1"/>
-        <pt x="749" y="487" on="0"/>
-        <pt x="660" y="402" on="0"/>
-        <pt x="660" y="330" on="1"/>
-        <pt x="660" y="255" on="0"/>
-        <pt x="746" y="168" on="0"/>
-        <pt x="814" y="168" on="1"/>
-      </contour>
-      <contour>
-        <pt x="322" y="188" on="0"/>
-        <pt x="392" y="257" on="0"/>
-        <pt x="392" y="311" on="1"/>
-        <pt x="392" y="364" on="0"/>
-        <pt x="322" y="434" on="0"/>
-        <pt x="267" y="434" on="1"/>
-        <pt x="211" y="434" on="0"/>
-        <pt x="139" y="365" on="0"/>
-        <pt x="139" y="310" on="1"/>
-        <pt x="139" y="256" on="0"/>
-        <pt x="210" y="188" on="0"/>
-        <pt x="267" y="188" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvN" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvKA" x="506" y="0" flags="0x0"/>
+      <component glyphName="dvN" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvN_K_SA" xMin="-26" yMin="-9" xMax="2097" yMax="740">
-      <contour>
-        <pt x="2097" y="670" on="1"/>
-        <pt x="1965" y="670" on="1"/>
-        <pt x="1965" y="0" on="1"/>
-        <pt x="1881" y="0" on="1"/>
-        <pt x="1881" y="350" on="1"/>
-        <pt x="1416" y="350" on="1"/>
-        <pt x="1416" y="203" on="1"/>
-        <pt x="1416" y="140" on="0"/>
-        <pt x="1475" y="63" on="0"/>
-        <pt x="1532" y="63" on="1"/>
-        <pt x="1585" y="63" on="0"/>
-        <pt x="1647" y="134" on="0"/>
-        <pt x="1647" y="192" on="1"/>
-        <pt x="1647" y="204" on="1"/>
-        <pt x="1727" y="204" on="1"/>
-        <pt x="1728" y="197" on="0"/>
-        <pt x="1728" y="188" on="1"/>
-        <pt x="1728" y="98" on="0"/>
-        <pt x="1623" y="-9" on="0"/>
-        <pt x="1533" y="-9" on="1"/>
-        <pt x="1436" y="-9" on="0"/>
-        <pt x="1333" y="110" on="0"/>
-        <pt x="1333" y="207" on="1"/>
-        <pt x="1333" y="344" on="1"/>
-        <pt x="1333" y="406" on="0"/>
-        <pt x="1254" y="487" on="0"/>
-        <pt x="1192" y="487" on="1"/>
-        <pt x="1119" y="487" on="0"/>
-        <pt x="1049" y="390" on="0"/>
-        <pt x="1049" y="321" on="1"/>
-        <pt x="1049" y="0" on="1"/>
-        <pt x="969" y="0" on="1"/>
-        <pt x="969" y="202" on="1"/>
-        <pt x="946" y="154" on="0"/>
-        <pt x="854" y="97" on="0"/>
-        <pt x="789" y="97" on="1"/>
-        <pt x="727" y="97" on="0"/>
-        <pt x="630" y="154" on="0"/>
-        <pt x="576" y="260" on="0"/>
-        <pt x="576" y="330" on="1"/>
-        <pt x="576" y="388" on="0"/>
-        <pt x="596" y="434" on="1"/>
-        <pt x="406" y="434" on="1"/>
-        <pt x="431" y="411" on="0"/>
-        <pt x="460" y="343" on="0"/>
-        <pt x="460" y="301" on="1"/>
-        <pt x="460" y="245" on="0"/>
-        <pt x="409" y="161" on="0"/>
-        <pt x="321" y="117" on="0"/>
-        <pt x="266" y="117" on="1"/>
-        <pt x="209" y="117" on="0"/>
-        <pt x="116" y="165" on="0"/>
-        <pt x="63" y="252" on="0"/>
-        <pt x="63" y="310" on="1"/>
-        <pt x="63" y="370" on="0"/>
-        <pt x="118" y="458" on="0"/>
-        <pt x="213" y="504" on="0"/>
-        <pt x="273" y="504" on="1"/>
-        <pt x="644" y="504" on="1"/>
-        <pt x="704" y="559" on="0"/>
-        <pt x="792" y="559" on="1"/>
-        <pt x="857" y="559" on="0"/>
-        <pt x="947" y="503" on="0"/>
-        <pt x="969" y="457" on="1"/>
-        <pt x="969" y="669" on="1"/>
-        <pt x="480" y="669" on="1"/>
-        <pt x="480" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="2097" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="1427" y="411" on="1"/>
-        <pt x="1511" y="411" on="0"/>
-        <pt x="1598" y="501" on="0"/>
-        <pt x="1598" y="579" on="1"/>
-        <pt x="1598" y="670" on="1"/>
-        <pt x="1431" y="670" on="1"/>
-        <pt x="1431" y="669" on="1"/>
-        <pt x="1049" y="669" on="1"/>
-        <pt x="1049" y="453" on="1"/>
-        <pt x="1070" y="498" on="0"/>
-        <pt x="1153" y="552" on="0"/>
-        <pt x="1216" y="552" on="1"/>
-        <pt x="1286" y="552" on="0"/>
-        <pt x="1382" y="475" on="0"/>
-        <pt x="1400" y="411" on="1"/>
-      </contour>
-      <contour>
-        <pt x="1881" y="670" on="1"/>
-        <pt x="1680" y="670" on="1"/>
-        <pt x="1680" y="579" on="1"/>
-        <pt x="1680" y="527" on="0"/>
-        <pt x="1648" y="445" on="0"/>
-        <pt x="1619" y="418" on="1"/>
-        <pt x="1881" y="418" on="1"/>
-      </contour>
-      <contour>
-        <pt x="865" y="168" on="0"/>
-        <pt x="935" y="215" on="0"/>
-        <pt x="969" y="289" on="0"/>
-        <pt x="969" y="327" on="1"/>
-        <pt x="969" y="328" on="1"/>
-        <pt x="969" y="368" on="0"/>
-        <pt x="936" y="441" on="0"/>
-        <pt x="866" y="487" on="0"/>
-        <pt x="815" y="487" on="1"/>
-        <pt x="749" y="487" on="0"/>
-        <pt x="660" y="402" on="0"/>
-        <pt x="660" y="330" on="1"/>
-        <pt x="660" y="255" on="0"/>
-        <pt x="746" y="168" on="0"/>
-        <pt x="814" y="168" on="1"/>
-      </contour>
-      <contour>
-        <pt x="322" y="188" on="0"/>
-        <pt x="392" y="257" on="0"/>
-        <pt x="392" y="311" on="1"/>
-        <pt x="392" y="364" on="0"/>
-        <pt x="322" y="434" on="0"/>
-        <pt x="267" y="434" on="1"/>
-        <pt x="211" y="434" on="0"/>
-        <pt x="139" y="365" on="0"/>
-        <pt x="139" y="310" on="1"/>
-        <pt x="139" y="256" on="0"/>
-        <pt x="210" y="188" on="0"/>
-        <pt x="267" y="188" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvN" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvK_SA" x="506" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvN_MA" xMin="-26" yMin="0" xMax="1350" yMax="740">
@@ -34020,87 +30293,14 @@
     </TTGlyph>
 
     <TTGlyph name="dvO" xMin="74" yMin="0" xMax="1147" yMax="981">
-      <contour>
-        <pt x="1147" y="740" on="1"/>
-        <pt x="1147" y="670" on="1"/>
-        <pt x="1016" y="670" on="1"/>
-        <pt x="1016" y="0" on="1"/>
-        <pt x="932" y="0" on="1"/>
-        <pt x="932" y="670" on="1"/>
-        <pt x="722" y="670" on="1"/>
-        <pt x="722" y="0" on="1"/>
-        <pt x="639" y="0" on="1"/>
-        <pt x="639" y="327" on="1"/>
-        <pt x="480" y="328" on="1"/>
-        <pt x="498" y="289" on="0"/>
-        <pt x="498" y="245" on="1"/>
-        <pt x="498" y="158" on="0"/>
-        <pt x="388" y="53" on="0"/>
-        <pt x="296" y="53" on="1"/>
-        <pt x="232" y="53" on="0"/>
-        <pt x="131" y="104" on="0"/>
-        <pt x="74" y="196" on="0"/>
-        <pt x="74" y="256" on="1"/>
-        <pt x="152" y="256" on="1"/>
-        <pt x="152" y="199" on="0"/>
-        <pt x="229" y="125" on="0"/>
-        <pt x="290" y="125" on="1"/>
-        <pt x="350" y="125" on="0"/>
-        <pt x="422" y="196" on="0"/>
-        <pt x="422" y="253" on="1"/>
-        <pt x="422" y="296" on="0"/>
-        <pt x="399" y="328" on="1"/>
-        <pt x="396" y="328" on="1"/>
-        <pt x="395" y="334" on="1"/>
-        <pt x="358" y="380" on="0"/>
-        <pt x="282" y="380" on="1"/>
-        <pt x="242" y="380" on="1"/>
-        <pt x="242" y="448" on="1"/>
-        <pt x="282" y="448" on="1"/>
-        <pt x="343" y="448" on="0"/>
-        <pt x="411" y="515" on="0"/>
-        <pt x="411" y="560" on="1"/>
-        <pt x="411" y="615" on="0"/>
-        <pt x="341" y="678" on="0"/>
-        <pt x="288" y="678" on="1"/>
-        <pt x="233" y="678" on="0"/>
-        <pt x="158" y="615" on="0"/>
-        <pt x="159" y="564" on="1"/>
-        <pt x="82" y="564" on="1"/>
-        <pt x="82" y="620" on="0"/>
-        <pt x="135" y="703" on="0"/>
-        <pt x="228" y="749" on="0"/>
-        <pt x="288" y="749" on="1"/>
-        <pt x="376" y="749" on="0"/>
-        <pt x="486" y="652" on="0"/>
-        <pt x="486" y="572" on="1"/>
-        <pt x="486" y="514" on="0"/>
-        <pt x="424" y="432" on="0"/>
-        <pt x="365" y="417" on="1"/>
-        <pt x="365" y="415" on="1"/>
-        <pt x="395" y="410" on="0"/>
-        <pt x="417" y="397" on="1"/>
-        <pt x="639" y="397" on="1"/>
-        <pt x="639" y="740" on="1"/>
-        <pt x="932" y="740" on="1"/>
-        <pt x="881" y="820" on="0"/>
-        <pt x="814" y="892" on="0"/>
-        <pt x="752" y="913" on="0"/>
-        <pt x="699" y="913" on="1"/>
-        <pt x="657" y="913" on="1"/>
-        <pt x="657" y="981" on="1"/>
-        <pt x="698" y="981" on="1"/>
-        <pt x="771" y="981" on="0"/>
-        <pt x="856" y="952" on="0"/>
-        <pt x="946" y="851" on="0"/>
-        <pt x="1012" y="740" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvmE" x="1119" y="0" flags="0x0"/>
+      <component glyphName="dvA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvmAA" x="827" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvOcandra" xMin="74" yMin="0" xMax="1147" yMax="1014">
-      <component glyphName="dvAA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvmAA" x="827" y="0" flags="0x0"/>
       <component glyphName="dvmEcandra" x="981" y="20" flags="0x4"/>
     </TTGlyph>
 
@@ -38867,76 +35067,8 @@
     </TTGlyph>
 
     <TTGlyph name="dvSS_TTH_RA" xMin="-26" yMin="-103" xMax="1088" yMax="740">
-      <contour>
-        <pt x="764" y="670" on="1"/>
-        <pt x="764" y="548" on="1"/>
-        <pt x="829" y="540" on="0"/>
-        <pt x="932" y="475" on="0"/>
-        <pt x="992" y="368" on="0"/>
-        <pt x="992" y="299" on="1"/>
-        <pt x="992" y="206" on="0"/>
-        <pt x="887" y="77" on="0"/>
-        <pt x="800" y="56" on="1"/>
-        <pt x="948" y="-103" on="1"/>
-        <pt x="861" y="-103" on="1"/>
-        <pt x="726" y="43" on="1"/>
-        <pt x="591" y="-103" on="1"/>
-        <pt x="504" y="-103" on="1"/>
-        <pt x="651" y="55" on="1"/>
-        <pt x="575" y="72" on="0"/>
-        <pt x="473" y="175" on="0"/>
-        <pt x="460" y="250" on="1"/>
-        <pt x="432" y="223" on="0"/>
-        <pt x="355" y="192" on="0"/>
-        <pt x="307" y="192" on="1"/>
-        <pt x="199" y="192" on="0"/>
-        <pt x="85" y="328" on="0"/>
-        <pt x="85" y="445" on="1"/>
-        <pt x="85" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1088" y="740" on="1"/>
-        <pt x="1088" y="670" on="1"/>
-      </contour>
-      <contour>
-        <pt x="166" y="669" on="1"/>
-        <pt x="482" y="414" on="1"/>
-        <pt x="510" y="470" on="0"/>
-        <pt x="615" y="539" on="0"/>
-        <pt x="682" y="547" on="1"/>
-        <pt x="682" y="670" on="1"/>
-        <pt x="166" y="670" on="1"/>
-      </contour>
-      <contour>
-        <pt x="379" y="263" on="0"/>
-        <pt x="453" y="321" on="0"/>
-        <pt x="463" y="361" on="1"/>
-        <pt x="166" y="603" on="1"/>
-        <pt x="166" y="443" on="1"/>
-        <pt x="166" y="357" on="0"/>
-        <pt x="243" y="263" on="0"/>
-        <pt x="321" y="263" on="1"/>
-      </contour>
-      <contour>
-        <pt x="909" y="351" on="0"/>
-        <pt x="862" y="433" on="0"/>
-        <pt x="777" y="479" on="0"/>
-        <pt x="724" y="479" on="1"/>
-        <pt x="671" y="479" on="0"/>
-        <pt x="586" y="433" on="0"/>
-        <pt x="539" y="351" on="0"/>
-        <pt x="539" y="299" on="1"/>
-        <pt x="539" y="247" on="0"/>
-        <pt x="586" y="164" on="0"/>
-        <pt x="671" y="118" on="0"/>
-        <pt x="724" y="118" on="1"/>
-        <pt x="777" y="118" on="0"/>
-        <pt x="862" y="164" on="0"/>
-        <pt x="909" y="247" on="0"/>
-        <pt x="909" y="299" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvRashtrasign" x="966" y="-6" flags="0x4"/>
+      <component glyphName="dvSS_TTHA" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvSS_TTH_YA" xMin="-26" yMin="0" xMax="1688" yMax="740">
@@ -42268,60 +38400,14 @@
     </TTGlyph>
 
     <TTGlyph name="dvTTH_R" xMin="-26" yMin="-317" xMax="702" yMax="740">
-      <component glyphName="dvTTH_RA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvTTHA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvRashtrasign" x="580" y="-6" flags="0x4"/>
       <component glyphName="dvVirama" x="484" y="-57" flags="0x4"/>
     </TTGlyph>
 
     <TTGlyph name="dvTTH_RA" xMin="-26" yMin="-103" xMax="702" yMax="740">
-      <contour>
-        <pt x="378" y="670" on="1"/>
-        <pt x="378" y="548" on="1"/>
-        <pt x="443" y="540" on="0"/>
-        <pt x="546" y="475" on="0"/>
-        <pt x="606" y="368" on="0"/>
-        <pt x="606" y="299" on="1"/>
-        <pt x="606" y="206" on="0"/>
-        <pt x="501" y="77" on="0"/>
-        <pt x="414" y="56" on="1"/>
-        <pt x="562" y="-103" on="1"/>
-        <pt x="475" y="-103" on="1"/>
-        <pt x="340" y="43" on="1"/>
-        <pt x="205" y="-103" on="1"/>
-        <pt x="118" y="-103" on="1"/>
-        <pt x="265" y="55" on="1"/>
-        <pt x="177" y="76" on="0"/>
-        <pt x="70" y="206" on="0"/>
-        <pt x="70" y="299" on="1"/>
-        <pt x="70" y="368" on="0"/>
-        <pt x="129" y="474" on="0"/>
-        <pt x="232" y="539" on="0"/>
-        <pt x="296" y="547" on="1"/>
-        <pt x="296" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="702" y="740" on="1"/>
-        <pt x="702" y="670" on="1"/>
-      </contour>
-      <contour>
-        <pt x="523" y="351" on="0"/>
-        <pt x="476" y="433" on="0"/>
-        <pt x="391" y="479" on="0"/>
-        <pt x="338" y="479" on="1"/>
-        <pt x="285" y="479" on="0"/>
-        <pt x="200" y="433" on="0"/>
-        <pt x="153" y="351" on="0"/>
-        <pt x="153" y="299" on="1"/>
-        <pt x="153" y="247" on="0"/>
-        <pt x="200" y="164" on="0"/>
-        <pt x="285" y="118" on="0"/>
-        <pt x="338" y="118" on="1"/>
-        <pt x="391" y="118" on="0"/>
-        <pt x="476" y="164" on="0"/>
-        <pt x="523" y="247" on="0"/>
-        <pt x="523" y="299" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvTTHA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvRashtrasign" x="580" y="-6" flags="0x4"/>
     </TTGlyph>
 
     <TTGlyph name="dvTTH_TTHA" xMin="-26" yMin="-200" xMax="693" yMax="740">
@@ -42541,53 +38627,14 @@
     </TTGlyph>
 
     <TTGlyph name="dvTT_R" xMin="-26" yMin="-314" xMax="677" yMax="740">
-      <component glyphName="dvTT_RA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvTTA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvRashtrasign" x="577" y="-5" flags="0x4"/>
       <component glyphName="dvVirama" x="485" y="-54" flags="0x4"/>
     </TTGlyph>
 
     <TTGlyph name="dvTT_RA" xMin="-26" yMin="-102" xMax="677" yMax="740">
-      <contour>
-        <pt x="271" y="483" on="0"/>
-        <pt x="153" y="386" on="0"/>
-        <pt x="153" y="295" on="1"/>
-        <pt x="153" y="243" on="0"/>
-        <pt x="201" y="161" on="0"/>
-        <pt x="286" y="115" on="0"/>
-        <pt x="339" y="115" on="1"/>
-        <pt x="393" y="115" on="0"/>
-        <pt x="478" y="163" on="0"/>
-        <pt x="525" y="248" on="0"/>
-        <pt x="525" y="302" on="1"/>
-        <pt x="605" y="302" on="1"/>
-        <pt x="605" y="206" on="0"/>
-        <pt x="504" y="72" on="0"/>
-        <pt x="416" y="51" on="1"/>
-        <pt x="559" y="-102" on="1"/>
-        <pt x="472" y="-102" on="1"/>
-        <pt x="339" y="42" on="1"/>
-        <pt x="334" y="42" on="1"/>
-        <pt x="202" y="-102" on="1"/>
-        <pt x="115" y="-102" on="1"/>
-        <pt x="258" y="52" on="1"/>
-        <pt x="172" y="75" on="0"/>
-        <pt x="70" y="205" on="0"/>
-        <pt x="70" y="295" on="1"/>
-        <pt x="70" y="378" on="0"/>
-        <pt x="143" y="494" on="0"/>
-        <pt x="273" y="554" on="0"/>
-        <pt x="359" y="554" on="1"/>
-        <pt x="382" y="554" on="1"/>
-        <pt x="382" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="677" y="740" on="1"/>
-        <pt x="677" y="670" on="1"/>
-        <pt x="464" y="670" on="1"/>
-        <pt x="464" y="483" on="1"/>
-        <pt x="363" y="483" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvTTA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvRashtrasign" x="577" y="-5" flags="0x4"/>
     </TTGlyph>
 
     <TTGlyph name="dvTT_TTA" xMin="-26" yMin="-200" xMax="710" yMax="740">
@@ -44921,68 +40968,8 @@
     </TTGlyph>
 
     <TTGlyph name="dvT_VA" xMin="-26" yMin="0" xMax="1092" yMax="740">
-      <contour>
-        <pt x="1092" y="670" on="1"/>
-        <pt x="960" y="670" on="1"/>
-        <pt x="960" y="0" on="1"/>
-        <pt x="879" y="0" on="1"/>
-        <pt x="879" y="202" on="1"/>
-        <pt x="854" y="153" on="0"/>
-        <pt x="756" y="95" on="0"/>
-        <pt x="689" y="95" on="1"/>
-        <pt x="622" y="95" on="0"/>
-        <pt x="519" y="154" on="0"/>
-        <pt x="461" y="261" on="0"/>
-        <pt x="461" y="332" on="1"/>
-        <pt x="461" y="383" on="0"/>
-        <pt x="478" y="426" on="1"/>
-        <pt x="359" y="426" on="1"/>
-        <pt x="263" y="426" on="0"/>
-        <pt x="154" y="336" on="0"/>
-        <pt x="154" y="248" on="1"/>
-        <pt x="154" y="163" on="0"/>
-        <pt x="251" y="68" on="0"/>
-        <pt x="341" y="68" on="1"/>
-        <pt x="363" y="68" on="1"/>
-        <pt x="363" y="2" on="1"/>
-        <pt x="330" y="2" on="1"/>
-        <pt x="211" y="2" on="0"/>
-        <pt x="70" y="129" on="0"/>
-        <pt x="70" y="249" on="1"/>
-        <pt x="70" y="374" on="0"/>
-        <pt x="225" y="498" on="0"/>
-        <pt x="355" y="498" on="1"/>
-        <pt x="524" y="498" on="1"/>
-        <pt x="554" y="529" on="0"/>
-        <pt x="639" y="563" on="0"/>
-        <pt x="689" y="563" on="1"/>
-        <pt x="757" y="563" on="0"/>
-        <pt x="854" y="506" on="0"/>
-        <pt x="879" y="458" on="1"/>
-        <pt x="879" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="1092" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="766" y="163" on="0"/>
-        <pt x="842" y="212" on="0"/>
-        <pt x="879" y="288" on="0"/>
-        <pt x="879" y="328" on="1"/>
-        <pt x="879" y="370" on="0"/>
-        <pt x="842" y="447" on="0"/>
-        <pt x="766" y="495" on="0"/>
-        <pt x="710" y="495" on="1"/>
-        <pt x="663" y="495" on="0"/>
-        <pt x="587" y="455" on="0"/>
-        <pt x="543" y="380" on="0"/>
-        <pt x="543" y="331" on="1"/>
-        <pt x="543" y="254" on="0"/>
-        <pt x="637" y="163" on="0"/>
-        <pt x="710" y="163" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvT" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvVA" x="391" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvT_YA" xMin="-26" yMin="0" xMax="1155" yMax="740">
@@ -46279,216 +42266,24 @@
     </TTGlyph>
 
     <TTGlyph name="dvmAU" xMin="-175" yMin="0" xMax="320" yMax="1041">
-      <contour>
-        <pt x="320" y="740" on="1"/>
-        <pt x="320" y="670" on="1"/>
-        <pt x="189" y="670" on="1"/>
-        <pt x="189" y="0" on="1"/>
-        <pt x="105" y="0" on="1"/>
-        <pt x="105" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="110" y="740" on="1"/>
-        <pt x="51" y="786" on="0"/>
-        <pt x="-14" y="824" on="0"/>
-        <pt x="-74" y="834" on="0"/>
-        <pt x="-133" y="834" on="1"/>
-        <pt x="-175" y="834" on="1"/>
-        <pt x="-175" y="889" on="1"/>
-        <pt x="-135" y="889" on="1"/>
-        <pt x="-77" y="889" on="0"/>
-        <pt x="-17" y="881" on="0"/>
-        <pt x="47" y="847" on="0"/>
-        <pt x="95" y="807" on="1"/>
-        <pt x="49" y="891" on="0"/>
-        <pt x="-20" y="967" on="0"/>
-        <pt x="-81" y="986" on="0"/>
-        <pt x="-132" y="986" on="1"/>
-        <pt x="-175" y="986" on="1"/>
-        <pt x="-175" y="1041" on="1"/>
-        <pt x="-133" y="1041" on="1"/>
-        <pt x="-60" y="1041" on="0"/>
-        <pt x="20" y="1009" on="0"/>
-        <pt x="110" y="885" on="0"/>
-        <pt x="184" y="740" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvmAA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvmAI" x="292" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvmAU_Anusvara" xMin="-175" yMin="0" xMax="320" yMax="1041">
-      <contour>
-        <pt x="-60" y="1041" on="0"/>
-        <pt x="20" y="1009" on="0"/>
-        <pt x="110" y="885" on="0"/>
-        <pt x="184" y="740" on="1"/>
-        <pt x="320" y="740" on="1"/>
-        <pt x="320" y="670" on="1"/>
-        <pt x="189" y="670" on="1"/>
-        <pt x="189" y="0" on="1"/>
-        <pt x="105" y="0" on="1"/>
-        <pt x="105" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="110" y="740" on="1"/>
-        <pt x="51" y="786" on="0"/>
-        <pt x="-14" y="824" on="0"/>
-        <pt x="-74" y="834" on="0"/>
-        <pt x="-133" y="834" on="1"/>
-        <pt x="-175" y="834" on="1"/>
-        <pt x="-175" y="889" on="1"/>
-        <pt x="-135" y="889" on="1"/>
-        <pt x="-77" y="889" on="0"/>
-        <pt x="-17" y="881" on="0"/>
-        <pt x="47" y="847" on="0"/>
-        <pt x="95" y="807" on="1"/>
-        <pt x="49" y="891" on="0"/>
-        <pt x="-20" y="967" on="0"/>
-        <pt x="-81" y="986" on="0"/>
-        <pt x="-132" y="986" on="1"/>
-        <pt x="-175" y="986" on="1"/>
-        <pt x="-175" y="1041" on="1"/>
-        <pt x="-133" y="1041" on="1"/>
-      </contour>
-      <contour>
-        <pt x="240" y="829" on="0"/>
-        <pt x="207" y="862" on="0"/>
-        <pt x="207" y="885" on="1"/>
-        <pt x="207" y="908" on="0"/>
-        <pt x="240" y="941" on="0"/>
-        <pt x="264" y="941" on="1"/>
-        <pt x="287" y="941" on="0"/>
-        <pt x="320" y="908" on="0"/>
-        <pt x="320" y="885" on="1"/>
-        <pt x="320" y="862" on="0"/>
-        <pt x="287" y="829" on="0"/>
-        <pt x="264" y="829" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvmAA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvmAI" x="292" y="0" flags="0x0"/>
+      <component glyphName="dvAnusvara" x="411" y="-6" flags="0x4"/>
     </TTGlyph>
 
-    <TTGlyph name="dvmAU_Reph" xMin="-175" yMin="0" xMax="394" yMax="1041">
-      <contour>
-        <pt x="324" y="980" on="0"/>
-        <pt x="394" y="898" on="0"/>
-        <pt x="389" y="833" on="1"/>
-        <pt x="324" y="833" on="1"/>
-        <pt x="326" y="869" on="0"/>
-        <pt x="285" y="915" on="0"/>
-        <pt x="250" y="915" on="1"/>
-        <pt x="210" y="915" on="0"/>
-        <pt x="165" y="863" on="0"/>
-        <pt x="165" y="816" on="1"/>
-        <pt x="165" y="779" on="0"/>
-        <pt x="182" y="745" on="1"/>
-        <pt x="184" y="741" on="0"/>
-        <pt x="184" y="740" on="1"/>
-        <pt x="320" y="740" on="1"/>
-        <pt x="320" y="670" on="1"/>
-        <pt x="189" y="670" on="1"/>
-        <pt x="189" y="0" on="1"/>
-        <pt x="105" y="0" on="1"/>
-        <pt x="105" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="110" y="740" on="1"/>
-        <pt x="51" y="786" on="0"/>
-        <pt x="-14" y="824" on="0"/>
-        <pt x="-74" y="834" on="0"/>
-        <pt x="-133" y="834" on="1"/>
-        <pt x="-175" y="834" on="1"/>
-        <pt x="-175" y="889" on="1"/>
-        <pt x="-135" y="889" on="1"/>
-        <pt x="-77" y="889" on="0"/>
-        <pt x="-17" y="881" on="0"/>
-        <pt x="47" y="847" on="0"/>
-        <pt x="95" y="807" on="1"/>
-        <pt x="49" y="891" on="0"/>
-        <pt x="-20" y="967" on="0"/>
-        <pt x="-81" y="986" on="0"/>
-        <pt x="-132" y="986" on="1"/>
-        <pt x="-175" y="986" on="1"/>
-        <pt x="-175" y="1041" on="1"/>
-        <pt x="-133" y="1041" on="1"/>
-        <pt x="-69" y="1041" on="0"/>
-        <pt x="3" y="1019" on="0"/>
-        <pt x="79" y="935" on="0"/>
-        <pt x="131" y="841" on="1"/>
-        <pt x="133" y="899" on="0"/>
-        <pt x="199" y="980" on="0"/>
-        <pt x="264" y="980" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+    <TTGlyph name="dvmAU_Reph" xMin="-175" yMin="0" xMax="389" yMax="1041">
+      <component glyphName="dvmAA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvmAI_Reph" x="292" y="0" flags="0x0"/>
     </TTGlyph>
 
-    <TTGlyph name="dvmAU_Reph_Anusvara" xMin="-175" yMin="0" xMax="423" yMax="1041">
-      <contour>
-        <pt x="344" y="986" on="0"/>
-        <pt x="423" y="903" on="0"/>
-        <pt x="421" y="837" on="1"/>
-        <pt x="362" y="837" on="1"/>
-        <pt x="360" y="877" on="0"/>
-        <pt x="309" y="930" on="0"/>
-        <pt x="266" y="930" on="1"/>
-        <pt x="219" y="930" on="0"/>
-        <pt x="163" y="872" on="0"/>
-        <pt x="163" y="819" on="1"/>
-        <pt x="163" y="785" on="0"/>
-        <pt x="181" y="747" on="1"/>
-        <pt x="184" y="740" on="1"/>
-        <pt x="320" y="740" on="1"/>
-        <pt x="320" y="670" on="1"/>
-        <pt x="189" y="670" on="1"/>
-        <pt x="189" y="0" on="1"/>
-        <pt x="105" y="0" on="1"/>
-        <pt x="105" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="110" y="740" on="1"/>
-        <pt x="51" y="786" on="0"/>
-        <pt x="-14" y="824" on="0"/>
-        <pt x="-74" y="834" on="0"/>
-        <pt x="-133" y="834" on="1"/>
-        <pt x="-175" y="834" on="1"/>
-        <pt x="-175" y="889" on="1"/>
-        <pt x="-135" y="889" on="1"/>
-        <pt x="-77" y="889" on="0"/>
-        <pt x="-17" y="881" on="0"/>
-        <pt x="47" y="847" on="0"/>
-        <pt x="95" y="807" on="1"/>
-        <pt x="49" y="891" on="0"/>
-        <pt x="-20" y="967" on="0"/>
-        <pt x="-81" y="986" on="0"/>
-        <pt x="-132" y="986" on="1"/>
-        <pt x="-175" y="986" on="1"/>
-        <pt x="-175" y="1041" on="1"/>
-        <pt x="-133" y="1041" on="1"/>
-        <pt x="-70" y="1041" on="0"/>
-        <pt x="2" y="1019" on="0"/>
-        <pt x="77" y="937" on="0"/>
-        <pt x="128" y="846" on="1"/>
-        <pt x="130" y="904" on="0"/>
-        <pt x="206" y="986" on="0"/>
-        <pt x="276" y="986" on="1"/>
-      </contour>
-      <contour>
-        <pt x="214" y="852" on="0"/>
-        <pt x="240" y="878" on="0"/>
-        <pt x="259" y="878" on="1"/>
-        <pt x="278" y="878" on="0"/>
-        <pt x="304" y="852" on="0"/>
-        <pt x="304" y="834" on="1"/>
-        <pt x="304" y="815" on="0"/>
-        <pt x="278" y="789" on="0"/>
-        <pt x="259" y="789" on="1"/>
-        <pt x="240" y="789" on="0"/>
-        <pt x="214" y="815" on="0"/>
-        <pt x="214" y="834" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+    <TTGlyph name="dvmAU_Reph_Anusvara" xMin="-175" yMin="0" xMax="421" yMax="1041">
+      <component glyphName="dvmAA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvmAI_Reph_Anusvara" x="292" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvmE" xMin="-462" yMin="736" xMax="-105" yMax="981">
@@ -47758,171 +43553,24 @@
     </TTGlyph>
 
     <TTGlyph name="dvmO" xMin="-168" yMin="0" xMax="320" yMax="981">
-      <contour>
-        <pt x="320" y="740" on="1"/>
-        <pt x="320" y="670" on="1"/>
-        <pt x="189" y="670" on="1"/>
-        <pt x="189" y="0" on="1"/>
-        <pt x="105" y="0" on="1"/>
-        <pt x="105" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="107" y="740" on="1"/>
-        <pt x="56" y="820" on="0"/>
-        <pt x="-11" y="892" on="0"/>
-        <pt x="-73" y="913" on="0"/>
-        <pt x="-126" y="913" on="1"/>
-        <pt x="-168" y="913" on="1"/>
-        <pt x="-168" y="981" on="1"/>
-        <pt x="-127" y="981" on="1"/>
-        <pt x="-54" y="981" on="0"/>
-        <pt x="31" y="952" on="0"/>
-        <pt x="121" y="851" on="0"/>
-        <pt x="187" y="740" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvmAA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvmE" x="294" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvmO_Anusvara" xMin="-168" yMin="0" xMax="320" yMax="981">
-      <contour>
-        <pt x="320" y="740" on="1"/>
-        <pt x="320" y="670" on="1"/>
-        <pt x="189" y="670" on="1"/>
-        <pt x="189" y="0" on="1"/>
-        <pt x="105" y="0" on="1"/>
-        <pt x="105" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="107" y="740" on="1"/>
-        <pt x="56" y="820" on="0"/>
-        <pt x="-11" y="892" on="0"/>
-        <pt x="-73" y="913" on="0"/>
-        <pt x="-126" y="913" on="1"/>
-        <pt x="-168" y="913" on="1"/>
-        <pt x="-168" y="981" on="1"/>
-        <pt x="-127" y="981" on="1"/>
-        <pt x="-54" y="981" on="0"/>
-        <pt x="31" y="952" on="0"/>
-        <pt x="121" y="851" on="0"/>
-        <pt x="187" y="740" on="1"/>
-      </contour>
-      <contour>
-        <pt x="236" y="831" on="0"/>
-        <pt x="203" y="864" on="0"/>
-        <pt x="203" y="887" on="1"/>
-        <pt x="203" y="910" on="0"/>
-        <pt x="236" y="943" on="0"/>
-        <pt x="260" y="943" on="1"/>
-        <pt x="283" y="943" on="0"/>
-        <pt x="316" y="910" on="0"/>
-        <pt x="316" y="887" on="1"/>
-        <pt x="316" y="864" on="0"/>
-        <pt x="283" y="831" on="0"/>
-        <pt x="260" y="831" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvmAA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvmE" x="294" y="0" flags="0x0"/>
+      <component glyphName="dvAnusvara" x="407" y="-4" flags="0x4"/>
     </TTGlyph>
 
     <TTGlyph name="dvmO_Reph" xMin="-168" yMin="0" xMax="398" yMax="981">
-      <contour>
-        <pt x="327" y="980" on="0"/>
-        <pt x="398" y="907" on="0"/>
-        <pt x="398" y="848" on="1"/>
-        <pt x="397" y="833" on="1"/>
-        <pt x="326" y="833" on="1"/>
-        <pt x="328" y="869" on="0"/>
-        <pt x="287" y="915" on="0"/>
-        <pt x="252" y="915" on="1"/>
-        <pt x="212" y="915" on="0"/>
-        <pt x="167" y="863" on="0"/>
-        <pt x="167" y="816" on="1"/>
-        <pt x="167" y="777" on="0"/>
-        <pt x="187" y="740" on="1"/>
-        <pt x="320" y="740" on="1"/>
-        <pt x="320" y="670" on="1"/>
-        <pt x="189" y="670" on="1"/>
-        <pt x="189" y="0" on="1"/>
-        <pt x="105" y="0" on="1"/>
-        <pt x="105" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="107" y="740" on="1"/>
-        <pt x="56" y="820" on="0"/>
-        <pt x="-11" y="892" on="0"/>
-        <pt x="-73" y="913" on="0"/>
-        <pt x="-126" y="913" on="1"/>
-        <pt x="-168" y="913" on="1"/>
-        <pt x="-168" y="981" on="1"/>
-        <pt x="-127" y="981" on="1"/>
-        <pt x="-65" y="981" on="0"/>
-        <pt x="12" y="961" on="0"/>
-        <pt x="86" y="896" on="0"/>
-        <pt x="132" y="827" on="1"/>
-        <pt x="132" y="835" on="1"/>
-        <pt x="132" y="895" on="0"/>
-        <pt x="199" y="980" on="0"/>
-        <pt x="267" y="980" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="dvmAA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvmE_Reph" x="294" y="0" flags="0x0"/>
     </TTGlyph>
 
-    <TTGlyph name="dvmO_Reph_Anusvara" xMin="-168" yMin="0" xMax="425" yMax="986">
-      <contour>
-        <pt x="345" y="986" on="0"/>
-        <pt x="425" y="904" on="0"/>
-        <pt x="423" y="837" on="1"/>
-        <pt x="364" y="837" on="1"/>
-        <pt x="362" y="877" on="0"/>
-        <pt x="311" y="930" on="0"/>
-        <pt x="268" y="930" on="1"/>
-        <pt x="221" y="930" on="0"/>
-        <pt x="165" y="872" on="0"/>
-        <pt x="165" y="821" on="1"/>
-        <pt x="165" y="779" on="0"/>
-        <pt x="187" y="740" on="1"/>
-        <pt x="320" y="740" on="1"/>
-        <pt x="320" y="670" on="1"/>
-        <pt x="189" y="670" on="1"/>
-        <pt x="189" y="0" on="1"/>
-        <pt x="105" y="0" on="1"/>
-        <pt x="105" y="670" on="1"/>
-        <pt x="-26" y="670" on="1"/>
-        <pt x="-26" y="740" on="1"/>
-        <pt x="107" y="740" on="1"/>
-        <pt x="56" y="820" on="0"/>
-        <pt x="-11" y="892" on="0"/>
-        <pt x="-73" y="913" on="0"/>
-        <pt x="-126" y="913" on="1"/>
-        <pt x="-168" y="913" on="1"/>
-        <pt x="-168" y="981" on="1"/>
-        <pt x="-127" y="981" on="1"/>
-        <pt x="-65" y="981" on="0"/>
-        <pt x="10" y="963" on="0"/>
-        <pt x="82" y="901" on="0"/>
-        <pt x="127" y="835" on="1"/>
-        <pt x="127" y="897" on="0"/>
-        <pt x="204" y="986" on="0"/>
-        <pt x="278" y="986" on="1"/>
-      </contour>
-      <contour>
-        <pt x="218" y="852" on="0"/>
-        <pt x="244" y="878" on="0"/>
-        <pt x="263" y="878" on="1"/>
-        <pt x="282" y="878" on="0"/>
-        <pt x="308" y="852" on="0"/>
-        <pt x="308" y="834" on="1"/>
-        <pt x="308" y="815" on="0"/>
-        <pt x="282" y="789" on="0"/>
-        <pt x="263" y="789" on="1"/>
-        <pt x="244" y="789" on="0"/>
-        <pt x="218" y="815" on="0"/>
-        <pt x="218" y="834" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+    <TTGlyph name="dvmO_Reph_Anusvara" xMin="-168" yMin="0" xMax="423" yMax="986">
+      <component glyphName="dvmAA" x="0" y="0" flags="0x0"/>
+      <component glyphName="dvmE_Reph_Anusvara" x="294" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="dvmOcandra" xMin="-56" yMin="0" xMax="350" yMax="994">
@@ -48897,20 +44545,7 @@
     </TTGlyph>
 
     <TTGlyph name="exclamdown" xMin="98" yMin="-164" xMax="209" yMax="558">
-      <contour>
-        <pt x="98" y="558" on="1"/>
-        <pt x="209" y="558" on="1"/>
-        <pt x="209" y="451" on="1"/>
-        <pt x="98" y="451" on="1"/>
-      </contour>
-      <contour>
-        <pt x="115" y="351" on="1"/>
-        <pt x="190" y="351" on="1"/>
-        <pt x="203" y="-164" on="1"/>
-        <pt x="102" y="-164" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="exclam" x="0" y="558" scalex="1.0" scaley="-1.0" flags="0x4"/>
     </TTGlyph>
 
     <TTGlyph name="f" xMin="16" yMin="0" xMax="316" yMax="768">
@@ -49543,9 +45178,9 @@
         </assembly></instructions>
     </TTGlyph>
 
-    <TTGlyph name="iogonek" xMin="-25" yMin="-224" xMax="206" yMax="766">
+    <TTGlyph name="iogonek" xMin="-25" yMin="-199" xMax="206" yMax="766">
       <component glyphName="i" x="0" y="0" flags="0x0"/>
-      <component glyphName="ogonek" x="-51" y="0" flags="0x0"/>
+      <component glyphName="ogonek" x="-51" y="25" flags="0x4"/>
     </TTGlyph>
 
     <TTGlyph name="itilde" xMin="-28" yMin="0" xMax="283" yMax="712">
@@ -50883,40 +46518,7 @@
     </TTGlyph>
 
     <TTGlyph name="questiondown" xMin="50" yMin="-183" xMax="493" yMax="550">
-      <contour>
-        <pt x="282" y="443" on="1"/>
-        <pt x="282" y="550" on="1"/>
-        <pt x="392" y="550" on="1"/>
-        <pt x="392" y="443" on="1"/>
-      </contour>
-      <contour>
-        <pt x="167" y="-183" on="0"/>
-        <pt x="50" y="-76" on="0"/>
-        <pt x="50" y="19" on="1"/>
-        <pt x="50" y="125" on="0"/>
-        <pt x="181" y="230" on="0"/>
-        <pt x="295" y="232" on="1"/>
-        <pt x="295" y="350" on="1"/>
-        <pt x="381" y="350" on="1"/>
-        <pt x="381" y="170" on="1"/>
-        <pt x="341" y="170" on="1"/>
-        <pt x="249" y="170" on="0"/>
-        <pt x="140" y="106" on="0"/>
-        <pt x="140" y="19" on="1"/>
-        <pt x="140" y="-40" on="0"/>
-        <pt x="209" y="-108" on="0"/>
-        <pt x="268" y="-108" on="1"/>
-        <pt x="330" y="-108" on="0"/>
-        <pt x="405" y="-38" on="0"/>
-        <pt x="405" y="19" on="1"/>
-        <pt x="493" y="19" on="1"/>
-        <pt x="493" y="-41" on="0"/>
-        <pt x="437" y="-133" on="0"/>
-        <pt x="333" y="-183" on="0"/>
-        <pt x="265" y="-183" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="question" x="519" y="550" scale="-1.0" flags="0x4"/>
     </TTGlyph>
 
     <TTGlyph name="quotedbl" xMin="42" yMin="598" xMax="259" yMax="797">
@@ -52484,138 +48086,13 @@
     </TTGlyph>
 
     <TTGlyph name="uni015E" xMin="49" yMin="-260" xMax="519" yMax="714">
-      <contour>
-        <pt x="519" y="135" on="0"/>
-        <pt x="475" y="52" on="0"/>
-        <pt x="385" y="-3" on="0"/>
-        <pt x="319" y="-7" on="1"/>
-        <pt x="319" y="-67" on="1"/>
-        <pt x="375" y="-65" on="0"/>
-        <pt x="446" y="-112" on="0"/>
-        <pt x="446" y="-161" on="1"/>
-        <pt x="446" y="-209" on="0"/>
-        <pt x="378" y="-260" on="0"/>
-        <pt x="324" y="-260" on="1"/>
-        <pt x="222" y="-260" on="1"/>
-        <pt x="222" y="-207" on="1"/>
-        <pt x="314" y="-207" on="1"/>
-        <pt x="381" y="-207" on="0"/>
-        <pt x="381" y="-159" on="1"/>
-        <pt x="381" y="-139" on="0"/>
-        <pt x="349" y="-114" on="0"/>
-        <pt x="314" y="-114" on="1"/>
-        <pt x="260" y="-114" on="1"/>
-        <pt x="260" y="-5" on="1"/>
-        <pt x="171" y="6" on="0"/>
-        <pt x="59" y="112" on="0"/>
-        <pt x="52" y="190" on="1"/>
-        <pt x="149" y="190" on="1"/>
-        <pt x="152" y="160" on="0"/>
-        <pt x="187" y="103" on="0"/>
-        <pt x="252" y="66" on="0"/>
-        <pt x="298" y="66" on="1"/>
-        <pt x="358" y="66" on="0"/>
-        <pt x="422" y="130" on="0"/>
-        <pt x="422" y="180" on="1"/>
-        <pt x="422" y="223" on="0"/>
-        <pt x="377" y="277" on="0"/>
-        <pt x="311" y="308" on="0"/>
-        <pt x="254" y="326" on="1"/>
-        <pt x="187" y="348" on="0"/>
-        <pt x="106" y="387" on="0"/>
-        <pt x="49" y="465" on="0"/>
-        <pt x="49" y="529" on="1"/>
-        <pt x="49" y="584" on="0"/>
-        <pt x="102" y="668" on="0"/>
-        <pt x="201" y="714" on="0"/>
-        <pt x="268" y="714" on="1"/>
-        <pt x="372" y="714" on="0"/>
-        <pt x="494" y="613" on="0"/>
-        <pt x="504" y="535" on="1"/>
-        <pt x="406" y="535" on="1"/>
-        <pt x="398" y="577" on="0"/>
-        <pt x="328" y="641" on="0"/>
-        <pt x="268" y="641" on="1"/>
-        <pt x="213" y="641" on="0"/>
-        <pt x="147" y="584" on="0"/>
-        <pt x="147" y="532" on="1"/>
-        <pt x="147" y="491" on="0"/>
-        <pt x="190" y="440" on="0"/>
-        <pt x="254" y="411" on="0"/>
-        <pt x="310" y="393" on="1"/>
-        <pt x="378" y="371" on="0"/>
-        <pt x="461" y="331" on="0"/>
-        <pt x="519" y="250" on="0"/>
-        <pt x="519" y="183" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="S" x="0" y="0" flags="0x0"/>
+      <component glyphName="cedilla" x="193" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="uni015F" xMin="50" yMin="-260" xMax="468" yMax="556">
-      <contour>
-        <pt x="468" y="79" on="0"/>
-        <pt x="372" y="-5" on="0"/>
-        <pt x="291" y="-7" on="1"/>
-        <pt x="291" y="-67" on="1"/>
-        <pt x="347" y="-65" on="0"/>
-        <pt x="418" y="-112" on="0"/>
-        <pt x="418" y="-161" on="1"/>
-        <pt x="418" y="-209" on="0"/>
-        <pt x="350" y="-260" on="0"/>
-        <pt x="296" y="-260" on="1"/>
-        <pt x="194" y="-260" on="1"/>
-        <pt x="194" y="-207" on="1"/>
-        <pt x="286" y="-207" on="1"/>
-        <pt x="353" y="-207" on="0"/>
-        <pt x="353" y="-159" on="1"/>
-        <pt x="353" y="-139" on="0"/>
-        <pt x="321" y="-114" on="0"/>
-        <pt x="286" y="-114" on="1"/>
-        <pt x="232" y="-114" on="1"/>
-        <pt x="232" y="-3" on="1"/>
-        <pt x="155" y="8" on="0"/>
-        <pt x="60" y="99" on="0"/>
-        <pt x="50" y="171" on="1"/>
-        <pt x="138" y="171" on="1"/>
-        <pt x="143" y="121" on="0"/>
-        <pt x="220" y="59" on="0"/>
-        <pt x="283" y="59" on="1"/>
-        <pt x="330" y="59" on="0"/>
-        <pt x="383" y="107" on="0"/>
-        <pt x="383" y="146" on="1"/>
-        <pt x="383" y="178" on="0"/>
-        <pt x="345" y="216" on="0"/>
-        <pt x="289" y="236" on="0"/>
-        <pt x="240" y="247" on="1"/>
-        <pt x="179" y="261" on="0"/>
-        <pt x="106" y="289" on="0"/>
-        <pt x="55" y="350" on="0"/>
-        <pt x="55" y="402" on="1"/>
-        <pt x="55" y="471" on="0"/>
-        <pt x="157" y="556" on="0"/>
-        <pt x="245" y="556" on="1"/>
-        <pt x="338" y="556" on="0"/>
-        <pt x="451" y="459" on="0"/>
-        <pt x="463" y="377" on="1"/>
-        <pt x="376" y="377" on="1"/>
-        <pt x="370" y="426" on="0"/>
-        <pt x="301" y="489" on="0"/>
-        <pt x="243" y="489" on="1"/>
-        <pt x="194" y="489" on="0"/>
-        <pt x="139" y="442" on="0"/>
-        <pt x="139" y="402" on="1"/>
-        <pt x="139" y="372" on="0"/>
-        <pt x="176" y="335" on="0"/>
-        <pt x="231" y="316" on="0"/>
-        <pt x="279" y="305" on="1"/>
-        <pt x="340" y="291" on="0"/>
-        <pt x="415" y="262" on="0"/>
-        <pt x="468" y="198" on="0"/>
-        <pt x="468" y="144" on="1"/>
-      </contour>
-      <instructions><assembly>
-        </assembly></instructions>
+      <component glyphName="s" x="0" y="0" flags="0x0"/>
+      <component glyphName="cedilla" x="165" y="0" flags="0x0"/>
     </TTGlyph>
 
     <TTGlyph name="uni0162" xMin="16" yMin="-184" xMax="505" yMax="705">
@@ -53078,9 +48555,9 @@
       <component glyphName="periodcentered" x="0" y="0" flags="0x0"/>
     </TTGlyph>
 
-    <TTGlyph name="uogonek" xMin="58" yMin="-224" xMax="603" yMax="549">
+    <TTGlyph name="uogonek" xMin="58" yMin="-199" xMax="603" yMax="549">
       <component glyphName="u" x="0" y="0" flags="0x0"/>
-      <component glyphName="ogonek" x="346" y="0" flags="0x0"/>
+      <component glyphName="ogonek" x="346" y="25" flags="0x4"/>
     </TTGlyph>
 
     <TTGlyph name="uring" xMin="58" yMin="-9" xMax="561" yMax="817">
@@ -53348,13 +48825,13 @@
       Regular
     </namerecord>
     <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
-      3.000;ITFO;Poppins-Regular
+      3.010;ITFO;Poppins-Regular
     </namerecord>
     <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
       Poppins Regular
     </namerecord>
     <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
-      Version 3.000;PS 1.000;hotconv 16.6.54;makeotf.lib2.5.65590
+      Version 3.010;PS 1.000;hotconv 16.6.54;makeotf.lib2.5.65590
     </namerecord>
     <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
       Poppins-Regular
