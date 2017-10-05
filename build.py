@@ -18,9 +18,15 @@ def master_postprocess(self):
     self.derive_glyphs([
         "NULL", "CR", "nonbreakingspace",
         "softhyphen", "divisionslash", "bulletoperator", "macronmod", "apostrophemod",
+        "apostrophemod.ss01",
     ] + DIGITS_DEVANAGARI)
 
-hindkit.constants.DERIVABLE_GLYPHS.update({k: [v] for k, v in zip(DIGITS, DIGITS_DEVANAGARI)})
+hindkit.constants.DERIVABLE_GLYPHS.update(
+    {k: [v] for k, v in zip(DIGITS, DIGITS_DEVANAGARI)}
+)
+hindkit.constants.DERIVABLE_GLYPHS.update(
+    {"quoteright.ss01": ["apostrophemod.ss01"]}
+)
 hindkit.filters.POTENTIAL_BASES_FOR_LONG_mII.append("K_TA")
 hindkit.Master.postprocess = master_postprocess
 hindkit.FeatureMatches.mI_VARIANT_NAME_PATTERN = r"mI\.a\d\d"
