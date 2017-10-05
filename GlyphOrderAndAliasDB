@@ -1312,3 +1312,20 @@ uni25C6 uni25C6 uni25C6 # BLACK DIAMOND
 lozenge lozenge uni25CA # LOZENGE
 fi fi uniFB01 # LATIN SMALL LIGATURE FI
 fl fl uniFB02 # LATIN SMALL LIGATURE FL
+
+exclam.ss01 exclam.ss01
+comma.ss01 comma.ss01
+period.ss01 period.ss01
+colon.ss01 colon.ss01
+semicolon.ss01 semicolon.ss01
+question.ss01 question.ss01
+exclamdown.ss01 exclamdown.ss01
+periodcentered.ss01 periodcentered.ss01
+questiondown.ss01 questiondown.ss01
+divide.ss01 divide.ss01
+apostrophemod.ss01 apostrophemod.ss01
+quoteleft.ss01 quoteleft.ss01
+quoteright.ss01 quoteright.ss01
+quotedblleft.ss01 quotedblleft.ss01
+quotedblright.ss01 quotedblright.ss01
+ellipsis.ss01 ellipsis.ss01

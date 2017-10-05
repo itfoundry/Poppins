@@ -7,6 +7,9 @@ DIGITS = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight"
 DIGITS_DEVANAGARI = ["dv" + i.title() for i in DIGITS]
 
 def master_postprocess(self):
+    target_font = self.open()
+    for glyph in target_font:
+        glyph.clearAnchors()
     self.import_from_font(
         source_path = "resources/ITF Misc-Regular.ufo",
         glyph_names_included = ".notdef zerowidthnonjoiner zerowidthjoiner dottedcircle".split(),
@@ -35,6 +38,7 @@ DATA = {
     "roman": (
         [
             ("100", -50),
+            ("500",  44), # Manually generate "Poppins Devanagari-500.ufo".
             ("900", 150),
         ],
         [
@@ -52,6 +56,7 @@ DATA = {
     "italic": (
         [
             ("100i", -50),
+            ("500i",  44), # Manually generate "Poppins Devanagari-500i.ufo".
             ("900i", 150),
         ],
         [
@@ -88,7 +93,7 @@ for master_scheme, style_scheme in DATA.values():
 
     project = hindkit.Project(
         family,
-        fontrevision = "3.010",
+        fontrevision = "3.100",
         options = {
             "prepare_mark_positioning": True,
             "match_mI_variants": 1,

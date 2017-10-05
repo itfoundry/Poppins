@@ -980,3 +980,29 @@ feature haln {
 #   sub f i by fi;
 #   sub f l by fl;
 # } liga;
+
+
+# Stylistic Sets
+# --------------
+
+feature ss01 {
+  # featureNames {
+  #   name "";
+  # };
+  sub exclam by exclam.ss01;
+  sub comma by comma.ss01;
+  sub period by period.ss01;
+  sub colon by colon.ss01;
+  sub semicolon by semicolon.ss01;
+  sub question by question.ss01;
+  sub exclamdown by exclamdown.ss01;
+  sub periodcentered by periodcentered.ss01;
+  sub questiondown by questiondown.ss01;
+  sub divide by divide.ss01;
+  sub apostrophemod by apostrophemod.ss01;
+  sub quoteleft by quoteleft.ss01;
+  sub quoteright by quoteright.ss01;
+  sub quotedblleft by quotedblleft.ss01;
+  sub quotedblright by quotedblright.ss01;
+  sub ellipsis by ellipsis.ss01;
+} ss01;

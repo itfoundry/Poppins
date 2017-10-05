@@ -392,6 +392,13 @@ name = ss01;
 );
 fontMaster = (
 {
+alignmentZones = (
+"{740, 16}",
+"{704, 7}",
+"{540, 8}",
+"{0, -9}",
+"{-254, -11}"
+);
 ascender = 740;
 capHeight = 704;
 custom = Italic;
@@ -408,6 +415,13 @@ weightValue = -50;
 xHeight = 540;
 },
 {
+alignmentZones = (
+"{740, 33}",
+"{695, 10}",
+"{551, 10}",
+"{0, -8}",
+"{-262, -11}"
+);
 ascender = 740;
 capHeight = 695;
 custom = Italic;
@@ -423,6 +437,13 @@ weightValue = 44;
 xHeight = 551;
 },
 {
+alignmentZones = (
+"{740, 15}",
+"{708, 13}",
+"{564, 8}",
+"{0, -8}",
+"{-270, -8}"
+);
 ascender = 740;
 capHeight = 708;
 custom = Italic;
@@ -439,6 +460,13 @@ weightValue = 150;
 xHeight = 564;
 },
 {
+alignmentZones = (
+"{740, 16}",
+"{704, 7}",
+"{540, 8}",
+"{0, -9}",
+"{-254, -11}"
+);
 ascender = 740;
 capHeight = 704;
 custom = Italic;
@@ -457,6 +485,13 @@ weightValue = -50;
 xHeight = 540;
 },
 {
+alignmentZones = (
+"{740, 33}",
+"{695, 10}",
+"{551, 10}",
+"{0, -8}",
+"{-262, -11}"
+);
 ascender = 740;
 capHeight = 695;
 custom = Italic;
@@ -474,6 +509,13 @@ weightValue = 44;
 xHeight = 551;
 },
 {
+alignmentZones = (
+"{740, 15}",
+"{708, 13}",
+"{564, 8}",
+"{0, -8}",
+"{-270, -8}"
+);
 ascender = 740;
 capHeight = 708;
 custom = Italic;
