@@ -1000,7 +1000,7 @@ Zdotaccent Zdotaccent uni017B # LATIN CAPITAL LETTER Z WITH DOT ABOVE
 zdotaccent zdotaccent uni017C # LATIN SMALL LETTER Z WITH DOT ABOVE
 Zcaron Zcaron uni017D # LATIN CAPITAL LETTER Z WITH CARON
 zcaron zcaron uni017E # LATIN SMALL LETTER Z WITH CARON
-uni018F uni018F uni018F # LATIN CAPITAL LETTER SCHWA
+uni018F Schwa uni018F # LATIN CAPITAL LETTER SCHWA
 florin florin uni0192 # LATIN SMALL LETTER F WITH HOOK
 Ohorn Ohorn uni01A0 # LATIN CAPITAL LETTER O WITH HORN
 ohorn ohorn uni01A1 # LATIN SMALL LETTER O WITH HORN
@@ -1032,7 +1032,7 @@ uni021A Tcommaaccent uni021A # LATIN CAPITAL LETTER T WITH COMMA BELOW
 uni021B tcommaaccent uni021B # LATIN SMALL LETTER T WITH COMMA BELOW
 uni0237 uni0237 uni0237 # LATIN SMALL LETTER DOTLESS J
 uni0251 uni0251 uni0251 # LATIN SMALL LETTER ALPHA
-uni0259 uni0259 uni0259 # LATIN SMALL LETTER SCHWA
+uni0259 schwa uni0259 # LATIN SMALL LETTER SCHWA
 uni0261 uni0261 uni0261 # LATIN SMALL LETTER SCRIPT G
 uni02BB uni02BB uni02BB # MODIFIER LETTER TURNED COMMA
 uni02BC apostrophemod uni02BC # MODIFIER LETTER APOSTROPHE
@@ -1329,3 +1329,21 @@ quoteright.ss01 quoteright.ss01
 quotedblleft.ss01 quotedblleft.ss01
 quotedblright.ss01 quotedblright.ss01
 ellipsis.ss01 ellipsis.ss01
+
+a.ss02 a.ss02
+aacute.ss02 aacute.ss02
+abreve.ss02 abreve.ss02
+acircumflex.ss02 acircumflex.ss02
+adieresis.ss02 adieresis.ss02
+agrave.ss02 agrave.ss02
+amacron.ss02 amacron.ss02
+aogonek.ss02 aogonek.ss02
+aring.ss02 aring.ss02
+atilde.ss02 atilde.ss02
+
+ampersand.ss03 ampersand.ss03
+
+two.ss04 two.ss04
+three.ss04 three.ss04
+six.ss04 six.ss04
+nine.ss04 nine.ss04

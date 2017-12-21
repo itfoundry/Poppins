@@ -93,7 +93,7 @@ for master_scheme, style_scheme in DATA.values():
 
     project = hindkit.Project(
         family,
-        fontrevision = "3.100",
+        fontrevision = "3.200",
         options = {
             "prepare_mark_positioning": True,
             "match_mI_variants": 1,
