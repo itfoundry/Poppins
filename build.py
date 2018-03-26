@@ -1,38 +1,11 @@
 #! /usr/bin/env AFDKOPython
 # encoding: UTF-8
 from __future__ import division, absolute_import, print_function, unicode_literals
+
 import hindkit
 
-DIGITS = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
-DIGITS_DEVANAGARI = ["dv" + i.title() for i in DIGITS]
-
-def master_postprocess(self):
-    target_font = self.open()
-    for glyph in target_font:
-        glyph.clearAnchors()
-    self.import_from_font(
-        source_path = "resources/ITF Misc-Regular.ufo",
-        glyph_names_included = ".notdef zerowidthnonjoiner zerowidthjoiner dottedcircle".split(),
-    )
-    self.import_from_font(
-        source_path = "masters/Poppins Devanagari-{}.ufo".format(self.name),
-        import_anchors = True,
-    )
-    self.derive_glyphs([
-        "NULL", "CR", "nonbreakingspace",
-        "softhyphen", "divisionslash", "bulletoperator", "macronmod", "apostrophemod",
-        "apostrophemod.ss01",
-    ] + DIGITS_DEVANAGARI)
-
-hindkit.constants.DERIVABLE_GLYPHS.update(
-    {k: [v] for k, v in zip(DIGITS, DIGITS_DEVANAGARI)}
-)
-hindkit.constants.DERIVABLE_GLYPHS.update(
-    {"quoteright.ss01": ["apostrophemod.ss01"]}
-)
-hindkit.filters.POTENTIAL_BASES_FOR_LONG_mII.append("K_TA")
-hindkit.Master.postprocess = master_postprocess
-hindkit.FeatureMatches.mI_VARIANT_NAME_PATTERN = r"mI\.a\d\d"
+RELEASE = 4
+COMMIT = 1
 
 DATA = {
     "roman": (
@@ -73,36 +46,75 @@ DATA = {
     ),
 }
 
-for master_scheme, style_scheme in DATA.values():
+DIGITS = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
+DIGITS_DEVANAGARI = ["dv" + i.title() for i in DIGITS]
 
-    family = hindkit.Family(
-        trademark = "Poppins",
-        script_name = "Devanagari",
-        append_script_name = False,
-        client_name = "Google Fonts",
-        initial_release_year = 2014,
-        is_serif = False,
+def main():
+
+    for master_scheme, style_scheme in DATA.values():
+
+        family = hindkit.Family(
+            trademark = "Poppins",
+            script_name = "Devanagari",
+            append_script_name = False,
+            client_name = "Google Fonts",
+            initial_release_year = 2014,
+            is_serif = False,
+        )
+        family.set_masters(master_scheme)
+        family.set_styles(style_scheme)
+
+        i = family.info
+        i.openTypeNameDesigner = "Ninad Kale (Devanagari), Jonny Pinhorn (Latin)"
+        i.openTypeHheaAscender, i.openTypeHheaDescender, i.openTypeHheaLineGap = 1050, -350, 100
+        i.openTypeOS2WinAscent, i.openTypeOS2WinDescent = 1135, 627
+
+        project = hindkit.Project(
+            family,
+            release_commit = (RELEASE, COMMIT),
+            options = {
+                "prepare_mark_positioning": True,
+                "match_mI_variants": 1,
+                    "position_marks_for_mI_variants": True,
+                "do_style_linking": True,
+                "additional_unicode_range_bits": [0, 1, 2],
+                "use_os_2_version_4": True,
+                    "prefer_typo_metrics": True,
+                "build_ttf": True,
+            },
+        )
+        project.build()
+
+# --- Overriding ---
+
+def master_postprocess(self):
+    target_font = self.open()
+    for glyph in target_font:
+        glyph.clearAnchors()
+    self.import_from_font(
+        source_path = "resources/ITF Misc-Regular.ufo",
+        glyph_names_included = ".notdef zerowidthnonjoiner zerowidthjoiner dottedcircle".split(),
     )
-    family.set_masters(master_scheme)
-    family.set_styles(style_scheme)
-
-    i = family.info
-    i.openTypeNameDesigner = "Ninad Kale (Devanagari), Jonny Pinhorn (Latin)"
-    i.openTypeHheaAscender, i.openTypeHheaDescender, i.openTypeHheaLineGap = 1050, -350, 100
-    i.openTypeOS2WinAscent, i.openTypeOS2WinDescent = 1135, 627
-
-    project = hindkit.Project(
-        family,
-        fontrevision = "3.200",
-        options = {
-            "prepare_mark_positioning": True,
-            "match_mI_variants": 1,
-                "position_marks_for_mI_variants": True,
-            "do_style_linking": True,
-            "additional_unicode_range_bits": [0, 1, 2],
-            "use_os_2_version_4": True,
-                "prefer_typo_metrics": True,
-            "build_ttf": True,
-        },
+    self.import_from_font(
+        source_path = "masters/Poppins Devanagari-{}.ufo".format(self.name),
+        import_anchors = True,
     )
-    project.build()
+    self.derive_glyphs([
+        "NULL", "CR", "nonbreakingspace",
+        "softhyphen", "divisionslash", "bulletoperator", "macronmod", "apostrophemod",
+        "apostrophemod.ss01",
+    ] + DIGITS_DEVANAGARI)
+
+hindkit.constants.DERIVABLE_GLYPHS.update(
+    {k: [v] for k, v in zip(DIGITS, DIGITS_DEVANAGARI)}
+)
+hindkit.constants.DERIVABLE_GLYPHS.update(
+    {"quoteright.ss01": ["apostrophemod.ss01"]}
+)
+hindkit.filters.POTENTIAL_BASES_FOR_LONG_mII.append("K_TA")
+hindkit.Master.postprocess = master_postprocess
+hindkit.FeatureMatches.mI_VARIANT_NAME_PATTERN = r"mI\.a\d\d"
+
+# --- Executing ---
+
+main()
