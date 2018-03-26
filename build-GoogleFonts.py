@@ -46,9 +46,6 @@ DATA = {
     ),
 }
 
-DIGITS = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
-DIGITS_DEVANAGARI = ["dv" + i.title() for i in DIGITS]
-
 def main():
 
     for master_scheme, style_scheme in DATA.values():
@@ -59,7 +56,7 @@ def main():
             append_script_name = False,
             client_name = "Google Fonts",
             initial_release_year = 2014,
-            is_serif = False,
+            source_tag = "GoogleFonts",
         )
         family.set_masters(master_scheme)
         family.set_styles(style_scheme)
@@ -87,6 +84,18 @@ def main():
 
 # --- Overriding ---
 
+hindkit.Project.directories["GOADB"] = "GlyphOrderAndAliasDB-GoogleFonts"
+
+DIGITS = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
+DIGITS_DEVANAGARI = ["dv" + i.title() for i in DIGITS]
+
+hindkit.constants.DERIVABLE_GLYPHS.update(
+    {k: [v] for k, v in zip(DIGITS, DIGITS_DEVANAGARI)}
+)
+hindkit.constants.DERIVABLE_GLYPHS.update(
+    {"quoteright.ss01": ["apostrophemod.ss01"]}
+)
+
 def master_postprocess(self):
     target_font = self.open()
     for glyph in target_font:
@@ -105,14 +114,10 @@ def master_postprocess(self):
         "apostrophemod.ss01",
     ] + DIGITS_DEVANAGARI)
 
-hindkit.constants.DERIVABLE_GLYPHS.update(
-    {k: [v] for k, v in zip(DIGITS, DIGITS_DEVANAGARI)}
-)
-hindkit.constants.DERIVABLE_GLYPHS.update(
-    {"quoteright.ss01": ["apostrophemod.ss01"]}
-)
-hindkit.filters.POTENTIAL_BASES_FOR_LONG_mII.append("K_TA")
 hindkit.Master.postprocess = master_postprocess
+
+hindkit.filters.POTENTIAL_BASES_FOR_LONG_mII.append("K_TA")
+
 hindkit.FeatureMatches.mI_VARIANT_NAME_PATTERN = r"mI\.a\d\d"
 
 # --- Executing ---
