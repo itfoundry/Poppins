@@ -5,7 +5,7 @@ from __future__ import division, absolute_import, print_function, unicode_litera
 import hindkit
 
 RELEASE = 4
-COMMIT = 1
+COMMIT = 2
 
 DATA = {
     "roman": (
@@ -77,6 +77,7 @@ def main():
                 "additional_unicode_range_bits": [0, 1, 2],
                 "use_os_2_version_4": True,
                     "prefer_typo_metrics": True,
+                "run_autohint": True,
                 "build_ttf": True,
             },
         )
