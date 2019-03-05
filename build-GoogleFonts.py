@@ -5,7 +5,7 @@ from __future__ import division, absolute_import, print_function, unicode_litera
 import hindkit
 
 RELEASE = 4
-COMMIT = 2
+COMMIT = 3
 
 DATA = {
     "roman": (
