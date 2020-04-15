@@ -1,6 +1,6 @@
 .DS_Store
-
+.mypy_cache
+.vscode
 *.ufo
 *(Autosaved).glyphs
-
 intermediates/

@@ -1,11 +1,7 @@
-#! /usr/bin/env AFDKOPython
-# encoding: UTF-8
-from __future__ import division, absolute_import, print_function, unicode_literals
-
-import hindkit
+import hindkit  # https://github.com/itfoundry/hindkit/commit/b80b533c04bfafdb9a52446f696191727cd5d849
 
 RELEASE = 4
-COMMIT = 3
+COMMIT = 4
 
 DATA = {
     "roman": (
@@ -80,6 +76,9 @@ def main():
                 "run_autohint": True,
                 "build_ttf": True,
             },
+        )
+        project.designspace.doc.addAxis(
+            tag="wght", name="axis 0", minimum=-50, maximum=150, default=44,
         )
         project.build()
 
